@@ -35,10 +35,12 @@
           <span class="db-date">Updated: Aug 2026</span>
         </div>
 
-        <button id="profileBtn" class="btn-profile">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          <span id="currentProfileName">Diego (Pilot)</span>
-        </button>
+        <div class="module-selector-wrap">
+          <select id="profileSelect" class="module-select-dropdown" style="background:rgba(51, 65, 85, 0.8); border-color:var(--border-color);">
+            <option value="diego">👤 Diego (Pilot Mode)</option>
+            <option value="wife">👩 Wife (Study Profile)</option>
+          </select>
+        </div>
         <button id="themeToggleBtn" class="btn-theme" title="Toggle Theme">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>

@@ -26,8 +26,8 @@ let userState = {
     motorcycle: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] },
     car: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] }
   },
-  student: {
-    name: 'Practice Profile',
+  wife: {
+    name: 'Wife (Study Profile)',
     motorcycle: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] },
     car: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] }
   }
@@ -136,10 +136,21 @@ function getModuleData() {
 }
 
 function updateProfileUI() {
-  const p = userState[activeProfile] || userState['diego'];
-  const nameEl = document.getElementById('currentProfileName');
-  if (nameEl) nameEl.textContent = p.name;
+  const profSelect = document.getElementById('profileSelect');
+  if (profSelect) profSelect.value = activeProfile;
 }
+
+// EVENT LISTENERS SETUP
+function setupEventListeners() {
+  const profSelect = document.getElementById('profileSelect');
+  if (profSelect) {
+    profSelect.addEventListener('change', (e) => {
+      activeProfile = e.target.value;
+      saveStateToStorage();
+      updateFilteredQuestions();
+      renderCurrentQuestion();
+    });
+  }
 
 // EVENT LISTENERS SETUP
 function setupEventListeners() {
