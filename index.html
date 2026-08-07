@@ -2,61 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Taiwan Motorcycle License Prep 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Taiwan Motorcycle & Car Driver License Prep 2026</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- APP HEADER -->
+  <!-- APP STICKY HEADER -->
   <header class="app-header">
     <div class="header-container">
       <div class="brand">
         <div class="brand-icon" id="brandIcon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A2 2 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A2 2 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/></svg>
         </div>
-        <div>
-          <div class="brand-title">Taiwan Driving License Prep</div>
-          <div class="brand-sub">Sheppard Air Direct Recall System</div>
+        <div class="brand-text">
+          <div class="brand-title">TW Driving Prep</div>
+          <div class="db-badge" title="Official THB 2026 Highway Bureau Database">
+            <span class="db-dot"></span>
+            <span id="dbTotalCountText">3,167 Qs</span>
+          </div>
         </div>
       </div>
 
       <div class="controls">
-        <div class="module-selector-wrap">
-          <select id="moduleSelect" class="module-select-dropdown">
-            <option value="motorcycle">🏍️ Motorcycle License (機車)</option>
-            <option value="car">🚗 Car License (汽車)</option>
-          </select>
-        </div>
+        <select id="moduleSelect" class="compact-select module-select">
+          <option value="motorcycle">🏍️ Moto (機車)</option>
+          <option value="car">🚗 Car (汽車)</option>
+        </select>
 
-        <div class="db-badge" title="Official THB 2026 Highway Bureau Database">
-          <span class="db-dot"></span>
-          <span id="dbTotalCountText">3,167 Questions</span>
-          <span class="db-date">Updated: Aug 2026</span>
-        </div>
+        <select id="profileSelect" class="compact-select profile-select">
+          <option value="diego">👤 Diego</option>
+          <option value="johana">👩 Johana</option>
+        </select>
 
-        <div class="module-selector-wrap">
-          <select id="profileSelect" class="module-select-dropdown" style="background:rgba(51, 65, 85, 0.8); border-color:var(--border-color);">
-            <option value="diego">👤 Diego (Pilot Mode)</option>
-            <option value="johana">👩 Johana (Study Profile)</option>
-          </select>
-        </div>
-        <button id="themeToggleBtn" class="btn-theme" title="Toggle Theme">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <button id="filterToggleBtn" class="icon-btn" title="Toggle Filters & Readiness">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+        </button>
+
+        <button id="themeToggleBtn" class="icon-btn" title="Toggle Theme">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
         </button>
       </div>
     </div>
   </header>
 
+  <!-- STICKY HORIZONTAL SCROLLABLE TAB PILLS -->
+  <nav class="mobile-nav-bar">
+    <div class="nav-pills">
+      <button data-tab="mode0" class="nav-tab active">
+        <span>🧠 Mode 0: Master Rules</span>
+      </button>
+      <button data-tab="sheppard1" class="nav-tab">
+        <span>✨ Mode 1: Direct Recall</span>
+      </button>
+      <button data-tab="sheppard2" class="nav-tab">
+        <span>👁️ Mode 2: Highlighted</span>
+      </button>
+      <button data-tab="interactive" class="nav-tab">
+        <span>🎯 Interactive Quiz</span>
+      </button>
+      <button data-tab="practice" class="nav-tab">
+        <span>📝 50-Q Practice Exam</span>
+      </button>
+      <button data-tab="bookmarks" class="nav-tab">
+        <span>⭐ Bookmarked (<span id="navBookmarkBadge">0</span>)</span>
+      </button>
+      <button data-tab="failed" class="nav-tab">
+        <span>⚠️ Failed (<span id="navFailedBadge">0</span>)</span>
+      </button>
+      <button data-tab="cheatsheet" class="nav-tab">
+        <span>📋 Cheat Sheet</span>
+      </button>
+    </div>
+  </nav>
+
   <!-- MAIN APP BODY -->
   <div class="app-body">
 
-    <!-- NAVIGATION & SIDEBAR PANEL -->
-    <aside class="sidebar-panel">
+    <!-- SIDEBAR / COLLAPSIBLE DRAWER (STATS & FILTERS) -->
+    <aside id="sidebarPanel" class="sidebar-panel">
 
       <!-- READINESS CARD -->
-      <div class="sidebar-card">
-        <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div class="sidebar-card readiness-card">
+        <div class="card-header">
           <span class="card-title">Exam Readiness</span>
           <span class="readiness-score" id="readinessScore">0%</span>
         </div>
@@ -65,90 +93,32 @@
         </div>
         <div class="stats-row">
           <div class="stat-item">
-            <span class="stat-num" id="statMastered">0</span>
+            <span class="stat-num green" id="statMastered">0</span>
             <span class="stat-lbl">Studied</span>
           </div>
           <div class="stat-item">
-            <span class="stat-num" id="statFailed">0</span>
+            <span class="stat-num red" id="statFailed">0</span>
             <span class="stat-lbl">Failed Items</span>
           </div>
         </div>
 
-        <div style="margin-top:0.75rem; display:flex; gap:0.4rem;">
-          <button id="exportSyncBtn" style="flex:1; background:rgba(59,130,246,0.15); color:#60a5fa; border:1px solid rgba(59,130,246,0.3); border-radius:6px; padding:0.35rem; font-size:0.75rem; font-weight:700; cursor:pointer;" title="Backup/Export your progress to transfer to another device">📥 Export Sync</button>
-          <button id="importSyncBtn" style="flex:1; background:rgba(16,185,129,0.15); color:#34d399; border:1px solid rgba(16,185,129,0.3); border-radius:6px; padding:0.35rem; font-size:0.75rem; font-weight:700; cursor:pointer;" title="Restore/Import progress from another device">📤 Import Sync</button>
+        <div class="sync-row">
+          <button id="exportSyncBtn" class="btn-sync export">📥 Backup Sync</button>
+          <button id="importSyncBtn" class="btn-sync import">📤 Restore Sync</button>
           <input type="file" id="importFileInput" accept=".json" style="display:none;">
         </div>
       </div>
 
-      <!-- HORIZONTAL SCROLLABLE TABS / SIDEBAR MENU -->
-      <nav class="nav-pills mb-3">
-        <button data-tab="mode0" class="nav-tab active">
-          <span>Mode 0: Master Rules</span>
-          <span class="badge-count" style="background:rgba(168,85,247,0.2); color:#c084fc;">Concept</span>
-        </button>
-
-        <button data-tab="sheppard1" class="nav-tab">
-          <span>Mode 1: Correct Only</span>
-          <span class="badge-count" style="background:rgba(245,158,11,0.2); color:#fcd34d;">Recall</span>
-        </button>
-
-        <button data-tab="sheppard2" class="nav-tab">
-          <span>Mode 2: Highlighted</span>
-          <span class="badge-count" style="background:rgba(16,185,129,0.2); color:#6ee7b7;">Recognize</span>
-        </button>
-
-        <button data-tab="interactive" class="nav-tab">
-          <span>Interactive Quiz</span>
-          <span class="badge-count" style="background:rgba(2,132,199,0.2); color:#38bdf8;">Feedback</span>
-        </button>
-
-        <button data-tab="practice" class="nav-tab">
-          <span>Practice Exam</span>
-          <span class="badge-count" style="background:rgba(99,102,241,0.2); color:#a5b4fc;">50 Qs</span>
-        </button>
-
-        <button data-tab="bookmarks" class="nav-tab">
-          <span>Bookmarked</span>
-          <span id="navBookmarkBadge" class="badge-count" style="background:rgba(245,158,11,0.2); color:#fcd34d;">0</span>
-        </button>
-
-        <button data-tab="failed" class="nav-tab">
-          <span>Failed Questions</span>
-          <span id="navFailedBadge" class="badge-count" style="background:rgba(239,68,68,0.2); color:#fca5a5;">0</span>
-        </button>
-
-        <button data-tab="cheatsheet" class="nav-tab">
-          <span>Cheat Sheet Summary</span>
-          <span class="badge-count" style="background:rgba(14,165,233,0.2); color:#7dd3fc;">Guide</span>
-        </button>
-      </nav>
-
-      <!-- CATEGORY & SUBJECT FILTERS -->
-      <div class="sidebar-card">
-        <label class="card-title" style="display:block;">Filter Category</label>
+      <!-- FILTERS CARD -->
+      <div class="sidebar-card filters-card">
+        <label class="card-title">Category Filter</label>
         <select id="categorySelect" class="select-input">
-          <option value="ALL">All Categories (Entire Bank)</option>
-          <option value="Motorcycle Regulations - Multiple Choice">Motorcycle Regulations (Multiple Choice)</option>
-          <option value="Motorcycle Regulations - True/False">Motorcycle Regulations (True/False)</option>
-          <option value="Road Signs & Signals - Multiple Choice">Road Signs & Signals (Multiple Choice)</option>
-          <option value="Road Signs & Signals - True/False">Road Signs & Signals (True/False)</option>
-          <option value="Motorcycle Hazard Perception">Hazard Perception Video Scenarios</option>
+          <option value="ALL">All Categories</option>
         </select>
 
-        <label class="card-title" style="display:block; margin-top:0.5rem;">Filter Subject / Topic</label>
+        <label class="card-title" style="margin-top:0.5rem;">Subject Filter</label>
         <select id="topicSelect" class="select-input">
           <option value="ALL_TOPICS">All Subjects / Topics</option>
-          <option value="Accident Prevention & First Aid / CPR">Accident Prevention & First Aid / CPR</option>
-          <option value="Prohibited Behaviors & Drunk Driving">Prohibited Behaviors & Drunk Driving</option>
-          <option value="Cargo Loading, Weight & Dimensions">Cargo Loading, Weight & Dimensions</option>
-          <option value="Vehicle Inspection, Tires & Equipment">Vehicle Inspection, Tires & Equipment</option>
-          <option value="Railroad Crossings, Insurance & Eco-Driving">Railroad Crossings, Insurance & Eco-Driving</option>
-          <option value="Turning Rules (Hook Turn, U-Turn, Signals)">Turning Rules (Hook Turn, U-Turn, Signals)</option>
-          <option value="Intersection Safety & Right-of-Way">Intersection Safety & Right-of-Way</option>
-          <option value="Traffic Signs, Signals & Road Markings">Traffic Signs, Signals & Road Markings</option>
-          <option value="Hazard Perception Scenarios">Hazard Perception Scenarios</option>
-          <option value="Driving Precautions & Safe Distance">Driving Precautions & Safe Distance</option>
         </select>
 
         <input type="text" id="searchInput" placeholder="Search keywords (e.g. 50 cm, alcohol)..." class="text-input" style="margin-top:0.5rem; margin-bottom:0;">
@@ -161,8 +131,8 @@
 
       <!-- MODE BANNER -->
       <div class="mode-banner">
-        <h2 id="modeTitle">Mode 1: Correct Answer Recall</h2>
-        <p id="modeDesc">Shows ONLY the correct answer for distraction-free rapid memorization.</p>
+        <h2 id="modeTitle">Mode 0: Master Rules</h2>
+        <p id="modeDesc">Consolidates questions into core Master Rule Cards for 5x faster learning.</p>
       </div>
 
       <!-- QUESTION CONTAINER CARD -->
@@ -172,12 +142,12 @@
         <div class="question-meta">
           <div class="meta-badges">
             <span id="questionCategoryBadge" class="meta-badge">Category</span>
-            <span id="questionTopicBadge" class="meta-badge" style="background:var(--bg-card-hover); color:var(--text-muted);">Topic</span>
+            <span id="questionTopicBadge" class="meta-badge topic-badge">Topic</span>
           </div>
 
-          <div style="display:flex; align-items:center; gap:0.75rem;">
-            <span id="questionIndexText" style="font-size:0.75rem; font-weight:700; color:var(--text-muted);">Question 1 of 1747</span>
-            <button id="bookmarkBtn" class="btn-bookmark" title="Star Question">★</button>
+          <div class="meta-right">
+            <span id="questionIndexText" class="q-counter">Question 1 of 1747</span>
+            <button id="bookmarkBtn" class="btn-bookmark" title="Star Question">☆</button>
           </div>
         </div>
 
@@ -199,44 +169,33 @@
         <div id="explanationCard" class="explanation-card hidden">
           <div class="explanation-head">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
-            <span>Rule Explanation & Context</span>
+            <span>Rule Explanation & Legal Context</span>
           </div>
           <div class="explanation-body" id="explanationText">
             Explanation details.
           </div>
         </div>
 
-        <!-- NAVIGATION CONTROLS -->
-        <div class="question-nav">
-          <button id="prevBtn" class="btn-nav btn-secondary">
-            ← Previous
-          </button>
-
-          <button id="toggleExplBtn" class="btn-nav btn-secondary" style="font-size:0.75rem; padding:0.5rem 0.8rem;">
-            <span id="explBtnLabel">Show Explanation</span>
-          </button>
-
-          <button id="submitExamBtn" class="btn-nav hidden" style="background:var(--accent-emerald);">
-            Submit Exam ✓
-          </button>
-
-          <button id="nextBtn" class="btn-nav">
-            Next →
-          </button>
+        <!-- INLINE NAVIGATION CONTROLS (DESKTOP / LAPTOP) -->
+        <div class="question-nav desktop-nav">
+          <button id="prevBtn" class="btn-nav btn-secondary">← Previous</button>
+          <button id="toggleExplBtn" class="btn-nav btn-secondary"><span id="explBtnLabel">Show Explanation</span></button>
+          <button id="submitExamBtn" class="btn-nav hidden submit-btn">Submit Exam ✓</button>
+          <button id="nextBtn" class="btn-nav">Next →</button>
         </div>
 
       </div>
 
       <!-- PRACTICE EXAM RESULT CARD -->
-      <div id="examResultCard" class="question-card hidden" style="text-align:center; padding:2rem;">
-        <h3 style="font-size:1.5rem; font-weight:900; margin-bottom:0.5rem;" id="examResultTitle">Exam Completed!</h3>
-        <div style="font-size:2.5rem; font-weight:900; color:var(--accent-indigo); margin-bottom:1rem;" id="examResultScore">92 / 100</div>
-        <p style="font-size:0.9rem; color:var(--text-muted); max-width:400px; margin:0 auto 1.5rem;" id="examResultStatus">
+      <div id="examResultCard" class="question-card hidden result-card">
+        <h3 id="examResultTitle" class="result-title">Exam Completed!</h3>
+        <div id="examResultScore" class="result-score">92 / 100</div>
+        <p id="examResultStatus" class="result-status">
           You passed! Taiwan requires 85% to pass.
         </p>
-        <div style="display:flex; justify-content:center; gap:0.75rem;">
+        <div class="result-actions">
           <button id="restartExamBtn" class="btn-nav">Retake Exam</button>
-          <button id="reviewFailedExamBtn" class="btn-nav btn-secondary" style="background:var(--accent-rose); color:#fff; border:none;">Review Failed</button>
+          <button id="reviewFailedExamBtn" class="btn-nav btn-secondary btn-failed">Review Failed</button>
         </div>
       </div>
 
@@ -249,6 +208,29 @@
       </div>
 
     </main>
+  </div>
+
+  <!-- FIXED BOTTOM MOBILE NAVIGATION ACTION BAR -->
+  <div class="mobile-bottom-nav">
+    <button id="mobilePrevBtn" class="btn-mobile-nav">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+      <span>Prev</span>
+    </button>
+
+    <button id="mobileExplBtn" class="btn-mobile-nav secondary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      <span>Explain</span>
+    </button>
+
+    <button id="mobileSubmitBtn" class="btn-mobile-nav submit hidden">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      <span>Submit</span>
+    </button>
+
+    <button id="mobileNextBtn" class="btn-mobile-nav primary">
+      <span>Next</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
   </div>
 
   <script src="app.js"></script>

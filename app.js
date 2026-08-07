@@ -249,6 +249,28 @@ function setupEventListeners() {
     document.body.classList.toggle('light-theme');
   });
 
+  // Mobile Bottom Navigation Bar Listeners
+  document.getElementById('mobilePrevBtn')?.addEventListener('click', () => {
+    document.getElementById('prevBtn')?.click();
+  });
+  document.getElementById('mobileNextBtn')?.addEventListener('click', () => {
+    document.getElementById('nextBtn')?.click();
+  });
+  document.getElementById('mobileExplBtn')?.addEventListener('click', () => {
+    document.getElementById('toggleExplBtn')?.click();
+  });
+  document.getElementById('mobileSubmitBtn')?.addEventListener('click', () => {
+    document.getElementById('submitExamBtn')?.click();
+  });
+
+  // Filter Drawer Toggle on Mobile
+  document.getElementById('filterToggleBtn')?.addEventListener('click', () => {
+    const sidebar = document.getElementById('sidebarPanel');
+    if (sidebar) {
+      sidebar.classList.toggle('collapsed');
+    }
+  });
+
   // Navigation Buttons
   document.getElementById('prevBtn')?.addEventListener('click', () => {
     if (currentIndex > 0) {
@@ -607,16 +629,30 @@ function renderCurrentQuestion() {
 
   // Update Nav Buttons & Submit Exam Visibility
   const submitBtn = document.getElementById('submitExamBtn');
+  const mobileSubmitBtn = document.getElementById('mobileSubmitBtn');
+  const isPracticeActive = (currentTab === 'practice' && !examSubmitted);
+
   if (submitBtn) {
-    if (currentTab === 'practice' && !examSubmitted) {
-      submitBtn.classList.remove('hidden');
-    } else {
-      submitBtn.classList.add('hidden');
-    }
+    if (isPracticeActive) submitBtn.classList.remove('hidden');
+    else submitBtn.classList.add('hidden');
+  }
+  if (mobileSubmitBtn) {
+    if (isPracticeActive) mobileSubmitBtn.classList.remove('hidden');
+    else mobileSubmitBtn.classList.add('hidden');
   }
 
-  document.getElementById('prevBtn').disabled = (currentIndex === 0);
-  document.getElementById('nextBtn').disabled = (currentIndex === filteredQuestions.length - 1);
+  const isFirst = (currentIndex === 0 || filteredQuestions.length === 0);
+  const isLast = (currentIndex === filteredQuestions.length - 1 || filteredQuestions.length === 0);
+
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const mobilePrevBtn = document.getElementById('mobilePrevBtn');
+  const mobileNextBtn = document.getElementById('mobileNextBtn');
+
+  if (prevBtn) prevBtn.disabled = isFirst;
+  if (nextBtn) nextBtn.disabled = isLast;
+  if (mobilePrevBtn) mobilePrevBtn.disabled = isFirst;
+  if (mobileNextBtn) mobileNextBtn.disabled = isLast;
 }
 
 function updateBookmarkUI(qId) {
