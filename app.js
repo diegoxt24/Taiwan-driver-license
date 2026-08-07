@@ -502,20 +502,8 @@ function renderCurrentQuestion() {
 
   // Prepare explanation HTML with visual diagram if available
   let diagramHTML = '';
-  if (q.diagram === 'cargo_rear') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 400 120" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="50" y="50" width="160" height="30" rx="6" fill="#3b82f6"/><circle cx="80" cy="85" r="14" fill="#64748b"/><circle cx="180" cy="85" r="14" fill="#64748b"/><rect x="210" y="45" width="40" height="35" fill="#f59e0b" rx="4"/><line x1="180" y1="95" x2="260" y2="95" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/><text x="220" y="112" fill="#ef4444" font-size="12" font-weight="bold">Cargo Extension</text></svg></div>`;
-  } else if (q.diagram === 'right_of_way') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 120" style="background:#0f172a; border-radius:8px; width:100%;"><line x1="20" y1="60" x2="280" y2="60" stroke="#10b981" stroke-width="4"/><text x="100" y="45" fill="#10b981" font-size="12" font-weight="bold">Straight-Going Vehicle (Priority #1)</text></svg></div>`;
-  } else if (q.diagram === 'alcohol_limit') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="30" y="40" width="240" height="20" rx="4" fill="#334155"/><rect x="30" y="40" width="80" height="20" rx="4" fill="#10b981"/><line x1="110" y1="25" x2="110" y2="75" stroke="#ef4444" stroke-width="3"/><text x="110" y="20" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">Legal Limit: 0.15 mg/L</text></svg></div>`;
-  } else if (q.diagram === 'tire_tread') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="50" y="30" width="200" height="40" fill="#334155" rx="6"/><line x1="100" y1="30" x2="100" y2="70" stroke="#f59e0b" stroke-width="4"/><text x="150" y="55" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">Min Tread Depth (1.0mm Moto / 1.6mm Car)</text></svg></div>`;
-  } else if (q.diagram === 'freeway_distance') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 350 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="30" y="40" width="60" height="25" rx="4" fill="#3b82f6"/><rect x="250" y="40" width="60" height="25" rx="4" fill="#3b82f6"/><line x1="90" y1="52" x2="250" y2="52" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/><text x="170" y="45" fill="#10b981" font-size="12" font-weight="bold" text-anchor="middle">Safe Distance = Speed ÷ 2 (50m @ 100km/h)</text></svg></div>`;
-  } else if (q.diagram === 'child_seat') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="40" y="25" width="220" height="50" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/><text x="150" y="55" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">Under 4 yrs / 18kg → Mandatory Rear Child Seat</text></svg></div>`;
-  } else if (q.diagram === 'speed_limit') {
-    diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><circle cx="150" cy="50" r="35" fill="#ffffff" stroke="#ef4444" stroke-width="6"/><text x="150" y="60" fill="#0f172a" font-size="28" font-weight="900" text-anchor="middle">50</text></svg></div>`;
+  if (q.diagram) {
+    diagramHTML = getDiagramHTML(q.diagram, currentModule);
   }
 
   explTextEl.innerHTML = `<div>${q.explanation || 'Official Taiwan Road Traffic Safety Rule.'}</div>${diagramHTML}`;
@@ -764,6 +752,189 @@ function renderCheatSheet() {
   });
 }
 
+function getDiagramHTML(diagramKey, moduleType) {
+  const isCar = moduleType === 'car';
+  if (diagramKey === 'car_door') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="35" width="120" height="40" rx="8" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="55" cy="75" r="10" fill="#64748b"/>
+        <circle cx="125" cy="75" r="10" fill="#64748b"/>
+        <line x1="120" y1="35" x2="160" y2="10" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="160" cy="10" r="4" fill="#ef4444"/>
+        <text x="240" y="45" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">Car Door Warning!</text>
+        <text x="240" y="65" fill="#f87171" font-size="11" font-weight="700" text-anchor="middle">Fine: NT$2,400–4,800</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'phone_fine') {
+    const fineText = isCar ? "Fine: NT$3,000 (Car)" : "Fine: NT$1,000 (Moto)";
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="60" y="20" width="35" height="60" rx="5" fill="#1e293b" stroke="#f59e0b" stroke-width="3"/>
+        <rect x="67" y="27" width="21" height="40" rx="2" fill="#38bdf8"/>
+        <circle cx="77" cy="73" r="2.5" fill="#f59e0b"/>
+        <circle cx="77" cy="50" r="28" fill="none" stroke="#ef4444" stroke-width="4"/>
+        <line x1="57" y1="30" x2="97" y2="70" stroke="#ef4444" stroke-width="4"/>
+        <text x="220" y="45" fill="#f59e0b" font-size="13" font-weight="800" text-anchor="middle">No Handheld Phone</text>
+        <text x="220" y="65" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">${fineText}</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'seatbelt_law') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="40" y="20" width="80" height="60" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+        <line x1="45" y1="25" x2="115" y2="75" stroke="#10b981" stroke-width="6"/>
+        <text x="230" y="45" fill="#10b981" font-size="13" font-weight="800" text-anchor="middle">Seatbelt Mandatory</text>
+        <text x="230" y="65" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">All Occupants (Front & Rear)</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'speed_limit_50') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <circle cx="80" cy="50" r="32" fill="#ffffff" stroke="#ef4444" stroke-width="7"/>
+        <text x="80" y="60" fill="#0f172a" font-size="26" font-weight="900" text-anchor="middle">50</text>
+        <text x="230" y="45" fill="#38bdf8" font-size="13" font-weight="800" text-anchor="middle">Max Speed 50 km/h</text>
+        <text x="230" y="65" fill="#94a3b8" font-size="11" text-anchor="middle">Unmarked Urban Roads</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'speed_limit_40') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <circle cx="80" cy="50" r="32" fill="#ffffff" stroke="#ef4444" stroke-width="7"/>
+        <text x="80" y="60" fill="#0f172a" font-size="26" font-weight="900" text-anchor="middle">40</text>
+        <text x="230" y="45" fill="#f59e0b" font-size="13" font-weight="800" text-anchor="middle">Max Speed 40 km/h</text>
+        <text x="230" y="65" fill="#94a3b8" font-size="11" text-anchor="middle">Slow Lanes & Narrow Roads</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'railroad_crossing') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <line x1="30" y1="70" x2="130" y2="70" stroke="#94a3b8" stroke-width="6"/>
+        <line x1="50" y1="55" x2="50" y2="85" stroke="#e2e8f0" stroke-width="4"/>
+        <line x1="80" y1="55" x2="80" y2="85" stroke="#e2e8f0" stroke-width="4"/>
+        <line x1="110" y1="55" x2="110" y2="85" stroke="#e2e8f0" stroke-width="4"/>
+        <rect x="140" y="30" width="30" height="30" fill="#ef4444" rx="4"/>
+        <text x="155" y="50" fill="#ffffff" font-size="10" font-weight="900" text-anchor="middle">SOS</text>
+        <text x="250" y="40" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">Railroad Crossing</text>
+        <text x="250" y="60" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Max 15 km/h / Press SOS Button</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'braking_physics') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <text x="40" y="35" fill="#38bdf8" font-size="11" font-weight="800">1x Speed (40km/h) → 1x Distance</text>
+        <rect x="40" y="42" width="40" height="8" rx="2" fill="#38bdf8"/>
+        <text x="40" y="70" fill="#ef4444" font-size="11" font-weight="800">2x Speed (80km/h) → 4x Distance (Quadrupled!)</text>
+        <rect x="40" y="77" width="160" height="8" rx="2" fill="#ef4444"/>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'siren_yield') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="30" width="70" height="40" rx="6" fill="#dc2626"/>
+        <path d="M 40 30 Q 65 10 90 30" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="3"/>
+        <text x="65" y="55" fill="#ffffff" font-size="12" font-weight="900" text-anchor="middle">AMBULANCE</text>
+        <text x="230" y="45" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">Must Yield to Emergency Siren</text>
+        <text x="230" y="65" fill="#f87171" font-size="11" font-weight="700" text-anchor="middle">Violation = License Revocation!</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'traffic_light') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="20" width="100" height="60" rx="10" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+        <circle cx="50" cy="50" r="12" fill="#ef4444"/>
+        <circle cx="80" cy="50" r="12" fill="#f59e0b"/>
+        <circle cx="110" cy="50" r="12" fill="#10b981"/>
+        <text x="240" y="40" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">Solid Red: Stop Behind Line</text>
+        <text x="240" y="60" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">Red Light Fine + 3 Demerit Points</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'demerit_points') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <circle cx="70" cy="50" r="28" fill="#7e22ce" stroke="#c084fc" stroke-width="3"/>
+        <text x="70" y="58" fill="#ffffff" font-size="20" font-weight="900" text-anchor="middle">12pt</text>
+        <text x="230" y="45" fill="#c084fc" font-size="13" font-weight="800" text-anchor="middle">12 Demerit Points in 1 Year</text>
+        <text x="230" y="65" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">= 2-Month Driver License Suspension</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'cpr_protocol') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="30" width="90" height="40" rx="8" fill="#0284c7"/>
+        <text x="75" y="55" fill="#ffffff" font-size="14" font-weight="900" text-anchor="middle">30 : 2</text>
+        <text x="230" y="40" fill="#38bdf8" font-size="12" font-weight="800" text-anchor="middle">CPR Protocol (30 Compressions : 2 Breaths)</text>
+        <text x="230" y="60" fill="#94a3b8" font-size="11" text-anchor="middle">Depth: 5-6 cm | Rate: 100-120/min</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'cargo_rear') {
+    const extText = isCar ? "Max 30 cm Past Bumper" : "Max 50 cm Past Rear Axle";
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="40" y="45" width="130" height="25" rx="4" fill="#3b82f6"/>
+        <circle cx="65" cy="73" r="10" fill="#64748b"/>
+        <circle cx="145" cy="73" r="10" fill="#64748b"/>
+        <rect x="170" y="40" width="30" height="30" fill="#f59e0b" rx="3"/>
+        <line x1="145" y1="80" x2="200" y2="80" stroke="#ef4444" stroke-width="2" stroke-dasharray="3"/>
+        <text x="260" y="45" fill="#f59e0b" font-size="12" font-weight="800" text-anchor="middle">Cargo Extension Limit</text>
+        <text x="260" y="65" fill="#ef4444" font-size="11" font-weight="700" text-anchor="middle">${extText}</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'right_of_way') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <line x1="30" y1="50" x2="150" y2="50" stroke="#10b981" stroke-width="4"/>
+        <polygon points="150,45 160,50 150,55" fill="#10b981"/>
+        <text x="240" y="45" fill="#10b981" font-size="12" font-weight="800" text-anchor="middle">Intersection Right-of-Way</text>
+        <text x="240" y="65" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">Straight-Going Vehicle (Priority #1)</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'alcohol_limit') {
+    const fineText = isCar ? "Fine: NT$30k–120k" : "Fine: NT$15k–90k";
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="40" width="120" height="20" rx="4" fill="#334155"/>
+        <rect x="30" y="40" width="40" height="20" rx="4" fill="#10b981"/>
+        <line x1="70" y1="25" x2="70" y2="75" stroke="#ef4444" stroke-width="3"/>
+        <text x="70" y="20" fill="#ef4444" font-size="10" font-weight="800" text-anchor="middle">BAC 0.15 mg/L</text>
+        <text x="230" y="45" fill="#ef4444" font-size="12" font-weight="800" text-anchor="middle">Legal BAC Limit: 0.15 mg/L</text>
+        <text x="230" y="65" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">${fineText} / Refusal: NT$180k</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'tire_tread') {
+    const depthText = isCar ? "Min Tread: 1.6 mm (Car)" : "Min Tread: 1.0 mm (Moto)";
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="30" width="100" height="40" fill="#334155" rx="6"/>
+        <line x1="60" y1="30" x2="60" y2="70" stroke="#f59e0b" stroke-width="4"/>
+        <line x1="90" y1="30" x2="90" y2="70" stroke="#f59e0b" stroke-width="4"/>
+        <text x="230" y="45" fill="#38bdf8" font-size="12" font-weight="800" text-anchor="middle">Tire Inspection Standard</text>
+        <text x="230" y="65" fill="#f59e0b" font-size="11" font-weight="700" text-anchor="middle">${depthText}</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'freeway_distance') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="40" width="45" height="20" rx="3" fill="#3b82f6"/>
+        <rect x="120" y="40" width="45" height="20" rx="3" fill="#3b82f6"/>
+        <line x1="75" y1="50" x2="120" y2="50" stroke="#10b981" stroke-width="2" stroke-dasharray="3"/>
+        <text x="250" y="45" fill="#10b981" font-size="12" font-weight="800" text-anchor="middle">Safe Distance = Speed ÷ 2</text>
+        <text x="250" y="65" fill="#38bdf8" font-size="11" text-anchor="middle">50m @ 100km/h (Double in rain)</text>
+      </svg>
+    </div>`;
+  } else if (diagramKey === 'child_seat') {
+    return `<div class="rule-diagram-box">
+      <svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;">
+        <rect x="30" y="25" width="100" height="50" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+        <circle cx="80" cy="50" r="14" fill="#f59e0b"/>
+        <text x="240" y="45" fill="#38bdf8" font-size="12" font-weight="800" text-anchor="middle">Child Safety Seat Law</text>
+        <text x="240" y="65" fill="#94a3b8" font-size="11" text-anchor="middle">Under 4 yrs / 18kg → Mandatory Rear Seat</text>
+      </svg>
+    </div>`;
+  }
+  return `<div class="rule-diagram-box"><svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;"><circle cx="170" cy="50" r="30" fill="#ffffff" stroke="#ef4444" stroke-width="5"/><text x="170" y="60" fill="#0f172a" font-size="24" font-weight="900" text-anchor="middle">50</text></svg></div>`;
+}
+
 // RENDER MASTER RULES (MODE 0)
 function renderMasterRules() {
   const container = document.getElementById('masterRulesContainer');
@@ -774,20 +945,7 @@ function renderMasterRules() {
     const card = document.createElement('div');
     card.className = 'cheat-card';
 
-    let diagramHTML = '';
-    if (rule.diagram === 'cargo_rear') {
-      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 400 120" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="50" y="50" width="160" height="30" rx="6" fill="#3b82f6"/><circle cx="80" cy="85" r="14" fill="#64748b"/><circle cx="180" cy="85" r="14" fill="#64748b"/><rect x="210" y="45" width="40" height="35" fill="#f59e0b" rx="4"/><line x1="180" y1="95" x2="260" y2="95" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/><text x="220" y="112" fill="#ef4444" font-size="12" font-weight="bold">Cargo Extension</text></svg></div>`;
-    } else if (rule.diagram === 'right_of_way') {
-      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 120" style="background:#0f172a; border-radius:8px; width:100%;"><line x1="20" y1="60" x2="280" y2="60" stroke="#10b981" stroke-width="4"/><text x="100" y="45" fill="#10b981" font-size="12" font-weight="bold">Straight-Going Vehicle (Priority #1)</text></svg></div>`;
-    } else if (rule.diagram === 'alcohol_limit') {
-      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="30" y="40" width="240" height="20" rx="4" fill="#334155"/><rect x="30" y="40" width="80" height="20" rx="4" fill="#10b981"/><line x1="110" y1="25" x2="110" y2="75" stroke="#ef4444" stroke-width="3"/><text x="110" y="20" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">Legal Limit: 0.15 mg/L</text></svg></div>`;
-    } else if (rule.diagram === 'tire_tread') {
-      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="50" y="30" width="200" height="40" fill="#334155" rx="6"/><line x1="100" y1="30" x2="100" y2="70" stroke="#f59e0b" stroke-width="4"/><text x="150" y="55" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">Min Tread Depth (1.0mm Moto / 1.6mm Car)</text></svg></div>`;
-    } else if (rule.diagram === 'freeway_distance') {
-      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 350 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="30" y="40" width="60" height="25" rx="4" fill="#3b82f6"/><rect x="250" y="40" width="60" height="25" rx="4" fill="#3b82f6"/><line x1="90" y1="52" x2="250" y2="52" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/><text x="170" y="45" fill="#10b981" font-size="12" font-weight="bold" text-anchor="middle">Safe Distance = Speed ÷ 2 (50m @ 100km/h)</text></svg></div>`;
-    } else if (rule.diagram === 'speed_limit') {
-      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><circle cx="150" cy="50" r="35" fill="#ffffff" stroke="#ef4444" stroke-width="6"/><text x="150" y="60" fill="#0f172a" font-size="28" font-weight="900" text-anchor="middle">50</text></svg></div>`;
-    }
+    const diagramHTML = getDiagramHTML(rule.diagram, currentModule);
 
     let optionsHTML = rule.canonical_options.map((opt, i) => `
       <div style="padding:0.4rem 0.6rem; border-radius:6px; margin-top:0.3rem; font-size:0.85rem; ${i === rule.canonical_correct_index ? 'background:rgba(16,185,129,0.2); color:#34d399; font-weight:700;' : 'opacity:0.6;'}">

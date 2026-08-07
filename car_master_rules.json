@@ -179,7 +179,7 @@
     "title": "4. Opening Car Door Accident Fine (NT$2,400–4,800)",
     "summary": "Opening a car door without checking rear traffic and causing an accident incurs a fine of NT$2,400 to NT$4,800.",
     "key_fact": "Careless Door Opening Fine: NT$2,400–4,800",
-    "diagram": "right_of_way",
+    "diagram": "car_door",
     "canonical_question": "Question 4: Opening a car door without checking rear traffic and causing an accident incurs an administrative fine of NT$2,400 to NT$4,800.",
     "canonical_options": [
       "(1) True.",
@@ -781,7 +781,7 @@
     "title": "14. Car Handheld Phone Fine (NT$3,000)",
     "summary": "Using a handheld mobile phone while driving a car incurs a mandatory administrative fine of NT$3,000.",
     "key_fact": "Car Phone Fine: NT$3,000",
-    "diagram": "speed_limit",
+    "diagram": "phone_fine",
     "canonical_question": "Question 16: What is the fine for operating a handheld mobile phone while driving a passenger car in Taiwan?",
     "canonical_options": [
       "(1) NT$1,000.",
@@ -829,7 +829,7 @@
     "title": "15. Seatbelt Enforcement Law (All Occupants Mandatory)",
     "summary": "All occupants inside a passenger car (both front and rear seat passengers) MUST wear seatbelts at all times while the vehicle is in motion.",
     "key_fact": "Seatbelts: Mandatory for ALL Occupants",
-    "diagram": "child_seat",
+    "diagram": "seatbelt_law",
     "canonical_question": "Question 17: Drivers and all passengers (both front and rear seats) in a small passenger car are legally required to wear seat belts at all times.",
     "canonical_options": [
       "(1) True.",
@@ -876,7 +876,7 @@
     "title": "16. Standard Road Speed Limits (50 km/h Unmarked)",
     "summary": "On roads without posted speed limit signs or lane markings, the maximum legal speed limit is 50 km/h.",
     "key_fact": "Unmarked Roads: Max 50 km/h",
-    "diagram": "speed_limit",
+    "diagram": "speed_limit_50",
     "canonical_question": "Question 20: Unless otherwise signed, what is the maximum legal speed limit for cars on ordinary urban roads without lane dividing lines?",
     "canonical_options": [
       "(1) 40 km/h.",
@@ -924,7 +924,7 @@
     "title": "17. Slow Lane & Narrow Road Speed Limits (40 km/h)",
     "summary": "On designated slow lanes or narrow roads without lane dividing lines, the maximum legal speed limit is 40 km/h.",
     "key_fact": "Slow Lane / Narrow Road: Max 40 km/h",
-    "diagram": "speed_limit",
+    "diagram": "speed_limit_40",
     "canonical_question": "Question 21: What is the maximum legal speed limit for cars driving on designated slow lanes or narrow roads without dividing lines?",
     "canonical_options": [
       "(1) 30 km/h.",
@@ -1002,7 +1002,7 @@
     "title": "18. Railroad Level Crossing Approach Speed (15 km/h)",
     "summary": "When approaching a railroad level crossing, drivers MUST reduce speed to 15 km/h or less and prepare to stop at least 3 to 6 meters before tracks when signals flash.",
     "key_fact": "Railroad Approach: Max 15 km/h",
-    "diagram": "speed_limit",
+    "diagram": "railroad_crossing",
     "canonical_question": "Question 22: When approaching a railroad level crossing, what is the maximum legal speed limit for a passenger car?",
     "canonical_options": [
       "(1) 15 km/h.",
@@ -1080,7 +1080,7 @@
     "title": "19. Speed vs. Braking Distance Physics (Double Speed = 4x Distance)",
     "summary": "Braking distance is proportional to the square of speed. If your speed doubles (e.g. from 40 to 80 km/h), your required stopping distance becomes 4 times greater!",
     "key_fact": "Double Speed = 4x Braking Distance",
-    "diagram": "speed_limit",
+    "diagram": "braking_physics",
     "canonical_question": "Question 23: If your vehicle speed doubles (e.g. from 40 km/h to 80 km/h), how does the required braking distance change?",
     "canonical_options": [
       "(1) Increases by 2 times.",
@@ -1128,7 +1128,7 @@
     "title": "20. Failing to Yield to Emergency Sirens (License Revocation)",
     "summary": "Failing to immediately pull over and yield to an emergency vehicle sounding sirens results in a heavy fine AND immediate driver license revocation!",
     "key_fact": "Not Yielding to Siren = License Revocation",
-    "diagram": "speed_limit",
+    "diagram": "siren_yield",
     "canonical_question": "Question 24: When a driver fails to pull over and yield upon hearing the siren of an approaching ambulance or fire engine, their driver license will be revoked.",
     "canonical_options": [
       "(1) True.",
@@ -1461,7 +1461,7 @@
     "title": "27. CPR Compression-to-Ventilation Ratio (30:2)",
     "summary": "Standard CPR protocol for cardiac arrest is 30 chest compressions followed by 2 rescue breaths (30:2 ratio).",
     "key_fact": "CPR Ratio: 30 Compressions : 2 Breaths",
-    "diagram": "child_seat",
+    "diagram": "cpr_protocol",
     "canonical_question": "Question 31: What is the correct chest compression to rescue breath ratio for CPR on an adult accident victim?",
     "canonical_options": [
       "(1) 15 compressions : 2 breaths.",
@@ -1509,7 +1509,7 @@
     "title": "28. CPR Compression Depth & Rate (5-6 cm & 100-120/min)",
     "summary": "Chest compressions must be delivered at a rate of 100 to 120 compressions per minute, reaching a depth of 5 to 6 cm on the center of the sternum.",
     "key_fact": "Depth: 5-6 cm | Rate: 100-120/min",
-    "diagram": "child_seat",
+    "diagram": "cpr_protocol",
     "canonical_question": "Question 32: What compression depth and rate should be delivered during adult CPR?",
     "canonical_options": [
       "(1) 2–3 cm depth at 60/min.",
@@ -1557,7 +1557,7 @@
     "title": "29. Brain Oxygen Deprivation Window (4 to 6 minutes)",
     "summary": "Irreversible brain damage begins within 4 to 6 minutes of cardiac/respiratory arrest. CPR must begin immediately.",
     "key_fact": "Brain Damage Window: 4 to 6 Minutes",
-    "diagram": "child_seat",
+    "diagram": "cpr_protocol",
     "canonical_question": "Question 33: Without CPR and oxygen supply, irreversible brain damage begins within how many minutes of cardiac arrest?",
     "canonical_options": [
       "(1) 1 to 2 minutes.",
@@ -1605,7 +1605,7 @@
     "title": "30. Spinal Injury Airway Clear (Jaw-Thrust Maneuver)",
     "summary": "For an unconscious victim with suspected neck/spinal trauma, clear the airway using the Jaw-thrust maneuver without tilting the head back.",
     "key_fact": "Spinal Trauma: Use Jaw-Thrust (No Head Tilt)",
-    "diagram": "child_seat",
+    "diagram": "cpr_protocol",
     "canonical_question": "Question 34: For an unconscious victim with suspected neck or spinal injury, use the Jaw-Thrust maneuver to open the airway without tilting the head back.",
     "canonical_options": [
       "(1) True.",
@@ -1652,7 +1652,7 @@
     "title": "31. Heimlich Maneuver Fist Position (Between Navel & Sternum)",
     "summary": "When performing the Heimlich maneuver on a choking victim, place your fist between the navel and the bottom of the sternum, thrusting inward and upward.",
     "key_fact": "Heimlich Position: Between Navel & Sternum",
-    "diagram": "child_seat",
+    "diagram": "cpr_protocol",
     "canonical_question": "Question 35: When performing the Heimlich maneuver on a conscious choking adult, where should your fist be placed?",
     "canonical_options": [
       "(1) Directly on the sternum.",
@@ -1700,7 +1700,7 @@
     "title": "32. Railroad Crossing Breakdown Emergency Button Protocol",
     "summary": "If a vehicle breaks down on a railroad level crossing: 1. Immediately press the Emergency Button (緊急按鈕). 2. Push vehicle clear if possible. 3. Evacuate passengers to safety.",
     "key_fact": "Breakdown on Tracks = Press Emergency Button Immediately",
-    "diagram": "speed_limit",
+    "diagram": "railroad_crossing",
     "canonical_question": "Question 36: If a car breaks down on a railroad level crossing, you must immediately press the Emergency Button before attempting to push the vehicle clear.",
     "canonical_options": [
       "(1) True.",
@@ -1747,7 +1747,7 @@
     "title": "33. Running Red Light Fines & Demerit Points",
     "summary": "Running a red light in a car incurs fines (NT$2,700–5,400) PLUS 3 demerit points on your driving record.",
     "key_fact": "Car Red Light: Fine NT$2.7k–5.4k + 3 Demerit Points",
-    "diagram": "speed_limit",
+    "diagram": "traffic_light",
     "canonical_question": "Question 37: How many demerit points are assigned to a driver's record for running a red light in a car?",
     "canonical_options": [
       "(1) 1 demerit point.",
@@ -1795,7 +1795,7 @@
     "title": "34. Demerit Point Suspension Threshold (12 Points in 1 Year)",
     "summary": "Accumulating 12 demerit points within 1 year results in a mandatory 2-month driver license suspension.",
     "key_fact": "12 Demerits in 1 Year = 2-Month Suspension",
-    "diagram": "speed_limit",
+    "diagram": "demerit_points",
     "canonical_question": "Question 38: Accumulating 12 demerit points within 1 year results in a mandatory 2-month driver license suspension.",
     "canonical_options": [
       "(1) True.",
@@ -1842,7 +1842,7 @@
     "title": "35. Traffic Light Indications (Solid Red / Flashing Red / Flashing Yellow)",
     "summary": "Solid Red = Complete stop behind stop line. Flashing Red = Stop completely and yield right-of-way. Flashing Yellow = Exercise caution and slow down.",
     "key_fact": "Flashing Red = Stop & Yield | Flashing Yellow = Caution",
-    "diagram": "speed_limit",
+    "diagram": "traffic_light",
     "canonical_question": "Question 41: What does a solid red circular traffic signal light require a car driver to do?",
     "canonical_options": [
       "(1) Slow down and yield.",
