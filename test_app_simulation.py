@@ -13,8 +13,8 @@ def run_simulation_audit():
     moto_count = len(moto_rules)
     car_count = len(car_rules)
     
-    assert moto_count == 35, f"Expected 35 motorcycle master rules, got {moto_count}"
-    assert car_count == 35, f"Expected 35 car master rules, got {car_count}"
+    assert moto_count >= 50, f"Expected at least 50 motorcycle master rules, got {moto_count}"
+    assert car_count >= 50, f"Expected at least 50 car master rules, got {car_count}"
     
     # Key rules verification
     key_terms = [

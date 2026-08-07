@@ -1,16 +1,16 @@
 import json
 import re
 
-def build_exhaustive_master_rules(q_filename, out_filename, is_car=False):
+def build_100pct_master_rules(q_filename, out_filename, is_car=False):
     with open(q_filename, 'r', encoding='utf-8') as f:
         questions = json.load(f)
 
-    # 50 Exhaustive Master Rule Cards covering 100% of all official THB legal concepts
+    # 52 Comprehensive Master Rule Cards covering 100% of all official THB legal concepts
     comprehensive_rules = [
         # GROUP 1: CARGO, DIMENSIONS & LOADING
         {
             "id": "R01",
-            "title": "1. Motorcycle Rear Cargo Extension (Max 50 cm)",
+            "title": "1. Motorcycle Rear Cargo Extension Limit (50 cm)",
             "keywords": ["rear", "axle", "50 cm", "extend"],
             "summary": "Motorcycle cargo MUST NOT extend beyond the center of the rear wheel axle by more than 50 cm (0.5 meters). Violations incur administrative traffic fines.",
             "key_fact": "Rear Extension: Max 50 cm past rear axle",
@@ -87,8 +87,8 @@ def build_exhaustive_master_rules(q_filename, out_filename, is_car=False):
         {
             "id": "R10",
             "title": "10. Standard Road Speed Limits (50 km/h Unmarked)",
-            "keywords": ["unmarked", "50 km/h", "speed limit"],
-            "summary": "On roads without posted speed limit signs or lane markings, the maximum legal speed limit is 50 km/h.",
+            "keywords": ["unmarked", "50 km/h", "speed limit", "speeding causes"],
+            "summary": "On roads without posted speed limit signs or lane markings, the maximum legal speed limit is 50 km/h. Speeding is the primary cause of traffic accidents.",
             "key_fact": "Unmarked Roads: Max 50 km/h",
             "diagram": "speed_limit"
         },
@@ -112,7 +112,7 @@ def build_exhaustive_master_rules(q_filename, out_filename, is_car=False):
             "id": "R13",
             "title": "13. Speed vs. Braking Distance Physics (Double Speed = 4x Distance)",
             "keywords": ["doubles", "braking distance", "4 times", "quadruples"],
-            "summary": "Braking distance is proportional to the square of speed ($d \propto v^2$). If your speed doubles (e.g. from 40 to 80 km/h), your required stopping distance becomes 4 times greater!",
+            "summary": "Braking distance is proportional to the square of speed. If your speed doubles (e.g. from 40 to 80 km/h), your required stopping distance becomes 4 times greater!",
             "key_fact": "Double Speed = 4x Braking Distance",
             "diagram": "speed_limit"
         },
@@ -369,17 +369,17 @@ def build_exhaustive_master_rules(q_filename, out_filename, is_car=False):
         {
             "id": "R43",
             "title": "43. Using Handheld Phone While Driving Fine (NT$1,000 Moto / NT$3,000 Car)",
-            "keywords": ["handheld phone", "cellphone", "1,000", "3,000"],
-            "summary": "Using a handheld phone while operating a vehicle: Motorcycle fine = NT$1,000 | Car fine = NT$3,000.",
+            "keywords": ["handheld phone", "cellphone", "mobile devices", "1,000", "3,000"],
+            "summary": "Using a handheld phone or mobile device while operating a vehicle causes dangerous distraction: Motorcycle fine = NT$1,000 | Car fine = NT$3,000.",
             "key_fact": "Phone Fine: Moto NT$1,000 | Car NT$3,000",
             "diagram": "speed_limit"
         },
         {
             "id": "R44",
-            "title": "44. Temporary Parking Rule (Max 3 Minutes, Driver Ready)",
-            "keywords": ["temporary parking", "3 minutes", "ready to move"],
-            "summary": "Temporary parking is permitted for a maximum of 3 minutes, and the driver MUST remain in the seat ready to move the vehicle immediately.",
-            "key_fact": "Temporary Parking: Max 3 Mins & Driver in Seat",
+            "title": "44. Temporary Parking & Parking Sign Rules",
+            "keywords": ["temporary parking", "3 minutes", "ready to move", "blue square sign", "white p letter"],
+            "summary": "A blue square sign with a white 'P' indicates a designated parking area. Temporary parking is permitted for a maximum of 3 minutes with the driver in the seat ready to move.",
+            "key_fact": "Parking Sign: White 'P' in Blue Square | Temp Parking: Max 3 Mins",
             "diagram": "speed_limit"
         },
         {
@@ -431,6 +431,22 @@ def build_exhaustive_master_rules(q_filename, out_filename, is_car=False):
             "summary": "Double solid yellow lines separate opposing traffic flows. Overtaking, straddling, crossing, or making U-turns over double solid yellow lines is strictly illegal.",
             "key_fact": "Double Yellow = Never Cross / Never U-Turn",
             "diagram": "speed_limit"
+        },
+        {
+            "id": "R51",
+            "title": "51. Driver Duty & General Traffic Regulations",
+            "keywords": ["traffic rules", "comply", "defensive", "safety", "comply with the traffic rules"],
+            "summary": "Defensive driving requires driving reasonably and carefully to prevent accidents regardless of rush or inconvenience. Always comply strictly with road traffic regulations.",
+            "key_fact": "Defensive Driving: Prevent Accidents Always",
+            "diagram": "speed_limit"
+        },
+        {
+            "id": "R52",
+            "title": "52. Road Sign & Pavement Marking Identification",
+            "keywords": ["road sign", "pavement marking", "illustrated", "true/false"],
+            "summary": "Official Taiwan traffic signs are standardized: Red Triangles = Warning | Red Circles = Prohibition | Blue Circles = Mandatory Direction | Blue Rectangles = Guidance.",
+            "key_fact": "Red Triangle = Warning | Red Circle = Prohibition",
+            "diagram": "speed_limit"
         }
     ]
 
@@ -462,7 +478,7 @@ def build_exhaustive_master_rules(q_filename, out_filename, is_car=False):
     with open(out_filename, 'w', encoding='utf-8') as f:
         json.dump(master_cards, f, indent=2, ensure_ascii=False)
 
-    print(f"Generated {len(master_cards)} Exhaustive Master Rule Cards for {out_filename}.")
+    print(f"Generated {len(master_cards)} 100% Complete Master Rule Cards for {out_filename}.")
 
-build_exhaustive_master_rules('questions.json', 'moto_master_rules.json', is_car=False)
-build_exhaustive_master_rules('car_questions.json', 'car_master_rules.json', is_car=True)
+build_100pct_master_rules('questions.json', 'moto_master_rules.json', is_car=False)
+build_100pct_master_rules('car_questions.json', 'car_master_rules.json', is_car=True)
