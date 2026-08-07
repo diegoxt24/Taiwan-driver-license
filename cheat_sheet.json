@@ -1,0 +1,178 @@
+[
+  {
+    "category": "Dimensions & Cargo Rules",
+    "icon": "fa-ruler-combined",
+    "items": [
+      {
+        "label": "Cargo Height Limit",
+        "val": "Must not exceed rider's shoulders (or total vehicle height 2.0 meters)."
+      },
+      {
+        "label": "Cargo Width Limit",
+        "val": "Must not extend beyond outer edge of handlebar by more than 10 cm."
+      },
+      {
+        "label": "Cargo Rear Extension",
+        "val": "Must not extend beyond rear wheel axle by more than 50 cm (0.5 meters)."
+      },
+      {
+        "label": "Heavy Motorcycle Cargo Weight",
+        "val": "Max 80 kg."
+      },
+      {
+        "label": "Light Motorcycle Cargo Weight",
+        "val": "Max 50 kg."
+      },
+      {
+        "label": "Small Light-Duty Motorcycle Weight",
+        "val": "Max 70 kg or less (including battery)."
+      }
+    ]
+  },
+  {
+    "category": "Speed Limits & Distance Rules",
+    "icon": "fa-tachometer-alt",
+    "items": [
+      {
+        "label": "Roads without signs/markings",
+        "val": "Max 50 km/h."
+      },
+      {
+        "label": "Slow lane (separated fast/slow lanes)",
+        "val": "Max 40 km/h."
+      },
+      {
+        "label": "Roads without lane lines / double yellow",
+        "val": "Max 40 km/h (or 30 km/h on roads without broken yellow lines)."
+      },
+      {
+        "label": "Approaching Railroad Level Crossing",
+        "val": "Must reduce speed to 15 km/h or less."
+      },
+      {
+        "label": "Passing Distance between vehicles",
+        "val": "At least 0.5 meters apart."
+      },
+      {
+        "label": "Distance from Parked Vehicles",
+        "val": "Maintain at least 1.0 meter (width of a car door)."
+      },
+      {
+        "label": "Prohibited Stopping Distance",
+        "val": "Within 10 meters of intersections, bus stops, or fire hydrants."
+      }
+    ]
+  },
+  {
+    "category": "Alcohol & Impaired Driving Fines",
+    "icon": "fa-wine-bottle",
+    "items": [
+      {
+        "label": "Legal Breath Alcohol (BAC) Limit",
+        "val": "0.15 mg/L (or 0.03% blood alcohol)."
+      },
+      {
+        "label": "First Drunk Driving Offense",
+        "val": "Fine NT$15,000–90,000, 1–2 year license suspension, 2-year plate suspension."
+      },
+      {
+        "label": "2nd Offense within 10 years",
+        "val": "Fine NT$90,000, 3-year license revocation, mandatory safety course."
+      },
+      {
+        "label": "Refusing Sobriety Test",
+        "val": "Fine NT$180,000, license revocation, vehicle impounded."
+      },
+      {
+        "label": "Vehicle Owner Liability",
+        "val": "If owner knowingly allows drunk riding, motorcycle license plate suspended for 2 years."
+      }
+    ]
+  },
+  {
+    "category": "Fines & Demerit Points",
+    "icon": "fa-exclamation-triangle",
+    "items": [
+      {
+        "label": "Running a Red Light",
+        "val": "Fine NT$1,800–5,400 + 3 demerit points."
+      },
+      {
+        "label": "Using Handheld Phone while Riding",
+        "val": "Fine NT$1,000."
+      },
+      {
+        "label": "12 Demerit Points in 1 Year",
+        "val": "2-month license suspension."
+      },
+      {
+        "label": "Accumulating Demerit Points after 2 Suspensions",
+        "val": "Driving license Revocation."
+      },
+      {
+        "label": "Temporary Parking Rules",
+        "val": "Max 3 minutes, driver ready to move vehicle at any time."
+      },
+      {
+        "label": "Signal Before Turning",
+        "val": "Turn on turn signal at least 30 meters before turning/changing lanes."
+      }
+    ]
+  },
+  {
+    "category": "Vehicle Maintenance & Safety Gear",
+    "icon": "fa-motorcycle",
+    "items": [
+      {
+        "label": "Min Tire Tread Depth",
+        "val": "Must be at least 1.0 mm (replace when aligned with wear indicator)."
+      },
+      {
+        "label": "Tire Age Limit",
+        "val": "Recommended replacement within 6 years of manufacture."
+      },
+      {
+        "label": "Helmet Requirements",
+        "val": "Must have BSMI certification label, fit properly, chinstrap fastened tightly under chin. Must replace after heavy impact."
+      },
+      {
+        "label": "Horn Usage Rule",
+        "val": "Each tap max 0.5 seconds, max 3 consecutive taps."
+      },
+      {
+        "label": "Passengers",
+        "val": "Max 1 passenger on heavy/ordinary light motorcycles with fixed rear seat. NO side-saddle riding. Small light motorcycles: NO passengers."
+      }
+    ]
+  },
+  {
+    "category": "Emergency & First Aid (CPR / AED)",
+    "icon": "fa-heartbeat",
+    "items": [
+      {
+        "label": "CPR Compression-to-Ventilation Ratio",
+        "val": "30 compressions : 2 breaths."
+      },
+      {
+        "label": "CPR Compression Rate & Depth",
+        "val": "At least 100 compressions/min, depth at least 5 cm on central sternum."
+      },
+      {
+        "label": "Brain Damage Window",
+        "val": "Brain damage occurs within 4 to 6 minutes of cardiac/respiratory arrest."
+      },
+      {
+        "label": "Evaluation Interval during CPR",
+        "val": "Check pulse/breathing every 2 minutes."
+      },
+      {
+        "label": "Spinal Injury Airway Clear",
+        "val": "Use Jaw-thrust maneuver (do NOT tilt head)."
+      },
+      {
+        "label": "Heimlich Maneuver Position",
+        "val": "Place fist between navel and sternum."
+      }
+    ]
+  }
+]
