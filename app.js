@@ -46,18 +46,24 @@ document.addEventListener('DOMContentLoaded', async () => {
   switchTab(currentTab);
 });
 
+let masterRulesData = [];
+
 // LOAD MODULE DATA (Motorcycle vs. Car)
 async function loadModuleData(mod) {
   currentModule = mod;
   try {
     const qFile = (mod === 'car') ? 'car_questions.json' : 'questions.json';
     const cFile = (mod === 'car') ? 'car_cheat_sheet.json' : 'cheat_sheet.json';
+    const mFile = (mod === 'car') ? 'car_master_rules.json' : 'moto_master_rules.json';
 
     const qResp = await fetch(qFile);
     allQuestions = await qResp.json();
 
     const cResp = await fetch(cFile);
     cheatSheetData = await cResp.json();
+
+    const mResp = await fetch(mFile);
+    masterRulesData = await mResp.json();
 
     updateModuleHeaderUI();
     updateCategoryAndTopicDropdowns();
@@ -319,15 +325,25 @@ function switchTab(tab) {
   const questionCard = document.getElementById('questionContainer');
   const resultCard = document.getElementById('examResultCard');
   const cheatCard = document.getElementById('cheatSheetContainer');
+  const masterCardContainer = document.getElementById('masterRulesContainer');
 
   questionCard.classList.add('hidden');
   resultCard.classList.add('hidden');
   cheatCard.classList.add('hidden');
+  if (masterCardContainer) masterCardContainer.classList.add('hidden');
 
   const modeTitle = document.getElementById('modeTitle');
   const modeDesc = document.getElementById('modeDesc');
 
-  if (tab === 'sheppard1') {
+  if (tab === 'mode0') {
+    const modLabel = (currentModule === 'car') ? 'Car License (汽車)' : 'Motorcycle License (機車)';
+    modeTitle.innerHTML = `🧠 Mode 0: Master Rule Grouping (${modLabel})`;
+    modeDesc.textContent = 'High-level synthesis: Consolidates 3,000+ questions into 9 core Master Rule Cards for 5x faster learning.';
+    if (masterCardContainer) {
+      masterCardContainer.classList.remove('hidden');
+      renderMasterRules();
+    }
+  } else if (tab === 'sheppard1') {
     modeTitle.innerHTML = '✨ Sheppard Air Mode 1: Direct Answer Recall';
     modeDesc.textContent = 'Shows ONLY the correct answer for rapid, distraction-free neural memorization.';
     questionCard.classList.remove('hidden');
@@ -664,6 +680,60 @@ function renderCheatSheet() {
       <div>${itemsHTML}</div>
     `;
     container.appendChild(secCard);
+  });
+}
+
+// RENDER MASTER RULES (MODE 0)
+function renderMasterRules() {
+  const container = document.getElementById('masterRulesContainer');
+  if (!container) return;
+  container.innerHTML = '';
+
+  masterRulesData.forEach(rule => {
+    const card = document.createElement('div');
+    card.className = 'cheat-card';
+
+    let diagramHTML = '';
+    if (rule.diagram === 'cargo_rear') {
+      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 400 120" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="50" y="50" width="160" height="30" rx="6" fill="#3b82f6"/><circle cx="80" cy="85" r="14" fill="#64748b"/><circle cx="180" cy="85" r="14" fill="#64748b"/><rect x="210" y="45" width="40" height="35" fill="#f59e0b" rx="4"/><line x1="180" y1="95" x2="260" y2="95" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/><text x="220" y="112" fill="#ef4444" font-size="12" font-weight="bold">Cargo Extension</text></svg></div>`;
+    } else if (rule.diagram === 'right_of_way') {
+      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 120" style="background:#0f172a; border-radius:8px; width:100%;"><line x1="20" y1="60" x2="280" y2="60" stroke="#10b981" stroke-width="4"/><text x="100" y="45" fill="#10b981" font-size="12" font-weight="bold">Straight-Going Vehicle (Priority #1)</text></svg></div>`;
+    } else if (rule.diagram === 'alcohol_limit') {
+      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="30" y="40" width="240" height="20" rx="4" fill="#334155"/><rect x="30" y="40" width="80" height="20" rx="4" fill="#10b981"/><line x1="110" y1="25" x2="110" y2="75" stroke="#ef4444" stroke-width="3"/><text x="110" y="20" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">Legal Limit: 0.15 mg/L</text></svg></div>`;
+    } else if (rule.diagram === 'tire_tread') {
+      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="50" y="30" width="200" height="40" fill="#334155" rx="6"/><line x1="100" y1="30" x2="100" y2="70" stroke="#f59e0b" stroke-width="4"/><text x="150" y="55" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">Min Tread Depth (1.0mm Moto / 1.6mm Car)</text></svg></div>`;
+    } else if (rule.diagram === 'freeway_distance') {
+      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 350 100" style="background:#0f172a; border-radius:8px; width:100%;"><rect x="30" y="40" width="60" height="25" rx="4" fill="#3b82f6"/><rect x="250" y="40" width="60" height="25" rx="4" fill="#3b82f6"/><line x1="90" y1="52" x2="250" y2="52" stroke="#10b981" stroke-width="2" stroke-dasharray="4"/><text x="170" y="45" fill="#10b981" font-size="12" font-weight="bold" text-anchor="middle">Safe Distance = Speed ÷ 2 (50m @ 100km/h)</text></svg></div>`;
+    } else if (rule.diagram === 'speed_limit') {
+      diagramHTML = `<div class="rule-diagram-box"><svg viewBox="0 0 300 100" style="background:#0f172a; border-radius:8px; width:100%;"><circle cx="150" cy="50" r="35" fill="#ffffff" stroke="#ef4444" stroke-width="6"/><text x="150" y="60" fill="#0f172a" font-size="28" font-weight="900" text-anchor="middle">50</text></svg></div>`;
+    }
+
+    let optionsHTML = rule.canonical_options.map((opt, i) => `
+      <div style="padding:0.4rem 0.6rem; border-radius:6px; margin-top:0.3rem; font-size:0.85rem; ${i === rule.canonical_correct_index ? 'background:rgba(16,185,129,0.2); color:#34d399; font-weight:700;' : 'opacity:0.6;'}">
+        ${opt}
+      </div>
+    `).join('');
+
+    card.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem; margin-bottom:0.75rem;">
+        <span style="font-size:1.1rem; font-weight:800; color:var(--text-main);">${rule.title}</span>
+        <span class="cheat-badge" style="background:rgba(168,85,247,0.2); color:#c084fc; border-color:rgba(168,85,247,0.4);">Covers ${rule.matched_question_count} Questions</span>
+      </div>
+
+      <div style="font-size:0.88rem; color:var(--text-main); line-height:1.6; margin-bottom:0.75rem; white-space:pre-line;">
+        ${rule.summary}
+      </div>
+
+      ${diagramHTML}
+
+      <div style="margin-top:1rem; padding:0.75rem; background:var(--bg-input); border-radius:10px; border:1px solid var(--border-color);">
+        <div style="font-size:0.72rem; font-weight:800; text-transform:uppercase; color:var(--accent-indigo); margin-bottom:0.3rem;">Canonical Representative Question</div>
+        <div style="font-weight:700; font-size:0.9rem; margin-bottom:0.4rem;">${rule.canonical_question}</div>
+        <div>${optionsHTML}</div>
+      </div>
+    `;
+
+    container.appendChild(card);
   });
 }
 

@@ -75,7 +75,12 @@
 
       <!-- HORIZONTAL SCROLLABLE TABS / SIDEBAR MENU -->
       <nav class="nav-pills mb-3">
-        <button data-tab="sheppard1" class="nav-tab active">
+        <button data-tab="mode0" class="nav-tab active">
+          <span>Mode 0: Master Rules</span>
+          <span class="badge-count" style="background:rgba(168,85,247,0.2); color:#c084fc;">Concept</span>
+        </button>
+
+        <button data-tab="sheppard1" class="nav-tab">
           <span>Mode 1: Correct Only</span>
           <span class="badge-count" style="background:rgba(245,158,11,0.2); color:#fcd34d;">Recall</span>
         </button>
@@ -225,6 +230,10 @@
           <button id="restartExamBtn" class="btn-nav">Retake Exam</button>
           <button id="reviewFailedExamBtn" class="btn-nav btn-secondary" style="background:var(--accent-rose); color:#fff; border:none;">Review Failed</button>
         </div>
+      </div>
+
+      <!-- MODE 0 MASTER RULES CONTAINER -->
+      <div id="masterRulesContainer" class="cheat-grid hidden">
       </div>
 
       <!-- CHEAT SHEET VIEW CONTAINER -->
