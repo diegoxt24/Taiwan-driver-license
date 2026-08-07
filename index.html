@@ -38,7 +38,7 @@
         <div class="module-selector-wrap">
           <select id="profileSelect" class="module-select-dropdown" style="background:rgba(51, 65, 85, 0.8); border-color:var(--border-color);">
             <option value="diego">👤 Diego (Pilot Mode)</option>
-            <option value="wife">👩 Wife (Study Profile)</option>
+            <option value="johana">👩 Johana (Study Profile)</option>
           </select>
         </div>
         <button id="themeToggleBtn" class="btn-theme" title="Toggle Theme">
@@ -58,20 +58,26 @@
       <div class="sidebar-card">
         <div style="display:flex; justify-content:space-between; align-items:center;">
           <span class="card-title">Exam Readiness</span>
-          <span id="readinessScore" style="font-weight:900; color:var(--accent-emerald);">0%</span>
+          <span class="readiness-score" id="readinessScore">0%</span>
         </div>
-        <div class="progress-bar-container">
-          <div id="readinessBar" class="progress-bar-fill"></div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="readinessBar" style="width: 0%;"></div>
         </div>
-        <div class="stats-grid">
-          <div>
-            <div id="statMastered" class="stat-val" style="color:var(--accent-indigo);">0</div>
-            <div class="stat-lbl">Studied</div>
+        <div class="stats-row">
+          <div class="stat-item">
+            <span class="stat-num" id="statMastered">0</span>
+            <span class="stat-lbl">Studied</span>
           </div>
-          <div>
-            <div id="statFailed" class="stat-val" style="color:var(--accent-rose);">0</div>
-            <div class="stat-lbl">Failed Items</div>
+          <div class="stat-item">
+            <span class="stat-num" id="statFailed">0</span>
+            <span class="stat-lbl">Failed Items</span>
           </div>
+        </div>
+
+        <div style="margin-top:0.75rem; display:flex; gap:0.4rem;">
+          <button id="exportSyncBtn" style="flex:1; background:rgba(59,130,246,0.15); color:#60a5fa; border:1px solid rgba(59,130,246,0.3); border-radius:6px; padding:0.35rem; font-size:0.75rem; font-weight:700; cursor:pointer;" title="Backup/Export your progress to transfer to another device">📥 Export Sync</button>
+          <button id="importSyncBtn" style="flex:1; background:rgba(16,185,129,0.15); color:#34d399; border:1px solid rgba(16,185,129,0.3); border-radius:6px; padding:0.35rem; font-size:0.75rem; font-weight:700; cursor:pointer;" title="Restore/Import progress from another device">📤 Import Sync</button>
+          <input type="file" id="importFileInput" accept=".json" style="display:none;">
         </div>
       </div>
 

@@ -26,8 +26,8 @@ let userState = {
     motorcycle: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] },
     car: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] }
   },
-  wife: {
-    name: 'Wife (Study Profile)',
+  johana: {
+    name: 'Johana (Study Profile)',
     motorcycle: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] },
     car: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] }
   }
@@ -152,8 +152,42 @@ function setupEventListeners() {
     });
   }
 
-// EVENT LISTENERS SETUP
-function setupEventListeners() {
+  const expBtn = document.getElementById('exportSyncBtn');
+  if (expBtn) {
+    expBtn.addEventListener('click', () => {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(userState, null, 2));
+      const downloadAnchor = document.createElement('a');
+      downloadAnchor.setAttribute("href", dataStr);
+      downloadAnchor.setAttribute("download", `taiwan_driver_prep_backup_${activeProfile}.json`);
+      document.body.appendChild(downloadAnchor);
+      downloadAnchor.click();
+      downloadAnchor.remove();
+    });
+  }
+
+  const impBtn = document.getElementById('importSyncBtn');
+  const impFile = document.getElementById('importFileInput');
+  if (impBtn && impFile) {
+    impBtn.addEventListener('click', () => impFile.click());
+    impFile.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const importedData = JSON.parse(event.target.result);
+          if (importedData.diego || importedData.johana) {
+            userState = importedData;
+            saveStateToStorage();
+            alert('🎉 Progress synced successfully across devices!');
+          }
+        } catch (err) {
+          alert('⚠️ Invalid backup file format.');
+        }
+      };
+      reader.readAsText(file);
+    });
+  }
   const modSelect = document.getElementById('moduleSelect');
   if (modSelect) {
     modSelect.addEventListener('change', async (e) => {
