@@ -10,7 +10,7 @@ let cheatSheetData = [];
 
 let currentModule = 'motorcycle'; // 'motorcycle' or 'car'
 let currentIndex = 0;
-let currentTab = 'sheppard1'; // sheppard1, sheppard2, interactive, practice, bookmarks, failed, cheatsheet
+let currentTab = 'mode0'; // mode0, sheppard1, sheppard2, interactive, practice, bookmarks, failed, cheatsheet
 let selectedCategory = 'ALL';
 let selectedTopic = 'ALL_TOPICS';
 let searchQuery = '';

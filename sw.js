@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v1';
+const CACHE_NAME = 'tw-driving-prep-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -8,6 +8,8 @@ const ASSETS = [
   './car_questions.json',
   './cheat_sheet.json',
   './car_cheat_sheet.json',
+  './moto_master_rules.json',
+  './car_master_rules.json',
   './manifest.json'
 ];
 
