@@ -235,14 +235,7 @@ function setupEventListeners() {
     });
   });
 
-  // Profile Toggle
-  document.getElementById('profileBtn')?.addEventListener('click', () => {
-    activeProfile = (activeProfile === 'diego') ? 'student' : 'diego';
-    saveStateToStorage();
-    updateProfileUI();
-    updateFilteredQuestions();
-    renderCurrentQuestion();
-  });
+
 
   // Theme Toggle
   document.getElementById('themeToggleBtn')?.addEventListener('click', () => {
