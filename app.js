@@ -508,7 +508,12 @@ function renderCurrentQuestion() {
     diagramHTML = getDiagramHTML(q.diagram, currentModule);
   }
 
-  explTextEl.innerHTML = `<div>${q.explanation || 'Official Taiwan Road Traffic Safety Rule.'}</div>${diagramHTML}`;
+  const formattedExpl = (q.explanation || 'Official Taiwan Road Traffic Safety Rule.')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n\n/g, '<br/><br/>')
+    .replace(/\n/g, '<br/>');
+
+  explTextEl.innerHTML = `<div style="line-height:1.5; font-size:0.92rem;">${formattedExpl}</div>${diagramHTML}`;
 
   if (currentTab === 'sheppard1') {
     // Mode 1: SHOW ONLY CORRECT ANSWER
