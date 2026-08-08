@@ -244,6 +244,22 @@ function setupEventListeners() {
 
 
 
+  // Keyboard Shortcuts for Rapid Evaluation (Arrow keys & 1/2/3 option selection)
+  window.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'ArrowLeft') {
+      document.getElementById('prevBtn')?.click();
+    } else if (e.key === 'ArrowRight') {
+      document.getElementById('nextBtn')?.click();
+    } else if (['1', '2', '3'].includes(e.key)) {
+      const optBtns = document.querySelectorAll('#optionsContainer button.opt-btn');
+      const idx = parseInt(e.key) - 1;
+      if (optBtns[idx]) {
+        optBtns[idx].click();
+      }
+    }
+  });
+
   // Theme Toggle
   document.getElementById('themeToggleBtn')?.addEventListener('click', () => {
     document.body.classList.toggle('light-theme');
