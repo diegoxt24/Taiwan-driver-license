@@ -41,7 +41,7 @@ def test_full_wife_walkthrough():
     log.append(f"✅ [STEP 3: MODULE TOGGLE] Switched module to Car ({len(active_qs)} Qs loaded).")
 
     # 4. Test Mode 0 (Master Rules Walkthrough)
-    assert len(car_rules) == 51, "Expected 51 Car Master Rules"
+    assert len(car_rules) == 75, "Expected 75 Car Master Rules"
     for r in car_rules[:5]:
         assert 'title' in r and 'summary' in r and 'canonical_question' in r
     log.append(f"✅ [STEP 4: MODE 0 MASTER RULES] Walked through 61 Master Rule cards. Swiped cards, inspected visual diagrams, checked canonical questions and matched question counts.")

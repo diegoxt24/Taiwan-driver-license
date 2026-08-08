@@ -608,22 +608,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0039",
-    "official_num": 39,
-    "category": "Car Regulations - Drunk Driving & Fines",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "When a motor vehicle driver approaches an intersection and encounters a situation where a police officer's directions conflict with the traffic signal, how should the driver proceed?",
-    "options": [
-      "(1) Follow the traffic signal.",
-      "(2) Follow the police officer's directions.",
-      "(3) Follow the vehicle ahead based on the current traffic conditions."
-    ],
-    "correct_answer": "(2) Follow the police officer's directions.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #39. The correct safety requirement is: (2) Follow the police officer's directions..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0040",
     "official_num": 40,
     "category": "Car Regulations - Drunk Driving & Fines",
@@ -944,22 +928,6 @@
     "sign_image": "assets/car_signs/car_sign_0059.png"
   },
   {
-    "id": "CAR_0060",
-    "official_num": 60,
-    "category": "Road Signs & Signals - Warnings & Regulatory",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this sign mean?",
-    "options": [
-      "(1) No vehicles of any kind allowed.",
-      "(2) One-way road.",
-      "(3) Slow down."
-    ],
-    "correct_answer": "(1) No vehicles of any kind allowed.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #60. The correct safety requirement is: (1) No vehicles of any kind allowed..",
-    "sign_image": "assets/car_signs/car_sign_0060.png"
-  },
-  {
     "id": "CAR_0061",
     "official_num": 61,
     "category": "Road Signs & Signals - Warnings & Regulatory",
@@ -1021,22 +989,6 @@
     "correct_answer": "(2) Passengers must not stick their head or hands out of the vehicle while it is in motion; the driver should immediately stop them and close the window or activate the window safety lock.",
     "correct_index": 1,
     "explanation": "Official Taiwan THB Automobile Exam Rule #64. The correct safety requirement is: (2) Passengers must not stick their head or hands out of the vehicle while it is in motion; the driver should immediately stop them and close the window or activate the window safety lock..",
-    "sign_image": null
-  },
-  {
-    "id": "CAR_0065",
-    "official_num": 65,
-    "category": "Road Signs & Signals - Warnings & Regulatory",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which of the following is correct for motor vehicle drivers when driving on roads?",
-    "options": [
-      "(1) In case of an urgent matter to communicate, a mobile phone may be used.",
-      "(2) Using a hand-held mobile phone, computer, or other device with similar functions to make calls, talk, transmit data, or engage in any other behavior that impairs driving safety is prohibited.",
-      "(3) As long as it does not disturb others, making and receiving calls is permitted."
-    ],
-    "correct_answer": "(2) Using a hand-held mobile phone, computer, or other device with similar functions to make calls, talk, transmit data, or engage in any other behavior that impairs driving safety is prohibited.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #65. The correct safety requirement is: (2) Using a hand-held mobile phone, computer, or other device with similar functions to make calls, talk, transmit data, or engage in any other behavior that impairs driving safety is prohibited..",
     "sign_image": null
   },
   {
@@ -1149,22 +1101,6 @@
     "correct_answer": "(1) The penalty shall be increased by up to one-half.",
     "correct_index": 0,
     "explanation": "Official Taiwan THB Automobile Exam Rule #72. The correct safety requirement is: (1) The penalty shall be increased by up to one-half..",
-    "sign_image": null
-  },
-  {
-    "id": "CAR_0073",
-    "official_num": 73,
-    "category": "Road Signs & Signals - Warnings & Regulatory",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which of the following is correct for motor vehicle drivers when driving on roads?",
-    "options": [
-      "(1) In case of an urgent matter to communicate, a mobile phone may be used.",
-      "(2) Using a hand-held mobile phone, computer, or other device with similar functions to make calls, talk, transmit data, or engage in any other behavior that impairs driving safety is prohibited.",
-      "(3) As long as it does not disturb others, making and receiving calls is permitted."
-    ],
-    "correct_answer": "(1) In case of an urgent matter to communicate, a mobile phone may be used.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #73. The correct safety requirement is: (1) In case of an urgent matter to communicate, a mobile phone may be used..",
     "sign_image": null
   },
   {
@@ -2224,22 +2160,6 @@
     "sign_image": "assets/car_signs/car_sign_0139.png"
   },
   {
-    "id": "CAR_0140",
-    "official_num": 140,
-    "category": "Road Signs & Signals - Markings & Signs",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "The cyclist's hand signal indicates an upcoming:",
-    "options": [
-      "(1) Right turn.",
-      "(2) Left turn.",
-      "(3) Slow down / temporary stop."
-    ],
-    "correct_answer": "(3) Slow down / temporary stop.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #140. The correct safety requirement is: (3) Slow down / temporary stop..",
-    "sign_image": "assets/car_signs/car_sign_0140.png"
-  },
-  {
     "id": "CAR_0141",
     "official_num": 141,
     "category": "Road Signs & Signals - Markings & Signs",
@@ -2592,22 +2512,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0163",
-    "official_num": 163,
-    "category": "Road Signs & Signals - Markings & Signs",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which of the following statements about tire maintenance is correct?",
-    "options": [
-      "(1) Regularly check tire pressure; maintaining proper tire pressure can reduce fuel consumption and extend tire life.",
-      "(2) Once the tire tread wears down to the tread wear indicator, keep driving as long as there is no blowout.",
-      "(3) The higher the tire pressure, the more fuel-efficient, so tires should be inflated to the maximum limit."
-    ],
-    "correct_answer": "(1) Regularly check tire pressure; maintaining proper tire pressure can reduce fuel consumption and extend tire life.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #163. The correct safety requirement is: (1) Regularly check tire pressure; maintaining proper tire pressure can reduce fuel consumption and extend tire life..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0164",
     "official_num": 164,
     "category": "Road Signs & Signals - Markings & Signs",
@@ -2798,22 +2702,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Automobile Exam Rule #175. The correct safety requirement is: (1) Small vehicles..",
     "sign_image": "assets/car_signs/car_sign_0175.png"
-  },
-  {
-    "id": "CAR_0176",
-    "official_num": 176,
-    "category": "Road Signs & Signals - Markings & Signs",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which of the following statements is correct?",
-    "options": [
-      "(1) This sign indicates to the driver that there are two entrances to the expressway from Zhongli.",
-      "(2) This sign indicates to the driver that the two upcoming expressway exits both lead to Zhongli.",
-      "(3) This sign indicates to the driver that only the second upcoming expressway exit leads to Zhongli."
-    ],
-    "correct_answer": "(2) This sign indicates to the driver that the two upcoming expressway exits both lead to Zhongli.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #176. The correct safety requirement is: (2) This sign indicates to the driver that the two upcoming expressway exits both lead to Zhongli..",
-    "sign_image": "assets/car_signs/car_sign_0176.png"
   },
   {
     "id": "CAR_0177",
@@ -3952,22 +3840,6 @@
     "sign_image": "assets/car_signs/car_sign_0247.png"
   },
   {
-    "id": "CAR_0248",
-    "official_num": 248,
-    "category": "Road Signs & Signals - Markings & Signs",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What is the 'double solid yellow line' used to divide the road into two-way lanes, prohibiting vehicles from crossing and making U-turns?",
-    "options": [
-      "(1) Directional dividing line.",
-      "(2) Road edge line.",
-      "(3) Lane change prohibition line."
-    ],
-    "correct_answer": "(1) Directional dividing line.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #248. The correct safety requirement is: (1) Directional dividing line..",
-    "sign_image": "assets/car_signs/car_sign_0248.png"
-  },
-  {
     "id": "CAR_0249",
     "official_num": 249,
     "category": "Road Signs & Signals - Markings & Signs",
@@ -4158,22 +4030,6 @@
     "correct_index": 2,
     "explanation": "Official Taiwan THB Automobile Exam Rule #260. The correct safety requirement is: (3) Immediately take rescue and first aid measures..",
     "sign_image": "assets/car_signs/car_sign_0260.png"
-  },
-  {
-    "id": "CAR_0261",
-    "official_num": 261,
-    "category": "Road Signs & Signals - Markings & Signs",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this sign indicate?",
-    "options": [
-      "(1) Lane divergence.",
-      "(2) Fork in the road.",
-      "(3) Road direction of travel."
-    ],
-    "correct_answer": "(3) Road direction of travel.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #261. The correct safety requirement is: (3) Road direction of travel..",
-    "sign_image": "assets/car_signs/car_sign_0261.png"
   },
   {
     "id": "CAR_0262",
@@ -4878,22 +4734,6 @@
     "correct_index": 2,
     "explanation": "Official Taiwan THB Automobile Exam Rule #305. The correct safety requirement is: (3) Stop for inspection..",
     "sign_image": "assets/car_signs/car_sign_0305.png"
-  },
-  {
-    "id": "CAR_0306",
-    "official_num": 306,
-    "category": "Road Signs & Signals - Markings & Signs",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What is the meaning of the sign shown in the image?",
-    "options": [
-      "(1) Indicates that a ferry crossing is ahead, with a ferry available to transport vehicles across.",
-      "(2) Indicates that a vehicle inspection checkpoint is ahead.",
-      "(3) Indicates that a motorcycle-only lane is ahead."
-    ],
-    "correct_answer": "(1) Indicates that a ferry crossing is ahead, with a ferry available to transport vehicles across.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #306. The correct safety requirement is: (1) Indicates that a ferry crossing is ahead, with a ferry available to transport vehicles across..",
-    "sign_image": "assets/car_signs/car_sign_0306.png"
   },
   {
     "id": "CAR_0307",
@@ -6352,22 +6192,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0398",
-    "official_num": 398,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "When entering a gas station to refuel:",
-    "options": [
-      "(1) You may make or receive mobile phone calls.",
-      "(2) You may only receive calls but not make them.",
-      "(3) Making or receiving mobile phone calls is strictly prohibited."
-    ],
-    "correct_answer": "(3) Making or receiving mobile phone calls is strictly prohibited.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #398. The correct safety requirement is: (3) Making or receiving mobile phone calls is strictly prohibited..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0399",
     "official_num": 399,
     "category": "Car Regulations - Proactive Yielding",
@@ -6592,22 +6416,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0413",
-    "official_num": 413,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Regarding large heavy motorcycles with a total engine displacement of 550cc or more, which of the following statements is correct?",
-    "options": [
-      "(1) They may travel on expressways on any road and at any time.",
-      "(2) Riders with excellent driving skills are exempt from road restrictions.",
-      "(3) They must travel on designated roads and during designated times, and may not enter expressways arbitrarily."
-    ],
-    "correct_answer": "(3) They must travel on designated roads and during designated times, and may not enter expressways arbitrarily.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #413. The correct safety requirement is: (3) They must travel on designated roads and during designated times, and may not enter expressways arbitrarily..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0414",
     "official_num": 414,
     "category": "Car Regulations - Proactive Yielding",
@@ -6782,22 +6590,6 @@
     "correct_index": 2,
     "explanation": "Official Taiwan THB Automobile Exam Rule #424. The correct safety requirement is: (3) The system is a tool to assist driving but cannot replace safe driving behavior. Section 1 — Total: 424 questions (No. 1 ~ 424) ▸  Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians).",
     "sign_image": null
-  },
-  {
-    "id": "CAR_0425",
-    "official_num": 425,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "(1) Two-way traffic. (2) Narrow road. (3) Fork road.",
-    "options": [
-      "(1) Two-way traffic.",
-      "(2) Narrow road.",
-      "(3) Fork road."
-    ],
-    "correct_answer": "(3) Fork road.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #425. The correct safety requirement is: (3) Fork road..",
-    "sign_image": "assets/car_signs/car_sign_0425.png"
   },
   {
     "id": "CAR_0426",
@@ -7068,38 +6860,6 @@
     "correct_index": 1,
     "explanation": "Official Taiwan THB Automobile Exam Rule #442. The correct safety requirement is: (2) Special flashing yellow light signal..",
     "sign_image": "assets/car_signs/car_sign_0442.png"
-  },
-  {
-    "id": "CAR_0443",
-    "official_num": 443,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "[Refer to image]",
-    "options": [
-      "(1) Pedestrian-only signal.",
-      "(2) Flashing yellow light.",
-      "(3) Pedestrian crossing signal."
-    ],
-    "correct_answer": "(1) Pedestrian-only signal.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #443. The correct safety requirement is: (1) Pedestrian-only signal..",
-    "sign_image": "assets/car_signs/car_sign_0443.png"
-  },
-  {
-    "id": "CAR_0444",
-    "official_num": 444,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "[Refer to image]",
-    "options": [
-      "(1) Flashing yellow light.",
-      "(2) Flashing red light signal.",
-      "(3) Pedestrian crossing signal."
-    ],
-    "correct_answer": "(3) Pedestrian crossing signal.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #444. The correct safety requirement is: (3) Pedestrian crossing signal..",
-    "sign_image": "assets/car_signs/car_sign_0444.png"
   },
   {
     "id": "CAR_0445",
@@ -8110,22 +7870,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0508",
-    "official_num": 508,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "When a vehicle passes through an intersection where no pedestrian crossing has been marked and encounters pedestrians crossing, how should the driver handle the situation?",
-    "options": [
-      "(1) Sound the horn to signal pedestrians to cross quickly.",
-      "(2) Slow down and maintain a safe distance as appropriate when passing.",
-      "(3) Regardless of whether there is a traffic officer directing or signal indication, the driver must stop and yield to pedestrians first."
-    ],
-    "correct_answer": "(3) Regardless of whether there is a traffic officer directing or signal indication, the driver must stop and yield to pedestrians first.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #508. The correct safety requirement is: (3) Regardless of whether there is a traffic officer directing or signal indication, the driver must stop and yield to pedestrians first..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0509",
     "official_num": 509,
     "category": "Car Regulations - Proactive Yielding",
@@ -8524,22 +8268,6 @@
     "correct_index": 1,
     "explanation": "Official Taiwan THB Automobile Exam Rule #533. The correct safety requirement is: (2) Should slow down, pay attention to traffic coming from the main road, and yield priority to vehicles on the main road..",
     "sign_image": "assets/car_signs/car_sign_0533.png"
-  },
-  {
-    "id": "CAR_0534",
-    "official_num": 534,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this sign mean?",
-    "options": [
-      "(1) No parking.",
-      "(2) No stopping.",
-      "(3) Stop and proceed."
-    ],
-    "correct_answer": "(3) Stop and proceed.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #534. The correct safety requirement is: (3) Stop and proceed..",
-    "sign_image": "assets/car_signs/car_sign_0534.png"
   },
   {
     "id": "CAR_0535",
@@ -9051,54 +8779,6 @@
     "correct_answer": "(3) Follow the signs, markings, and signals at the intersection.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Automobile Exam Rule #566. The correct safety requirement is: (3) Follow the signs, markings, and signals at the intersection..",
-    "sign_image": null
-  },
-  {
-    "id": "CAR_0567",
-    "official_num": 567,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which driving behavior is incorrect?",
-    "options": [
-      "(1) The yellow zone along light rail tracks is a no-stopping area; pass --- PAGE 47 --- through quickly.",
-      "(2) When the light rail audio/visual warning sounds, ignore it and speed up.",
-      "(3) When passing through intersections shared with light rail transit, obey traffic signals."
-    ],
-    "correct_answer": "(2) When the light rail audio/visual warning sounds, ignore it and speed up.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #567. The correct safety requirement is: (2) When the light rail audio/visual warning sounds, ignore it and speed up..",
-    "sign_image": null
-  },
-  {
-    "id": "CAR_0568",
-    "official_num": 568,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "A motor vehicle driver who approaches a pedestrian crossing or an intersection otherwise legally open to pedestrians and fails to stop and yield to pedestrians, thereby causing an accident resulting in injury, shall be fined NT$18,000–36,000, and their driver's license shall be:",
-    "options": [
-      "(1) Revoked.",
-      "(2) Suspended for 6 months to 1 year.",
-      "(3) Suspended for 1 to 2 years."
-    ],
-    "correct_answer": "(2) Suspended for 6 months to 1 year.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #568. The correct safety requirement is: (2) Suspended for 6 months to 1 year..",
-    "sign_image": null
-  },
-  {
-    "id": "CAR_0569",
-    "official_num": 569,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "A motor vehicle driver who approaches a pedestrian crossing or an intersection otherwise legally open to pedestrians and fails to stop and yield to pedestrians, thereby causing an accident resulting in injury, shall be fined NT$18,000–36,000, and their driver's license shall be:",
-    "options": [
-      "(1) Revoked.",
-      "(2) Suspended for 6 months to 1 year.",
-      "(3) Suspended for 1 to 2 years. ▸  Turning (Left / Right Turns, U-turns)"
-    ],
-    "correct_answer": "(3) Suspended for 1 to 2 years. ▸  Turning (Left / Right Turns, U-turns)",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #569. The correct safety requirement is: (3) Suspended for 1 to 2 years. ▸  Turning (Left / Right Turns, U-turns).",
     "sign_image": null
   },
   {
@@ -9676,22 +9356,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Automobile Exam Rule #605. The correct safety requirement is: (1) Mandatory direction of travel..",
     "sign_image": "assets/car_signs/car_sign_0605.png"
-  },
-  {
-    "id": "CAR_0606",
-    "official_num": 606,
-    "category": "Car Regulations - Proactive Yielding",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this sign represent?",
-    "options": [
-      "(1) Mandatory direction of travel.",
-      "(2) One-way road.",
-      "(3) For motor vehicles only."
-    ],
-    "correct_answer": "(1) Mandatory direction of travel.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #606. The correct safety requirement is: (1) Mandatory direction of travel..",
-    "sign_image": "assets/car_signs/car_sign_0606.png"
   },
   {
     "id": "CAR_0607",
@@ -11150,22 +10814,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0698",
-    "official_num": 698,
-    "category": "Car Regulations - Safe Driving Skills",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which of the following statements is incorrect?",
-    "options": [
-      "(1) Large vehicles on roads with 3 or more lanes in the same direction shall not drive in the inner lane except when preparing to turn left.",
-      "(2) Small vehicles may drive in both inner and outer lanes; when driving at a slower speed, they should drive in the outer lane and may change lanes arbitrarily.",
-      "(3) Except when preparing to stop or making a temporary stop, vehicles shall not drive beyond the road edge line or straddle two lanes."
-    ],
-    "correct_answer": "(2) Small vehicles may drive in both inner and outer lanes; when driving at a slower speed, they should drive in the outer lane and may change lanes arbitrarily.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #698. The correct safety requirement is: (2) Small vehicles may drive in both inner and outer lanes; when driving at a slower speed, they should drive in the outer lane and may change lanes arbitrarily..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0699",
     "official_num": 699,
     "category": "Car Regulations - Safe Driving Skills",
@@ -11452,22 +11100,6 @@
     "correct_index": 1,
     "explanation": "Official Taiwan THB Automobile Exam Rule #716. The correct safety requirement is: (2) A lane set between the main carriageway and a ramp, for vehicles to decelerate before leaving the main carriageway and entering the ramp..",
     "sign_image": "assets/car_signs/car_sign_0716.png"
-  },
-  {
-    "id": "CAR_0717",
-    "official_num": 717,
-    "category": "Car Regulations - Safe Driving Skills",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "The sign in the figure is?",
-    "options": [
-      "(1) One-way road.",
-      "(2) Direction of travel.",
-      "(3) Indication of detour direction."
-    ],
-    "correct_answer": "(2) Direction of travel.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #717. The correct safety requirement is: (2) Direction of travel..",
-    "sign_image": "assets/car_signs/car_sign_0717.png"
   },
   {
     "id": "CAR_0718",
@@ -12074,22 +11706,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Automobile Exam Rule #755. The correct safety requirement is: (1) 'Road Hump' indicates a localized, prominent raised surface ahead; 'Rough Road' indicates a continuously uneven surface ahead. Drivers should slow down for both..",
     "sign_image": "assets/car_signs/car_sign_0755.png"
-  },
-  {
-    "id": "CAR_0756",
-    "official_num": 756,
-    "category": "Car Regulations - Safe Driving Skills",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this sign represent?",
-    "options": [
-      "(1) Minimum speed limit.",
-      "(2) Maximum speed limit.",
-      "(3) Motorcycle speed limit."
-    ],
-    "correct_answer": "(1) Minimum speed limit.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #756. The correct safety requirement is: (1) Minimum speed limit..",
-    "sign_image": "assets/car_signs/car_sign_0756.png"
   },
   {
     "id": "CAR_0757",
@@ -15212,22 +14828,6 @@
     "sign_image": null
   },
   {
-    "id": "CAR_0952",
-    "official_num": 952,
-    "category": "Car Regulations - Safe Driving Skills",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Which of the following is correct?",
-    "options": [
-      "(1) If dashboard warning lights are on, they can be ignored and driving can continue.",
-      "(2) If the engine is smoking, continue driving until the smoking stops.",
-      "(3) If the brakes fail, immediately downshift, turn on the right turn signal, and pull over to a safe open area."
-    ],
-    "correct_answer": "(3) If the brakes fail, immediately downshift, turn on the right turn signal, and pull over to a safe open area.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #952. The correct safety requirement is: (3) If the brakes fail, immediately downshift, turn on the right turn signal, and pull over to a safe open area..",
-    "sign_image": null
-  },
-  {
     "id": "CAR_0953",
     "official_num": 953,
     "category": "Car Regulations - Safe Driving Skills",
@@ -15465,22 +15065,6 @@
     "correct_answer": "(3) Flee the scene before anyone notices.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Automobile Exam Rule #967. The correct safety requirement is: (3) Flee the scene before anyone notices..",
-    "sign_image": null
-  },
-  {
-    "id": "CAR_0968",
-    "official_num": 968,
-    "category": "Car Regulations - Safe Driving Skills",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "When driving inside a tunnel on a freeway or expressway and you cannot continue driving due to an emergency, you should first stop and wait for assistance. At how many meters behind the broken-down vehicle should you place the vehicle breakdown warning sign?",
-    "options": [
-      "(1) 10 meters.",
-      "(2) 50 meters.",
-      "(3) 100 meters. ▸  Vehicle Inspection (Equipment, Lights)"
-    ],
-    "correct_answer": "(3) 100 meters. ▸  Vehicle Inspection (Equipment, Lights)",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #968. The correct safety requirement is: (3) 100 meters. ▸  Vehicle Inspection (Equipment, Lights).",
     "sign_image": null
   },
   {
@@ -16106,22 +15690,6 @@
     "correct_index": 1,
     "explanation": "Official Taiwan THB Automobile Exam Rule #1007. The correct safety requirement is: (2) Brake system warning light..",
     "sign_image": "assets/car_signs/car_sign_1007.png"
-  },
-  {
-    "id": "CAR_1008",
-    "official_num": 1008,
-    "category": "Car Regulations - Safe Driving Skills",
-    "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What is this warning light?",
-    "options": [
-      "(1) Low engine oil pressure warning light.",
-      "(2) Low fuel pressure warning light.",
-      "(3) Low coolant level warning light."
-    ],
-    "correct_answer": "(1) Low engine oil pressure warning light.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Automobile Exam Rule #1008. The correct safety requirement is: (1) Low engine oil pressure warning light..",
-    "sign_image": "assets/car_signs/car_sign_1008.png"
   },
   {
     "id": "CAR_1009",

@@ -2715,21 +2715,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #181. The correct safety requirement is: (1) wear on both sides of the tire."
   },
   {
-    "id": "MOTO_MAIN_0182",
-    "official_num": 182,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "When tire pressure is insufficient, it is likely to cause",
-    "options": [
-      "(1) wear on both sides of the tire",
-      "(2) increased fuel consumption",
-      "(3) all of the above."
-    ],
-    "correct_answer": "(3) all of the above.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #182. The correct safety requirement is: (3) all of the above.."
-  },
-  {
     "id": "MOTO_MAIN_0183",
     "official_num": 183,
     "category": "Motorcycle Regulations - General",
@@ -2743,21 +2728,6 @@
     "correct_answer": "(2) wear in the center of the tire",
     "correct_index": 1,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #183. The correct safety requirement is: (2) wear in the center of the tire."
-  },
-  {
-    "id": "MOTO_MAIN_0184",
-    "official_num": 184,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "When tire pressure is too high, it is likely to cause",
-    "options": [
-      "(1) accelerated damage to the vehicle's shock absorbers",
-      "(2) wear in the center of the tire",
-      "(3) all of the above."
-    ],
-    "correct_answer": "(3) all of the above.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #184. The correct safety requirement is: (3) all of the above.."
   },
   {
     "id": "MOTO_MAIN_0185",
@@ -6180,21 +6150,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #412. The correct safety requirement is: (1) Provincial road route number."
   },
   {
-    "id": "MOTO_MAIN_0413",
-    "official_num": 413,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Provincial road route number (2) County road route number (3) National road route number.",
-    "options": [
-      "(1) Provincial road route number",
-      "(2) County road route number",
-      "(3) National road route number."
-    ],
-    "correct_answer": "(3) National road route number.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #413. The correct safety requirement is: (3) National road route number.."
-  },
-  {
     "id": "MOTO_MAIN_0414",
     "official_num": 414,
     "category": "Motorcycle Regulations - General",
@@ -6313,21 +6268,6 @@
     "correct_answer": "(3) Lane advance notice.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #421. The correct safety requirement is: (3) Lane advance notice.."
-  },
-  {
-    "id": "MOTO_MAIN_0422",
-    "official_num": 422,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) U-turn lane (2) Safe directional guidance (3) Lane advance notice.",
-    "options": [
-      "(1) U-turn lane",
-      "(2) Safe directional guidance",
-      "(3) Lane advance notice."
-    ],
-    "correct_answer": "(2) Safe directional guidance",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #422. The correct safety requirement is: (2) Safe directional guidance."
   },
   {
     "id": "MOTO_MAIN_0423",
@@ -6510,21 +6450,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #434. The correct safety requirement is: (2) Yield to Overtaking Vehicle."
   },
   {
-    "id": "MOTO_MAIN_0435",
-    "official_num": 435,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Right Turn (2) Yield to Overtaking Vehicle (3) Slow Down and Stop",
-    "options": [
-      "(1) Right Turn",
-      "(2) Yield to Overtaking Vehicle",
-      "(3) Slow Down and Stop"
-    ],
-    "correct_answer": "(1) Right Turn",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #435. The correct safety requirement is: (1) Right Turn."
-  },
-  {
     "id": "MOTO_MAIN_0436",
     "official_num": 436,
     "category": "Motorcycle Regulations - General",
@@ -6585,21 +6510,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #439. The correct safety requirement is: (2) Lane designated for vehicles with four or more wheels and large heavy motorcycles only."
   },
   {
-    "id": "MOTO_MAIN_0440",
-    "official_num": 440,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Lane designated for large passenger buses only (2) Lane designated for high-occupancy vehicles only (3) Lane designated for Mass Rapid Transit system vehicles only.",
-    "options": [
-      "(1) Lane designated for large passenger buses only",
-      "(2) Lane designated for high-occupancy vehicles only",
-      "(3) Lane designated for Mass Rapid Transit system vehicles only."
-    ],
-    "correct_answer": "(1) Lane designated for large passenger buses only",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #440. The correct safety requirement is: (1) Lane designated for large passenger buses only."
-  },
-  {
     "id": "MOTO_MAIN_0441",
     "official_num": 441,
     "category": "Motorcycle Regulations - General",
@@ -6658,21 +6568,6 @@
     "correct_answer": "(1) right turn",
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #444. The correct safety requirement is: (1) right turn."
-  },
-  {
-    "id": "MOTO_MAIN_0445",
-    "official_num": 445,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "A cyclist's hand signal indicates an upcoming",
-    "options": [
-      "(1) right turn",
-      "(2) left turn",
-      "(3) deceleration or stop"
-    ],
-    "correct_answer": "(3) deceleration or stop",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #445. The correct safety requirement is: (3) deceleration or stop."
   },
   {
     "id": "MOTO_MAIN_0446",
@@ -7588,21 +7483,6 @@
     "correct_answer": "(3) stop, look, and listen; only pass when no light rail vehicles are approaching from either direction.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #506. The correct safety requirement is: (3) stop, look, and listen; only pass when no light rail vehicles are approaching from either direction.."
-  },
-  {
-    "id": "MOTO_MAIN_0507",
-    "official_num": 507,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "Which of the following driving behaviors is incorrect?",
-    "options": [
-      "(1) It is prohibited to stop in the yellow line area of the light rail track and drivers should pass through as quickly as possible.",
-      "(2) When the light rail audible and visual warning signals sound, there is no need to stop, look, and listen; just accelerate quickly to pass.",
-      "(3) When passing through an intersection shared with the light rail transit, drivers must obey traffic signals."
-    ],
-    "correct_answer": "(2) When the light rail audible and visual warning signals sound, there is no need to stop, look, and listen; just accelerate quickly to pass.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #507. The correct safety requirement is: (2) When the light rail audible and visual warning signals sound, there is no need to stop, look, and listen; just accelerate quickly to pass.."
   },
   {
     "id": "MOTO_MAIN_0508",
@@ -8803,21 +8683,6 @@
     "correct_answer": "(3) Two-stage left turn for motorcycles and scooters.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #587. The correct safety requirement is: (3) Two-stage left turn for motorcycles and scooters.."
-  },
-  {
-    "id": "MOTO_MAIN_0588",
-    "official_num": 588,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Two-stage right turn for motorcycles and scooters (2) Motorcycle-only lane (3) Two-stage left turn for motorcycles and scooters.",
-    "options": [
-      "(1) Two-stage right turn for motorcycles and scooters",
-      "(2) Motorcycle-only lane",
-      "(3) Two-stage left turn for motorcycles and scooters."
-    ],
-    "correct_answer": "(1) Two-stage right turn for motorcycles and scooters",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #588. The correct safety requirement is: (1) Two-stage right turn for motorcycles and scooters."
   },
   {
     "id": "MOTO_MAIN_0589",
@@ -10740,21 +10605,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #716. The correct safety requirement is: (2) No U-turn."
   },
   {
-    "id": "MOTO_MAIN_0717",
-    "official_num": 717,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Minimum speed limit (2) Maximum speed limit (3) Vehicle gross weight limit.",
-    "options": [
-      "(1) Minimum speed limit",
-      "(2) Maximum speed limit",
-      "(3) Vehicle gross weight limit."
-    ],
-    "correct_answer": "(2) Maximum speed limit",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #717. The correct safety requirement is: (2) Maximum speed limit."
-  },
-  {
     "id": "MOTO_MAIN_0718",
     "official_num": 718,
     "category": "Motorcycle Regulations - General",
@@ -10935,21 +10785,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #729. The correct safety requirement is: (2) Left lane closed."
   },
   {
-    "id": "MOTO_MAIN_0730",
-    "official_num": 730,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Right lane closed (2) Left lane closed (3) Vehicle detour.",
-    "options": [
-      "(1) Right lane closed",
-      "(2) Left lane closed",
-      "(3) Vehicle detour."
-    ],
-    "correct_answer": "(1) Right lane closed",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #730. The correct safety requirement is: (1) Right lane closed."
-  },
-  {
     "id": "MOTO_MAIN_0731",
     "official_num": 731,
     "category": "Motorcycle Regulations - General",
@@ -10963,21 +10798,6 @@
     "correct_answer": "(3) Road construction.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #731. The correct safety requirement is: (3) Road construction.."
-  },
-  {
-    "id": "MOTO_MAIN_0732",
-    "official_num": 732,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) Road construction (2) Road closure (3) Vehicle detour.",
-    "options": [
-      "(1) Road construction",
-      "(2) Road closure",
-      "(3) Vehicle detour."
-    ],
-    "correct_answer": "(3) Vehicle detour.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #732. The correct safety requirement is: (3) Vehicle detour.."
   },
   {
     "id": "MOTO_MAIN_0733",
@@ -11218,21 +11038,6 @@
     "correct_answer": "(3) high-speed rail station.",
     "correct_index": 2,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #748. The correct safety requirement is: (3) high-speed rail station.."
-  },
-  {
-    "id": "MOTO_MAIN_0749",
-    "official_num": 749,
-    "category": "Motorcycle Regulations - General",
-    "topic": "Official THB Motorcycle Written Exam Bank",
-    "question": "(1) pedestrian overpass (2) pedestrian underpass (3) parking area.",
-    "options": [
-      "(1) pedestrian overpass",
-      "(2) pedestrian underpass",
-      "(3) parking area."
-    ],
-    "correct_answer": "(1) pedestrian overpass",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #749. The correct safety requirement is: (1) pedestrian overpass."
   },
   {
     "id": "MOTO_MAIN_0750",
@@ -14280,21 +14085,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #153. The correct safety requirement is: (2) Precipitation;."
   },
   {
-    "id": "MOTO_REG_MC_154",
-    "official_num": 154,
-    "category": "Motorcycle Regulations - Multiple Choice",
-    "topic": "Traffic Regulations & Fine Laws",
-    "question": "Which of the following driving behaviors is incorrect?",
-    "options": [
-      "(1) Listening to the Police Broadcasting Service and being informed of the latest traffic reports;",
-      "(2) If lost on the road, taking a look at the kilometer signs to locate the present site and asking for help;",
-      "(3) When trapped by falling rocks, parking vehicles at the roadside without checking if the nearby area is safe or not."
-    ],
-    "correct_answer": "(3) When trapped by falling rocks, parking vehicles at the roadside without checking if the nearby area is safe or not.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #154. The correct safety requirement is: (3) When trapped by falling rocks, parking vehicles at the roadside without checking if the nearby area is safe or not.."
-  },
-  {
     "id": "MOTO_REG_MC_155",
     "official_num": 155,
     "category": "Motorcycle Regulations - Multiple Choice",
@@ -15150,21 +14940,6 @@
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #212. The correct safety requirement is: (3) They may apply to pay the fine in installments."
   },
   {
-    "id": "MOTO_REG_MC_213",
-    "official_num": 213,
-    "category": "Motorcycle Regulations - Multiple Choice",
-    "topic": "Traffic Regulations & Fine Laws",
-    "question": "Which of the following is considered a major traffic accident?",
-    "options": [
-      "(1) The death toll in the accident exceeds 3 people, the number of people injured and killed exceeds 10, or more than 15 people are injured",
-      "(2) The hazardous materials on a vehicle has exploded, or the hazardous gas or radioactive materials on a vehicle is leaking",
-      "(3) All of the above."
-    ],
-    "correct_answer": "(3) All of the above.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #213. The correct safety requirement is: (3) All of the above.."
-  },
-  {
     "id": "MOTO_REG_MC_214",
     "official_num": 214,
     "category": "Motorcycle Regulations - Multiple Choice",
@@ -15628,21 +15403,6 @@
     "correct_answer": "(1) bike lanes",
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #244. The correct safety requirement is: (1) bike lanes."
-  },
-  {
-    "id": "MOTO_REG_MC_245",
-    "official_num": 245,
-    "category": "Motorcycle Regulations - Multiple Choice",
-    "topic": "Traffic Regulations & Fine Laws",
-    "question": "When a driver's physical condition has changed and is no longer fit for having a driving license,",
-    "options": [
-      "(1) return the driving license to the local motor vehicle department",
-      "(2) it is not necessary to return the license",
-      "(3) if the reevaluation determines that the driver is still fit enough to drive, it is not necessary to return the driving license."
-    ],
-    "correct_answer": "(1) return the driving license to the local motor vehicle department",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #245. The correct safety requirement is: (1) return the driving license to the local motor vehicle department."
   },
   {
     "id": "MOTO_REG_MC_246",
@@ -17158,21 +16918,6 @@
     "correct_answer": "(2) When a person might be choking",
     "correct_index": 1,
     "explanation": "Official Taiwan THB Motorcycle Exam Rule #351. The correct safety requirement is: (2) When a person might be choking."
-  },
-  {
-    "id": "MOTO_REG_MC_352",
-    "official_num": 352,
-    "category": "Motorcycle Regulations - Multiple Choice",
-    "topic": "Traffic Regulations & Fine Laws",
-    "question": "When an injured person sustains heavy bleeding during an accident, which of the following first aid method is incorrect?",
-    "options": [
-      "(1) Determine the location of the bleeding, cut the clothes open, and then apply pressure to stop bleeding",
-      "(2) Use a tourniquet to stop bleeding and untie it every 15 to 20 minutes",
-      "(3) Place the wounded area below the heart  to reduce bleeding."
-    ],
-    "correct_answer": "(3) Place the wounded area below the heart  to reduce bleeding.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Exam Rule #352. The correct safety requirement is: (3) Place the wounded area below the heart  to reduce bleeding.."
   },
   {
     "id": "MOTO_REG_MC_353",
@@ -31204,22 +30949,6 @@
     "sign_image": "assets/moto_signs/moto_sign_mc_049.png"
   },
   {
-    "id": "MOTO_SIGN_MC_050",
-    "official_num": 50,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1) Minimum speed limit (2) Maximum speed limit (3) Vehicle gross weight limit",
-    "options": [
-      "(1) Minimum speed limit",
-      "(2) Maximum speed limit",
-      "(3) Vehicle gross weight limit"
-    ],
-    "correct_answer": "(2) Maximum speed limit",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #050. Correct sign identification: (2) Maximum speed limit.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_050.png"
-  },
-  {
     "id": "MOTO_SIGN_MC_051",
     "official_num": 51,
     "category": "Road Signs & Signals - Multiple Choice",
@@ -31362,22 +31091,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #059. Correct sign identification: (1) Provincial road number.",
     "sign_image": "assets/moto_signs/moto_sign_mc_059.png"
-  },
-  {
-    "id": "MOTO_SIGN_MC_060",
-    "official_num": 60,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1) Provincial road number (2) County road number (3) National freeway road number",
-    "options": [
-      "(1) Provincial road number",
-      "(2) County road number",
-      "(3) National freeway road number"
-    ],
-    "correct_answer": "(3) National freeway road number",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #060. Correct sign identification: (3) National freeway road number.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_060.png"
   },
   {
     "id": "MOTO_SIGN_MC_061",
@@ -31908,22 +31621,6 @@
     "sign_image": "assets/moto_signs/moto_sign_mc_093.png"
   },
   {
-    "id": "MOTO_SIGN_MC_094",
-    "official_num": 94,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1) Right lane closed (2) Left lane closed (3) Detour ahead",
-    "options": [
-      "(1) Right lane closed",
-      "(2) Left lane closed",
-      "(3) Detour ahead"
-    ],
-    "correct_answer": "(1) Right lane closed",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #094. Correct sign identification: (1) Right lane closed.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_094.png"
-  },
-  {
     "id": "MOTO_SIGN_MC_095",
     "official_num": 95,
     "category": "Road Signs & Signals - Multiple Choice",
@@ -32130,22 +31827,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #107. Correct sign identification: (1) Two-step right turn for bicycles and motorcycles.",
     "sign_image": "assets/moto_signs/moto_sign_mc_107.png"
-  },
-  {
-    "id": "MOTO_SIGN_MC_108",
-    "official_num": 108,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1) Two-step right turn for bicycles and motorcycles (2) Motorcycles Only (3) Two-step left turn for bicycles and motorcycles",
-    "options": [
-      "(1) Two-step right turn for bicycles and motorcycles",
-      "(2) Motorcycles Only",
-      "(3) Two-step left turn for bicycles and motorcycles"
-    ],
-    "correct_answer": "(3) Two-step left turn for bicycles and motorcycles",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #108. Correct sign identification: (3) Two-step left turn for bicycles and motorcycles.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_108.png"
   },
   {
     "id": "MOTO_SIGN_MC_109",
@@ -32356,22 +32037,6 @@
     "sign_image": "assets/moto_signs/moto_sign_mc_121.png"
   },
   {
-    "id": "MOTO_SIGN_MC_122",
-    "official_num": 122,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1)Location and distance sign (2)Direction and distance sign (3)Location and direction sign",
-    "options": [
-      "(1) Location and distance sign",
-      "(2) Direction and distance sign",
-      "(3) Location and direction sign"
-    ],
-    "correct_answer": "(2) Direction and distance sign",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #122. Correct sign identification: (2) Direction and distance sign.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_122.png"
-  },
-  {
     "id": "MOTO_SIGN_MC_123",
     "official_num": 123,
     "category": "Road Signs & Signals - Multiple Choice",
@@ -32436,22 +32101,6 @@
     "sign_image": "assets/moto_signs/moto_sign_mc_126.png"
   },
   {
-    "id": "MOTO_SIGN_MC_127",
-    "official_num": 127,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1)Pedestrian bridge(2)Pedestrian underpass(3)Parking area.",
-    "options": [
-      "(1) Pedestrian bridge",
-      "(2) Pedestrian underpass",
-      "(3) Parking area."
-    ],
-    "correct_answer": "(2) Pedestrian underpass",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #127. Correct sign identification: (2) Pedestrian underpass.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_127.png"
-  },
-  {
     "id": "MOTO_SIGN_MC_128",
     "official_num": 128,
     "category": "Road Signs & Signals - Multiple Choice",
@@ -32466,22 +32115,6 @@
     "correct_index": 2,
     "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #128. Correct sign identification: (3) Lane direction..",
     "sign_image": "assets/moto_signs/moto_sign_mc_128.png"
-  },
-  {
-    "id": "MOTO_SIGN_MC_129",
-    "official_num": 129,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "(1)U-turn (2)Chevron sign (turn warning sign) (3)Lane direction.",
-    "options": [
-      "(1) U-turn",
-      "(2) Chevron sign (turn warning sign)",
-      "(3) Lane direction."
-    ],
-    "correct_answer": "(2) Chevron sign (turn warning sign)",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #129. Correct sign identification: (2) Chevron sign (turn warning sign).",
-    "sign_image": "assets/moto_signs/moto_sign_mc_129.png"
   },
   {
     "id": "MOTO_SIGN_MC_130",
@@ -32834,22 +32467,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #151. Correct sign identification: (1) right turn.",
     "sign_image": "assets/moto_signs/moto_sign_mc_151.png"
-  },
-  {
-    "id": "MOTO_SIGN_MC_152",
-    "official_num": 152,
-    "category": "Road Signs & Signals - Multiple Choice",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "The bike rider’s hand gesture shows an upcoming",
-    "options": [
-      "(1) right turn",
-      "(2) left turn",
-      "(3) deceleration and pause"
-    ],
-    "correct_answer": "(3) deceleration and pause",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign Rule #152. Correct sign identification: (3) deceleration and pause.",
-    "sign_image": "assets/moto_signs/moto_sign_mc_152.png"
   },
   {
     "id": "MOTO_SIGN_TF_001",
@@ -33317,21 +32934,6 @@
     "sign_image": "assets/moto_signs/moto_sign_tf_031.png"
   },
   {
-    "id": "MOTO_SIGN_TF_032",
-    "official_num": 32,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Bicycles prohibited",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #032. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_032.png"
-  },
-  {
     "id": "MOTO_SIGN_TF_033",
     "official_num": 33,
     "category": "Road Signs & Signals - True/False",
@@ -33422,21 +33024,6 @@
     "sign_image": "assets/moto_signs/moto_sign_tf_038.png"
   },
   {
-    "id": "MOTO_SIGN_TF_039",
-    "official_num": 39,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Watch out for traffic signals",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(1) True.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #039. Statement for sign shown is CORRECT (True).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_039.png"
-  },
-  {
     "id": "MOTO_SIGN_TF_040",
     "official_num": 40,
     "category": "Road Signs & Signals - True/False",
@@ -33450,21 +33037,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #040. Statement for sign shown is CORRECT (True).",
     "sign_image": "assets/moto_signs/moto_sign_tf_040.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_041",
-    "official_num": 41,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Watch out for children",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #041. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_041.png"
   },
   {
     "id": "MOTO_SIGN_TF_042",
@@ -33690,21 +33262,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #056. Statement for sign shown is CORRECT (True).",
     "sign_image": "assets/moto_signs/moto_sign_tf_056.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_057",
-    "official_num": 57,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "First-aid station",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(1) True.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #057. Statement for sign shown is CORRECT (True).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_057.png"
   },
   {
     "id": "MOTO_SIGN_TF_058",
@@ -34007,36 +33564,6 @@
     "sign_image": "assets/moto_signs/moto_sign_tf_077.png"
   },
   {
-    "id": "MOTO_SIGN_TF_078",
-    "official_num": 78,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Road width changes",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(1) True.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #078. Statement for sign shown is CORRECT (True).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_078.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_079",
-    "official_num": 79,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Watch out for traffic signals",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #079. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_079.png"
-  },
-  {
     "id": "MOTO_SIGN_TF_080",
     "official_num": 80,
     "category": "Road Signs & Signals - True/False",
@@ -34292,21 +33819,6 @@
     "sign_image": "assets/moto_signs/moto_sign_tf_096.png"
   },
   {
-    "id": "MOTO_SIGN_TF_097",
-    "official_num": 97,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Flashing yellow light",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #097. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_097.png"
-  },
-  {
     "id": "MOTO_SIGN_TF_098",
     "official_num": 98,
     "category": "Road Signs & Signals - True/False",
@@ -34442,21 +33954,6 @@
     "sign_image": "assets/moto_signs/moto_sign_tf_106.png"
   },
   {
-    "id": "MOTO_SIGN_TF_107",
-    "official_num": 107,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Vehicles approaching from the left must turn left",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(1) True.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #107. Statement for sign shown is CORRECT (True).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_107.png"
-  },
-  {
     "id": "MOTO_SIGN_TF_108",
     "official_num": 108,
     "category": "Road Signs & Signals - True/False",
@@ -34530,21 +34027,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #112. Statement for sign shown is CORRECT (True).",
     "sign_image": "assets/moto_signs/moto_sign_tf_112.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_113",
-    "official_num": 113,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Road construction",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #113. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_113.png"
   },
   {
     "id": "MOTO_SIGN_TF_114",
@@ -34667,21 +34149,6 @@
     "sign_image": "assets/moto_signs/moto_sign_tf_121.png"
   },
   {
-    "id": "MOTO_SIGN_TF_122",
-    "official_num": 122,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Single lane road",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #122. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_122.png"
-  },
-  {
     "id": "MOTO_SIGN_TF_123",
     "official_num": 123,
     "category": "Road Signs & Signals - True/False",
@@ -34695,21 +34162,6 @@
     "correct_index": 0,
     "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #123. Statement for sign shown is CORRECT (True).",
     "sign_image": "assets/moto_signs/moto_sign_tf_123.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_124",
-    "official_num": 124,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Parking prohibited",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #124. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_124.png"
   },
   {
     "id": "MOTO_SIGN_TF_125",
@@ -34770,36 +34222,6 @@
     "correct_index": 1,
     "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #128. Statement for sign shown is INCORRECT (False).",
     "sign_image": "assets/moto_signs/moto_sign_tf_128.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_129",
-    "official_num": 129,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Provincial road number",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(1) True.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #129. Statement for sign shown is CORRECT (True).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_129.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_130",
-    "official_num": 130,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "National freeway number",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #130. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_130.png"
   },
   {
     "id": "MOTO_SIGN_TF_131",
@@ -35025,21 +34447,6 @@
     "correct_index": 1,
     "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #145. Statement for sign shown is INCORRECT (False).",
     "sign_image": "assets/moto_signs/moto_sign_tf_145.png"
-  },
-  {
-    "id": "MOTO_SIGN_TF_146",
-    "official_num": 146,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "Bicycles prohibited",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #146. Statement for sign shown is INCORRECT (False).",
-    "sign_image": "assets/moto_signs/moto_sign_tf_146.png"
   },
   {
     "id": "MOTO_SIGN_TF_147",
@@ -35327,21 +34734,6 @@
     "sign_image": null
   },
   {
-    "id": "MOTO_SIGN_TF_166",
-    "official_num": 166,
-    "category": "Road Signs & Signals - True/False",
-    "topic": "Traffic Signs, Markings & Signals",
-    "question": "charging station",
-    "options": [
-      "(1) True.",
-      "(2) False."
-    ],
-    "correct_answer": "(2) False.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Road Sign True/False Rule #166. Statement for sign shown is INCORRECT (False).",
-    "sign_image": null
-  },
-  {
     "id": "MOTO_SIGN_TF_167",
     "official_num": 167,
     "category": "Road Signs & Signals - True/False",
@@ -35594,23 +34986,6 @@
     "video_number": "4147"
   },
   {
-    "id": "MOTO_HP_007",
-    "official_num": 7,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, how should you ride more safely when you see a vehicle suddenly rushing out on the right side of the non-signaled intersection in front of you?",
-    "options": [
-      "(1) I should make good use of the advantages of the compactness and 3 on Video lightness of the motorcycle to cross the intersection first.",
-      "(2) Honk the horn to warn the other vehicles to avoid me and let me pass.",
-      "(3) Regardless of whether there are traffic signs or not, I should pay attention to the situation of the surrounding vehicles."
-    ],
-    "correct_answer": "(3) Regardless of whether there are traffic signs or not, I should pay attention to the situation of the surrounding vehicles.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4148. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B1EFC1jRba7tKklqgENJrGOuOtRUu7/yzOryCptR6y6m4_5egQ9L3iU0bwEskd1-Ws2A80EJHAs",
-    "video_number": "4148"
-  },
-  {
     "id": "MOTO_HP_008",
     "official_num": 8,
     "category": "Motorcycle Hazard Perception",
@@ -35643,23 +35018,6 @@
     "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4150. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
     "video_link": "https://space2.thb.gov.tw/d/s/x6B1Gr8Av3lEiDn1DgilveiEbzrFJVij/av8K8p9Y0SfHP7VRFIWSh9DZZUUZnmFe-XrFgNkcJHAs",
     "video_number": "4150"
-  },
-  {
-    "id": "MOTO_HP_010",
-    "official_num": 10,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, how should you ride more safely when you encounter a vehicle crossing the double yellow solid lines and overtaking in wrong-way?",
-    "options": [
-      "(1) Use the motorcycle's ABS device to gradually slow down and dodge in a safe direction.",
-      "(2) Keep driving in a fixed lane and maintain an appropriate speed.",
-      "(3) Use the motorcycle's ABS device to gradually slow down and dodge in a direction that has more vehicles."
-    ],
-    "correct_answer": "(1) Use the motorcycle's ABS device to gradually slow down and dodge in a safe direction.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4151. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B1INwCvtU00gDVAq4H7FQhEOcnPYlr/wKkhTOW2Cku4CMpiqR2bzA4Ry3nSdXZz-WcMAg-4JHAs",
-    "video_number": "4151"
   },
   {
     "id": "MOTO_HP_011",
@@ -36733,23 +36091,6 @@
     "video_number": "4214"
   },
   {
-    "id": "MOTO_HP_074",
-    "official_num": 74,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, if you need to change lanes due to a vehicle breakdown ahead of you, what should you do first?",
-    "options": [
-      "(1) Change lanes after putting on the high beams.",
-      "(2) Change lanes after putting on the turn signal, checking the rearview mirror, and turning my head to make sure the traffic is clear.",
-      "(3) Change lanes after honking the horn 19 on Video and signaling with my hands."
-    ],
-    "correct_answer": "(2) Change lanes after putting on the turn signal, checking the rearview mirror, and turning my head to make sure the traffic is clear.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4215. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B2kfnZ9YKQExdtgGQELYqjhCPwAwx1/eh-GqhhKZ6kSgIGItHC6GnXTBJQktRjj-Hc_gTc8OHAs",
-    "video_number": "4215"
-  },
-  {
     "id": "MOTO_HP_075",
     "official_num": 75,
     "category": "Motorcycle Hazard Perception",
@@ -36971,23 +36312,6 @@
     "video_number": "4228"
   },
   {
-    "id": "MOTO_HP_088",
-    "official_num": 88,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what is dangerous in the video?",
-    "options": [
-      "(1) The heavy truck makes a right turn, which could lead us into the dangerous area caused by the difference in radius between the inner wheels.",
-      "(2) The signal pole protrudes out of the lane and blocks traffic.",
-      "(3) The containers loaded 22 on Video on the container truck extend beyond the body of the truck, which affects safety when traveling."
-    ],
-    "correct_answer": "(1) The heavy truck makes a right turn, which could lead us into the dangerous area caused by the difference in radius between the inner wheels.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4229. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B30JriPWVgdCKiPdnnFc0NtSl3KbWv/sxBGYcTu4wBbV5ULrwzTfV3HFU6Gjs36-3btAJBkPHAs",
-    "video_number": "4229"
-  },
-  {
     "id": "MOTO_HP_089",
     "official_num": 89,
     "category": "Motorcycle Hazard Perception",
@@ -37020,57 +36344,6 @@
     "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4231. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
     "video_link": "https://space2.thb.gov.tw/d/s/x6B31snhajVDl11YR66twFm8ppyeI7bt/LggJP_U8Nxu-BQ2hZekRlIHnpxLq11Pg-_8dgaSQPHAs",
     "video_number": "4231"
-  },
-  {
-    "id": "MOTO_HP_091",
-    "official_num": 91,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what is the appropriate action to take?",
-    "options": [
-      "(1) Slow down, pay attention to the motion of the cyclist, and take necessary safety measures at any time.",
-      "(2) Honk the horn twice to alert the cyclist that I am about to overtake, and then speed up.",
-      "(3) Quickly switch to high beams once and switch back to remind oncoming traffic to turn on their headlights."
-    ],
-    "correct_answer": "(1) Slow down, pay attention to the motion of the cyclist, and take necessary safety measures at any time.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4232. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B32ydrStaLEdOipzlJh3N4cSUHRZPU/IPNOZct15RT3jfzpUt9xauZD0ekiwpAE-lb3ANSkPHAs",
-    "video_number": "4232"
-  },
-  {
-    "id": "MOTO_HP_092",
-    "official_num": 92,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what is the appropriate action to take?",
-    "options": [
-      "(1) Observe the motion of the pedestrians and reduce speed to pass.",
-      "(2) Honk the horn once to remind pedestrians to yield to me.",
-      "(3) Stop and yield the pedestrians to pass first."
-    ],
-    "correct_answer": "(3) Stop and yield the pedestrians to pass first.",
-    "correct_index": 2,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4233. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B3414o0XWPtE5WSzZFpBoZj0cjyeCD/fbOi-URWLVQKpmuZu8h5uIJL4-Ef4SyG-tMvAQi4PHAs",
-    "video_number": "4233"
-  },
-  {
-    "id": "MOTO_HP_093",
-    "official_num": 93,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what is the appropriate action to take?",
-    "options": [
-      "(1) Honk the horn to stop pedestrians from jaywalking.",
-      "(2) Reduce speed, observe the motion of pedestrians and be prepared to stop at any time.",
-      "(3) In line with the motion of the pedestrians on the roadside, shift to the left and dodge the pedestrians."
-    ],
-    "correct_answer": "(2) Reduce speed, observe the motion of pedestrians and be prepared to stop at any time.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4234. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/x6B34vhkgvrm3SaBPztASvLJoip8TC0J/GBmaRIlH5xOlf-F0PAuP-kVSwC6rLdDp-9s1AJDYPHAs",
-    "video_number": "4234"
   },
   {
     "id": "MOTO_HP_094",
@@ -37379,23 +36652,6 @@
     "video_number": "4252"
   },
   {
-    "id": "MOTO_HP_112",
-    "official_num": 112,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what dangers do you notice in the video?",
-    "options": [
-      "(1) The oncoming vehicle turning right did not yield to your vehicle, affecting your safety.",
-      "(2) The oncoming vehicle is not using its lights according to regulations, affecting your vehicle's safety.",
-      "(3) Pedestrians on the roadside are crossing the lane without following regulations, affecting your vehicle's safety."
-    ],
-    "correct_answer": "(1) The oncoming vehicle turning right did not yield to your vehicle, affecting your safety.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4253. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/zRAZcq2xL3CSdLknuxgoSrw7L8pUGtR0/eBV2qvTn-UJJB3lJSGKUZl5r4TzA7hHz-tMvA9L3Gigs",
-    "video_number": "4253"
-  },
-  {
     "id": "MOTO_HP_113",
     "official_num": 113,
     "category": "Motorcycle Hazard Perception",
@@ -37532,23 +36788,6 @@
     "video_number": "4261"
   },
   {
-    "id": "MOTO_HP_121",
-    "official_num": 121,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what action should you take at this moment?",
-    "options": [
-      "(1) Stop before the stop line, and proceed only after the car in front has cleared the way.",
-      "(2) Follow the car in front closely to avoid obstructing the traffic behind.",
-      "(3) You can pass immediately once the barrier rises."
-    ],
-    "correct_answer": "(1) Stop before the stop line, and proceed only after the car in front has cleared the way.",
-    "correct_index": 0,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4262. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/zRAZTrpxhhQRInlbzgTLBXKiQV7oaHzr/zo5SlJHBjBgFjLGJLrSBMay6RBqseRN7-9MYgpzXHigs",
-    "video_number": "4262"
-  },
-  {
     "id": "MOTO_HP_122",
     "official_num": 122,
     "category": "Motorcycle Hazard Perception",
@@ -37583,23 +36822,6 @@
     "video_number": "4264"
   },
   {
-    "id": "MOTO_HP_124",
-    "official_num": 124,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, what action should you take at this moment?",
-    "options": [
-      "(1) After yielding to pedestrians, move into the inner fast lane.",
-      "(2) After yielding to pedestrians, move into the outer fast lane.",
-      "(3) The pedestrian is moving 29 on Video slowly; you can accelerate and enter the motorcycle lane."
-    ],
-    "correct_answer": "(2) After yielding to pedestrians, move into the outer fast lane.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4265. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/zWIrxOVNULXLT5S3z8fBupAmqoaiZXBG/mBk06_bcTWQ8m5B2AYwpp22PeMBGUW7e-bctAh6zCjgs",
-    "video_number": "4265"
-  },
-  {
     "id": "MOTO_HP_125",
     "official_num": 125,
     "category": "Motorcycle Hazard Perception",
@@ -37615,22 +36837,5 @@
     "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4266. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
     "video_link": "https://space2.thb.gov.tw/d/s/zRAZWEjNbou2yeHalaDxCPtm4eQz2nOW/Xn_xq7OTA_ofgrJlVm5lkZQgq98dr_LQ-Ws1g71fHigs",
     "video_number": "4266"
-  },
-  {
-    "id": "MOTO_HP_126",
-    "official_num": 126,
-    "category": "Motorcycle Hazard Perception",
-    "topic": "Hazard Perception Video Scenarios",
-    "question": "As a motorcyclist, based on defensive driving principles, what action should you take at this moment?",
-    "options": [
-      "(1) There is unidentified debris on the road ahead in your lane, switch to the opposite lane to avoid it.",
-      "(2) There is unidentified debris on the road ahead in your lane; you should first slow down and approach, then ensure it is safe before passing through.",
-      "(3) There is unidentified debris on the road ahead in your lane; you should get off the vehicle and pass by pulling it."
-    ],
-    "correct_answer": "(2) There is unidentified debris on the road ahead in your lane; you should first slow down and approach, then ensure it is safe before passing through.",
-    "correct_index": 1,
-    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4267. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
-    "video_link": "https://space2.thb.gov.tw/d/s/zRAZX8eMGYjLMPAZcxGREX1cVyDDJhQs/J9t5kJ_k_7zjYXB67suGfrRTahvKsWD--6sUAZWLHigs",
-    "video_number": "4267"
   }
 ]
