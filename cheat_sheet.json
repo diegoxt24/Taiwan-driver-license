@@ -1,14 +1,14 @@
 [
   {
-    "category": "⚡ Absolute High-Yield Numerical Formulas",
+    "category": "⚡ Absolute High-Yield Speed Limits & Distances",
     "items": [
-      {"label": "Urban Road Default Speed Limit", "value": "50 km/h (unless signed otherwise)"},
+      {"label": "Urban Road Speed Limit (Unmarked)", "value": "50 km/h"},
       {"label": "Slow Lane & Narrow Road Speed Limit", "value": "40 km/h"},
-      {"label": "Railroad Level Crossing Approach Speed", "value": "15 km/h (Stop before tracks if lights flash)"},
-      {"label": "Speed vs. Braking Physics", "value": "Doubling speed quadruples (4x) required stopping distance"},
-      {"label": "Pedestrian Crosswalk Stopping Distance", "value": "Stop at least 3 meters (approx. 4 zebra stripes width) before crosswalk"},
-      {"label": "Turn Signal Advance Distance", "value": "Activate turn signals at least 30 meters before turning/changing lanes"},
-      {"label": "Prohibited Stopping Zone Distance", "value": "Prohibited within 10 meters of intersections, bus stops, or fire hydrants"}
+      {"label": "Railroad Level Crossing Approach Speed", "value": "15 km/h"},
+      {"label": "Speed vs. Braking Distance Physics", "value": "Doubling speed quadruples (4x) required braking distance"},
+      {"label": "Pedestrian Crosswalk Stopping Distance", "value": "Stop at least 3 meters (4 zebra stripes width) before crosswalk"},
+      {"label": "Turn Signal Advance Distance", "value": "Activate turn signals at least 30 meters prior to turning/lane change"},
+      {"label": "Prohibited Stopping Zone Distance", "value": "Prohibited within 10 meters of intersections, bus stops, or hydrants"}
     ]
   },
   {
@@ -19,47 +19,45 @@
       {"label": "Small Light Motorcycle Weight Limit", "value": "Max 30 kg"},
       {"label": "Regular Light Motorcycle Weight Limit", "value": "Max 60 kg"},
       {"label": "Heavy Motorcycle Weight Limit", "value": "Max 90 kg"},
-      {"label": "Tire Tread Minimum Depth (Motorcycle)", "value": "1.0 mm (worn to indicator fails inspection)"},
+      {"label": "Minimum Tire Tread Depth (Motorcycle)", "value": "1.0 mm (worn to indicator fails inspection)"},
       {"label": "Helmet Standards", "value": "Must wear BSMI approved helmet with fastened chinstrap"}
     ]
   },
   {
-    "category": "🍷 Alcohol BAC Limits & Fines",
+    "category": "🍷 Drunk Driving Fines & Demerit Points",
     "items": [
       {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
       {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
       {"label": "Motorcycle Drunk Driving Fine", "value": "NT$15,000 to NT$90,000 + License suspension"},
       {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
-      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Escalating max fine + License revocation + Public photo disclosure"},
-      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty"}
+      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Max fine + License revocation + Public photo disclosure"},
+      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint fine"}
     ]
   },
   {
-    "category": "🚑 Emergency First Aid & CPR Protocol",
+    "category": "📱 Fine Amounts & Demerit Points",
+    "items": [
+      {"label": "Running Red Light Penalty (Motorcycle)", "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"},
+      {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine for operating handheld phone while riding"},
+      {"label": "Demerit Points License Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months suspension"}
+    ]
+  },
+  {
+    "category": "🚑 First Aid, CPR & Emergency Protocol",
     "items": [
       {"label": "First Aid Priority Order", "value": "1. Airway (B) → 2. Bleeding (A) → 3. Fracture (C)"},
       {"label": "CPR Compression to Ventilation Ratio", "value": "30 Chest Compressions : 2 Rescue Breaths (30:2)"},
       {"label": "CPR Chest Compression Rate & Depth", "value": "100 to 120 compressions per minute; 5 to 6 cm depth"},
-      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head or move neck)"},
+      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head)"},
       {"label": "Railroad Breakdown SOS 3-Step Action", "value": "1. Press Red Emergency Button → 2. Push vehicle clear → 3. Run clear"}
     ]
   },
   {
-    "category": "🛑 Right-of-Way & Priority Rules",
+    "category": "🛑 Right-of-Way & Road Markings",
     "items": [
       {"label": "Straight vs. Turning Priority", "value": "Straight-going motorcycle has absolute priority over turning vehicle"},
-      {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle from opposite direction"},
+      {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle"},
       {"label": "Equal Width Unsignalized Intersection", "value": "Yield to vehicle approaching from your RIGHT side"},
-      {"label": "Branch Road vs. Main Road", "value": "Branch/side road riders MUST stop and yield to main road traffic"},
-      {"label": "Sirens & Emergency Vehicles", "value": "Pull right and yield immediately (Failure = License revocation)"}
-    ]
-  },
-  {
-    "category": "📱 Fines, Demerit Points & Riding Laws",
-    "items": [
-      {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine for operating handheld phone while riding"},
-      {"label": "Demerit Points Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months license suspension"},
-      {"label": "Running Red Light Penalty", "value": "Administrative fine + 3 demerit points"},
       {"label": "Solid Red Line Road Marking", "value": "No temporary stopping or parking 24 hours a day"},
       {"label": "Solid Yellow Line Road Marking", "value": "No parking 7 AM to 8 PM (temporary stopping <3 min allowed)"},
       {"label": "Double Solid Yellow Line", "value": "No crossing, straddling, or U-turns under any circumstances"}
