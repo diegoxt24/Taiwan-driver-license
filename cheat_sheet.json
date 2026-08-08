@@ -1,178 +1,68 @@
 [
   {
-    "category": "Dimensions & Cargo Rules",
-    "icon": "fa-ruler-combined",
+    "category": "⚡ Absolute High-Yield Numerical Formulas",
     "items": [
-      {
-        "label": "Cargo Height Limit",
-        "val": "Must not exceed rider's shoulders (or total vehicle height 2.0 meters)."
-      },
-      {
-        "label": "Cargo Width Limit",
-        "val": "Must not extend beyond outer edge of handlebar by more than 10 cm."
-      },
-      {
-        "label": "Cargo Rear Extension",
-        "val": "Must not extend beyond rear wheel axle by more than 50 cm (0.5 meters)."
-      },
-      {
-        "label": "Heavy Motorcycle Cargo Weight",
-        "val": "Max 80 kg."
-      },
-      {
-        "label": "Light Motorcycle Cargo Weight",
-        "val": "Max 50 kg."
-      },
-      {
-        "label": "Small Light-Duty Motorcycle Weight",
-        "val": "Max 70 kg or less (including battery)."
-      }
+      {"label": "Urban Road Default Speed Limit", "value": "50 km/h (unless signed otherwise)"},
+      {"label": "Slow Lane & Narrow Road Speed Limit", "value": "40 km/h"},
+      {"label": "Railroad Level Crossing Approach Speed", "value": "15 km/h (Stop before tracks if lights flash)"},
+      {"label": "Speed vs. Braking Physics", "value": "Doubling speed quadruples (4x) required stopping distance"},
+      {"label": "Pedestrian Crosswalk Stopping Distance", "value": "Stop at least 3 meters (approx. 4 zebra stripes width) before crosswalk"},
+      {"label": "Turn Signal Advance Distance", "value": "Activate turn signals at least 30 meters before turning/changing lanes"},
+      {"label": "Prohibited Stopping Zone Distance", "value": "Prohibited within 10 meters of intersections, bus stops, or fire hydrants"}
     ]
   },
   {
-    "category": "Speed Limits & Distance Rules",
-    "icon": "fa-tachometer-alt",
+    "category": "📦 Motorcycle Cargo Loading Limits",
     "items": [
-      {
-        "label": "Roads without signs/markings",
-        "val": "Max 50 km/h."
-      },
-      {
-        "label": "Slow lane (separated fast/slow lanes)",
-        "val": "Max 40 km/h."
-      },
-      {
-        "label": "Roads without lane lines / double yellow",
-        "val": "Max 40 km/h (or 30 km/h on roads without broken yellow lines)."
-      },
-      {
-        "label": "Approaching Railroad Level Crossing",
-        "val": "Must reduce speed to 15 km/h or less."
-      },
-      {
-        "label": "Passing Distance between vehicles",
-        "val": "At least 0.5 meters apart."
-      },
-      {
-        "label": "Distance from Parked Vehicles",
-        "val": "Maintain at least 1.0 meter (width of a car door)."
-      },
-      {
-        "label": "Prohibited Stopping Distance",
-        "val": "Within 10 meters of intersections, bus stops, or fire hydrants."
-      }
+      {"label": "Cargo Rear Extension Limit", "value": "Max 50 cm beyond rear wheel axle"},
+      {"label": "Cargo Width Extension Limit", "value": "Max 10 cm beyond handlebar outer edges"},
+      {"label": "Small Light Motorcycle Weight Limit", "value": "Max 30 kg"},
+      {"label": "Regular Light Motorcycle Weight Limit", "value": "Max 60 kg"},
+      {"label": "Heavy Motorcycle Weight Limit", "value": "Max 90 kg"},
+      {"label": "Tire Tread Minimum Depth (Motorcycle)", "value": "1.0 mm (worn to indicator fails inspection)"},
+      {"label": "Helmet Standards", "value": "Must wear BSMI approved helmet with fastened chinstrap"}
     ]
   },
   {
-    "category": "Alcohol & Impaired Driving Fines",
-    "icon": "fa-wine-bottle",
+    "category": "🍷 Alcohol BAC Limits & Fines",
     "items": [
-      {
-        "label": "Legal Breath Alcohol (BAC) Limit",
-        "val": "0.15 mg/L (or 0.03% blood alcohol)."
-      },
-      {
-        "label": "First Drunk Driving Offense",
-        "val": "Fine NT$15,000–90,000, 1–2 year license suspension, 2-year plate suspension."
-      },
-      {
-        "label": "2nd Offense within 10 years",
-        "val": "Fine NT$90,000, 3-year license revocation, mandatory safety course."
-      },
-      {
-        "label": "Refusing Sobriety Test",
-        "val": "Fine NT$180,000, license revocation, vehicle impounded."
-      },
-      {
-        "label": "Vehicle Owner Liability",
-        "val": "If owner knowingly allows drunk riding, motorcycle license plate suspended for 2 years."
-      }
+      {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
+      {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
+      {"label": "Motorcycle Drunk Driving Fine", "value": "NT$15,000 to NT$90,000 + License suspension"},
+      {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
+      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Escalating max fine + License revocation + Public photo disclosure"},
+      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty"}
     ]
   },
   {
-    "category": "Fines & Demerit Points",
-    "icon": "fa-exclamation-triangle",
+    "category": "🚑 Emergency First Aid & CPR Protocol",
     "items": [
-      {
-        "label": "Running a Red Light",
-        "val": "Fine NT$1,800–5,400 + 3 demerit points."
-      },
-      {
-        "label": "Using Handheld Phone while Riding",
-        "val": "Fine NT$1,000."
-      },
-      {
-        "label": "12 Demerit Points in 1 Year",
-        "val": "2-month license suspension."
-      },
-      {
-        "label": "Accumulating Demerit Points after 2 Suspensions",
-        "val": "Driving license Revocation."
-      },
-      {
-        "label": "Temporary Parking Rules",
-        "val": "Max 3 minutes, driver ready to move vehicle at any time."
-      },
-      {
-        "label": "Signal Before Turning",
-        "val": "Turn on turn signal at least 30 meters before turning/changing lanes."
-      }
+      {"label": "First Aid Priority Order", "value": "1. Airway (B) → 2. Bleeding (A) → 3. Fracture (C)"},
+      {"label": "CPR Compression to Ventilation Ratio", "value": "30 Chest Compressions : 2 Rescue Breaths (30:2)"},
+      {"label": "CPR Chest Compression Rate & Depth", "value": "100 to 120 compressions per minute; 5 to 6 cm depth"},
+      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head or move neck)"},
+      {"label": "Railroad Breakdown SOS 3-Step Action", "value": "1. Press Red Emergency Button → 2. Push vehicle clear → 3. Run clear"}
     ]
   },
   {
-    "category": "Vehicle Maintenance & Safety Gear",
-    "icon": "fa-motorcycle",
+    "category": "🛑 Right-of-Way & Priority Rules",
     "items": [
-      {
-        "label": "Min Tire Tread Depth",
-        "val": "Must be at least 1.0 mm (replace when aligned with wear indicator)."
-      },
-      {
-        "label": "Tire Age Limit",
-        "val": "Recommended replacement within 6 years of manufacture."
-      },
-      {
-        "label": "Helmet Requirements",
-        "val": "Must have BSMI certification label, fit properly, chinstrap fastened tightly under chin. Must replace after heavy impact."
-      },
-      {
-        "label": "Horn Usage Rule",
-        "val": "Each tap max 0.5 seconds, max 3 consecutive taps."
-      },
-      {
-        "label": "Passengers",
-        "val": "Max 1 passenger on heavy/ordinary light motorcycles with fixed rear seat. NO side-saddle riding. Small light motorcycles: NO passengers."
-      }
+      {"label": "Straight vs. Turning Priority", "value": "Straight-going motorcycle has absolute priority over turning vehicle"},
+      {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle from opposite direction"},
+      {"label": "Equal Width Unsignalized Intersection", "value": "Yield to vehicle approaching from your RIGHT side"},
+      {"label": "Branch Road vs. Main Road", "value": "Branch/side road riders MUST stop and yield to main road traffic"},
+      {"label": "Sirens & Emergency Vehicles", "value": "Pull right and yield immediately (Failure = License revocation)"}
     ]
   },
   {
-    "category": "Emergency & First Aid (CPR / AED)",
-    "icon": "fa-heartbeat",
+    "category": "📱 Fines, Demerit Points & Riding Laws",
     "items": [
-      {
-        "label": "CPR Compression-to-Ventilation Ratio",
-        "val": "30 compressions : 2 breaths."
-      },
-      {
-        "label": "CPR Compression Rate & Depth",
-        "val": "At least 100 compressions/min, depth at least 5 cm on central sternum."
-      },
-      {
-        "label": "Brain Damage Window",
-        "val": "Brain damage occurs within 4 to 6 minutes of cardiac/respiratory arrest."
-      },
-      {
-        "label": "Evaluation Interval during CPR",
-        "val": "Check pulse/breathing every 2 minutes."
-      },
-      {
-        "label": "Spinal Injury Airway Clear",
-        "val": "Use Jaw-thrust maneuver (do NOT tilt head)."
-      },
-      {
-        "label": "Heimlich Maneuver Position",
-        "val": "Place fist between navel and sternum."
-      }
+      {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine for operating handheld phone while riding"},
+      {"label": "Demerit Points Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months license suspension"},
+      {"label": "Running Red Light Penalty", "value": "Administrative fine + 3 demerit points"},
+      {"label": "Solid Red Line Road Marking", "value": "No temporary stopping or parking 24 hours a day"},
+      {"label": "Solid Yellow Line Road Marking", "value": "No parking 7 AM to 8 PM (temporary stopping <3 min allowed)"},
+      {"label": "Double Solid Yellow Line", "value": "No crossing, straddling, or U-turns under any circumstances"}
     ]
   }
 ]

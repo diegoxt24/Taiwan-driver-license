@@ -1,158 +1,76 @@
 [
   {
-    "category": "Car Dimensions & Loading Rules",
-    "icon": "fa-car-side",
+    "category": "⚡ Absolute High-Yield Numerical Formulas",
     "items": [
-      {
-        "label": "Car Cargo Length Limit",
-        "val": "Must not extend beyond front or rear bumpers by more than 30 cm (or max total length 12 meters)."
-      },
-      {
-        "label": "Car Cargo Width Limit",
-        "val": "Must not extend beyond vehicle body width (max width 2.5 meters)."
-      },
-      {
-        "label": "Car Cargo Height Limit",
-        "val": "Small passenger cars max 2.5 meters from ground; trucks max 3.8 meters."
-      },
-      {
-        "label": "Child Safety Seat Law",
-        "val": "Children under 4 years old (or under 18 kg) MUST use an approved rear-facing/child safety seat in the REAR seat."
-      },
-      {
-        "label": "Front Passenger Seat Age Limit",
-        "val": "Children under 12 years old are PROHIBITED from sitting in the front passenger seat."
-      }
+      {"label": "Urban Road Default Speed Limit", "value": "50 km/h (unless signed otherwise)"},
+      {"label": "Slow Lane & Narrow Road Speed Limit", "value": "40 km/h"},
+      {"label": "Railroad Level Crossing Approach Speed", "value": "15 km/h (Stop before tracks if lights flash)"},
+      {"label": "Freeway Small Car Safe Distance Formula", "value": "Speed (km/h) ÷ 2 = Distance in meters (e.g. 100 km/h = 50m)"},
+      {"label": "Speed vs. Braking Physics", "value": "Doubling speed quadruples (4x) required stopping distance"},
+      {"label": "Pedestrian Crosswalk Stopping Distance", "value": "Stop at least 3 meters (approx. 4 zebra stripes width) before crosswalk"},
+      {"label": "Turn Signal Advance Distance", "value": "Activate turn signals at least 30 meters before turning/changing lanes"},
+      {"label": "Freeway Breakdown Warning Triangle Distance", "value": "Place triangle 100 meters behind vehicle (30-100m on ordinary roads)"},
+      {"label": "Continuous Driving Limit", "value": "Max 8 hours continuous driving"},
+      {"label": "Prohibited Stopping Zone Distance", "value": "Prohibited within 10 meters of intersections, bus stops, or fire hydrants"}
     ]
   },
   {
-    "category": "Car Speed Limits & Distance Rules",
-    "icon": "fa-tachometer-alt",
+    "category": "🍷 Alcohol BAC Limits & Fines (Strict Penalties)",
     "items": [
-      {
-        "label": "Urban / Unmarked Roads",
-        "val": "Max 50 km/h."
-      },
-      {
-        "label": "Slow Lane / Narrow Lanes",
-        "val": "Max 40 km/h."
-      },
-      {
-        "label": "Freeway / Expressway Max Speed",
-        "val": "100 - 110 km/h (National Freeway 1 & 3 standard)."
-      },
-      {
-        "label": "Freeway Min Speed (Inner Lane)",
-        "val": "Must maintain highest speed limit (usually 90 - 110 km/h depending on segment)."
-      },
-      {
-        "label": "Following Distance (Dry Road)",
-        "val": "Speed (km/h) ÷ 2 in meters (e.g. 100 km/h = 50 meters distance)."
-      },
-      {
-        "label": "Following Distance (Wet / Rain)",
-        "val": "Double the standard following distance."
-      },
-      {
-        "label": "Approaching Railroad Level Crossing",
-        "val": "Max 15 km/h, stop at least 3 to 6 meters before crossing when signal flashes."
-      }
+      {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
+      {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
+      {"label": "Car Drunk Driving Administrative Fine", "value": "NT$30,000 to NT$120,000 + License suspension"},
+      {"label": "Motorcycle Drunk Driving Fine", "value": "NT$15,000 to NT$90,000"},
+      {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
+      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Escalating max fine + License revocation + Public photo disclosure"},
+      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty"},
+      {"label": "Ignition Interlock Device (Alcohol Lock)", "value": "Mandatory installation upon re-applying for license after DUI revocation"}
     ]
   },
   {
-    "category": "Freeway & Expressway Specific Laws",
-    "icon": "fa-road",
+    "category": "📦 Cargo Loading & Dimension Limits",
     "items": [
-      {
-        "label": "Shoulder Driving Prohibition",
-        "val": "Driving on hard shoulder is PROHIBITED unless signs open shoulder or in breakdown emergencies."
-      },
-      {
-        "label": "Breakdown Warning Sign Distance",
-        "val": "Place warning triangle 100 meters behind vehicle on freeway (30-100m on ordinary roads)."
-      },
-      {
-        "label": "Lane Change Signal Requirement",
-        "val": "Signal at least 100 meters before changing lanes on expressways."
-      },
-      {
-        "label": "Seatbelt Enforcement",
-        "val": "ALL occupants (front and rear) MUST wear seatbelts at all times."
-      }
+      {"label": "Motorcycle Cargo Rear Extension Limit", "value": "Max 50 cm beyond rear wheel axle"},
+      {"label": "Motorcycle Cargo Width Extension Limit", "value": "Max 10 cm beyond handlebar outer edges"},
+      {"label": "Motorcycle Cargo Weight Limits", "value": "Small Light = 30 kg | Regular Light = 60 kg | Heavy = 90 kg"},
+      {"label": "Car Cargo Height Limit", "value": "Max 1.5 times vehicle width, not exceeding 2.85 meters"},
+      {"label": "Tire Tread Minimum Depth (Car)", "value": "1.6 mm (worn to tread wear indicator fails inspection)"},
+      {"label": "Tire Tread Minimum Depth (Motorcycle)", "value": "1.0 mm"}
     ]
   },
   {
-    "category": "Drunk Driving & Severe Violations",
-    "icon": "fa-wine-bottle",
+    "category": "🚑 Emergency First Aid & CPR Protocol",
     "items": [
-      {
-        "label": "Legal Breath Alcohol (BAC) Limit",
-        "val": "0.15 mg/L (or 0.03% blood alcohol)."
-      },
-      {
-        "label": "Car Drunk Driving Fine (First Offense)",
-        "val": "Fine NT$30,000–120,000, 1–2 year license suspension, vehicle impounded."
-      },
-      {
-        "label": "2nd Offense within 10 years",
-        "val": "Fine NT$120,000, license revoked for 3 years, mandatory safety course."
-      },
-      {
-        "label": "Refusing Sobriety Test",
-        "val": "Fine NT$180,000, immediate license revocation, vehicle impounded."
-      },
-      {
-        "label": "Drunk Driving Passenger Penalty",
-        "val": "Passengers over 18 in drunk driver's car fined NT$6,000–15,000."
-      }
+      {"label": "First Aid Priority Order", "value": "1. Airway (B) → 2. Bleeding (A) → 3. Fracture (C)"},
+      {"label": "CPR Compression to Ventilation Ratio", "value": "30 Chest Compressions : 2 Rescue Breaths (30:2)"},
+      {"label": "CPR Chest Compression Rate & Depth", "value": "100 to 120 compressions per minute; 5 to 6 cm depth"},
+      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head or move neck)"},
+      {"label": "Brain Damage Window", "value": "4 to 6 minutes without oxygen causes irreversible brain damage"},
+      {"label": "Railroad Breakdown SOS 3-Step Action", "value": "1. Press Red Emergency Button → 2. Push vehicle clear → 3. Run clear"}
     ]
   },
   {
-    "category": "Fines, Demerits & Vehicle Maintenance",
-    "icon": "fa-exclamation-triangle",
+    "category": "🛑 Right-of-Way & Mandatory Priority Rules",
     "items": [
-      {
-        "label": "Min Tire Tread Depth (Car)",
-        "val": "At least 1.6 mm across tread grooves (inspected during periodic inspection)."
-      },
-      {
-        "label": "Handheld Phone Fine (Car)",
-        "val": "Fine NT$3,000 when driving a car."
-      },
-      {
-        "label": "Running Red Light (Car)",
-        "val": "Fine NT$2,700–5,400 + 3 demerit points."
-      },
-      {
-        "label": "Opening Car Door Accident Fine",
-        "val": "Fine NT$2,400–4,800 if opening door without checking rear causing accident."
-      },
-      {
-        "label": "12 Demerit Points in 1 Year",
-        "val": "2-month driver license suspension."
-      }
+      {"label": "Straight vs. Turning Priority", "value": "Straight-going vehicle has absolute priority over turning vehicle"},
+      {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle from opposite direction"},
+      {"label": "Equal Width Unsignalized Intersection", "value": "Yield to vehicle approaching from your RIGHT side"},
+      {"label": "Branch Road vs. Main Road", "value": "Branch/side road vehicles MUST stop and yield to main road traffic"},
+      {"label": "Roundabout Priority", "value": "Entering vehicles MUST yield to traffic inside the roundabout"},
+      {"label": "Sirens & Emergency Vehicles", "value": "Pull right and yield immediately (Failure = License revocation)"}
     ]
   },
   {
-    "category": "Emergency & First Aid (CPR / AED)",
-    "icon": "fa-heartbeat",
+    "category": "📱 Fines, Demerit Points & Driving Laws",
     "items": [
-      {
-        "label": "CPR Compression-to-Ventilation Ratio",
-        "val": "30 compressions : 2 breaths."
-      },
-      {
-        "label": "CPR Compression Depth & Rate",
-        "val": "At least 5 to 6 cm depth, 100-120 compressions per minute."
-      },
-      {
-        "label": "Brain Oxygen Deprivation Window",
-        "val": "Irreversible brain damage starts after 4-6 minutes."
-      },
-      {
-        "label": "AED Shock Protocol",
-        "val": "Ensure nobody is touching the patient before pressing SHOCK button."
-      }
+      {"label": "Handheld Mobile Phone Fine (Car)", "value": "NT$3,000 fine for operating handheld device while driving"},
+      {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine"},
+      {"label": "Cigarette Smoking While Driving Fine", "value": "NT$1,200 fine if affecting others"},
+      {"label": "Demerit Points Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months license suspension"},
+      {"label": "Running Red Light Penalty", "value": "Administrative fine + 3 demerit points"},
+      {"label": "Solid Red Line Road Marking", "value": "No temporary stopping or parking 24 hours a day"},
+      {"label": "Solid Yellow Line Road Marking", "value": "No parking 7 AM to 8 PM (temporary stopping <3 min allowed)"},
+      {"label": "Double Solid Yellow Line", "value": "No crossing, straddling, or U-turns under any circumstances"}
     ]
   }
 ]
