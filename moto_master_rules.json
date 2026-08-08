@@ -5,14 +5,14 @@
     "summary": "Default speed limit on urban roads without speed limit signs is 50 km/h.",
     "key_fact": "1. Urban Road Speed Limit (50 km/h)",
     "diagram": "speed_limit_50",
-    "canonical_question": "When riding a motorcycle in a slow lane separated by fast and slow lane markings, the speed must not exceed",
+    "canonical_question": "The higher the speed, the parking distance is:",
     "canonical_options": [
-      "(1) 30 km/h",
-      "(2) 40 km/h",
-      "(3) 50 km/h."
+      "(1) unchanged",
+      "(2) shorter",
+      "(3) longer."
     ],
-    "canonical_correct": "(2) 40 km/h",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) longer.",
+    "canonical_correct_index": 2,
     "matched_question_count": 275,
     "matched_question_ids": [
       "MOTO_MAIN_0021",
@@ -298,14 +298,14 @@
     "summary": "Designated slow lanes and narrow roads without dividing lines have a max speed limit of 40 km/h.",
     "key_fact": "2. Slow Lane & Narrow Road Speed Limit (40 km/h)",
     "diagram": "speed_limit_40",
-    "canonical_question": "When riding a motorcycle in a slow lane separated by fast and slow lane markings, the speed must not exceed",
+    "canonical_question": "The higher the speed, the parking distance is:",
     "canonical_options": [
-      "(1) 30 km/h",
-      "(2) 40 km/h",
-      "(3) 50 km/h."
+      "(1) unchanged",
+      "(2) shorter",
+      "(3) longer."
     ],
-    "canonical_correct": "(2) 40 km/h",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) longer.",
+    "canonical_correct_index": 2,
     "matched_question_count": 275,
     "matched_question_ids": [
       "MOTO_MAIN_0021",
@@ -611,14 +611,14 @@
     "summary": "Use low gear engine braking on downhill slopes; avoid excessive foot braking to prevent brake fade.",
     "key_fact": "4. Downhill & Long Slope Engine Braking",
     "diagram": "braking_physics",
-    "canonical_question": "When two vehicles meet on a steep and narrow slope, you should:",
+    "canonical_question": "When driving downhill:",
     "canonical_options": [
-      "(1) The vehicle going downhill yields to the vehicle going uphill first",
-      "(2) The vehicle going uphill yields to the vehicle going downhill first",
-      "(3) No need to yield."
+      "(1) you may turn off the ignition and coast in neutral",
+      "(2) you must not turn off the engine and coast in neutral",
+      "(3) there is no regulation."
     ],
-    "canonical_correct": "(1) The vehicle going downhill yields to the vehicle going uphill first",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) you must not turn off the engine and coast in neutral",
+    "canonical_correct_index": 1,
     "matched_question_count": 27,
     "matched_question_ids": [
       "MOTO_MAIN_0024",
@@ -656,13 +656,13 @@
     "summary": "Braking distance is proportional to speed squared. Doubling speed quadruples required braking distance.",
     "key_fact": "5. Speed vs. Braking Physics (Double Speed = 4x Distance)",
     "diagram": "braking_physics",
-    "canonical_question": "Excessive tire wear",
+    "canonical_question": "The higher the speed, the parking distance is:",
     "canonical_options": [
-      "(1) does not cause danger",
-      "(2) provides more comfortable riding",
-      "(3) affects vehicle steering and braking distance."
+      "(1) unchanged",
+      "(2) shorter",
+      "(3) longer."
     ],
-    "canonical_correct": "(3) affects vehicle steering and braking distance.",
+    "canonical_correct": "(3) longer.",
     "canonical_correct_index": 2,
     "matched_question_count": 148,
     "matched_question_ids": [
@@ -865,14 +865,14 @@
     "summary": "Drunk driving for car drivers incurs fines from NT$30,000 to NT$120,000 plus license suspension.",
     "key_fact": "8. Drunk Driving Administrative Fines (NT$30,000 ~ NT$120,000)",
     "diagram": "alcohol_limit",
-    "canonical_question": "If the motorcycle owner knowingly allows a driver whose blood alcohol concentration exceeds the legal limit to operate the motorcycle without prohibiting them, the owner shall be fined NTD:",
+    "canonical_question": "If a motorcycle driver is tested and confirmed for drunk driving for the second time within 10 years, the motorcycle will be immediately impounded, the driver's license revoked for 3 years, and a fine of New Taiwan Dollars",
     "canonical_options": [
-      "(1) 15,000 or more but less than 90,000",
-      "(2) 30,000 or more but less than 120,000",
-      "(3) 6,000 or more but less than 12,000."
+      "(1) 60,000",
+      "(2) 90,000",
+      "(3) 120,000 will be imposed."
     ],
-    "canonical_correct": "(1) 15,000 or more but less than 90,000",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) 90,000",
+    "canonical_correct_index": 1,
     "matched_question_count": 13,
     "matched_question_ids": [
       "MOTO_MAIN_0097",
@@ -896,14 +896,14 @@
     "summary": "Repeat drunk driving within 10 years results in maximum fines, license revocation, and public disclosure.",
     "key_fact": "9. Repeat Drunk Driving within 10 Years",
     "diagram": "alcohol_limit",
-    "canonical_question": "If a motorcycle driver is tested and confirmed for drunk driving for the second time within 10 years, the motorcycle will be immediately impounded, the driver's license revoked for 3 years, and a fine of New Taiwan Dollars",
+    "canonical_question": "For a motorcyclist reported for violating drunk driving laws, under which violation will the driver be fined NTD 90,000, have their license revoked for 3 years, and be required to attend road traffic safety education?",
     "canonical_options": [
-      "(1) 60,000",
-      "(2) 90,000",
-      "(3) 120,000 will be imposed."
+      "(1) Second offense of drunk driving reported within 10 years",
+      "(2) Failure to stop for breathalyzer inspection as instructed or refusal to take the test",
+      "(3) All of the above."
     ],
-    "canonical_correct": "(2) 90,000",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(1) Second offense of drunk driving reported within 10 years",
+    "canonical_correct_index": 0,
     "matched_question_count": 19,
     "matched_question_ids": [
       "MOTO_MAIN_0094",
@@ -955,13 +955,13 @@
     "summary": "Passengers riding in a vehicle operated by an intoxicated driver are fined NT$6,000 to NT$15,000.",
     "key_fact": "11. Passengers Joint Fine for Drunk Driving",
     "diagram": "alcohol_limit",
-    "canonical_question": "The motorcycle has compulsory automobile liability insurance. The driver, after drinking alcohol, rides the motorcycle carrying a friend home and crashes into a utility pole while taking a curve too fast. Both are injured. Can they apply for insurance compensation?",
+    "canonical_question": "Regarding carrying passengers or items on a motorcycle, which of the following is incorrect?\\",
     "canonical_options": [
-      "(1) Both can apply",
-      "(2) Neither can apply",
-      "(3) Only the passenger can apply."
+      "(1) Small and light motorcycles are not allowed to carry passengers; heavy and ordinary light motorcycles may carry one passenger if there is a fixed seat behind the driver.\\",
+      "(2) When carrying a passenger, no additional items may be carried.\\",
+      "(3) Passengers may sit sideways."
     ],
-    "canonical_correct": "(3) Only the passenger can apply.",
+    "canonical_correct": "(3) Passengers may sit sideways.",
     "canonical_correct_index": 2,
     "matched_question_count": 112,
     "matched_question_ids": [
@@ -1104,13 +1104,13 @@
     "summary": "Motorcycle cargo must not extend forward past rider seat or more than 50 cm beyond rear wheel axle.",
     "key_fact": "13. Motorcycle Cargo Rear Extension (Max 50 cm)",
     "diagram": "cargo_rear",
-    "canonical_question": "Regarding regulations for carrying items on a motorcycle, which of the following is incorrect?\\",
+    "canonical_question": "The length of items carried on a motorcycle, extending beyond the rear of the vehicle measured from the rear axle, must not exceed",
     "canonical_options": [
-      "(1) It is allowed to carry items higher than the rider's shoulder.\\",
-      "(2) The width shall not exceed 10 cm beyond the outer edge of the handlebars.\\",
-      "(3) The portion extending beyond the rear of the vehicle shall not exceed 50 cm from the rear wheel axle."
+      "(1) 0.5 meters",
+      "(2) 1 meter",
+      "(3) 3 meters."
     ],
-    "canonical_correct": "(1) It is allowed to carry items higher than the rider's shoulder.\\",
+    "canonical_correct": "(1) 0.5 meters",
     "canonical_correct_index": 0,
     "matched_question_count": 11,
     "matched_question_ids": [
@@ -1183,7 +1183,7 @@
     "summary": "Car cargo height must not exceed 1.5 times vehicle width or a maximum height of 2.85 meters.",
     "key_fact": "16. Small Vehicle Cargo Height (Max 2.85m / 1.5x width)",
     "diagram": "cargo_rear",
-    "canonical_question": "The height of items carried on a motorcycle must not exceed the driver\\'s",
+    "canonical_question": "The height of items carried on a motorcycle must not exceed the driver's",
     "canonical_options": [
       "(1) head",
       "(2) shoulder",
@@ -1696,14 +1696,14 @@
     "summary": "When vehicles from opposite directions turn into the same lane, left-turning vehicles yield to right-turning vehicles.",
     "key_fact": "19. Left-Turn vs. Right-Turn Priority",
     "diagram": "right_of_way",
-    "canonical_question": "(1) Left turn (2) Right turn (3) Slow down and stop.",
+    "canonical_question": "What does the white arrow in the picture indicate?",
     "canonical_options": [
       "(1) Left turn",
-      "(2) Right turn",
-      "(3) Slow down and stop."
+      "(2) Passing lane\\",
+      "(3) Lane reduction marking"
     ],
-    "canonical_correct": "(1) Left turn",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(3) Lane reduction marking",
+    "canonical_correct_index": 2,
     "matched_question_count": 108,
     "matched_question_ids": [
       "MOTO_MAIN_0427",
@@ -1862,14 +1862,14 @@
     "summary": "Drivers MUST stop at least 3 meters (4 zebra stripes) before crosswalks to yield to pedestrians.",
     "key_fact": "22. Pedestrian Crosswalk Priority (3 Meters / 4 Stripes)",
     "diagram": "right_of_way",
-    "canonical_question": "Motorcycles are small, lightweight, and highly maneuverable. Which of the following statements about riding behavior is correct?",
+    "canonical_question": "If a driver is lawfully driving in the fast lane and a pedestrian or slow vehicle unlawfully enters the fast lane causing injury or death, the driver shall:",
     "canonical_options": [
-      "(1) Riding side by side and racing with other vehicles is allowed.",
-      "(2) Rapidly weaving through traffic and crossing pedestrian crossings is allowed.",
-      "(3) Riders should slow down and keep a safe distance from large vehicles to avoid being caught in inner wheel differences and blind spots."
+      "(1) bear the same criminal liability",
+      "(2) have their sentence reduced",
+      "(3) have their sentence increased."
     ],
-    "canonical_correct": "(3) Riders should slow down and keep a safe distance from large vehicles to avoid being caught in inner wheel differences and blind spots.",
-    "canonical_correct_index": 2,
+    "canonical_correct": "(2) have their sentence reduced",
+    "canonical_correct_index": 1,
     "matched_question_count": 275,
     "matched_question_ids": [
       "MOTO_MAIN_0110",
@@ -2587,7 +2587,7 @@
     "summary": "Driving on freeway hard shoulders is prohibited except during breakdowns, emergencies, or opened shoulder signs.",
     "key_fact": "39. Hard Shoulder Driving Restrictions",
     "diagram": "freeway_distance",
-    "canonical_question": "The height of items carried on a motorcycle must not exceed the driver\\'s",
+    "canonical_question": "The height of items carried on a motorcycle must not exceed the driver's",
     "canonical_options": [
       "(1) head",
       "(2) shoulder",
@@ -2985,14 +2985,14 @@
     "summary": "General road safety regulations, ethical driving habits, and situational hazard awareness.",
     "key_fact": "General Traffic Safety Rules",
     "diagram": "right_of_way",
-    "canonical_question": "For heavy motorcycles, the weight of items carried must not exceed",
+    "canonical_question": "For an unconscious fracture victim in a traffic accident,",
     "canonical_options": [
-      "(1) 50 kg",
-      "(2) 80 kg",
-      "(3) 90 kg."
+      "(1) unless in an emergency, do not move them arbitrarily",
+      "(2) before moving the victim, first address breathing difficulties, bleeding, fractures, etc.",
+      "(3) both of the above"
     ],
-    "canonical_correct": "(2) 80 kg",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) both of the above",
+    "canonical_correct_index": 2,
     "matched_question_count": 1243,
     "matched_question_ids": [
       "MOTO_MAIN_0003",

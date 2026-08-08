@@ -5,13 +5,13 @@
     "summary": "Default speed limit on urban roads without speed limit signs is 50 km/h.",
     "key_fact": "1. Urban Road Speed Limit (50 km/h)",
     "diagram": "speed_limit_50",
-    "canonical_question": "If a motor vehicle driver exceeds the maximum speed limit by how many kilometers per hour or more, they shall be fined NT$6,000–36,000 and be prohibited from driving on the spot:",
+    "canonical_question": "A new vehicle equipped with a Level 2 Advanced Driver Assistance System (ADAS) including full-speed range Adaptive Cruise Control (ACC) and lane keeping is traveling on a national highway. Regarding driver behavior and awareness during driving, which of the following best complies with safety standards and effectively prevents accidents?",
     "canonical_options": [
-      "(1) 40 km/h.",
-      "(2) 50 km/h.",
-      "(3) 60 km/h."
+      "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+      "(2) The system will automatically follow vehicles and correct the steering wheel, so you can take the opportunity to scroll your phone or rest your eyes.",
+      "(3) Because the system can recognize lane markings, it is safer to let the computer operate than to drive manually in heavy rain or heavy fog."
     ],
-    "canonical_correct": "(1) 40 km/h.",
+    "canonical_correct": "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
     "canonical_correct_index": 0,
     "matched_question_count": 145,
     "matched_question_ids": [
@@ -168,14 +168,14 @@
     "summary": "Designated slow lanes and narrow roads without dividing lines have a max speed limit of 40 km/h.",
     "key_fact": "2. Slow Lane & Narrow Road Speed Limit (40 km/h)",
     "diagram": "speed_limit_40",
-    "canonical_question": "For a motor vehicle driver who exceeds the prescribed maximum speed limit by 40 km/h or more, the fine imposed shall be in New Taiwan Dollars:",
+    "canonical_question": "A new vehicle equipped with a Level 2 Advanced Driver Assistance System (ADAS) including full-speed range Adaptive Cruise Control (ACC) and lane keeping is traveling on a national highway. Regarding driver behavior and awareness during driving, which of the following best complies with safety standards and effectively prevents accidents?",
     "canonical_options": [
-      "(1) 1,200–2,400 NTD.",
-      "(2) 2,400–6,000 NTD.",
-      "(3) 6,000–36,000 NTD. --- PAGE 7 ---"
+      "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+      "(2) The system will automatically follow vehicles and correct the steering wheel, so you can take the opportunity to scroll your phone or rest your eyes.",
+      "(3) Because the system can recognize lane markings, it is safer to let the computer operate than to drive manually in heavy rain or heavy fog."
     ],
-    "canonical_correct": "(3) 6,000–36,000 NTD. --- PAGE 7 ---",
-    "canonical_correct_index": 2,
+    "canonical_correct": "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+    "canonical_correct_index": 0,
     "matched_question_count": 146,
     "matched_question_ids": [
       "CAR_0005",
@@ -352,14 +352,14 @@
     "summary": "Use low gear engine braking on downhill slopes; avoid excessive foot braking to prevent brake fade.",
     "key_fact": "4. Downhill & Long Slope Engine Braking",
     "diagram": "braking_physics",
-    "canonical_question": "(1) Steep downhill slope. (2) Wharf / embankment. (3) Slippery road.",
+    "canonical_question": "When driving down a long slope, what is the correct driving method?",
     "canonical_options": [
-      "(1) Steep downhill slope.",
-      "(2) Wharf / embankment.",
-      "(3) Slippery road."
+      "(1) Use the foot brake as much as possible to control speed.",
+      "(2) Do not use any brakes at all and let the vehicle coast naturally.",
+      "(3) Make good use of low gear engine braking and avoid excessive use of the foot brake."
     ],
-    "canonical_correct": "(2) Wharf / embankment.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) Make good use of low gear engine braking and avoid excessive use of the foot brake.",
+    "canonical_correct_index": 2,
     "matched_question_count": 29,
     "matched_question_ids": [
       "CAR_0045",
@@ -399,13 +399,13 @@
     "summary": "Braking distance is proportional to speed squared. Doubling speed quadruples required braking distance.",
     "key_fact": "5. Speed vs. Braking Physics (Double Speed = 4x Distance)",
     "diagram": "braking_physics",
-    "canonical_question": "Regarding fuel-efficient driving methods for automobiles, which of the following is correct?",
+    "canonical_question": "When driving into a 'national highway construction zone', which of the following driving behaviors is most effective in preventing accidents?",
     "canonical_options": [
-      "(1) After a cold start, press the accelerator in place to complete the warm-up before driving.",
-      "(2) Turns should be smooth and steady; engine braking should be avoided as much as possible.",
-      "(3) Maintain a safe following distance from the vehicle ahead to avoid emergency braking."
+      "(1) Accelerate to overtake at the lane reduction point in the construction zone.",
+      "(2) Activate the driver assistance system (such as ACC/LTA) and then feel free to look at your phone.",
+      "(3) Change to the non-construction lane early, maintain a safe following distance, and stay fully focused and ready to brake at any time."
     ],
-    "canonical_correct": "(3) Maintain a safe following distance from the vehicle ahead to avoid emergency braking.",
+    "canonical_correct": "(3) Change to the non-construction lane early, maintain a safe following distance, and stay fully focused and ready to brake at any time.",
     "canonical_correct_index": 2,
     "matched_question_count": 124,
     "matched_question_ids": [
@@ -581,14 +581,14 @@
     "summary": "Drunk driving for car drivers incurs fines from NT$30,000 to NT$120,000 plus license suspension.",
     "key_fact": "8. Drunk Driving Administrative Fines (NT$30,000 ~ NT$120,000)",
     "diagram": "alcohol_limit",
-    "canonical_question": "A first-time drunk driving offender whose blood alcohol concentration exceeds the legal standard — which of the following is correct?",
+    "canonical_question": "Regarding drunk driving regulations, which of the following is correct?",
     "canonical_options": [
-      "(1) A fine of NT$15,000 to NT$90,000 shall be imposed.",
-      "(2) A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.",
-      "(3) A warning only. --- PAGE 3 ---"
+      "(1) The standard for a breathalyzer test is a breath alcohol concentration of 0.25 mg per liter or a blood alcohol concentration of 0.10% or above.",
+      "(2) Re-offending drunk driving within 5 years is subject to a fine of NT$120,000.",
+      "(3) Refusing a sobriety test for drunk driving is subject to a fine of NT$180,000, and the vehicle shall be impounded on the spot and the driver's license revoked."
     ],
-    "canonical_correct": "(2) A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) Refusing a sobriety test for drunk driving is subject to a fine of NT$180,000, and the vehicle shall be impounded on the spot and the driver's license revoked.",
+    "canonical_correct_index": 2,
     "matched_question_count": 13,
     "matched_question_ids": [
       "CAR_0017",
@@ -612,13 +612,13 @@
     "summary": "Repeat drunk driving within 10 years results in maximum fines, license revocation, and public disclosure.",
     "key_fact": "9. Repeat Drunk Driving within 10 Years",
     "diagram": "alcohol_limit",
-    "canonical_question": "Within how many years, if a motor vehicle driver violates the regulation of 'alcohol concentration exceeding the prescribed standard' for the second time, will the maximum fine prescribed for the vehicle they drive be imposed?",
+    "canonical_question": "A driver commits drunk driving for the 3rd or more time within 10 years — which of the following is correct?",
     "canonical_options": [
-      "(1) 5 years.",
-      "(2) 10 years.",
-      "(3) 15 years."
+      "(1) Only the fine amount is increased.",
+      "(2) An additional fine of NT$90,000 on top of the previous penalty shall be imposed, the driver's license shall be revoked, and the offender's name shall be publicly disclosed.",
+      "(3) Only demerit points are recorded."
     ],
-    "canonical_correct": "(2) 10 years.",
+    "canonical_correct": "(2) An additional fine of NT$90,000 on top of the previous penalty shall be imposed, the driver's license shall be revoked, and the offender's name shall be publicly disclosed.",
     "canonical_correct_index": 1,
     "matched_question_count": 11,
     "matched_question_ids": [
@@ -664,14 +664,14 @@
     "summary": "Passengers riding in a vehicle operated by an intoxicated driver are fined NT$6,000 to NT$15,000.",
     "key_fact": "11. Passengers Joint Fine for Drunk Driving",
     "diagram": "alcohol_limit",
-    "canonical_question": "A motor vehicle driver whose breath alcohol concentration reaches 0.25 mg per liter or blood alcohol concentration reaches 0.05% or above as determined by testing — for passengers in the same vehicle aged 18 and above but under 70, should they be penalized if there is no special reason? Which of the following statements is correct?",
+    "canonical_question": "A driver whose license was previously revoked due to drunk driving must install what device in their vehicle before being allowed to drive after re-obtaining their license?",
     "canonical_options": [
-      "(1) Passengers in the same vehicle should be penalized.",
-      "(2) There is no penalty mechanism for passengers in the same vehicle.",
-      "(3) Passengers in the same vehicle do not need to be penalized as long as they have not consumed alcohol."
+      "(1) A dashcam.",
+      "(2) A vehicle fire extinguisher.",
+      "(3) An ignition interlock device (alcohol lock)."
     ],
-    "canonical_correct": "(1) Passengers in the same vehicle should be penalized.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(3) An ignition interlock device (alcohol lock).",
+    "canonical_correct_index": 2,
     "matched_question_count": 77,
     "matched_question_ids": [
       "CAR_0015",
@@ -1109,13 +1109,13 @@
     "summary": "When vehicles from opposite directions turn into the same lane, left-turning vehicles yield to right-turning vehicles.",
     "key_fact": "19. Left-Turn vs. Right-Turn Priority",
     "diagram": "right_of_way",
-    "canonical_question": "The cyclist's hand signal indicates an upcoming:",
+    "canonical_question": "On road sections with no U-turn signs, no left turn signs, directional restriction lines, no-passing lines, or no lane-change lines:",
     "canonical_options": [
-      "(1) Right turn.",
-      "(2) Left turn.",
-      "(3) Slow down / temporary stop."
+      "(1) U-turns are not allowed.",
+      "(2) Reversing is allowed.",
+      "(3) U-turns are allowed when there is no oncoming traffic."
     ],
-    "canonical_correct": "(1) Right turn.",
+    "canonical_correct": "(1) U-turns are not allowed.",
     "canonical_correct_index": 0,
     "matched_question_count": 40,
     "matched_question_ids": [
@@ -1205,14 +1205,14 @@
     "summary": "Drivers MUST stop at least 3 meters (4 zebra stripes) before crosswalks to yield to pedestrians.",
     "key_fact": "22. Pedestrian Crosswalk Priority (3 Meters / 4 Stripes)",
     "diagram": "right_of_way",
-    "canonical_question": "Driving while intoxicated or failing to yield to pedestrians at a pedestrian crossing, resulting in injury or death, if criminal liability applies:",
+    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
     "canonical_options": [
-      "(1) The penalty shall be increased by up to one-half.",
-      "(2) No punishment is required.",
-      "(3) The original penalty shall be applied."
+      "(1) No vehicles allowed.",
+      "(2) No cars (4+ wheels) or motorcycles allowed.",
+      "(3) No pedestrians allowed."
     ],
-    "canonical_correct": "(1) The penalty shall be increased by up to one-half.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
+    "canonical_correct_index": 1,
     "matched_question_count": 137,
     "matched_question_ids": [
       "CAR_0001",
@@ -1387,14 +1387,14 @@
     "summary": "Drivers MUST pull right and yield immediately to emergency sirens. Failure results in license revocation.",
     "key_fact": "24. Yielding to Emergency Vehicles & Sirens",
     "diagram": "siren_yield",
-    "canonical_question": "While driving on an urban road, a fire truck is approaching from behind with its siren on, traveling in the same direction and along the same route as the driver. Which of the following actions is correct?",
+    "canonical_question": "When a car reaches an intersection, even if the signal ahead is a \"green light,\" but you hear an emergency vehicle (such as an ambulance) siren from behind or from the side:",
     "canonical_options": [
-      "(1) Following the fire truck allows you to pass through congested sections; just maintain a safe distance.",
-      "(2) You should pull over to the right to let the fire truck pass, then resume driving at the normal speed limit; you must not chase after it at high speed.",
-      "(3) After the fire truck passes, the road is clear, so you should speed up to follow it in order to pass through that section quickly and avoid traffic backup."
+      "(1) My vehicle has the right of way and should pass through the intersection as quickly as possible.",
+      "(2) Just follow closely behind the vehicle ahead.",
+      "(3) You must yield to the emergency vehicle and allow it to pass first; you may not force your way through just because the light is green."
     ],
-    "canonical_correct": "(2) You should pull over to the right to let the fire truck pass, then resume driving at the normal speed limit; you must not chase after it at high speed.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) You must yield to the emergency vehicle and allow it to pass first; you may not force your way through just because the light is green.",
+    "canonical_correct_index": 2,
     "matched_question_count": 6,
     "matched_question_ids": [
       "CAR_0067",
