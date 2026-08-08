@@ -192,8 +192,15 @@ function setupEventListeners() {
   if (modSelect) {
     modSelect.addEventListener('change', async (e) => {
       currentIndex = 0;
+      examQuestions = [];
+      examSubmitted = false;
+      examUserAnswers = {};
       await loadModuleData(e.target.value);
-      switchTab(currentTab);
+      if (currentTab === 'practice') {
+        startPracticeExam();
+      } else {
+        switchTab(currentTab);
+      }
     });
   }
 
