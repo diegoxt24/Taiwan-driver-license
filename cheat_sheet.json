@@ -12,7 +12,7 @@
     ]
   },
   {
-    "category": "📦 Motorcycle Cargo Loading Limits",
+    "category": "📦 Motorcycle Cargo Loading Limits & Helmets",
     "items": [
       {"label": "Cargo Rear Extension Limit", "value": "Max 50 cm beyond rear wheel axle"},
       {"label": "Cargo Width Extension Limit", "value": "Max 10 cm beyond handlebar outer edges"},
@@ -20,7 +20,7 @@
       {"label": "Regular Light Motorcycle Weight Limit", "value": "Max 60 kg"},
       {"label": "Heavy Motorcycle Weight Limit", "value": "Max 90 kg"},
       {"label": "Minimum Tire Tread Depth (Motorcycle)", "value": "1.0 mm (worn to indicator fails inspection)"},
-      {"label": "Helmet Standards", "value": "Must wear BSMI approved helmet with fastened chinstrap"}
+      {"label": "Helmet Mandate & Standard", "value": "Must wear BSMI approved helmet with securely fastened chinstrap"}
     ]
   },
   {
@@ -28,18 +28,20 @@
     "items": [
       {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
       {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
-      {"label": "Motorcycle Drunk Driving Fine", "value": "NT$15,000 to NT$90,000 + License suspension"},
+      {"label": "Motorcycle Drunk Driving Fine (First Offense)", "value": "NT$15,000 to NT$90,000 + License suspension"},
       {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
       {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Max fine + License revocation + Public photo disclosure"},
-      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint fine"}
+      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty"}
     ]
   },
   {
-    "category": "📱 Fine Amounts & Demerit Points",
+    "category": "📱 Complete NT$ Fine Amounts & License Penalties",
     "items": [
-      {"label": "Running Red Light Penalty (Motorcycle)", "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"},
+      {"label": "Running Red Light Fine (Motorcycle)", "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"},
       {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine for operating handheld phone while riding"},
-      {"label": "Demerit Points License Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months suspension"}
+      {"label": "Violating Passenger/Cargo Loading Fine", "value": "NT$300 to NT$600 fine for rider"},
+      {"label": "Demerit Points License Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months suspension"},
+      {"label": "Failing to Yield to Emergency Sirens Fine", "value": "NT$3,600 fine + Driver's license revocation"}
     ]
   },
   {
@@ -48,12 +50,12 @@
       {"label": "First Aid Priority Order", "value": "1. Airway (B) → 2. Bleeding (A) → 3. Fracture (C)"},
       {"label": "CPR Compression to Ventilation Ratio", "value": "30 Chest Compressions : 2 Rescue Breaths (30:2)"},
       {"label": "CPR Chest Compression Rate & Depth", "value": "100 to 120 compressions per minute; 5 to 6 cm depth"},
-      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head)"},
+      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head or move neck)"},
       {"label": "Railroad Breakdown SOS 3-Step Action", "value": "1. Press Red Emergency Button → 2. Push vehicle clear → 3. Run clear"}
     ]
   },
   {
-    "category": "🛑 Right-of-Way & Road Markings",
+    "category": "🛑 Right-of-Way & Road Markings Rules",
     "items": [
       {"label": "Straight vs. Turning Priority", "value": "Straight-going motorcycle has absolute priority over turning vehicle"},
       {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle"},

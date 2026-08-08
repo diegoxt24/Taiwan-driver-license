@@ -9,31 +9,36 @@
       {"label": "Speed vs. Braking Distance Physics", "value": "Doubling speed quadruples (4x) required braking distance"},
       {"label": "Pedestrian Crosswalk Stopping Distance", "value": "Stop at least 3 meters (4 zebra stripes width) before crosswalk"},
       {"label": "Turn Signal Advance Distance", "value": "Activate turn signals at least 30 meters prior to turning/lane change"},
-      {"label": "Freeway Warning Triangle Distance", "value": "Place triangle 100 meters behind vehicle"},
+      {"label": "Freeway Warning Triangle Distance", "value": "Place triangle 100 meters behind vehicle (30-100m ordinary roads)"},
       {"label": "Prohibited Stopping Zone Distance", "value": "Prohibited within 10 meters of intersections, bus stops, or hydrants"}
     ]
   },
   {
-    "category": "🍷 Drunk Driving Fines & Demerit Points",
+    "category": "📱 Complete NT$ Fine Amounts & License Penalties",
     "items": [
-      {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
-      {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
-      {"label": "Car Drunk Driving Fine", "value": "NT$30,000 to NT$120,000 + License suspension"},
-      {"label": "Motorcycle Drunk Driving Fine", "value": "NT$15,000 to NT$90,000"},
-      {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
-      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Max fine + License revocation + Public photo disclosure"},
-      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint fine"}
+      {"label": "Running Red Light Fine (Car & Motorcycle)", "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"},
+      {"label": "Handheld Mobile Phone Fine (Car)", "value": "NT$3,000 fine for operating handheld device while driving"},
+      {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine for operating handheld phone while riding"},
+      {"label": "Cigarette Smoking While Driving Fine", "value": "NT$1,200 fine if affecting safety of others"},
+      {"label": "Demerit Points License Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months suspension"},
+      {"label": "Hit-and-Run Fleeing Scene (Injury/Death)", "value": "Permanent driver license revocation + criminal prosecution"},
+      {"label": "Driving with Suspended/Revoked License", "value": "NT$6,000 to NT$24,000 fine + Vehicle impoundment"},
+      {"label": "Lending Driver's License Penalty", "value": "Driver's license suspension for 3 months"},
+      {"label": "Violating Passenger/Cargo Loading Fine", "value": "NT$300 to NT$600 fine for rider"},
+      {"label": "Failing to Yield to Emergency Sirens Fine", "value": "NT$3,600 fine + Driver's license revocation"}
     ]
   },
   {
-    "category": "📱 Fine Amounts & License Penalties",
+    "category": "🍷 Alcohol BAC Limits & Drunk Driving Laws",
     "items": [
-      {"label": "Running Red Light Penalty (Car/Moto)", "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"},
-      {"label": "Handheld Mobile Phone Fine (Car)", "value": "NT$3,000 fine"},
-      {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine"},
-      {"label": "Cigarette Smoking While Driving Fine", "value": "NT$1,200 fine if affecting others"},
-      {"label": "Demerit Points License Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months suspension"},
-      {"label": "Fleeing Accident Scene (Injury/Death)", "value": "Permanent license revocation"}
+      {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
+      {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
+      {"label": "Car Drunk Driving Fine (First Offense)", "value": "NT$30,000 to NT$120,000 + License suspension"},
+      {"label": "Motorcycle Drunk Driving Fine (First Offense)", "value": "NT$15,000 to NT$90,000 + License suspension"},
+      {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
+      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Max fine + License revocation + Public photo/name disclosure"},
+      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty"},
+      {"label": "Ignition Interlock Device (Alcohol Lock)", "value": "Mandatory installation upon re-applying for license after DUI"}
     ]
   },
   {
@@ -55,17 +60,18 @@
       {"label": "First Aid Priority Order", "value": "1. Airway (B) → 2. Bleeding (A) → 3. Fracture (C)"},
       {"label": "CPR Compression to Ventilation Ratio", "value": "30 Chest Compressions : 2 Rescue Breaths (30:2)"},
       {"label": "CPR Chest Compression Rate & Depth", "value": "100 to 120 compressions per minute; 5 to 6 cm depth"},
-      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head)"},
-      {"label": "Brain Damage Window", "value": "4 to 6 minutes without oxygen causes irreversible brain damage"},
+      {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head or move neck)"},
+      {"label": "Brain Damage Window Without Oxygen", "value": "4 to 6 minutes without oxygen causes irreversible brain damage"},
       {"label": "Railroad Breakdown SOS 3-Step Action", "value": "1. Press Red Emergency Button → 2. Push vehicle clear → 3. Run clear"}
     ]
   },
   {
-    "category": "🛑 Right-of-Way & Road Markings",
+    "category": "🛑 Right-of-Way & Road Markings Rules",
     "items": [
       {"label": "Straight vs. Turning Priority", "value": "Straight-going vehicle has absolute priority over turning vehicle"},
       {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle"},
       {"label": "Equal Width Unsignalized Intersection", "value": "Yield to vehicle approaching from your RIGHT side"},
+      {"label": "Roundabout Traffic Priority", "value": "Entering vehicles MUST yield to traffic inside the roundabout"},
       {"label": "Solid Red Line Road Marking", "value": "No temporary stopping or parking 24 hours a day"},
       {"label": "Solid Yellow Line Road Marking", "value": "No parking 7 AM to 8 PM (temporary stopping <3 min allowed)"},
       {"label": "Double Solid Yellow Line", "value": "No crossing, straddling, or U-turns under any circumstances"}
