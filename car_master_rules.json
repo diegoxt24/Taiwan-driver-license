@@ -32,13 +32,13 @@
     "summary": "Designated slow lanes and narrow roads without dividing lines have a max speed limit of 40 km/h.",
     "key_fact": "2. Slow Lane & Narrow Road Speed Limit (40 km/h)",
     "diagram": "speed_limit_40",
-    "canonical_question": "When a driver reaches an intersection and proceeds or turns, which of the following regulations is correct?",
+    "canonical_question": "When driving into a 'national highway construction zone', which of the following driving behaviors is most effective in preventing accidents?",
     "canonical_options": [
-      "(1) When turning right from the slow lane, change into the slow lane at a point 20 to 40 meters from the intersection.",
-      "(2) When turning right, the turn signal should be activated 50 meters before the intersection.",
-      "(3) When turning right from the outer lane, the turn signal should be activated 30 meters before the intersection."
+      "(1) Accelerate to overtake at the lane reduction point in the construction zone.",
+      "(2) Activate the driver assistance system (such as ACC/LTA) and then feel free to look at your phone.",
+      "(3) Change to the non-construction lane early, maintain a safe following distance, and stay fully focused and ready to brake at any time."
     ],
-    "canonical_correct": "(3) When turning right from the outer lane, the turn signal should be activated 30 meters before the intersection.",
+    "canonical_correct": "(3) Change to the non-construction lane early, maintain a safe following distance, and stay fully focused and ready to brake at any time.",
     "canonical_correct_index": 2,
     "matched_question_count": 45,
     "matched_question_ids": [
@@ -474,13 +474,13 @@
     "summary": "Cargo width on motorcycles must not extend more than 10 cm beyond outer edges of handlebars.",
     "key_fact": "14. Motorcycle Cargo Width Extension (Max 10 cm)",
     "diagram": "cargo_rear",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "Regarding regulations on vehicle cargo loading, which of the following constitutes 'improper conduct' subject to penalty?",
     "canonical_options": [
-      "(1) No vehicles allowed.",
-      "(2) No cars (4+ wheels) or motorcycles allowed.",
-      "(3) No pedestrians allowed."
+      "(1) Cargo is securely tied and stably stacked.",
+      "(2) Cargo exceeds the prescribed length, width, or height, or is not covered tightly, causing scattered items to fall onto the road surface.",
+      "(3) The weight of loaded items does not exceed the approved gross weight."
     ],
-    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
+    "canonical_correct": "(2) Cargo exceeds the prescribed length, width, or height, or is not covered tightly, causing scattered items to fall onto the road surface.",
     "canonical_correct_index": 1,
     "matched_question_count": 1,
     "matched_question_ids": [
@@ -493,13 +493,13 @@
     "summary": "Motorcycle load weight limits: Small light = 30 kg; Regular light = 60 kg; Heavy = 90 kg.",
     "key_fact": "15. Motorcycle Cargo Weight Limits (30kg / 60kg / 90kg)",
     "diagram": "cargo_rear",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "Regarding regulations on vehicle cargo loading, which of the following constitutes 'improper conduct' subject to penalty?",
     "canonical_options": [
-      "(1) No vehicles allowed.",
-      "(2) No cars (4+ wheels) or motorcycles allowed.",
-      "(3) No pedestrians allowed."
+      "(1) Cargo is securely tied and stably stacked.",
+      "(2) Cargo exceeds the prescribed length, width, or height, or is not covered tightly, causing scattered items to fall onto the road surface.",
+      "(3) The weight of loaded items does not exceed the approved gross weight."
     ],
-    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
+    "canonical_correct": "(2) Cargo exceeds the prescribed length, width, or height, or is not covered tightly, causing scattered items to fall onto the road surface.",
     "canonical_correct_index": 1,
     "matched_question_count": 1,
     "matched_question_ids": [
@@ -649,14 +649,14 @@
     "summary": "When vehicles from opposite directions turn into the same lane, left-turning vehicles yield to right-turning vehicles.",
     "key_fact": "19. Left-Turn vs. Right-Turn Priority",
     "diagram": "right_of_way",
-    "canonical_question": "On road sections with no U-turn signs, no left turn signs, directional restriction lines, no-passing lines, or no lane-change lines:",
+    "canonical_question": "When approaching an unmarked intersection without a division between major and minor roads, if a car driver intends to turn left while an oncoming vehicle is simultaneously turning right into the same lane, which of the following statements is correct?",
     "canonical_options": [
-      "(1) U-turns are not allowed.",
-      "(2) Reversing is allowed.",
-      "(3) U-turns are allowed when there is no oncoming traffic."
+      "(1) The larger vehicle has the right of way; the smaller vehicle should yield.",
+      "(2) The left-turning vehicle should yield to the right-turning vehicle.",
+      "(3) The right- turning vehicle should yield to the left-turning vehicle."
     ],
-    "canonical_correct": "(1) U-turns are not allowed.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(3) The right- turning vehicle should yield to the left-turning vehicle.",
+    "canonical_correct_index": 2,
     "matched_question_count": 41,
     "matched_question_ids": [
       "CAR_0099",
@@ -708,14 +708,14 @@
     "summary": "At unsignalized intersections of equal width, drivers yield to vehicles approaching from their right side.",
     "key_fact": "20. Unsignalized Equal Width Intersection Priority",
     "diagram": "right_of_way",
-    "canonical_question": "What is the most important thing to note when using a vehicle driver assistance system?",
+    "canonical_question": "The intersecting crosswalk marking at the intersection is:",
     "canonical_options": [
-      "(1) The system can always be safely relied upon.",
-      "(2) The system should never be used.",
-      "(3) The system is a tool to assist driving but cannot replace safe driving behavior. Section 1 — Total: 424 questions (No. 1 ~ 424) ▸  Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians)"
+      "(1) Diagonal pedestrian crossing line.",
+      "(2) Grid line.",
+      "(3) Bicycle crossing line."
     ],
-    "canonical_correct": "(3) The system is a tool to assist driving but cannot replace safe driving behavior. Section 1 — Total: 424 questions (No. 1 ~ 424) ▸  Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians)",
-    "canonical_correct_index": 2,
+    "canonical_correct": "(1) Diagonal pedestrian crossing line.",
+    "canonical_correct_index": 0,
     "matched_question_count": 14,
     "matched_question_ids": [
       "CAR_0424",
@@ -1023,14 +1023,14 @@
     "summary": "Flashing Red = Complete stop before proceeding. Flashing Yellow = Slow down and proceed with caution.",
     "key_fact": "29. Flashing Red vs. Flashing Yellow Signal",
     "diagram": "traffic_light",
-    "canonical_question": "[Refer to image]",
+    "canonical_question": "When changing lanes while driving, if the turn signal is not displayed throughout the entire maneuver as --- PAGE 2 --- required, what is the regulation?",
     "canonical_options": [
-      "(1) Crosswalk flashing signal.",
-      "(2) Special flashing yellow light signal.",
-      "(3) Flashing red light signal."
+      "(1) Regardless of whether it is a regular road or a highway, it is a violation and should be penalized according to the law.",
+      "(2) It is only a violation when driving on a highway.",
+      "(3) As long as there are no vehicles approaching from behind, not displaying the turn signal carries no penalty."
     ],
-    "canonical_correct": "(2) Special flashing yellow light signal.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(1) Regardless of whether it is a regular road or a highway, it is a violation and should be penalized according to the law.",
+    "canonical_correct_index": 0,
     "matched_question_count": 6,
     "matched_question_ids": [
       "CAR_0441",
@@ -1282,14 +1282,14 @@
     "summary": "Reversing is prohibited on steep slopes, sharp curves, narrow roads, or expressways.",
     "key_fact": "34. Reversing & Backing Up Restrictions",
     "diagram": "right_of_way",
-    "canonical_question": "On road sections with signs indicating curves, narrow roads, slopes, or one-way roads, may a small vehicle reverse if necessary for yielding, parking, or starting?",
+    "canonical_question": "While driving, which of the following is correct regarding the use of display devices within the driver's field of vision?",
     "canonical_options": [
-      "(1) Yes.",
-      "(2) No.",
-      "(3) Only with a person guiding from behind the vehicle."
+      "(1) In-vehicle audio-visual devices may be used while driving as long as the sound is muted.",
+      "(2) Entertainment display devices should be turned off, but driving assistance displays such as navigation --- PAGE 6 --- or reversing cameras may be used.",
+      "(3) All display devices must be turned off to avoid distracting the driver."
     ],
-    "canonical_correct": "(1) Yes.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) Entertainment display devices should be turned off, but driving assistance displays such as navigation --- PAGE 6 --- or reversing cameras may be used.",
+    "canonical_correct_index": 1,
     "matched_question_count": 30,
     "matched_question_ids": [
       "CAR_0050",
@@ -1575,14 +1575,14 @@
     "summary": "All occupants MUST wear seatbelts. Children under 4 years old must sit in rear-facing child safety seats.",
     "key_fact": "42. Mandatory Seatbelt & Child Safety Seat Laws",
     "diagram": "seatbelt_law",
-    "canonical_question": "Which of the following statements is correct?",
+    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
     "canonical_options": [
-      "(1) The driver, front-seat passengers, and rear-seat passengers of small vehicles must all wear seatbelts.",
-      "(2) The turn signal should only be displayed after starting to move.",
-      "(3) Children must sit in the front seat of a small passenger vehicle."
+      "(1) No vehicles allowed.",
+      "(2) No cars (4+ wheels) or motorcycles allowed.",
+      "(3) No pedestrians allowed."
     ],
-    "canonical_correct": "(1) The driver, front-seat passengers, and rear-seat passengers of small vehicles must all wear seatbelts.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
+    "canonical_correct_index": 1,
     "matched_question_count": 8,
     "matched_question_ids": [
       "CAR_0093",
@@ -1699,13 +1699,13 @@
     "summary": "First aid priority order: 1. Open Airway (B). 2. Control Bleeding (A). 3. Immobilize Fractures (C).",
     "key_fact": "46. First Aid Treatment Order (Airway -> Bleeding -> Fracture)",
     "diagram": "cpr_protocol",
-    "canonical_question": "Bright red blood spurting continuously indicates:",
+    "canonical_question": "(1) First-aid station. (2) Gas station. (3) Repair station.",
     "canonical_options": [
-      "(1) Venous bleeding.",
-      "(2) Capillary bleeding.",
-      "(3) Arterial bleeding. --- PAGE 77 ---"
+      "(1) First-aid station.",
+      "(2) Gas station.",
+      "(3) Repair station."
     ],
-    "canonical_correct": "(3) Arterial bleeding. --- PAGE 77 ---",
+    "canonical_correct": "(3) Repair station.",
     "canonical_correct_index": 2,
     "matched_question_count": 3,
     "matched_question_ids": [
@@ -1720,14 +1720,14 @@
     "summary": "Adult CPR standard: 30 compressions followed by 2 rescue breaths at a rate of 100-120 compressions per minute.",
     "key_fact": "47. CPR Chest Compression Ratio & Rate (30:2 / 100-120 bpm)",
     "diagram": "cpr_protocol",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "If the owner of a vehicle knowingly allows a driver to operate the vehicle while the driver's blood alcohol concentration exceeds the legal limit, or while under the influence of drugs or hallucinogens, and fails to prohibit such driving, in addition to a fine under the Road Traffic Management and Penalty Act, what action will be taken against the vehicle?",
     "canonical_options": [
-      "(1) No vehicles allowed.",
-      "(2) No cars (4+ wheels) or motorcycles allowed.",
-      "(3) No pedestrians allowed."
+      "(1) Suspension of the vehicle's license plates for 6 months",
+      "(2) Suspension of the vehicle's license plates for 1 year",
+      "(3) Suspension of the vehicle's license plates for 2 years"
     ],
-    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) Suspension of the vehicle's license plates for 2 years",
+    "canonical_correct_index": 2,
     "matched_question_count": 1,
     "matched_question_ids": [
       "CAR_0001"
@@ -1739,14 +1739,14 @@
     "summary": "For suspected neck/spinal trauma, use the Jaw-Thrust maneuver to clear airway without tilting the head.",
     "key_fact": "48. Suspected Neck/Spinal Injury Airway (Jaw-Thrust)",
     "diagram": "cpr_protocol",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "When a driver's blood alcohol concentration exceeds the prescribed standard and causes serious injury or death to others in an accident, in addition to criminal punishment under the Criminal Code, what is the administrative penalty?",
     "canonical_options": [
-      "(1) No vehicles allowed.",
-      "(2) No cars (4+ wheels) or motorcycles allowed.",
-      "(3) No pedestrians allowed."
+      "(1) Suspension of the driver's license for 2 years and mandatory attendance at road traffic safety courses.",
+      "(2) Revocation of the driver's license, with no re-application permitted within 3 years.",
+      "(3) Revocation of the driver's license, with no re-application permitted for life."
     ],
-    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) Revocation of the driver's license, with no re-application permitted for life.",
+    "canonical_correct_index": 2,
     "matched_question_count": 1,
     "matched_question_ids": [
       "CAR_0001"
@@ -1818,14 +1818,14 @@
     "summary": "Running a red light incurs fines between NT$1,800 and NT$5,400 PLUS 3 demerit points.",
     "key_fact": "51. Running Red Light Fine (NT$1,800 ~ NT$5,400 + 3 Demerits)",
     "diagram": "traffic_light",
-    "canonical_question": "Regarding penalties for violations at a railway level crossing, which of the following statements is correct?",
+    "canonical_question": "A motor vehicle driver on a freeway or expressway who uses flashing lights or continuous honking to force the vehicle ahead to yield — which of the following is correct?",
     "canonical_options": [
-      "(1) Overtaking or making a temporary stop at a railway level crossing is considered a general illegal parking offense, subject to a fine of NT$600 to NT$1,200.",
-      "(2) Making a U-turn or reversing at a railway level crossing, analogous to \"making a U-turn in a no-U-turn section,\" is subject to a fine of NT$600 to NT$1,800.",
-      "(3) Overtaking, making a U-turn, reversing, making a temporary stop, or parking at a railway level crossing, due to the serious risk of collision with a train, is subject to a fine of NT$15,000 to NT$90,000 and suspension of the driver's license for one year."
+      "(1) Reminding the vehicle ahead to yield is not a violation.",
+      "(2) A fine of not less than NT$3,000 and not more than NT$6,000 shall be imposed.",
+      "(3) No penalty applies as long as no accident occurs."
     ],
-    "canonical_correct": "(3) Overtaking, making a U-turn, reversing, making a temporary stop, or parking at a railway level crossing, due to the serious risk of collision with a train, is subject to a fine of NT$15,000 to NT$90,000 and suspension of the driver's license for one year.",
-    "canonical_correct_index": 2,
+    "canonical_correct": "(2) A fine of not less than NT$3,000 and not more than NT$6,000 shall be imposed.",
+    "canonical_correct_index": 1,
     "matched_question_count": 13,
     "matched_question_ids": [
       "CAR_0149",
@@ -1849,13 +1849,13 @@
     "summary": "Temporary stopping is allowed for max 3 minutes with driver ready to operate immediately.",
     "key_fact": "52. Temporary Parking 3-Minute Limit",
     "diagram": "speed_limit_50",
-    "canonical_question": "When temporarily stopping with a child aged 6 or under in the vehicle, which of the following is correct?",
+    "canonical_question": "Which of the following statements is incorrect?",
     "canonical_options": [
-      "(1) You may leave the child alone in the vehicle for up to 3 minutes; when leaving your seat you must remove the key and lock the vehicle before moving away, but must not be away for more than 20 minutes.",
-      "(2) You must not leave the child alone in the vehicle.",
-      "(3) If there are 2 children keeping each other company, they may remain in the vehicle; when leaving your seat you must remove the key and lock the vehicle before moving away, but must not be away for more than 20 minutes."
+      "(1) On road sections with a no-stopping sign, temporary stopping is permitted.",
+      "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. --- PAGE 5 ---",
+      "(3) On road sections with no-stopping road markings, if there are no other sign or marking regulations, parking and temporary stopping are permitted from 8 p.m. to 7 a.m. the following morning."
     ],
-    "canonical_correct": "(2) You must not leave the child alone in the vehicle.",
+    "canonical_correct": "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. --- PAGE 5 ---",
     "canonical_correct_index": 1,
     "matched_question_count": 3,
     "matched_question_ids": [
@@ -1870,13 +1870,13 @@
     "summary": "Stopping is strictly prohibited within 10 meters of intersections, bus stops, or fire hydrants.",
     "key_fact": "53. Stopping Distance Prohibitions (10 Meters from Bus Stops/Hydrants)",
     "diagram": "speed_limit_50",
-    "canonical_question": "Which of the following behaviors at a railway level crossing may be punished with a fine of not less than NT$15,000 and not more than NT$90,000?",
+    "canonical_question": "When a driver reaches an intersection and proceeds or turns, which of the following regulations is correct?",
     "canonical_options": [
-      "(1) Failing to reduce speed to below 15 km/h.",
-      "(2) Stopping 10 meters before the level crossing.",
-      "(3) Overtaking, making a U-turn, reversing, or making a temporary stop on the level crossing."
+      "(1) When turning right from the slow lane, change into the slow lane at a point 20 to 40 meters from the intersection.",
+      "(2) When turning right, the turn signal should be activated 50 meters before the intersection.",
+      "(3) When turning right from the outer lane, the turn signal should be activated 30 meters before the intersection."
     ],
-    "canonical_correct": "(3) Overtaking, making a U-turn, reversing, or making a temporary stop on the level crossing.",
+    "canonical_correct": "(3) When turning right from the outer lane, the turn signal should be activated 30 meters before the intersection.",
     "canonical_correct_index": 2,
     "matched_question_count": 9,
     "matched_question_ids": [
@@ -1928,14 +1928,14 @@
     "summary": "Driving with a suspended or revoked license incurs severe administrative fines and vehicle impoundment.",
     "key_fact": "55. Driving with Suspended or Revoked License Fine",
     "diagram": "demerit_points",
-    "canonical_question": "Which of the following is correct?",
+    "canonical_question": "A new vehicle equipped with a Level 2 Advanced Driver Assistance System (ADAS) including full-speed range Adaptive Cruise Control (ACC) and lane keeping is traveling on a national highway. Regarding driver behavior and awareness during driving, which of the following best complies with safety standards and effectively prevents accidents?",
     "canonical_options": [
-      "(1) A vehicle owner who permits an unlicensed person to drive their vehicle will have their license plate suspended for 1 month.",
-      "(2) An unlicensed minor who drives will have their guardian's driver's license suspended.",
-      "(3) A motor vehicle driver who permits an unlicensed person to drive their vehicle shall have their driver's license suspended."
+      "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+      "(2) The system will automatically follow vehicles and correct the steering wheel, so you can take the opportunity to scroll your phone or rest your eyes.",
+      "(3) Because the system can recognize lane markings, it is safer to let the computer operate than to drive manually in heavy rain or heavy fog."
     ],
-    "canonical_correct": "(3) A motor vehicle driver who permits an unlicensed person to drive their vehicle shall have their driver's license suspended.",
-    "canonical_correct_index": 2,
+    "canonical_correct": "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+    "canonical_correct_index": 0,
     "matched_question_count": 2,
     "matched_question_ids": [
       "CAR_0213",
@@ -1948,13 +1948,13 @@
     "summary": "Lending your driver's license to another person to drive results in license suspension.",
     "key_fact": "56. Lending Driver License Penalty",
     "diagram": "demerit_points",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "A motor vehicle driver on a freeway or expressway who uses flashing lights or continuous honking to force the vehicle ahead to yield — which of the following is correct?",
     "canonical_options": [
-      "(1) No vehicles allowed.",
-      "(2) No cars (4+ wheels) or motorcycles allowed.",
-      "(3) No pedestrians allowed."
+      "(1) Reminding the vehicle ahead to yield is not a violation.",
+      "(2) A fine of not less than NT$3,000 and not more than NT$6,000 shall be imposed.",
+      "(3) No penalty applies as long as no accident occurs."
     ],
-    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
+    "canonical_correct": "(2) A fine of not less than NT$3,000 and not more than NT$6,000 shall be imposed.",
     "canonical_correct_index": 1,
     "matched_question_count": 1,
     "matched_question_ids": [
@@ -1991,14 +1991,14 @@
     "summary": "Weaving in traffic or aggressive tailgating incurs heavy fines and immediate license revocation if accidents occur.",
     "key_fact": "58. Tailgating & Aggressive Zigzag Driving Penalty",
     "diagram": "right_of_way",
-    "canonical_question": "A motor vehicle driver who frequently changes lanes in traffic to overtake using gaps in traffic flow — which of the following is correct?",
+    "canonical_question": "When changing lanes while driving, if the turn signal is not displayed throughout the entire maneuver as --- PAGE 2 --- required, what is the regulation?",
     "canonical_options": [
-      "(1) This is a reasonable driving behavior.",
-      "(2) It is acceptable if it does not affect others.",
-      "(3) Drivers must not use tailgating, sudden lane changes, or other improper methods to force other vehicles to yield."
+      "(1) Regardless of whether it is a regular road or a highway, it is a violation and should be penalized according to the law.",
+      "(2) It is only a violation when driving on a highway.",
+      "(3) As long as there are no vehicles approaching from behind, not displaying the turn signal carries no penalty."
     ],
-    "canonical_correct": "(3) Drivers must not use tailgating, sudden lane changes, or other improper methods to force other vehicles to yield.",
-    "canonical_correct_index": 2,
+    "canonical_correct": "(1) Regardless of whether it is a regular road or a highway, it is a violation and should be penalized according to the law.",
+    "canonical_correct_index": 0,
     "matched_question_count": 5,
     "matched_question_ids": [
       "CAR_0010",
@@ -2014,14 +2014,14 @@
     "summary": "For carbon monoxide poisoning: turn off engine, move victim to fresh air immediately, and perform CPR if needed.",
     "key_fact": "59. Carbon Monoxide Poisoning Emergency First Aid",
     "diagram": "cpr_protocol",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "(1) First-aid station. (2) Gas station. (3) Repair station.",
     "canonical_options": [
-      "(1) No vehicles allowed.",
-      "(2) No cars (4+ wheels) or motorcycles allowed.",
-      "(3) No pedestrians allowed."
+      "(1) First-aid station.",
+      "(2) Gas station.",
+      "(3) Repair station."
     ],
-    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(3) Repair station.",
+    "canonical_correct_index": 2,
     "matched_question_count": 1,
     "matched_question_ids": [
       "CAR_0001"
@@ -2033,14 +2033,14 @@
     "summary": "Switch high-beam headlights to low-beam when meeting oncoming vehicles or following another car at night.",
     "key_fact": "60. Night Headlight High-Beam to Low-Beam Rules",
     "diagram": "tire_tread",
-    "canonical_question": "(1) No overtaking. (2) No oncoming traffic. (3) No motor vehicles allowed.",
+    "canonical_question": "When using high-beam headlights while driving at night, in which of the following situations should you immediately switch to low-beam headlights?",
     "canonical_options": [
-      "(1) No overtaking.",
-      "(2) No oncoming traffic.",
-      "(3) No motor vehicles allowed."
+      "(1) When passing through well-lit urban roads, you may keep the high beams on to improve your own visibility.",
+      "(2) When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.",
+      "(3) You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections. --- PAGE 24 ---"
     ],
-    "canonical_correct": "(1) No overtaking.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.",
+    "canonical_correct_index": 1,
     "matched_question_count": 15,
     "matched_question_ids": [
       "CAR_0002",
@@ -2094,13 +2094,13 @@
     "summary": "Vehicles carrying hazardous materials must display warning placards and avoid restricted long tunnels.",
     "key_fact": "62. Hazardous Material Transport & Tunnel Rules",
     "diagram": "demerit_points",
-    "canonical_question": "Driving while intoxicated or failing to yield to pedestrians at a pedestrian crossing, resulting in injury or death, if criminal liability applies:",
+    "canonical_question": "Upon hearing the siren of a fire truck, ambulance, police vehicle, emergency rescue vehicle, or hazardous materials response vehicle, regardless of direction:",
     "canonical_options": [
-      "(1) The penalty shall be increased by up to one-half.",
-      "(2) No punishment is required.",
-      "(3) The original penalty shall be applied."
+      "(1) Yield immediately.",
+      "(2) No need to yield.",
+      "(3) No need to yield as long as you stay in your lane."
     ],
-    "canonical_correct": "(1) The penalty shall be increased by up to one-half.",
+    "canonical_correct": "(1) Yield immediately.",
     "canonical_correct_index": 0,
     "matched_question_count": 7,
     "matched_question_ids": [
@@ -2169,13 +2169,13 @@
     "summary": "Horn honks must not exceed 0.5 seconds per tap and max 3 consecutive taps.",
     "key_fact": "65. Horn Usage Rules (Max 0.5s, 3 Taps)",
     "diagram": "tire_tread",
-    "canonical_question": "A motor vehicle driver on a freeway or expressway who uses flashing lights or continuous honking to force the vehicle ahead to yield — which of the following is correct?",
+    "canonical_question": "Regarding the enhanced penalty provisions for repeat drunk driving offenders, within how many years must a driver commit a second drunk driving violation to be considered a repeat offender subject to the maximum fine, with each subsequent violation incurring an additional NT$90,000 penalty?",
     "canonical_options": [
-      "(1) Reminding the vehicle ahead to yield is not a violation.",
-      "(2) A fine of not less than NT$3,000 and not more than NT$6,000 shall be imposed.",
-      "(3) No penalty applies as long as no accident occurs."
+      "(1) Within 5 years.",
+      "(2) Within 10 years.",
+      "(3) Calculated over a lifetime, with no time limit."
     ],
-    "canonical_correct": "(2) A fine of not less than NT$3,000 and not more than NT$6,000 shall be imposed.",
+    "canonical_correct": "(2) Within 10 years.",
     "canonical_correct_index": 1,
     "matched_question_count": 60,
     "matched_question_ids": [
@@ -2247,14 +2247,14 @@
     "summary": "Towing ropes must be between 3 and 5 meters long with a yellow flag attached in the middle for visibility.",
     "key_fact": "66. Vehicle Towing & Breakdown Ropes Safety",
     "diagram": "freeway_distance",
-    "canonical_question": "If a driver refuses to submit to an alcohol concentration test, the current regulations stipulate:",
+    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
     "canonical_options": [
-      "(1) A fine of NT$180,000, immediate towing and impoundment of the vehicle, and revocation of the driver's license.",
-      "(2) A fine of NT$60,000 and suspension of the vehicle license plate for 6 months.",
-      "(3) A fine of NT$90,000 and 3 demerit points recorded."
+      "(1) No vehicles allowed.",
+      "(2) No cars (4+ wheels) or motorcycles allowed.",
+      "(3) No pedestrians allowed."
     ],
-    "canonical_correct": "(1) A fine of NT$180,000, immediate towing and impoundment of the vehicle, and revocation of the driver's license.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
+    "canonical_correct_index": 1,
     "matched_question_count": 2,
     "matched_question_ids": [
       "CAR_0029",
@@ -2311,14 +2311,14 @@
     "summary": "In ABS-equipped vehicles, press the brake pedal firmly and hold without pumping the brake during emergency stops.",
     "key_fact": "69. Emergency Braking System (ABS) Operation",
     "diagram": "braking_physics",
-    "canonical_question": "When driving on national freeways, you often see 'attenuator trucks' with large yellow crash cushion devices mounted at the rear. Which of the following statements about the function and purpose of attenuator trucks is correct?",
+    "canonical_question": "Regarding fuel-efficient driving methods for automobiles, which of the following is correct?",
     "canonical_options": [
-      "(1) It is a mobile barrier designed to protect construction workers and accident responders from being directly struck by out-of-control vehicles.",
-      "(2) Attenuator trucks only appear at nighttime construction zones.",
-      "(3) Attenuator trucks can absorb 100% of the impact force, so it is fine to collide with one."
+      "(1) After a cold start, press the accelerator in place to complete the warm-up before driving.",
+      "(2) Turns should be smooth and steady; engine braking should be avoided as much as possible.",
+      "(3) Maintain a safe following distance from the vehicle ahead to avoid emergency braking."
     ],
-    "canonical_correct": "(1) It is a mobile barrier designed to protect construction workers and accident responders from being directly struck by out-of-control vehicles.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(3) Maintain a safe following distance from the vehicle ahead to avoid emergency braking.",
+    "canonical_correct_index": 2,
     "matched_question_count": 17,
     "matched_question_ids": [
       "CAR_0157",
@@ -2655,14 +2655,14 @@
     "summary": "Drivers must carry valid Driver's License, Vehicle Registration, and Compulsory Insurance card while driving.",
     "key_fact": "73. Vehicle Registration & Compulsory Insurance Cards",
     "diagram": "demerit_points",
-    "canonical_question": "The important documents a driver must carry while driving are:",
+    "canonical_question": "If a motor vehicle driver removes the muffler, causing noise pollution, the driver shall be fined, prohibited from driving on the spot, and have the vehicle license plates suspended for six months. If the offense is repeated within one year, the penalty shall be:",
     "canonical_options": [
-      "(1) Vehicle registration, driver's license, and compulsory insurance card.",
-      "(2) Warning triangle.",
-      "(3) Vehicle tools."
+      "(1) Revocation of the driver’s license",
+      "(2) Suspension of the driver’s license for one month",
+      "(3) Suspension of the driver’s license for six months ▸  Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics)"
     ],
-    "canonical_correct": "(1) Vehicle registration, driver's license, and compulsory insurance card.",
-    "canonical_correct_index": 0,
+    "canonical_correct": "(3) Suspension of the driver’s license for six months ▸  Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics)",
+    "canonical_correct_index": 2,
     "matched_question_count": 88,
     "matched_question_ids": [
       "CAR_0016",
@@ -2761,14 +2761,14 @@
     "summary": "Always perform shoulder blind spot checks before changing lanes or pulling out from roadside.",
     "key_fact": "74. Defensive Driving Blind Spot Awareness",
     "diagram": "right_of_way",
-    "canonical_question": "Which of the following behaviors regarding 'changing lanes' is incorrect?",
+    "canonical_question": "A new vehicle equipped with a Level 2 Advanced Driver Assistance System (ADAS) including full-speed range Adaptive Cruise Control (ACC) and lane keeping is traveling on a national highway. Regarding driver behavior and awareness during driving, which of the following best complies with safety standards and effectively prevents accidents?",
     "canonical_options": [
-      "(1) When changing lanes, yield to vehicles traveling straight ahead and pay attention to safe following distance.",
-      "(2) Lane changes on both sides are permitted on double solid white lines.",
-      "(3) Activate the turn signal, turn your head to check the rearview mirror, check blind spots, and watch for obstacles, vehicles, or pedestrians."
+      "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+      "(2) The system will automatically follow vehicles and correct the steering wheel, so you can take the opportunity to scroll your phone or rest your eyes.",
+      "(3) Because the system can recognize lane markings, it is safer to let the computer operate than to drive manually in heavy rain or heavy fog."
     ],
-    "canonical_correct": "(2) Lane changes on both sides are permitted on double solid white lines.",
-    "canonical_correct_index": 1,
+    "canonical_correct": "(1) Recognizing that the current system has limitations in detecting 'stationary construction vehicles', the driver should actively take control when passing through construction zones rather than relying on the system.",
+    "canonical_correct_index": 0,
     "matched_question_count": 18,
     "matched_question_ids": [
       "CAR_0006",
@@ -3840,13 +3840,13 @@
     "summary": "General road safety regulations, ethical driving habits, and situational hazard awareness.",
     "key_fact": "General Traffic Safety Rules",
     "diagram": "right_of_way",
-    "canonical_question": "Which of the following statements is incorrect?",
+    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
     "canonical_options": [
-      "(1) On road sections with a no-stopping sign, temporary stopping is permitted.",
-      "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. --- PAGE 5 ---",
-      "(3) On road sections with no-stopping road markings, if there are no other sign or marking regulations, parking and temporary stopping are permitted from 8 p.m. to 7 a.m. the following morning."
+      "(1) No vehicles allowed.",
+      "(2) No cars (4+ wheels) or motorcycles allowed.",
+      "(3) No pedestrians allowed."
     ],
-    "canonical_correct": "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. --- PAGE 5 ---",
+    "canonical_correct": "(2) No cars (4+ wheels) or motorcycles allowed.",
     "canonical_correct_index": 1,
     "matched_question_count": 9,
     "matched_question_ids": [
