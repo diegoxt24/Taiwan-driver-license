@@ -2,10 +2,10 @@
   {
     "category": "⚡ Absolute High-Yield Speed Limits & Distances",
     "items": [
-      {"label": "Urban Road Speed Limit (Unmarked)", "value": "50 km/h"},
-      {"label": "Slow Lane & Narrow Road Speed Limit", "value": "40 km/h"},
-      {"label": "Railroad Level Crossing Approach Speed", "value": "15 km/h"},
-      {"label": "Speed vs. Braking Distance Physics", "value": "Doubling speed quadruples (4x) required braking distance"},
+      {"label": "Urban Unmarked Road Speed Limit", "value": "50 km/h"},
+      {"label": "Slow Lane & Narrow Undivided Road Speed Limit", "value": "40 km/h"},
+      {"label": "Railroad Level Crossing Approach Speed", "value": "15 km/h or less (Stop if red light flashes)"},
+      {"label": "Speed vs. Braking Distance Physics", "value": "Braking distance ∝ Speed² (Doubling speed = 4x braking distance)"},
       {"label": "Pedestrian Crosswalk Stopping Distance", "value": "Stop at least 3 meters (4 zebra stripes width) before crosswalk"},
       {"label": "Turn Signal Advance Distance", "value": "Activate turn signals at least 30 meters prior to turning/lane change"},
       {"label": "Prohibited Stopping Zone Distance", "value": "Prohibited within 10 meters of intersections, bus stops, or hydrants"}
@@ -20,18 +20,7 @@
       {"label": "Regular Light Motorcycle Weight Limit", "value": "Max 60 kg"},
       {"label": "Heavy Motorcycle Weight Limit", "value": "Max 90 kg"},
       {"label": "Minimum Tire Tread Depth (Motorcycle)", "value": "1.0 mm (worn to indicator fails inspection)"},
-      {"label": "Helmet Mandate & Standard", "value": "Must wear BSMI approved helmet with securely fastened chinstrap"}
-    ]
-  },
-  {
-    "category": "🍷 Drunk Driving Fines & Demerit Points",
-    "items": [
-      {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
-      {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
-      {"label": "Motorcycle Drunk Driving Fine (First Offense)", "value": "NT$15,000 to NT$90,000 + License suspension"},
-      {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
-      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Max fine + License revocation + Public photo disclosure"},
-      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty"}
+      {"label": "Helmet Mandate & BSMI Standard", "value": "Must wear BSMI approved helmet with securely fastened chinstrap"}
     ]
   },
   {
@@ -39,15 +28,28 @@
     "items": [
       {"label": "Running Red Light Fine (Motorcycle)", "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"},
       {"label": "Handheld Mobile Phone Fine (Motorcycle)", "value": "NT$1,000 fine for operating handheld phone while riding"},
+      {"label": "Cigarette Smoking While Riding Fine", "value": "NT$1,200 fine if affecting safety of others"},
       {"label": "Violating Passenger/Cargo Loading Fine", "value": "NT$300 to NT$600 fine for rider"},
       {"label": "Demerit Points License Suspension Cap", "value": "Accumulating 12 demerit points in 1 year = 2 months suspension"},
-      {"label": "Failing to Yield to Emergency Sirens Fine", "value": "NT$3,600 fine + Driver's license revocation"}
+      {"label": "Failing to Yield to Emergency Sirens Fine", "value": "NT$3,600 fine + Driver's license revocation"},
+      {"label": "Failing to Yield to Pedestrians on Crosswalk", "value": "NT$1,200 to NT$6,000 fine + 3 demerit points"}
     ]
   },
   {
-    "category": "🚑 First Aid, CPR & Emergency Protocol",
+    "category": "🍷 Drunk Driving BAC Limits & Penalties",
     "items": [
-      {"label": "First Aid Priority Order", "value": "1. Airway (B) → 2. Bleeding (A) → 3. Fracture (C)"},
+      {"label": "Administrative Fine BAC Limit", "value": "0.15 mg/L breath alcohol or 0.03% BAC"},
+      {"label": "Criminal Offense Prosecution BAC Limit", "value": "0.25 mg/L breath alcohol or 0.05% BAC"},
+      {"label": "Motorcycle Drunk Driving Fine (First Offense)", "value": "NT$15,000 to NT$90,000 + License suspension"},
+      {"label": "Refusing Sobriety Breathalyzer Test Fine", "value": "NT$180,000 + License revocation + Impoundment"},
+      {"label": "Repeat Drunk Driving Window (10 Years)", "value": "Max fine + License revocation + Public photo/name disclosure"},
+      {"label": "Passengers Riding with Drunk Driver Fine", "value": "NT$6,000 to NT$15,000 joint penalty (Ages 18+, except seniors 70+)"}
+    ]
+  },
+  {
+    "category": "🚑 First Aid, CPR & Emergency Protocols",
+    "items": [
+      {"label": "First Aid Priority Order", "value": "1. Open Airway (B) → 2. Control Bleeding (A) → 3. Immobilize Fractures (C)"},
       {"label": "CPR Compression to Ventilation Ratio", "value": "30 Chest Compressions : 2 Rescue Breaths (30:2)"},
       {"label": "CPR Chest Compression Rate & Depth", "value": "100 to 120 compressions per minute; 5 to 6 cm depth"},
       {"label": "Suspected Spinal Trauma Airway Method", "value": "Jaw-Thrust maneuver (do NOT tilt head or move neck)"},
@@ -55,7 +57,7 @@
     ]
   },
   {
-    "category": "🛑 Right-of-Way & Road Markings Rules",
+    "category": "🛑 Right-of-Way & Road Marking Rules",
     "items": [
       {"label": "Straight vs. Turning Priority", "value": "Straight-going motorcycle has absolute priority over turning vehicle"},
       {"label": "Left Turn vs. Right Turn Priority", "value": "Left-turning vehicle MUST yield to right-turning vehicle"},
