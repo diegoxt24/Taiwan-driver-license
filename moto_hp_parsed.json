@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "MOTO_HP_001",
+    "official_num": 1,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when the vehicle on the left shows the direction light and wants to change lanes or turn?",
+    "options": [
+      "(1) Pay attention to the vehicles near by and prepare to brake or slow down.",
+      "(2) Honk the horn to urge the others to yield for me to go forward.",
+      "(3) As long as I am safe, don't bother other passers-by."
+    ],
+    "correct_answer": "(1) Pay attention to the vehicles near by and prepare to brake or slow down.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4142. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B158bsTx3Hlx20WueVCeE1aXHnYEUP/nq4rTikLIfuILf17EUOYwaXYjxOBJkso-bc7gpE5OGgs",
+    "video_number": "4142"
+  },
+  {
+    "id": "MOTO_HP_002",
+    "official_num": 2,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, you are passing through a signalized intersection. When there is a left-turning vehicle in the opposite direction, how should you ride more safely?",
+    "options": [
+      "(1) Just pay attention to the traffic lights at the intersection, the green lights are on to indicate that you can pass, without paying attention to the nearby vehicles.",
+      "(2) Pay attention to the nearby vehicles all the time and prepare in case the vehicle in the opposite direction violates the regulations and makes a turn.",
+      "(3) Since the vehicle in the opposite direction does not turn on the direction light according to the regulations, I should speed up to pass through the intersection."
+    ],
+    "correct_answer": "(2) Pay attention to the nearby vehicles all the time and prepare in case the vehicle in the opposite direction violates the regulations and makes a turn.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4143. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B16bIhT63RErrDFb854mdxIvdVC6Rh/GUMSNipPeU46Mqrx-2ExmooDc8RxeGU1-dseARjQJHAs",
+    "video_number": "4143"
+  },
+  {
+    "id": "MOTO_HP_003",
+    "official_num": 3,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when a vehicle suddenly exits on a side road where the line of sight is obscured at the intersection?",
+    "options": [
+      "(1) When riding a motorcycle, other than paying attention to the condition in front of the motorcycle, should also pay attention to the situations of vehicles on the side road.",
+      "(2) In order to prevent the other vehicles violating the regulations, I must travel ahead of them to make the them give way.",
+      "(3) Slow down and stop immediately to avoid the vehicle suddenly rushing out to be safe."
+    ],
+    "correct_answer": "(1) When riding a motorcycle, other than paying attention to the condition in front of the motorcycle, should also pay attention to the situations of vehicles on the side road.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4144. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B18DV6OeSPmvyLpWNGAa0neywjiv3e/FkuTg_O6SI2cgcHqBKr4XFWIGW4VXbnL-AMqgAjgJHAs",
+    "video_number": "4144"
+  },
+  {
+    "id": "MOTO_HP_004",
+    "official_num": 4,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when you 2 on Video see a vehicle leaving the entrance and exit of the off-road parking lot on the right side of the road ahead?",
+    "options": [
+      "(1) For the sake of safety when driving, I only need to look straight ahead and don't need to pay attention to the road conditions in the left and right directions.",
+      "(2) Other than paying attention to the situation ahead, riders should also pay attention to whether the surrounding vehicles will suddenly rush out.",
+      "(3) As long as I am safe, I don't need to pay attention to see other vehicles rushing off the side of the road."
+    ],
+    "correct_answer": "(2) Other than paying attention to the situation ahead, riders should also pay attention to whether the surrounding vehicles will suddenly rush out.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4145. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B19P1EBOqG2S4PEuLdZrw5l75jmKh1/Mw9b9mfT5me6cwYFcfaVMUyBclpSd2XC-JsqgpToJHAs",
+    "video_number": "4145"
+  },
+  {
+    "id": "MOTO_HP_005",
+    "official_num": 5,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when you see a vehicle in the left lane suddenly changing lanes to the right in front of you?",
+    "options": [
+      "(1) When driving a motorcycle, other than paying attention to the condition in front of the motorcycle, one should also pay attention to the situations of the vehicles in the left and right lanes.",
+      "(2) Since all passers-by will abide by traffic rules, we do not need to be vigilant at all times.",
+      "(3) As long as I am safe, I don't need to pay attention to seeing other vehicles rushing out of the side of the road."
+    ],
+    "correct_answer": "(1) When driving a motorcycle, other than paying attention to the condition in front of the motorcycle, one should also pay attention to the situations of the vehicles in the left and right lanes.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4146. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1BAryzCDqojUJ9Cxn0YqcuyE6Jj9A/VJsXLqt4dRObjMf5lK2ZD6D4DeX7qblB-ksqg3TwJHAs",
+    "video_number": "4146"
+  },
+  {
+    "id": "MOTO_HP_006",
+    "official_num": 6,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when you see a vehicle suddenly rushing out on the right side of the non-signaled intersection in front of you?",
+    "options": [
+      "(1) Although I am driving on the main road, I still have to pay attention to the situation of the vehicles on the branch road at all times.",
+      "(2) When passing through a non-signaled intersection, it depends on the width of the roads on both sides to determine whether I need to stop and ride through.",
+      "(3) When passing through a non-signaled intersection, if the vehicle from the opposite direction is on the left, I can speed up to pass through."
+    ],
+    "correct_answer": "(1) Although I am driving on the main road, I still have to pay attention to the situation of the vehicles on the branch road at all times.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4147. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1CfgnzhCvi9VjgB3CXQKOSsSWhwOW/sNSJBvtUHz--qgvyrWFiCSVBxg_AAVth-OcyAhz8JHAs",
+    "video_number": "4147"
+  },
+  {
+    "id": "MOTO_HP_007",
+    "official_num": 7,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when you see a vehicle suddenly rushing out on the right side of the non-signaled intersection in front of you?",
+    "options": [
+      "(1) I should make good use of the advantages of the compactness and 3 on Video lightness of the motorcycle to cross the intersection first.",
+      "(2) Honk the horn to warn the other vehicles to avoid me and let me pass.",
+      "(3) Regardless of whether there are traffic signs or not, I should pay attention to the situation of the surrounding vehicles."
+    ],
+    "correct_answer": "(3) Regardless of whether there are traffic signs or not, I should pay attention to the situation of the surrounding vehicles.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4148. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1EFC1jRba7tKklqgENJrGOuOtRUu7/yzOryCptR6y6m4_5egQ9L3iU0bwEskd1-Ws2A80EJHAs",
+    "video_number": "4148"
+  },
+  {
+    "id": "MOTO_HP_008",
+    "official_num": 8,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more appropriately when you see the pedestrians in front of you passing through the pedestrian crossing from a dark place?",
+    "options": [
+      "(1) When the motorcycle approaches the pedestrian crossing or turns, it should stop to allow pedestrians to pass first.",
+      "(2) Because the signal in my direction is green, I can honk my horn to prompt pedestrians to avoid me.",
+      "(3) Since pedestrians do not follow the signs to cross the pedestrian crossing, I don't need to yield to him."
+    ],
+    "correct_answer": "(1) When the motorcycle approaches the pedestrian crossing or turns, it should stop to allow pedestrians to pass first.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4149. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1FLSXyvjUB9UUWfkq4OhXoUUGgIeW/khhSNcL9kEl2WOo-5nTtnixCBRd8gQOT-ErGAx0QJHAs",
+    "video_number": "4149"
+  },
+  {
+    "id": "MOTO_HP_009",
+    "official_num": 9,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when you encounter a vehicle crossing the double yellow solid lines and overtaking in wrong-way?",
+    "options": [
+      "(1) In terms of safe driving, I should brake immediately after seeing it, regardless of the car coming from behind.",
+      "(2) For defensive driving, it should be expected that the opposite vehicle may cross the center line, and pay attention at all times.",
+      "(3) In terms of preventing accidents, honk your horn when turning to let the vehicles in the opposite lane pay attention to you."
+    ],
+    "correct_answer": "(2) For defensive driving, it should be expected that the opposite vehicle may cross the center line, and pay attention at all times.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4150. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1Gr8Av3lEiDn1DgilveiEbzrFJVij/av8K8p9Y0SfHP7VRFIWSh9DZZUUZnmFe-XrFgNkcJHAs",
+    "video_number": "4150"
+  },
+  {
+    "id": "MOTO_HP_010",
+    "official_num": 10,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when you encounter a vehicle crossing the double yellow solid lines and overtaking in wrong-way?",
+    "options": [
+      "(1) Use the motorcycle's ABS device to gradually slow down and dodge in a safe direction.",
+      "(2) Keep driving in a fixed lane and maintain an appropriate speed.",
+      "(3) Use the motorcycle's ABS device to gradually slow down and dodge in a direction that has more vehicles."
+    ],
+    "correct_answer": "(1) Use the motorcycle's ABS device to gradually slow down and dodge in a safe direction.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4151. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1INwCvtU00gDVAq4H7FQhEOcnPYlr/wKkhTOW2Cku4CMpiqR2bzA4Ry3nSdXZz-WcMAg-4JHAs",
+    "video_number": "4151"
+  },
+  {
+    "id": "MOTO_HP_011",
+    "official_num": 11,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, when you find that there are vehicles on the side of the road using direction lights to enter the lane where you are traveling, how should you ride more appropriately?",
+    "options": [
+      "(1) Slow down, observe the motion of the 4 on Video vehicles next to me, and be prepared to stop at all times.",
+      "(2) Honk the horn to warn the vehicle in the opposite direction to avoid me immediately so that I can pass.",
+      "(3) As long as I pay attention to whether there is an incoming vehicle in front of me, I don't need to yield the vehicle to pass."
+    ],
+    "correct_answer": "(1) Slow down, observe the motion of the 4 on Video vehicles next to me, and be prepared to stop at all times.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4152. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1K4xn4qvb5FE6B0WbTul0lWyuoNi9/RW4LOCRCeTdx-S0-X4m69JDcOF8qTT3W-B8Zg2PoJHAs",
+    "video_number": "4152"
+  },
+  {
+    "id": "MOTO_HP_012",
+    "official_num": 12,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, when you find that there is a warning sign placed on the road ahead, how should you ride more appropriately?",
+    "options": [
+      "(1) Regardless of the behavior of other passers-by, I can continue to speed up and bypass it.",
+      "(2) Slow down and travel slowly, recognize that there may be vehicles breaking down or accidents in front of you, and avoid chasing and colliding.",
+      "(3) In order to avoid getting into trouble, quickly change lanes to bypass and speed up to leave the accident."
+    ],
+    "correct_answer": "(2) Slow down and travel slowly, recognize that there may be vehicles breaking down or accidents in front of you, and avoid chasing and colliding.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4153. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1LsevldtCKinNF0Jqai5SxYV67XkR/Y39zfRddkBnK2p5Eo0nyNyTlT4-Ns9cU-6cwAYw8KHAs",
+    "video_number": "4153"
+  },
+  {
+    "id": "MOTO_HP_013",
+    "official_num": 13,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride appropriately when you find that a ball, a child, a pedestrian, or other foreign object invades the lane in front of you?",
+    "options": [
+      "(1) Release the throttle and slow down, and be prepared to stop at all times.",
+      "(2) Honk my horn to prevent children or pedestrians who may be chasing the ball from hitting my motorcycle.",
+      "(3) It's just a ball or other foreign body invading the rideway, and there is no need to pay attention to it at all."
+    ],
+    "correct_answer": "(1) Release the throttle and slow down, and be prepared to stop at all times.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4154. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1NsqRBggwXkAIxtIU1lbXpqFZhjnO/TfVc7I9BHR1wmCPMDHcqogYtI99bS6H6-rs5A4hYKHAs",
+    "video_number": "4154"
+  },
+  {
+    "id": "MOTO_HP_014",
+    "official_num": 14,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, when your eye sight is poor or dim, you find that there is a roadside parking on the right, and the motorcycle on the right changes its direction to avoid the vehicle and passes in front of you, how should it be safer to ride?",
+    "options": [
+      "(1) Brake directly, and change direction to the left without considering it, in order to avoid the motorcycle and the vehicle parking on the side of the road.",
+      "(2) I should slow down and travel slowly, turn my head to confirm that there is no incoming vehicle on the left, and turn on the direction light to change lanes to the left.",
+      "(3) Directly change lanes immediately and honk your horn to 5 on Video avoid being hit by the motorcycle."
+    ],
+    "correct_answer": "(2) I should slow down and travel slowly, turn my head to confirm that there is no incoming vehicle on the left, and turn on the direction light to change lanes to the left.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4155. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1OoboAaDQZlspArl0QPUWKHSmBLYQ/VAqxwRz18vXfg5TmDGlnwmmryiC-oVmZ-1b2g5h8KHAs",
+    "video_number": "4155"
+  },
+  {
+    "id": "MOTO_HP_015",
+    "official_num": 15,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, when you enter or leave a tunnel, it is easy to cause glare due to rapid changes in light intensity. How should you ride more safely?",
+    "options": [
+      "(1) When entering and exiting a tunnel, my headlight should be turned on, I should slow down to maintain a safe distance, and I should be prepared to stop at all times.",
+      "(2) The rapid change in light intensity has no effect on the motorcyclist's eyes, so I can immediately change lanes or overtake.",
+      "(3) Rapid changes in light intensity will make the motorcyclist's eyes uncomfortable, so I must immediately brake on the side of the road and stop for a moment."
+    ],
+    "correct_answer": "(1) When entering and exiting a tunnel, my headlight should be turned on, I should slow down to maintain a safe distance, and I should be prepared to stop at all times.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4156. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1QQF1rD49UN6ngSHjhnOZ8BxEBXdI/7DXl76JiH8Xq_XstM5QcDfUTdpdaY9wV-CM-AtyYKHAs",
+    "video_number": "4156"
+  },
+  {
+    "id": "MOTO_HP_016",
+    "official_num": 16,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when a vehicle enters from the right lane of the road?",
+    "options": [
+      "(1) When passing through unmarked intersections, pay attention to the situation of surrounding vehicles to avoid accidents.",
+      "(2) Because the intensity of light will not affect the sight of the motorcyclist, there is no need to pay attention to the situation of the surrounding vehicles.",
+      "(3) Honk the horn to warn the vehicle in the opposite direction to yield to me immediately so that I can pass."
+    ],
+    "correct_answer": "(1) When passing through unmarked intersections, pay attention to the situation of surrounding vehicles to avoid accidents.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4157. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1RzbRUWl1RwgsNrfmZlLCJRohC8Ms/EDz6PIQNTE78oO_bzU4hTgrdw6VrYrFC-qr4AfS4KHAs",
+    "video_number": "4157"
+  },
+  {
+    "id": "MOTO_HP_017",
+    "official_num": 17,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely when a bus stops at a roadside bus stop?",
+    "options": [
+      "(1) Slow down and turn on the right direction light, check whether there are incoming vehicles on the right and behind, and then overtake from the right side of the bus.",
+      "(2) Slow down, stop and wait at a safe distance behind the bus, and keep a safe distance after the bus starts before driving.",
+      "(3) Stop and wait close to the rear of the bus and honk the horn to request the bus move forward as soon as possible and ride close to the bus."
+    ],
+    "correct_answer": "(2) Slow down, stop and wait at a safe distance behind the bus, and keep a safe distance after the bus starts before driving.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4158. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1TCgLPf8HAPNdOw8cKkZed5MVPCfa/iMKiWPcx4i-jbyr4XpaAFn2WP1QXXmCu-Tb_ADjQKHAs",
+    "video_number": "4158"
+  },
+  {
+    "id": "MOTO_HP_018",
+    "official_num": 18,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you want to detour from the left side of the bus, as shown in the video, how should you ride more safely?",
+    "options": [
+      "(1) First, turn on the left direction light, 6 on Video observe whether there are incoming vehicles on the left and behind through the rearview mirror, turn my head, judge the safe distance and pay attention to the condition of the bus, and confirm that it is safe to overtake.",
+      "(2) When the motorcyclist wants to overtake the bus, I must turn on the direction light and pay attention to the condition of the bus before I can overtake from the right side of the bus.",
+      "(3) Pay attention to the condition of the bus. If there are vehicles in the next lane, I can overtake from the left side of the bus in the same lane."
+    ],
+    "correct_answer": "(1) First, turn on the left direction light, 6 on Video observe whether there are incoming vehicles on the left and behind through the rearview mirror, turn my head, judge the safe distance and pay attention to the condition of the bus, and confirm that it is safe to overtake.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4159. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1UURcynTGTHouhVr10ny6kt0FUYZ1/rKrs84RFPbCApC39F9UU3dzbEEXgtwiv-kL9gFjoKHAs",
+    "video_number": "4159"
+  },
+  {
+    "id": "MOTO_HP_019",
+    "official_num": 19,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you ride more safely in alleys?",
+    "options": [
+      "(1) Traveling in accordance with the speed limits, regardless of the motions of surrounding vehicles and pedestrians.",
+      "(2) Maintain the original speed, honk the horn to remind the surrounding pedestrians that there is a motorcycle coming, so that they can avoid it by themselves.",
+      "(3) Traveling in accordance with the speed limits, and predicting the possible next motions of surrounding people and vehicles to avoid danger if not reacting to it timely."
+    ],
+    "correct_answer": "(3) Traveling in accordance with the speed limits, and predicting the possible next motions of surrounding people and vehicles to avoid danger if not reacting to it timely.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4160. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1Vinhwb302D1WIeC88qrH7w26FmTd/JFhAyJbMhf_Wh3xPVHyqtlhR9jWUSdpk-_8yAIUMKHAs",
+    "video_number": "4160"
+  },
+  {
+    "id": "MOTO_HP_020",
+    "official_num": 20,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist,  what should you do to ride more safely in an alley when noticing a pedestrian entering the lane?",
+    "options": [
+      "(1) Slow down first, bypass the pedestrian and ride away.",
+      "(2) Slow down first and honk the horn to make the pedestrian make way.",
+      "(3) Slow down and stop first to give way to the pedestrian."
+    ],
+    "correct_answer": "(3) Slow down and stop first to give way to the pedestrian.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4161. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1WvjpL7rTFl0yJzNsqdvarJ7QxlNW/fjDqckOXwoNZ9St8Nlmf9BzFRrOuJDPI-Fc5gGEkKHAs",
+    "video_number": "4161"
+  },
+  {
+    "id": "MOTO_HP_021",
+    "official_num": 21,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely when encountering someone pulling over on the side of the road and opening the door, as shown in the video?",
+    "options": [
+      "(1) Be alert, keep a safe distance from the parked car, slow down and be prepared to stop at any time.",
+      "(2) Honk the horn to warn the motorist and ride through as quickly as possible.",
+      "(3) Change lanes immediately and ride away as quickly as possible to avoid a collision."
+    ],
+    "correct_answer": "(1) Be alert, keep a safe distance from the parked car, slow down and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4162. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1XtCn6hYEMYHDbwIWP61HUhZq6Bcn/x5oUZgOYVQbLB6faZ10i7q-fT71qqEx8-dbggkk4KHAs",
+    "video_number": "4162"
+  },
+  {
+    "id": "MOTO_HP_022",
+    "official_num": 22,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely when encountering an ambulance crossing an intersection on 7 on Video duty, as shown in the video?",
+    "options": [
+      "(1) Slow down, pass the ambulance and go through the intersection.",
+      "(2) If an ambulance runs a red light, there is no need to yield  and stop to wait.",
+      "(3) When hearing an ambulance, slow down and yield immediately; do not follow after and ride fast behind it."
+    ],
+    "correct_answer": "(3) When hearing an ambulance, slow down and yield immediately; do not follow after and ride fast behind it.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4163. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1Yzc7TFCtpR1eEIBFvDEwJP3NOBEY/Uum58KJrLVdW83cH5IYochaJu9zm3RBs-L8GA6FQKHAs",
+    "video_number": "4163"
+  },
+  {
+    "id": "MOTO_HP_023",
+    "official_num": 23,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely when encountering a pedestrian jaywalking behind a bus?",
+    "options": [
+      "(1) Slow down and honk the horn to make the pedestrian make way.",
+      "(2) Slow down and be aware of the pedestrian's motion.",
+      "(3) Slow down and ride slowly; there is no need to yield to the pedestrian as he/she is violating the rules."
+    ],
+    "correct_answer": "(2) Slow down and be aware of the pedestrian's motion.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4164. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1ad5iUPb6HD1g790Q7cuy2reTvwdG/NVitfCW22C3tcbSbVD3BVrowawSCQZrY-j8QgU2MKHAs",
+    "video_number": "4164"
+  },
+  {
+    "id": "MOTO_HP_024",
+    "official_num": 24,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely when seeing the vehicle in front of you with its brake light on and blocking your view as you approach an intersection?",
+    "options": [
+      "(1) Slow down and look to the left and right to make sure there is no oncoming traffic before passing.",
+      "(2) Stay close to the vehicle on the left as a barrier and continue to go straight ahead.",
+      "(3) Maintain the same speed and continue to go straight ahead."
+    ],
+    "correct_answer": "(1) Slow down and look to the left and right to make sure there is no oncoming traffic before passing.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4165. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1bjDQf0umC8Aq5AaiTZMkmsIlLkVP/_IZ2JKliwEc_JCTqbSpNaMvw46k4MHjT-CcZgQWsKHAs",
+    "video_number": "4165"
+  },
+  {
+    "id": "MOTO_HP_025",
+    "official_num": 25,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the inappropriate behavior to take when seeing a parked tour bus on the side of the road, as shown in the video?",
+    "options": [
+      "(1) Be aware of the motion of the parked tour bus on the side of the road.",
+      "(2) Be aware of pedestrians crossing the road as a large vehicle is blocking the view.",
+      "(3) Be aware of the parked tour bus on the side of the road and keep going straight at the same speed."
+    ],
+    "correct_answer": "(3) Be aware of the parked tour bus on the side of the road and keep going straight at the same speed.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4166. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1dSwDbPfRq3V74Naq3jqQs3n5mMEF/wyTEMyXd2yD8X8AQqScu-Yl35--IeVex-lrsgbnIKHAs",
+    "video_number": "4166"
+  },
+  {
+    "id": "MOTO_HP_026",
+    "official_num": 26,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride through mountain curves  safely?",
+    "options": [
+      "(1) To make a smooth turn, lower the center of gravity and accelerate.",
+      "(2) Honk the horn to alert oncoming vehicles.",
+      "(3) Slow down and pay attention to the vehicle's motion on the opposite side of the curve in advance, and avoid emergency brakes."
+    ],
+    "correct_answer": "(3) Slow down and pay attention to the vehicle's motion on the opposite side of the curve in advance, and avoid emergency brakes.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4167. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1f01qC9WwgqWWyUh9evUeoSmzkjUd/n9mjEGNQ7w1gL2EQaKexGwrg4mZIa8CB-rsfAnngKHAs",
+    "video_number": "4167"
+  },
+  {
+    "id": "MOTO_HP_027",
+    "official_num": 27,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely 8 on Video when the road ahead is under construction and the vehicle in front of you on the right suddenly changes lanes?",
+    "options": [
+      "(1) Pay attention to the motion of the vehicle in front of you and slow down to make way for it.",
+      "(2) Speed up to overtake the vehicle in front of you to avoid affecting the traffic flow behind you.",
+      "(3) There is no need to pay attention to the motion of the vehicle in front of you; just maintain the same speed."
+    ],
+    "correct_answer": "(1) Pay attention to the motion of the vehicle in front of you and slow down to make way for it.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4168. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1g5Ikxlgy76n9sdWy0Yv5gqnY4voq/QrYYpepE22Qcsf2lwfQLzWw-02ySTA5Q-arygCYAKHAs",
+    "video_number": "4168"
+  },
+  {
+    "id": "MOTO_HP_028",
+    "official_num": 28,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely when the vehicle in front of you is backing into a parking space?",
+    "options": [
+      "(1) Honk the horn to urge the vehicle in front of you to back into the parking space faster to avoid affecting the traffic flow behind.",
+      "(2) Slow down and change lanes directly without using turn signals or turning my head to look for oncoming traffic.",
+      "(3) Stop at a safe distance and wait until the vehicle in front of you enters the parking space before continuing to ride."
+    ],
+    "correct_answer": "(3) Stop at a safe distance and wait until the vehicle in front of you enters the parking space before continuing to ride.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4169. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1hZ7zYUaE2Fid91fRUOWQf8b5RYiR/I5eutWzahsF4iwzDaP5o18hEs6INZx-c-gMKAr4YKHAs",
+    "video_number": "4169"
+  },
+  {
+    "id": "MOTO_HP_029",
+    "official_num": 29,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you see a bus driver changing lanes and turning right without using a turn signal, what should you do to ride more safely?",
+    "options": [
+      "(1) Put on a right turn signal and pass the bus from its right side before it changes lanes and makes a turn.",
+      "(2) Keep a safe distance from the bus, slow down and observe the motion of the bus before driving.",
+      "(3) If I notice that the bus is about to change lanes and make a right turn, I can pass the bus on its left side after putting on a left turn signal."
+    ],
+    "correct_answer": "(2) Keep a safe distance from the bus, slow down and observe the motion of the bus before driving.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4170. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1iolIj1TkxqdKy57IegRIad5kMXLD/-ajLbpRaXACAL_0YHHSfdS7g7RARW5W2-xbegWo0KHAs",
+    "video_number": "4170"
+  },
+  {
+    "id": "MOTO_HP_030",
+    "official_num": 30,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you want to make a right turn at the intersection as shown in the video, but a bus driver is turning right without putting on its turn signal, what should you do to ride more safely?",
+    "options": [
+      "(1) Keep the same speed as the bus and turn right close to the right side of the bus.",
+      "(2) Slow down, keep a safe distance from the bus and wait for the bus to turn before making the right turn.",
+      "(3) Put on a left turn signal, change lanes, then pass the bus on its left side and turn right. 9 on Video"
+    ],
+    "correct_answer": "(2) Slow down, keep a safe distance from the bus and wait for the bus to turn before making the right turn.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4171. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1jzr0jezASnSXfyokLx5IYzLnYZq9/HGe2bOpK1A5-zwEpRkp85Hs8X60HApaU-9cTARZMKHAs",
+    "video_number": "4171"
+  },
+  {
+    "id": "MOTO_HP_031",
+    "official_num": 31,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you are passing through an intersection and see a motorcyclist making an illegal left turn, what should you do to ride more safely?",
+    "options": [
+      "(1) Maintain the same speed and go straight through the intersection.",
+      "(2) Honk the horn to warn him/her.",
+      "(3) Slow down and be prepared to stop at any time."
+    ],
+    "correct_answer": "(3) Slow down and be prepared to stop at any time.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4172. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1kpnbYSGqzJft2JOwNrlQflZtI1Av/0p34vcnxkfWHz_OuK8I_LghjQuoyYYwP-XLnA95gKHAs",
+    "video_number": "4172"
+  },
+  {
+    "id": "MOTO_HP_032",
+    "official_num": 32,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely if you encounter a motorcyclist riding illegally, as shown in the video?",
+    "options": [
+      "(1) Slow down, observe the motion of the motorcycle and be prepared to stop at any time.",
+      "(2) As long as I am not violating the rules, there is no need to be concerned when I see other motorcycles violating the rules.",
+      "(3) When I see a motorcycle dashing out, I honk the horn to make it make way; there is no need to be prepared to brake."
+    ],
+    "correct_answer": "(1) Slow down, observe the motion of the motorcycle and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4173. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1mZnyZ4Jcrznzl9E5ilxZYKOyG2dk/g7Coeumq7w-F_okrl5iZR-RL6kKo5O5e-AMdgSJ4KHAs",
+    "video_number": "4173"
+  },
+  {
+    "id": "MOTO_HP_033",
+    "official_num": 33,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, which of the following is wrong when you want to make a left turn at the intersection as shown in the video?",
+    "options": [
+      "(1) Slow down, turn my head from side to side to observe the motion of vehicles and pedestrians on the road, turn left only when it is safe to do so, and be prepared to stop at any time.",
+      "(2) Use turn signals or hand signals 30 meters ahead of the intersection and turn left at the center of the intersection.",
+      "(3) Use turn signals or hand signals 30 meters ahead of the intersection and turn without slowing down."
+    ],
+    "correct_answer": "(3) Use turn signals or hand signals 30 meters ahead of the intersection and turn without slowing down.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4174. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1oHFwIhQEnMteKa0htDyMTH8gGFL7/BVWsIbxSTK2NQ-0cwXGqIyeFSieTYTBG-6MhAxaMKHAs",
+    "video_number": "4174"
+  },
+  {
+    "id": "MOTO_HP_034",
+    "official_num": 34,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride more safely when you come to an intersection, as shown in the video, and want to make a left turn?",
+    "options": [
+      "(1) Use turn signals or hand signals 30 meters ahead of the intersection to make sure that there is no oncoming traffic in front of or behind me, or in the opposite direction, and then turn left without traveling to the center of the intersection, so as to avoid affecting the traffic flow behind.",
+      "(2) Use turn signals or hand signals 30 meters ahead of the intersection, slow down to the center of the intersection and turn left after making sure that there is no oncoming traffic or 10 on Video pedestrians in front of or behind you.",
+      "(3) Use a turn signal or hand signals 30 meters ahead of the intersection, slow down to the pedestrian crossing, and turn left after making sure that there is no oncoming traffic or pedestrians."
+    ],
+    "correct_answer": "(2) Use turn signals or hand signals 30 meters ahead of the intersection, slow down to the center of the intersection and turn left after making sure that there is no oncoming traffic or 10 on Video pedestrians in front of or behind you.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4175. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1pvRX8is9SiumCKUXoEsIcXrmma8L/QluNCqSZijtP3IsxGYPqAYDKCZ4z_yZ6-tM1gAsALHAs",
+    "video_number": "4175"
+  },
+  {
+    "id": "MOTO_HP_035",
+    "official_num": 35,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride safely through intersections with motorcycle waiting zones?",
+    "options": [
+      "(1) Slow down first and honk the horn to signal the motorcycles in the waiting area to move out of the way.",
+      "(2) Slow down first and pay attention to the motorcycles in the waiting area.",
+      "(3) Keep the same speed, bypass the waiting motorcycles, and go straight through the intersection."
+    ],
+    "correct_answer": "(2) Slow down first and pay attention to the motorcycles in the waiting area.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4176. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1rWn9ms4akqjVW9iz8mSdFhLW4jaX/w55oIR6lvjdzlrBsYhjWtk3u9g1ndT1J-LL_gccYLHAs",
+    "video_number": "4176"
+  },
+  {
+    "id": "MOTO_HP_036",
+    "official_num": 36,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, which of the following statements is not true when traveling on a curve?",
+    "options": [
+      "(1) Keep the midst of defensive riding in mind, slow down before entering a curve and anticipate possible obstacles in the road ahead.",
+      "(2) Speed up to avoid rear-end collisions due to slow speed.",
+      "(3) Always be aware of the possibility of vehicles in the opposite lane crossing the direction separation line illegally."
+    ],
+    "correct_answer": "(2) Speed up to avoid rear-end collisions due to slow speed.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4177. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1syLbLHc9uM33gVMIns1K00X4b8o4/PWCvNQoSlcuIfWM1yRrblKiMDXCVAhAL-Q8IAS8wLHAs",
+    "video_number": "4177"
+  },
+  {
+    "id": "MOTO_HP_037",
+    "official_num": 37,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride safely when encountering road construction and maintenance?",
+    "options": [
+      "(1) Slow down and pass slowly.",
+      "(2) Keep left quickly to avoid obstacles.",
+      "(3) Pass quickly to avoid blocking traffic."
+    ],
+    "correct_answer": "(1) Slow down and pass slowly.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4178. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1uUaPQFv7dHWKRyr8Ti54jL5HDhzm/DmnSd4HUv2RnvnbPKXB9T6iYBBCOrdRt-DLAgf9ELHAs",
+    "video_number": "4178"
+  },
+  {
+    "id": "MOTO_HP_038",
+    "official_num": 38,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you receive a phone call while traveling?",
+    "options": [
+      "(1) Answer the call while riding to avoid missing important calls.",
+      "(2) Pick up the phone first to check who is calling and only take important calls.",
+      "(3) Pull over in a safe place on the side of the road and turn off the engine before answering the call."
+    ],
+    "correct_answer": "(3) Pull over in a safe place on the side of the road and turn off the engine before answering the call.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4179. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B1y57wXN1jrAje4ag71vJpXWlaglBJ/LPckA3Js5PRVdraOskRL5NPumWHQyHSz-pbDA59YLHAs",
+    "video_number": "4179"
+  },
+  {
+    "id": "MOTO_HP_039",
+    "official_num": 39,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if the motorcyclist in front of you is answering his/her phone?",
+    "options": [
+      "(1) Honk the horn to alert him/her.",
+      "(2) Slow down and pay attention to the vehicle ahead, left and right, and make sure it is safe before overtaking.",
+      "(3) Follow along 11 on Video and take photos with the phone to collect evidence and report the incident to the police."
+    ],
+    "correct_answer": "(2) Slow down and pay attention to the vehicle ahead, left and right, and make sure it is safe before overtaking.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4180. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B20uGRoNh13nYiaPeGapRmuyFJ5Stl/9Ds1qvEp9syE1GYhJbgdNUqL5ThRtKMj-0cUghdwLHAs",
+    "video_number": "4180"
+  },
+  {
+    "id": "MOTO_HP_040",
+    "official_num": 40,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you see a car in front of you braking and slowing down at a green light, which of the following is not true?",
+    "options": [
+      "(1) After checking the traffic light, I can pass through the intersection.",
+      "(2) There may be people, cars, or animals entering the lane, so we should be prepared to brake and slow down at any time.",
+      "(3) There may be foreign objects or construction work on the roadway, so we should slow down and pay attention."
+    ],
+    "correct_answer": "(1) After checking the traffic light, I can pass through the intersection.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4181. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B21jvRV7pHYmqJlrEh6eeNPL4jENnN/3FUZUmVIrhCl6i6xPWInZGlasu8GtXPj-q8aAF-ILHAs",
+    "video_number": "4181"
+  },
+  {
+    "id": "MOTO_HP_041",
+    "official_num": 41,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate way to ride through a signalized intersection when the car on the left in front of you blocks the view of the road?",
+    "options": [
+      "(1) Go straight through after making sure that the lane is clear.",
+      "(2) Be aware of oncoming traffic turning left, as the view may be blocked by the car ahead.",
+      "(3) When the traffic light is green, I have the absolute right of way to go straight through."
+    ],
+    "correct_answer": "(2) Be aware of oncoming traffic turning left, as the view may be blocked by the car ahead.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4182. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B22WbdG7KwtAxTlvCzFMrDTnx5BDFv/8ZeKvZwI5CHf85SFp5tRO5MKoMVkIs3z-3bHgyOcLHAs",
+    "video_number": "4182"
+  },
+  {
+    "id": "MOTO_HP_042",
+    "official_num": 42,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if a motorcycle on the left overtakes you?",
+    "options": [
+      "(1) Keep a braking distance from the motorcycle ahead.",
+      "(2) After checking the conditions of the vehicles ahead, I can dodge and pass from the left side.",
+      "(3) To avoid a collision, honk the horn to warn it to make way."
+    ],
+    "correct_answer": "(1) Keep a braking distance from the motorcycle ahead.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4183. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B23UmalpEgSb3qfPY7o8L2lkMEQ4Td/D-WinwSnyg6GKGyUfq33YWVYZzKXJg9Z-g8ngzewLHAs",
+    "video_number": "4183"
+  },
+  {
+    "id": "MOTO_HP_043",
+    "official_num": 43,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, which of the following statements is true if you see the vehicle on the left in front of you braking and slowing down in the lane?",
+    "options": [
+      "(1) Be aware of the motion of the vehicle on the left in front of me and be prepared to slow down and brake.",
+      "(2) Keep right and speed up to pass and avoid possible danger.",
+      "(3) Honk the horn to alert the vehicle on the left in front of me and speed up to pass."
+    ],
+    "correct_answer": "(1) Be aware of the motion of the vehicle on the left in front of me and be prepared to slow down and brake.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4184. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B24WVXZJemfMix1YqF37nXHIKyGhoY/mD1iucbEfxPirjtfHk7Ddf9n6s5S0Wpy-E7MgL_ILHAs",
+    "video_number": "4184"
+  },
+  {
+    "id": "MOTO_HP_044",
+    "official_num": 44,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if the vehicle in front of you turns right immediately after putting on the turn signal?",
+    "options": [
+      "(1) Detour to the left to 12 on Video avoid the danger.",
+      "(2) Go straight ahead and pass quickly.",
+      "(3) Slow down and be prepared to stop at any time."
+    ],
+    "correct_answer": "(3) Slow down and be prepared to stop at any time.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4185. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B25rg0hDRBeMauvGwz9r68koLEzhco/OZmLAlJCK0Ppy-Hwg9aW-ovrBjL372i0-0sYAUZAMHAs",
+    "video_number": "4185"
+  },
+  {
+    "id": "MOTO_HP_045",
+    "official_num": 45,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if a motorcycle in the opposite lane makes a sudden left turn into a gas station?",
+    "options": [
+      "(1) Pay attention to the motion of vehicles in the opposite lane at all times and be prepared to brake and slow down.",
+      "(2) Straight traffic takes the right of way over turning traffic, so I should go straight ahead.",
+      "(3) Keep left quickly to avoid vehicle collisions."
+    ],
+    "correct_answer": "(1) Pay attention to the motion of vehicles in the opposite lane at all times and be prepared to brake and slow down.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4186. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B26lsaSzA8NGX6z1qBbbfg4hO0VBiu/OcSFv2U2flHVD6yn2UD0NWsNuLVle6_E-QLmAFJoMHAs",
+    "video_number": "4186"
+  },
+  {
+    "id": "MOTO_HP_046",
+    "official_num": 46,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if the brake light of the motorcycle in front of you comes on while you travel through an unsignalized intersection?",
+    "options": [
+      "(1) When traveling through an unsignalized intersection, there may be straight vehicles on the other side of the intersection, so whoever arrives at the intersection first will have the right of way.",
+      "(2) In addition to paying attention to the vehicles ahead, I should also pay attention to the vehicles traveling on the other road.",
+      "(3) If there is an oncoming vehicle on the other road, the vehicle on the left should yield to the vehicle on the right, therefore, it is not necessary for me to yield."
+    ],
+    "correct_answer": "(2) In addition to paying attention to the vehicles ahead, I should also pay attention to the vehicles traveling on the other road.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4187. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B27wP6DXgj0wMt4ukXKK8RA8FS49pL/63BIWDHvsNuOpRtK6SME82foXjZao0Cg-TsygHqAMHAs",
+    "video_number": "4187"
+  },
+  {
+    "id": "MOTO_HP_047",
+    "official_num": 47,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if you are traveling through an intersection with a flashing light and there is oncoming traffic on the other side of the intersection?",
+    "options": [
+      "(1) Speed down and pass through the flashing yellow light with caution.",
+      "(2) Speed up and go straight through.",
+      "(3) As I am driving in the lane with the flashing yellow light, I have the priority right of way and can go straight through."
+    ],
+    "correct_answer": "(1) Speed down and pass through the flashing yellow light with caution.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4188. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B28epK5gHtsXFliRG0DEy0GrE6ZJrf/qowTmCQ1cW_-E4V5qlulEEMMe_oxRJST-uM5AG6cMHAs",
+    "video_number": "4188"
+  },
+  {
+    "id": "MOTO_HP_048",
+    "official_num": 48,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist traveling on a dimly lit road through an intersection with a flashing light, which of the following behaviors is appropriate?",
+    "options": [
+      "(1) When it is dark, turn on my headlights and be aware of any obstacles on the road.",
+      "(2) After making sure the lane is clear, go straight through.",
+      "(3) If I am traveling through an intersection and encounter 13 on Video a vehicle coming from the other side of the intersection, I should honk the horn to make it make way."
+    ],
+    "correct_answer": "(1) When it is dark, turn on my headlights and be aware of any obstacles on the road.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4189. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B29DsmffOhNIRZTe1DpXhFszWvB6wQ/uMWugZmC-7Hw8g8yC3Ovo_w7BkN5GcIj--s8gyawMHAs",
+    "video_number": "4189"
+  },
+  {
+    "id": "MOTO_HP_049",
+    "official_num": 49,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist traveling through an intersection with a flash light, if you see the brake light of a car in front of you come on, which of the following statements is not true?",
+    "options": [
+      "(1) Speed down and pass with caution at the flashing yellow light.",
+      "(2) In addition to paying attention to the vehicles in front of me, I should also pay attention to vehicles in the opposite direction and on the other side of the intersection.",
+      "(3) As both vehicles are traveling straight ahead, the vehicle on the left should give way to the vehicle on the right, so I should give priority to the vehicle on the right."
+    ],
+    "correct_answer": "(3) As both vehicles are traveling straight ahead, the vehicle on the left should give way to the vehicle on the right, so I should give priority to the vehicle on the right.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4190. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2A4gAsj3aE4QEPSqaDnPe8mYiRIG4/PR7OXLvHf04BQSSzvIzEVwV1sznKgPb9-7spAzeAMHAs",
+    "video_number": "4190"
+  },
+  {
+    "id": "MOTO_HP_050",
+    "official_num": 50,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if the brake light of the car in front of you comes on while you are passing through the intersection with flashing light signals?",
+    "options": [
+      "(1) If I am traveling in a lane with flashing yellow lights, I have the right of way and can go straight through.",
+      "(2) In addition to paying attention to the vehicles in front of me, I should also pay attention to the vehicles on the other side of the intersection.",
+      "(3) When passing through the intersection and all vehicles are slowing down, the motorcycle has strong mobility, so it is okay to roll the throttle immediately to pass first."
+    ],
+    "correct_answer": "(2) In addition to paying attention to the vehicles in front of me, I should also pay attention to the vehicles on the other side of the intersection.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4191. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2Aw2lLuL08abkga9kigWZPZrPBo0r/EXdvQgDXYGRMqrBaKiXEa-Qsb945vVRC-uctAWOgMHAs",
+    "video_number": "4191"
+  },
+  {
+    "id": "MOTO_HP_051",
+    "official_num": 51,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if a motorcycle enters your lane without putting on its turn signal?",
+    "options": [
+      "(1) Honk the horn and ride fast to make it make way.",
+      "(2) Speed down and be prepared to brake at any time.",
+      "(3) To avoid a collision, I should pass on its right side."
+    ],
+    "correct_answer": "(2) Speed down and be prepared to brake at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4192. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2C9ySfDbOag1cV0nO7uojGvBVT9In/2mgHrI1PkCV1JSBLP_Skd-olWacyIyw2-Fbfgcu4MHAs",
+    "video_number": "4192"
+  },
+  {
+    "id": "MOTO_HP_052",
+    "official_num": 52,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if the brake light of a car comes on in the right lane?",
+    "options": [
+      "(1) There may be people, cars, or animals entering the blind spot of the lane, so we should be prepared to brake and 14 on Video slow down at any time.",
+      "(2) The car on the right side may be preparing to pull over on the side of the road, so I can pass straight through.",
+      "(3) Keep left quickly to avoid collisions with vehicles suddenly entering the lane."
+    ],
+    "correct_answer": "(1) There may be people, cars, or animals entering the blind spot of the lane, so we should be prepared to brake and 14 on Video slow down at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4193. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2D3bqAr22kTvK1RyjNMJtwSWKZzHG/KS5v_i9kxw0jIkkL_CgobONYKP7nIz2e-dregjPQMHAs",
+    "video_number": "4193"
+  },
+  {
+    "id": "MOTO_HP_053",
+    "official_num": 53,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you encounter a vehicle in the fast lane on the left side putting on the turn signal as shown in the video?",
+    "options": [
+      "(1) Pay attention to the motion of the vehicle in the fast lane before passing through the intersection and be prepared to slow down and stop.",
+      "(2) Honk the horn continuously to stop vehicles in the fast lane from entering.",
+      "(3) After ensuring my own safety, I can continue straight ahead."
+    ],
+    "correct_answer": "(1) Pay attention to the motion of the vehicle in the fast lane before passing through the intersection and be prepared to slow down and stop.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4194. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2F25kot2Orobj7E0iyRlhaWopdeNz/pMqnEPj6wWbDLFzVnAO_d0Ymg6D1-0Ml-ac0A2foMHAs",
+    "video_number": "4194"
+  },
+  {
+    "id": "MOTO_HP_054",
+    "official_num": 54,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you see a vehicle in the inner lane on the left putting on its turn signal, as shown in the video, which of the following is not a proper reaction?",
+    "options": [
+      "(1) Just pay attention to the traffic ahead of me in case there is oncoming traffic.",
+      "(2) Pay attention to the surrounding vehicles and be prepared to brake.",
+      "(3) In addition to paying attention to the traffic conditions ahead, I should also pay attention to the motion of the vehicles passing around me."
+    ],
+    "correct_answer": "(1) Just pay attention to the traffic ahead of me in case there is oncoming traffic.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4195. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2GhYXldo13e7VIRcD4ZBnu8fK1aoP/bBv5kxMQyfsfbCZVxn542j5RZgXMVW-v--LxAKQMNHAs",
+    "video_number": "4195"
+  },
+  {
+    "id": "MOTO_HP_055",
+    "official_num": 55,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, which of the following is true when starting at a signalized intersection?",
+    "options": [
+      "(1) Just pay attention to the traffic lights. When the green light is on, it means I can pass.",
+      "(2) When I see the green light, I have to pass quickly so that I won't be honked at by the car behind me.",
+      "(3) Although the green light means I can pass, I should still pay attention as there may be vehicles running the red light."
+    ],
+    "correct_answer": "(3) Although the green light means I can pass, I should still pay attention as there may be vehicles running the red light.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4196. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2HkhU8QAfjk2IW2Ho1ILffo9WnuYw/HqXrE3H1R6_19qztHw5GDkal8Xv732Ir-e71gDgoNHAs",
+    "video_number": "4196"
+  },
+  {
+    "id": "MOTO_HP_056",
+    "official_num": 56,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist who is waiting for the green light at an intersection, which of the following is true?",
+    "options": [
+      "(1) I can check my phone while waiting at the red light.",
+      "(2) See if there are any new signboards around.",
+      "(3) Turn my head from side to side to check if there are vehicles violating the rules before starting. 15 on Video"
+    ],
+    "correct_answer": "(3) Turn my head from side to side to check if there are vehicles violating the rules before starting. 15 on Video",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4197. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVKBLCMIPF1LVR4V4AlKaGpuyswxgm/t7yGpu1Z2aYX79oJf8gWcT8q6GS0Zg21-TMwgFClaSQs",
+    "video_number": "4197"
+  },
+  {
+    "id": "MOTO_HP_057",
+    "official_num": 57,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, which of the following is true if you are traveling through an intersection and encounter an offending vehicle?",
+    "options": [
+      "(1) Speed up and honk the horn continuously to warn the offending vehicle to give way.",
+      "(2) Pay attention to the motion of other vehicles and be prepared to slow down and stop when traveling through the intersection.",
+      "(3) Speed up and follow the large vehicles to pass through the intersection smoothly."
+    ],
+    "correct_answer": "(2) Pay attention to the motion of other vehicles and be prepared to slow down and stop when traveling through the intersection.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4198. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVLU64s16GXUc7Q05pzw6qoIvwTY0o/lu5ihmDftF6ux0PzYBwbEOL5de-wzANh-js4AdGVaSQs",
+    "video_number": "4198"
+  },
+  {
+    "id": "MOTO_HP_058",
+    "official_num": 58,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you react if you see a motorcycle turning right on a red light, as shown in the video?",
+    "options": [
+      "(1) Slow down at the intersection, observe the motion of the vehicles next to me and be prepared to stop at any time.",
+      "(2) As the motorcycle runs the red light illegally, it is okay for me to continue to go straight ahead.",
+      "(3) In order to stop the other motorcycle from violating the rules, I need to move forward first to make it give way."
+    ],
+    "correct_answer": "(1) Slow down at the intersection, observe the motion of the vehicles next to me and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4199. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVNGndbYswtMrBd7QMgICueqhKMWLY/4OrsRZxffzBw9RRGG5UgRTehFn3xM8Dh--M4g43JaSQs",
+    "video_number": "4199"
+  },
+  {
+    "id": "MOTO_HP_059",
+    "official_num": 59,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what actions should you take when encountering a motorcycle darting out in the opposite direction from a break in the directional restriction line?",
+    "options": [
+      "(1) Sound the horn to alert, then directly accelerate and overtake from the right side.",
+      "(2) You should slow down and be prepared to stop at any time.",
+      "(3) As long as you are not violating any rules, maintain a constant speed and continue straight."
+    ],
+    "correct_answer": "(2) You should slow down and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4200. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVPhfRFExxXt6vBcYeUaE0Ijyzn10Q/CFYFHe8roV3rROUh382xARFuRIh2F9vn-M8-A_XtaSQs",
+    "video_number": "4200"
+  },
+  {
+    "id": "MOTO_HP_060",
+    "official_num": 60,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, you are traveling through an intersection and want to make a left turn, but you notice an oncoming vehicle on your left behind you, which of the following is true?",
+    "options": [
+      "(1) Before turning, I should put on the turn signal, check the rearview mirror and turn my head to make sure it is safe.",
+      "(2) As long as I put on the turn signal to alert other vehicles, I can make the turn immediately.",
+      "(3) To make a smooth left turn, I can cross the direction separation line in advance."
+    ],
+    "correct_answer": "(1) Before turning, I should put on the turn signal, check the rearview mirror and turn my head to make sure it is safe.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4201. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVR66IMGSKsZ5VgbKS8a0JH7S0D8Mw/Cm1wtAhvCgtNninR5GuDA1O7Lby8iszY-HbqAWYRaSQs",
+    "video_number": "4201"
+  },
+  {
+    "id": "MOTO_HP_061",
+    "official_num": 61,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate way to ride if a 16 on Video vehicle from the left crosses the direction separation line illegally?",
+    "options": [
+      "(1) As it violates the rules, I should honk the horn continuously to make it make way.",
+      "(2) Speed down and be prepared to stop at any time.",
+      "(3) In order to prevent it from violating the rules, I should rush ahead to make it give way to me."
+    ],
+    "correct_answer": "(2) Speed down and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4202. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVSvV2pTSaFy8Swz7KrWnV2uAEm7q0/FDh32fqwRygO5JouLSdXVUcotXz5E8f5-rs8A4oxaSQs",
+    "video_number": "4202"
+  },
+  {
+    "id": "MOTO_HP_062",
+    "official_num": 62,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate reaction when the vehicle on the left overtakes me without putting on its turn signal or keeping a safe distance?",
+    "options": [
+      "(1) Pay attention to the road ahead. If I stay in my lane, there is no danger.",
+      "(2) As the lane is narrow and there are a lot of vehicles, honk the horn continuously to remind others to be more alert.",
+      "(3) In addition to paying attention to the traffic conditions ahead, I should also pay attention to the rearview mirror at all times and be prepared to slow down."
+    ],
+    "correct_answer": "(3) In addition to paying attention to the traffic conditions ahead, I should also pay attention to the rearview mirror at all times and be prepared to slow down.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4203. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVVI6rWBulp0zOAlbOZYl0vGRdB7rl/WMLikS05AfHwFS6V7QzBPUuvfqCX195_-88-AaZVaSQs",
+    "video_number": "4203"
+  },
+  {
+    "id": "MOTO_HP_063",
+    "official_num": 63,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you are traveling through an intersection with traffic coming from the left, which of the following is true?",
+    "options": [
+      "(1) When traveling in heavy traffic, there will be many blind spots, so I should be mindful in case there are vehicles or pedestrians dashing through the gaps in the traffic.",
+      "(2) When traffic is congested, I should speed up to avoid a traffic jam.",
+      "(3) As I have the priority of right of way, I can rush ahead and force it to give way."
+    ],
+    "correct_answer": "(1) When traveling in heavy traffic, there will be many blind spots, so I should be mindful in case there are vehicles or pedestrians dashing through the gaps in the traffic.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4204. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/y4pVXH1AqYLKdEaxMV6yAJiKZWWuEYOY/t6pWoDyRCBU_lXBhq7DHMf2Q1auSNdH_-brrASqFaSQs",
+    "video_number": "4204"
+  },
+  {
+    "id": "MOTO_HP_064",
+    "official_num": 64,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate reaction if a pedestrian steps out of the heavy traffic?",
+    "options": [
+      "(1) As the pedestrian crosses the direction separation line illegally, I can give a long honk and speed up to pass the pedestrian.",
+      "(2) Speed down, pay attention to the pedestrian's motion and be prepared to stop at any time.",
+      "(3) As the pedestrian is busy talking on his/her phone and is not aware of the traffic condition, it is not necessary to give way to him/her."
+    ],
+    "correct_answer": "(2) Speed down, pay attention to the pedestrian's motion and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4205. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2YHybYCk2DtINrd6qERv9S3SqS9Wt/izfbWszQAMsE1eeFY22kcbyh_A0LtQ2t-TcbgZbYNHAs",
+    "video_number": "4205"
+  },
+  {
+    "id": "MOTO_HP_065",
+    "official_num": 65,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate reaction when a 17 on Video pedestrian jaywalks?",
+    "options": [
+      "(1) Slow down, pay attention to the pedestrian, and be prepared to stop at any time.",
+      "(2) As the pedestrian fails to cross the road at the pedestrian crossing, I can honk the horn continuously to make him/her give way.",
+      "(3) As the pedestrian walks slowly across the road, it is okay to speed up to save time."
+    ],
+    "correct_answer": "(1) Slow down, pay attention to the pedestrian, and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4206. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2Zpv27X0fmpI4mSBBDPtBCwdcMTxd/_FGAUc_lHCi4-58cYBGL_h4uY9A6Q6Ie-Asdg-LwNHAs",
+    "video_number": "4206"
+  },
+  {
+    "id": "MOTO_HP_066",
+    "official_num": 66,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate reaction if a pedestrian jaywalks after getting off the bus?",
+    "options": [
+      "(1) As the pedestrian fails to cross the road at the pedestrian crossing, I can honk the horn continuously to make him/her give way.",
+      "(2) As the road is slippery on a rainy day, I should go through quickly in order to avoid slipping and falling caused by emergency braking.",
+      "(3) As the road is slippery on a rainy day, reduce the speed, pay attention to the pedestrian, and be prepared to stop the vehicle."
+    ],
+    "correct_answer": "(3) As the road is slippery on a rainy day, reduce the speed, pay attention to the pedestrian, and be prepared to stop the vehicle.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4207. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2bHBsXpmFPv2q0LtWGim18KcS84eJ/3XtorBi_Yy0GqTlIBKsduDOxgWwUpQiA-arEAnsMNHAs",
+    "video_number": "4207"
+  },
+  {
+    "id": "MOTO_HP_067",
+    "official_num": 67,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do when encountering a pedestrian crossing an intersection using his/her phone?",
+    "options": [
+      "(1) Take necessary measures, such as slowing down or being prepared to stop.",
+      "(2) Honk the horn and sound a warning.",
+      "(3) Brake sharply to frighten the pedestrian using his/her phone."
+    ],
+    "correct_answer": "(1) Take necessary measures, such as slowing down or being prepared to stop.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4208. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2cmIJE1qTZ3UgHj4PPJ7rbKBC8vZd/C_G3j5b9l9p_w-ZmsiwGc6APELldtsDu-DcpApMoNHAs",
+    "video_number": "4208"
+  },
+  {
+    "id": "MOTO_HP_068",
+    "official_num": 68,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you encounter a motorcycle that makes an illegal left turn?",
+    "options": [
+      "(1) Take necessary measures, such as slowing down or being prepared to stop.",
+      "(2) Honk the horn and sound a warning.",
+      "(3) Brake sharply to frighten the motorcyclist who is violating the rules."
+    ],
+    "correct_answer": "(1) Take necessary measures, such as slowing down or being prepared to stop.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4209. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2duyQdIrxfsDxCfWjiewVBHYBsI4p/oQOeqEB6nRI3ohI6oToAsCH1iuNCbiqO-5ctACdMNHAs",
+    "video_number": "4209"
+  },
+  {
+    "id": "MOTO_HP_069",
+    "official_num": 69,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you see a large vehicle in front of you putting on its turn signal while you are riding?",
+    "options": [
+      "(1) Speed up to overtake the vehicle in front of me.",
+      "(2) Speed down and keep a safe distance from the vehicle.",
+      "(3) Accelerate sharply to overtake and honk the horn to warn it."
+    ],
+    "correct_answer": "(2) Speed down and keep a safe distance from the vehicle.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4210. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2fCsV9J7I0JRl5P6KmLKxjozLSi6u/zlcFbzSFCAyQvSqhEkPnxhluYXS4ImYh-SM1gY9oNHAs",
+    "video_number": "4210"
+  },
+  {
+    "id": "MOTO_HP_070",
+    "official_num": 70,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if there are vehicles traveling alongside you that are obscuring your view of the 18 on Video road?",
+    "options": [
+      "(1) Pay attention to signals, watch for oncoming traffic in the blind spot, and drive defensively.",
+      "(2) I have the priority of right of way when the traffic light is green, so I should speed up and pass before the signal changes.",
+      "(3) Passing directly through the intersection has a low accident risk."
+    ],
+    "correct_answer": "(1) Pay attention to signals, watch for oncoming traffic in the blind spot, and drive defensively.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4211. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2g9mHGpCILMV90FSvyjWLojSeUYm9/p4nHfkEQK7kBe7ruVjOObhpih1F_ErpM-aLhAlQ8OHAs",
+    "video_number": "4211"
+  },
+  {
+    "id": "MOTO_HP_071",
+    "official_num": 71,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you keep in mind when you see a large vehicle making a right turn with a left turn signal?",
+    "options": [
+      "(1) The large vehicle is turning right and simply using the wrong turn signal.",
+      "(2) The large vehicle is turning left, but due to the difference in radius between the inner wheels, it needs to go to the right first.",
+      "(3) It is not likely that the vehicle puts on the wrong turn signal, I should determine the turning direction of the large vehicle based on the deviation of the vehicle's trajectory."
+    ],
+    "correct_answer": "(2) The large vehicle is turning left, but due to the difference in radius between the inner wheels, it needs to go to the right first.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4212. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2hHBBxxhVFbWCqf2CiCd5uwyHFxra/1l3rpJrtowgUOtbQArd4_ci7KAe5C9HZ-GblA_r0OHAs",
+    "video_number": "4212"
+  },
+  {
+    "id": "MOTO_HP_072",
+    "official_num": 72,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you need to change lanes due to a vehicle breakdown ahead of you, what should you do first?",
+    "options": [
+      "(1) Change lanes after putting on the high beams.",
+      "(2) Change lanes after putting on the turn signal, checking the rearview mirror, and turning my head to make sure the traffic is clear.",
+      "(3) Change lanes after honking the horn and signaling with my hands."
+    ],
+    "correct_answer": "(2) Change lanes after putting on the turn signal, checking the rearview mirror, and turning my head to make sure the traffic is clear.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4213. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2i0sbv7vOIEVvzCiNzbn7I1svZOZ8/OS-5fdNODQJujwDUKrX_KtL7bgpuRpbk-WcwgpMMOHAs",
+    "video_number": "4213"
+  },
+  {
+    "id": "MOTO_HP_073",
+    "official_num": 73,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, when you make a left turn at an intersection and a vehicle from the opposite direction turns right into the same lane, who has the right of way?",
+    "options": [
+      "(1) Right-turning vehicles from the opposite direction.",
+      "(2) Left-turning vehicles.",
+      "(3) The vehicle that crosses the stop line into the intersection has priority."
+    ],
+    "correct_answer": "(2) Left-turning vehicles.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4214. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2jYxpSvajZPjUesRtUHy2qSnPDdni/72__SBymlnIv57Iz-Dhd1hUkq6MkHHCA-uc3g4skOHAs",
+    "video_number": "4214"
+  },
+  {
+    "id": "MOTO_HP_074",
+    "official_num": 74,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you need to change lanes due to a vehicle breakdown ahead of you, what should you do first?",
+    "options": [
+      "(1) Change lanes after putting on the high beams.",
+      "(2) Change lanes after putting on the turn signal, checking the rearview mirror, and turning my head to make sure the traffic is clear.",
+      "(3) Change lanes after honking the horn 19 on Video and signaling with my hands."
+    ],
+    "correct_answer": "(2) Change lanes after putting on the turn signal, checking the rearview mirror, and turning my head to make sure the traffic is clear.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4215. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2kfnZ9YKQExdtgGQELYqjhCPwAwx1/eh-GqhhKZ6kSgIGItHC6GnXTBJQktRjj-Hc_gTc8OHAs",
+    "video_number": "4215"
+  },
+  {
+    "id": "MOTO_HP_075",
+    "official_num": 75,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if a vehicle suddenly makes a left turn into your lane from a fork in the road ahead?",
+    "options": [
+      "(1) Pay attention to the road ahead and continue to ride at the same speed.",
+      "(2) Accelerate and overtake the vehicle in front of me before it turns into my lane.",
+      "(3) Pay attention to the traffic conditions ahead, slow down and take necessary measures, such as being prepared to stop."
+    ],
+    "correct_answer": "(3) Pay attention to the traffic conditions ahead, slow down and take necessary measures, such as being prepared to stop.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4216. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2lRlm9TAmwl6P83bAcu7rDpF4WrcU/70C9mGxUK0yEN7P6ZvkF1d3Y-puCXI1z-gc6AuNQOHAs",
+    "video_number": "4216"
+  },
+  {
+    "id": "MOTO_HP_076",
+    "official_num": 76,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you encounter a vehicle in front of you illegally crossing the double yellow line to make a left turn?",
+    "options": [
+      "(1) Straight traffic has the right of way over turning traffic; I can continue to travel at the same speed.",
+      "(2) Pay attention to the traffic conditions ahead, reduce speed and slow down, and take necessary measures such as being prepared to stop.",
+      "(3) Change lanes to bypass it after honking the horn and signaling with my hands."
+    ],
+    "correct_answer": "(2) Pay attention to the traffic conditions ahead, reduce speed and slow down, and take necessary measures such as being prepared to stop.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4217. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2mrccvW38fWempmPES3Ibgwpbjx02/WMGP-9MyzfvDUR7OcoJUv3kzQ1g4T1Hb-kc-AO9kOHAs",
+    "video_number": "4217"
+  },
+  {
+    "id": "MOTO_HP_077",
+    "official_num": 77,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do when it is dark and a vehicle in the inner lane is making an illegal right turn?",
+    "options": [
+      "(1) Put on high beams to alert him/her that you are overtaking.",
+      "(2) Change lanes and overtake after honking the horn and using hand signals.",
+      "(3) Pay attention to the traffic conditions ahead, slow down and take necessary measures, such as being prepared to stop."
+    ],
+    "correct_answer": "(3) Pay attention to the traffic conditions ahead, slow down and take necessary measures, such as being prepared to stop.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4218. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2o9F5DSayT8keNDdmq4jUrLmr2tDq/C35uS-Yf1pKey8-evFKFzS9wNpQS22-n-N7zgDd4OHAs",
+    "video_number": "4218"
+  },
+  {
+    "id": "MOTO_HP_078",
+    "official_num": 78,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do to ride safely when the road ahead narrows and the neighboring vehicle puts on its turn signal to merge in?",
+    "options": [
+      "(1) Continue at the same speed as straight traveling vehicles have the right of way.",
+      "(2) Pay attention to the traffic conditions ahead, slow down and take necessary measures, such as being prepared to stop.",
+      "(3) Change lanes to bypass it after honking the horn and signaling with my hands."
+    ],
+    "correct_answer": "(2) Pay attention to the traffic conditions ahead, slow down and take necessary measures, such as being prepared to stop.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4219. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2pcDWPycF6MFNEQsbfCTPIFhUn7tf/TJ8Yf-uMCf51bJlT1W79D-In4EVi3U9Z-MMPAR-QOHAs",
+    "video_number": "4219"
+  },
+  {
+    "id": "MOTO_HP_079",
+    "official_num": 79,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take when the traffic light turns green at an intersection?",
+    "options": [
+      "(1) 20 on Video Watch out for vehicles running the red light on the other road and be prepared to stop at any time.",
+      "(2) If the traffic light has turned green, pass through the intersection quickly to avoid traffic congestion.",
+      "(3) If a vehicle traveling on the other road has entered the intersection, honk the horn three times to make it stop."
+    ],
+    "correct_answer": "(1) 20 on Video Watch out for vehicles running the red light on the other road and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4220. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2qHwaH1ICXTiXZUmBOAP2EWxOAw2E/Ii6sL9tjHRVBknUuNvYxzBmx5Hr0bzik-58PAoukOHAs",
+    "video_number": "4220"
+  },
+  {
+    "id": "MOTO_HP_080",
+    "official_num": 80,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is dangerous in the video?",
+    "options": [
+      "(1) The vehicle on the other road of the intersection turns left when the traffic light is red.",
+      "(2) The left-turning vehicles fail to yield to pedestrians.",
+      "(3) The vehicle drives on the wrong way and intrudes into our lane."
+    ],
+    "correct_answer": "(1) The vehicle on the other road of the intersection turns left when the traffic light is red.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4221. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2qupbNlDFH9pZSQFoItcexL7NB63Y/ZO6vs4nltQLZskYn0WOGWpUB1mH5PbcQ-18aAj-4OHAs",
+    "video_number": "4221"
+  },
+  {
+    "id": "MOTO_HP_081",
+    "official_num": 81,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the most likely danger you might encounter?",
+    "options": [
+      "(1) An oncoming vehicle intrudes into our lane.",
+      "(2) A motorcycle behind fails to keep a safe distance and causes a collision.",
+      "(3) The slippery road surface markings lead to the loss of control of vehicles."
+    ],
+    "correct_answer": "(1) An oncoming vehicle intrudes into our lane.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4222. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2s9Bj7Epx1OuYPFVljUTuoh0Op2Na/v0LShgO5WbSP0o6WO3a-LPLkN8IiHXpX-ncjAovQOHAs",
+    "video_number": "4222"
+  },
+  {
+    "id": "MOTO_HP_082",
+    "official_num": 82,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take when there is a vehicle in front of you that is likely to be backing up?",
+    "options": [
+      "(1) Honk the horn three times to alert the roadside vehicles and then slow down to pass.",
+      "(2) Reduce speed and pay attention to the roadside vehicles, so as to be ready to stop at any time.",
+      "(3) Stop and tap on the vehicle to warn it that it is intruding on our traveling route."
+    ],
+    "correct_answer": "(2) Reduce speed and pay attention to the roadside vehicles, so as to be ready to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4223. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2tJ0F2YDWZ1jB0d3WsA8xnLlalW1U/uk3v9QfVft-BaSo8LKMVElzKaV1OUnRz-9MmAUvkOHAs",
+    "video_number": "4223"
+  },
+  {
+    "id": "MOTO_HP_083",
+    "official_num": 83,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take when there is a large truck in front of you in the same lane slowing down under poor visibility conditions?",
+    "options": [
+      "(1) Check the right mirror to make sure there is no oncoming traffic and pass on the right side of the vehicle in front of me.",
+      "(2) Reduce speed, observe the motion of the vehicle in front of me and be prepared to stop at any time.",
+      "(3) Cross the lane line to overtake after putting on the left turn signal."
+    ],
+    "correct_answer": "(2) Reduce speed, observe the motion of the vehicle in front of me and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4224. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2uhZtjE7reRy3vGNtyoPM6N5pQ0l3/4-qbpVAo_8m5RJ3Q_8BGpClmb54q25BS-ur_ALv4OHAs",
+    "video_number": "4224"
+  },
+  {
+    "id": "MOTO_HP_084",
+    "official_num": 84,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist approaching an intersection, if you see a heavy truck on the side of the road trying to make a right 21 on Video turn and possibly invading our lane, what is the appropriate action to take?",
+    "options": [
+      "(1) Slow down, put on the right turn signal and change lanes to travel on the shoulder.",
+      "(2) Reduce speed, observe the motion of the heavy truck and be prepared to stop at any time.",
+      "(3) Honk the horn three times to alert the truck and slow down."
+    ],
+    "correct_answer": "(2) Reduce speed, observe the motion of the heavy truck and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4225. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2vpGQBCwShMnn021YoqqU7BJ4XdRJ/pSaqVnLeL5Y89pTp75WIlPaHuHmkZrpm-vrmAeAMPHAs",
+    "video_number": "4225"
+  },
+  {
+    "id": "MOTO_HP_085",
+    "official_num": 85,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take when you see a vehicle starting on the roadside?",
+    "options": [
+      "(1) The vehicle may make an illegal U-turn, so I should slow down and be prepared to stop at any time.",
+      "(2) The vehicle will enter the outside lane after starting, so it has nothing to do with me, and I should keep going.",
+      "(3) The vehicle should change lanes in order to give way to me, therefore, I should keep going."
+    ],
+    "correct_answer": "(1) The vehicle may make an illegal U-turn, so I should slow down and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4226. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2wspjUROr0xv5ePDxYQWM21ODD6hz/YzThZ88A2LE_QzXUVkjOfumfaX4-WPUD-eMCALAgPHAs",
+    "video_number": "4226"
+  },
+  {
+    "id": "MOTO_HP_086",
+    "official_num": 86,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you are traveling in the inner lane and there is a vehicle in front of you that is about to make a left turn, what shouldn't you do?",
+    "options": [
+      "(1) Change directly to the outside lane and accelerate to bypass the truck in front of me.",
+      "(2) Slow down and pause until the vehicle in front of you completes its left turn, then continue on.",
+      "(3) Put on the right turn signal and give way to the straight traffic, then change to the outside lane."
+    ],
+    "correct_answer": "(1) Change directly to the outside lane and accelerate to bypass the truck in front of me.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4227. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2yRcwrDY2hbY9mbeFp2lsgLuYt4R3/uxWxUizKl67Hpb_Egq9Jg2NTN9XiXPju-2Logfg4PHAs",
+    "video_number": "4227"
+  },
+  {
+    "id": "MOTO_HP_087",
+    "official_num": 87,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you want to make a right turn at the same time as a heavy truck, what is the best action to take?",
+    "options": [
+      "(1) The heavy truck takes longer to start, so I should seize the opportunity to accelerate and make a right turn.",
+      "(2) Do not go side by side with the heavy truck, stop and let the heavy truck go first.",
+      "(3) If the heavy truck is traveling in a different lane from me, we can turn right together."
+    ],
+    "correct_answer": "(2) Do not go side by side with the heavy truck, stop and let the heavy truck go first.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4228. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B2zMp9L0qtyaZPipSoQd0DB6XVaRuy/Yc-S42TJxJ6xNxKyQ5DhsSne6OSjsbt9-brughRMPHAs",
+    "video_number": "4228"
+  },
+  {
+    "id": "MOTO_HP_088",
+    "official_num": 88,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is dangerous in the video?",
+    "options": [
+      "(1) The heavy truck makes a right turn, which could lead us into the dangerous area caused by the difference in radius between the inner wheels.",
+      "(2) The signal pole protrudes out of the lane and blocks traffic.",
+      "(3) The containers loaded 22 on Video on the container truck extend beyond the body of the truck, which affects safety when traveling."
+    ],
+    "correct_answer": "(1) The heavy truck makes a right turn, which could lead us into the dangerous area caused by the difference in radius between the inner wheels.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4229. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B30JriPWVgdCKiPdnnFc0NtSl3KbWv/sxBGYcTu4wBbV5ULrwzTfV3HFU6Gjs36-3btAJBkPHAs",
+    "video_number": "4229"
+  },
+  {
+    "id": "MOTO_HP_089",
+    "official_num": 89,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take when you see a vehicle approaching at night?",
+    "options": [
+      "(1) Honk the horn to remind the car driver to turn off his/her high beams.",
+      "(2) Keep right, slow down and be prepared to stop at any time.",
+      "(3) Turn on the high beams to increase visibility and slow down."
+    ],
+    "correct_answer": "(2) Keep right, slow down and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4230. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B30v3ASy8NKOwopG7ltx57TIdhyf90/V36-1rf2hVr6PeoEO2e66bb3v20NSGh3-zLzgXR4PHAs",
+    "video_number": "4230"
+  },
+  {
+    "id": "MOTO_HP_090",
+    "official_num": 90,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take?",
+    "options": [
+      "(1) Honk the horn once to alert the cyclist that there is an oncoming vehicle behind him/her, while reducing speed.",
+      "(2) Honk the horn for 1 second to alert the cyclist that I am about to overtake.",
+      "(3) Honk the horn three times to alert the cyclist that there is an oncoming vehicle behind him/her, while reducing speed."
+    ],
+    "correct_answer": "(1) Honk the horn once to alert the cyclist that there is an oncoming vehicle behind him/her, while reducing speed.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4231. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B31snhajVDl11YR66twFm8ppyeI7bt/LggJP_U8Nxu-BQ2hZekRlIHnpxLq11Pg-_8dgaSQPHAs",
+    "video_number": "4231"
+  },
+  {
+    "id": "MOTO_HP_091",
+    "official_num": 91,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take?",
+    "options": [
+      "(1) Slow down, pay attention to the motion of the cyclist, and take necessary safety measures at any time.",
+      "(2) Honk the horn twice to alert the cyclist that I am about to overtake, and then speed up.",
+      "(3) Quickly switch to high beams once and switch back to remind oncoming traffic to turn on their headlights."
+    ],
+    "correct_answer": "(1) Slow down, pay attention to the motion of the cyclist, and take necessary safety measures at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4232. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B32ydrStaLEdOipzlJh3N4cSUHRZPU/IPNOZct15RT3jfzpUt9xauZD0ekiwpAE-lb3ANSkPHAs",
+    "video_number": "4232"
+  },
+  {
+    "id": "MOTO_HP_092",
+    "official_num": 92,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take?",
+    "options": [
+      "(1) Observe the motion of the pedestrians and reduce speed to pass.",
+      "(2) Honk the horn once to remind pedestrians to yield to me.",
+      "(3) Stop and yield the pedestrians to pass first."
+    ],
+    "correct_answer": "(3) Stop and yield the pedestrians to pass first.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4233. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3414o0XWPtE5WSzZFpBoZj0cjyeCD/fbOi-URWLVQKpmuZu8h5uIJL4-Ef4SyG-tMvAQi4PHAs",
+    "video_number": "4233"
+  },
+  {
+    "id": "MOTO_HP_093",
+    "official_num": 93,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take?",
+    "options": [
+      "(1) Honk the horn to stop pedestrians from jaywalking.",
+      "(2) Reduce speed, observe the motion of pedestrians and be prepared to stop at any time.",
+      "(3) In line with the motion of the pedestrians on the roadside, shift to the left and dodge the pedestrians."
+    ],
+    "correct_answer": "(2) Reduce speed, observe the motion of pedestrians and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4234. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B34vhkgvrm3SaBPztASvLJoip8TC0J/GBmaRIlH5xOlf-F0PAuP-kVSwC6rLdDp-9s1AJDYPHAs",
+    "video_number": "4234"
+  },
+  {
+    "id": "MOTO_HP_094",
+    "official_num": 94,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate action to take if a pedestrian jaywalks and crosses the refuge island as 23 on Video shown in the video?",
+    "options": [
+      "(1) Look further ahead and react in advance.",
+      "(2) Honk the horn to warn the pedestrian of the violation.",
+      "(3) Stop immediately and urge the pedestrian to cross quickly."
+    ],
+    "correct_answer": "(1) Look further ahead and react in advance.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4235. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B371HfMneXmBxFA50R4uPgVNMzLzGK/4GLKG_uKK6bWOgUm79yBn8Z2Quc2ChU_-5M9gHjsPHAs",
+    "video_number": "4235"
+  },
+  {
+    "id": "MOTO_HP_095",
+    "official_num": 95,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you are riding a motorcycle on a two-way single carriageway and there are vehicles parked on the side of the road?",
+    "options": [
+      "(1) I cannot pass on the right side of the road due to the parked cars, therefore, I should keep left and go straight.",
+      "(2) Slow down and watch out for pedestrians stepping out or doors being opened suddenly.",
+      "(3) In order to avoid danger, vehicles traveling straight ahead should be given priority to pass quickly."
+    ],
+    "correct_answer": "(2) Slow down and watch out for pedestrians stepping out or doors being opened suddenly.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4236. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B39HDuWcdUINuw9DiqNyCFNEdU2ViT/shCL4Qx-Fr4VMTYQcKUs2HBu111caNpz-_Mhgyz8PHAs",
+    "video_number": "4236"
+  },
+  {
+    "id": "MOTO_HP_096",
+    "official_num": 96,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you see a pedestrian walking in your lane?",
+    "options": [
+      "(1) Bypass the pedestrian and continue straight ahead.",
+      "(2) Brake sharply in the lane and wait for the pedestrian to pass.",
+      "(3) Reduce speed and make preparations to dodge."
+    ],
+    "correct_answer": "(3) Reduce speed and make preparations to dodge.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4237. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3CCJzWt9hbCYDNDKOigLfsbGsrDdj/xQmDceSsgW766b6y-OzMTysgCVy6Cnx5-D7rgpUQPHAs",
+    "video_number": "4237"
+  },
+  {
+    "id": "MOTO_HP_097",
+    "official_num": 97,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you are traveling in the inner lane at the entrance and exit ramps and a motorcycle changes lanes on the fork in the same direction?",
+    "options": [
+      "(1) Reduce speed and be prepared to stop.",
+      "(2) Accelerate and pass without yielding.",
+      "(3) Straight traffic takes the right of way; there is no need to be concerned about the behavior of other road users."
+    ],
+    "correct_answer": "(1) Reduce speed and be prepared to stop.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4238. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3EqWwJS6g8p8ZhGyfbU3QFdHfY24B/JRecunQZIjzb44RNvpSLVeUx2ybNXQpV-zLwAHkkPHAs",
+    "video_number": "4238"
+  },
+  {
+    "id": "MOTO_HP_098",
+    "official_num": 98,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, if you are traveling over a bridge and there is a small vehicle on the left in front of you, what are the possible dangers you may encounter?",
+    "options": [
+      "(1) I am already keeping right, so just pay attention to the traffic conditions ahead.",
+      "(2) A vehicle suddenly overtakes me on the right.",
+      "(3) Focus on the small vehicle in front of me to see if it will keep to the right."
+    ],
+    "correct_answer": "(1) I am already keeping right, so just pay attention to the traffic conditions ahead.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4239. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3H8jwejfA1rrp4aZeLRxWjGYKC2xo/qjlgUVdmvpo4txIW6XfGVHDVHKSSxGAn-3M2g6k0PHAs",
+    "video_number": "4239"
+  },
+  {
+    "id": "MOTO_HP_099",
+    "official_num": 99,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if a vehicle overtakes you on the left?",
+    "options": [
+      "(1) Speed up and stop the vehicle from overtaking.",
+      "(2) Keep going straight ahead, as 24 on Video straight traffic has priority.",
+      "(3) Reduce speed to let it overtake."
+    ],
+    "correct_answer": "(3) Reduce speed to let it overtake.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4240. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3JbAZJia28xYfw3pN31L7vcvP5o1H/GvCpVowz_yn5vlY0f_TZbolym32ro8Ue-pMXAtVQPHAs",
+    "video_number": "4240"
+  },
+  {
+    "id": "MOTO_HP_100",
+    "official_num": 100,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you're traveling through a single carriageway in the countryside with overgrown grass and there is an oncoming car?",
+    "options": [
+      "(1) Slow down and keep right to let it pass first.",
+      "(2) If you are barely able to pass the car, go ahead as quickly as possible.",
+      "(3) Honk the horn to make it keep to the side of the road for easier passing."
+    ],
+    "correct_answer": "(1) Slow down and keep right to let it pass first.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4241. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3Mguaqy4EzWePGwq7CBvAXMSOd3c3/q-pXEDxDXum49BLnLsNjxOy3J8mBroyz-8sdgulkPHAs",
+    "video_number": "4241"
+  },
+  {
+    "id": "MOTO_HP_101",
+    "official_num": 101,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if a car changes lanes to the left side in front of you on an interchange?",
+    "options": [
+      "(1) Speed up and pass without yielding.",
+      "(2) Slow down and pay attention to the motion of the vehicles behind.",
+      "(3) Honk the horn to warn the traffic to give way to the vehicles going straight ahead."
+    ],
+    "correct_answer": "(2) Slow down and pay attention to the motion of the vehicles behind.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4242. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3OxzDcLV55Gstt02JoY0Qv9uwljJO/_c2lan_rUsE0GpBzpbmz-A0KLGGltsSv-DspAEV8PHAs",
+    "video_number": "4242"
+  },
+  {
+    "id": "MOTO_HP_102",
+    "official_num": 102,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist traveling on a narrow road, what should you do when you see a large vehicle approaching from the opposite direction?",
+    "options": [
+      "(1) Maintain a space where I can slow down and brake at any time.",
+      "(2) Honk the horn to make it make way.",
+      "(3) Honk the horn and speed up to pass."
+    ],
+    "correct_answer": "(1) Maintain a space where I can slow down and brake at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4243. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3RHKfEoSQx4hcLX3jwSl5p1UuCEXU/CNODOGnfA6LHhHxp2sBMrjKQcC4JhS47-M8zAwGQPHAs",
+    "video_number": "4243"
+  },
+  {
+    "id": "MOTO_HP_103",
+    "official_num": 103,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what is the appropriate behavior when you see a vehicle putting on its left turn signal and turning around at the opening of a refuge island?",
+    "options": [
+      "(1) Maintain the same speed and continue straight ahead.",
+      "(2) Reduce speed and allow the vehicle to pass first to avoid danger.",
+      "(3) Honk the horn; there is no need to be prepared to brake."
+    ],
+    "correct_answer": "(2) Reduce speed and allow the vehicle to pass first to avoid danger.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4244. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3TMcw4wyAlrawt8Q9vIpRiRhyjErA/4Bj1CVSNNY_peSm-NnPCnFzJ2FkQOgj0-Qc3g5mkPHAs",
+    "video_number": "4244"
+  },
+  {
+    "id": "MOTO_HP_104",
+    "official_num": 104,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist traveling through a narrow intersection with illegally parked vehicles, which of the following statements is true?",
+    "options": [
+      "(1) Continue straight ahead without paying attention to other offending vehicles.",
+      "(2) Anticipate that a turning vehicle will encroach on my vehicle's travel space.",
+      "(3) The illegally parked vehicles are not blocking the view of the driver who is making a turn on the other road. 25 on Video"
+    ],
+    "correct_answer": "(2) Anticipate that a turning vehicle will encroach on my vehicle's travel space.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4245. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3VQVF8QfrLc0cUaUffG3lnANpfy7q/OdtpN97ykV2ZWI6u5kJsAIshMUtVPjSx-FM6A-m4PHAs",
+    "video_number": "4245"
+  },
+  {
+    "id": "MOTO_HP_105",
+    "official_num": 105,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you notice illegal parking at an intersection and a light truck going around the intersection when making a right turn?",
+    "options": [
+      "(1) Reduce speed and stop.",
+      "(2) Go straight through the intersection without slowing down.",
+      "(3) Accelerate and pass close to the gap between the vehicles."
+    ],
+    "correct_answer": "(1) Reduce speed and stop.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4246. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3Xaci6z3mFPUkzGRgY2aT99beHp7e/jjQa3DSdlS7qVVO9WLLFvkfFLFEoVSUi-SMUgEXgPHAs",
+    "video_number": "4246"
+  },
+  {
+    "id": "MOTO_HP_106",
+    "official_num": 106,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do when you see a passenger car putting on its right turn signal and making an illegal lane change?",
+    "options": [
+      "(1) Honk the horn to make it yield.",
+      "(2) Be alert and increase the safety distance.",
+      "(3) Cut directly into the right lane and bypass the vehicle in front of you."
+    ],
+    "correct_answer": "(2) Be alert and increase the safety distance.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4247. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3ZcebxTRg5doR7quCDXU1x7MyEx9m/dfhxNToEu9nKW3fsmA2ld_uSnRwblgip-9sbAB30PHAs",
+    "video_number": "4247"
+  },
+  {
+    "id": "MOTO_HP_107",
+    "official_num": 107,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do when you see a small passenger car approaching from the roadside gas station?",
+    "options": [
+      "(1) Slow down, observe the motion of the vehicle in front of me and be prepared to stop at any time.",
+      "(2) There is no need to yield; change directly to the inner lane.",
+      "(3) If you see a vehicle dashing out, honk the horn and there is no need to be prepared to brake."
+    ],
+    "correct_answer": "(1) Slow down, observe the motion of the vehicle in front of me and be prepared to stop at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4248. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3ba0874SdFeE29sA0n6jHgT6ESgpp/29jkMRiXRY214Vxc0c4X1HOt3r8ATWNi-dcmAaYIPHAs",
+    "video_number": "4248"
+  },
+  {
+    "id": "MOTO_HP_108",
+    "official_num": 108,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you see a motorcycle traveling illegally through the lane whe the traffic light is green?",
+    "options": [
+      "(1) Follow the signal and continue straight ahead.",
+      "(2) Slow down and be prepared to stop at any time.",
+      "(3) Just honk the horn; there is no need to pay attention to the motorcyclist's motion."
+    ],
+    "correct_answer": "(2) Slow down and be prepared to stop at any time.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4249. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3dmOO93zNF0akbzqgfNE3ci7PD4LM/FS8sGux_j3QTG97m6qcs4HD477Bq0IJA-zMtgw4YPHAs",
+    "video_number": "4249"
+  },
+  {
+    "id": "MOTO_HP_109",
+    "official_num": 109,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what should you do if you see a passenger car on the left in front of you suddenly slowing down at an intersection when the traffic light is green?",
+    "options": [
+      "(1) Anticipate that there may be vehicles or pedestrians dashing out of the obscured area and be prepared to slow down at any time.",
+      "(2) Only pay attention to the motion of the vehicles in front of you, not to the motion of the objects on both sides of the road.",
+      "(3) As long as I am safe, there is no need to pay attention to the reactions of other road users. 26 on Video"
+    ],
+    "correct_answer": "(1) Anticipate that there may be vehicles or pedestrians dashing out of the obscured area and be prepared to slow down at any time.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4250. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/x6B3flrtlNycqGHTesB7xszXcbWZm8xr/-RGhZOi7r77oid8GbWWDHcFkLZ3pB3Cj--LrAE40PHAs",
+    "video_number": "4250"
+  },
+  {
+    "id": "MOTO_HP_110",
+    "official_num": 110,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what dangers do you notice in the video?",
+    "options": [
+      "(1) The oncoming motorcycle occupies the oncoming lane and makes a left turn first.",
+      "(2) Pedestrians on the roadside are not following the rules and have entered the lane unauthorized.",
+      "(3) The oncoming red car turning left does not yield to the straight-going vehicle."
+    ],
+    "correct_answer": "(1) The oncoming motorcycle occupies the oncoming lane and makes a left turn first.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4251. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZZeCXc09UHvDN1QPatPkcsvWi5OQL/hs23Kh9ZiNddryExgB6-6qievsIWuXYK-x8MgBaTGigs",
+    "video_number": "4251"
+  },
+  {
+    "id": "MOTO_HP_111",
+    "official_num": 111,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, you want to make a left turn at the intersection shown in the video, while an oncoming car wants to make a right turn into the same lane. Which of the following statements is correct?",
+    "options": [
+      "(1) Vehicles turning right should yield to vehicles turning left; therefore, the oncoming car should stop and let your vehicle go first as per the regulations.",
+      "(2) Both vehicles can enter the segment simultaneously; your vehicle is making a left turn and enters the inner lane, while the oncoming vehicle is making a right turn and enters the outer lane.",
+      "(3) Left- turning vehicles should yield to right-turning vehicles; therefore, stopping to let the oncoming vehicle go first is in accordance with regulations."
+    ],
+    "correct_answer": "(1) Vehicles turning right should yield to vehicles turning left; therefore, the oncoming car should stop and let your vehicle go first as per the regulations.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4252. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZbW9gHTFsXk5dzRUvm57Nzi3m1i16/h96zlv6Flqkh7IW2W_KuU8OZdcmsfiOx-1ccAgrPGigs",
+    "video_number": "4252"
+  },
+  {
+    "id": "MOTO_HP_112",
+    "official_num": 112,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what dangers do you notice in the video?",
+    "options": [
+      "(1) The oncoming vehicle turning right did not yield to your vehicle, affecting your safety.",
+      "(2) The oncoming vehicle is not using its lights according to regulations, affecting your vehicle's safety.",
+      "(3) Pedestrians on the roadside are crossing the lane without following regulations, affecting your vehicle's safety."
+    ],
+    "correct_answer": "(1) The oncoming vehicle turning right did not yield to your vehicle, affecting your safety.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4253. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZcq2xL3CSdLknuxgoSrw7L8pUGtR0/eBV2qvTn-UJJB3lJSGKUZl5r4TzA7hHz-tMvA9L3Gigs",
+    "video_number": "4253"
+  },
+  {
+    "id": "MOTO_HP_113",
+    "official_num": 113,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, based on defensive driving principles, what action should you take at this moment?",
+    "options": [
+      "(1) Sound the horn once to remind the other driver to yield, then slow down and proceed.",
+      "(2) Turning vehicles should yield to straight-going vehicles; you can slow down and proceed.",
+      "(3) Slow down and be prepared to stop at any time."
+    ],
+    "correct_answer": "(3) Slow down and be prepared to stop at any time.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4254. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZdiyL2RjVP7G9QoFFdOw5KPOE1Mv9/MpW6DAzfyQU4looSDtLZSzouyrUANN5x-AcAAhM_Gigs",
+    "video_number": "4254"
+  },
+  {
+    "id": "MOTO_HP_114",
+    "official_num": 114,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what danger are you most likely to encounter when passing through the intersection shown in the video?",
+    "options": [
+      "(1) Poor visibility causes rear-end collisions. 27 on Video",
+      "(2) The oncoming vehicle is incorrectly using its high beams, causing glare for your vehicle.",
+      "(3) The oncoming vehicle turning does not yield to the straight-going vehicle."
+    ],
+    "correct_answer": "(3) The oncoming vehicle turning does not yield to the straight-going vehicle.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4255. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZeXvKuyYO1Ph53rfkGTYom9lyWalQ/U4ztRIV8IM3E_GtdH56W6b1H7Agjxam2-tcIgutrGigs",
+    "video_number": "4255"
+  },
+  {
+    "id": "MOTO_HP_115",
+    "official_num": 115,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, driving through an uncontrolled intersection and seeing multiple cars passing through, which of the following statements is correct?",
+    "options": [
+      "(1) Your lane is marked with \"slow\" and belongs to a side road, so you should stop and yield.",
+      "(2) The left-side vehicle should yield to the right-side vehicle, so the red car should yield to your vehicle.",
+      "(3) The cross street has directional restriction lines and is a main road; therefore, you should stop and yield."
+    ],
+    "correct_answer": "(2) The left-side vehicle should yield to the right-side vehicle, so the red car should yield to your vehicle.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4256. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZfylmfAp30wZelAm6PBrd6Fr8FBf0/XGZUlwtH3z3b1wsR5_purVjLbr2osqJV-WMhAoOzGigs",
+    "video_number": "4256"
+  },
+  {
+    "id": "MOTO_HP_116",
+    "official_num": 116,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what action should you take at this moment?",
+    "options": [
+      "(1) When driving on the outer lane of a roundabout, yield to vehicles in the inner lane.",
+      "(2) Turning vehicles should yield to straight-going vehicles; therefore, your vehicle can pass first.",
+      "(3) Vehicles changing lanes should yield to straight-going vehicles; therefore, your vehicle can pass first."
+    ],
+    "correct_answer": "(1) When driving on the outer lane of a roundabout, yield to vehicles in the inner lane.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4257. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZh1lvTulJXsyYlfiBX7XR30Ab1Psu/cbdFTn4WWHrSB1DBF_bYCTGl90kZPtu8-1cxAtffGigs",
+    "video_number": "4257"
+  },
+  {
+    "id": "MOTO_HP_117",
+    "official_num": 117,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, seeing the vehicle in front slowing down, what action should you take at this moment?",
+    "options": [
+      "(1) Slow down and proceed carefully, wait for the oncoming vehicle to clear, and then overtake from the left lane when safe.",
+      "(2) Sound the horn once or flash the overtaking lights; after the vehicle in front signals to let you pass, overtake from the right.",
+      "(3) Slow down, observe the movements of the vehicle in front, and monitor traffic conditions within your line of sight, while being prepared to stop at any time."
+    ],
+    "correct_answer": "(3) Slow down, observe the movements of the vehicle in front, and monitor traffic conditions within your line of sight, while being prepared to stop at any time.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4258. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZiVJYxdnIozk7VUHBqwPgviybeig9/teFbwAuqVIn-qIBahoGl4cf2k06P9Shv-bM8gigTHigs",
+    "video_number": "4258"
+  },
+  {
+    "id": "MOTO_HP_118",
+    "official_num": 118,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, wanting to continue forward, aside from signaling left, what action should you take?",
+    "options": [
+      "(1) Follow the direction lines and immediately switch to the inner lane to avoid obstructing traffic.",
+      "(2) Yield to vehicles in the straight-going lane first; after ensuring safety, switch to 28 on Video the inner lane according to regulations.",
+      "(3) Drive to the end of the lane and then switch to the inner lane to avoid obstructing traffic."
+    ],
+    "correct_answer": "(2) Yield to vehicles in the straight-going lane first; after ensuring safety, switch to 28 on Video the inner lane according to regulations.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4259. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZjfGsSuU9wyP8assIaZVmEBtruFsf/ouuoGnf3UNUsa98tjXc5iE2JCKEllUqy-asXAYRPHigs",
+    "video_number": "4259"
+  },
+  {
+    "id": "MOTO_HP_119",
+    "official_num": 119,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, wanting to overtake the cyclist in front, what is the most appropriate way to do so?",
+    "options": [
+      "(1) At a curve, you can overtake once the oncoming lane is clear.",
+      "(2) You can use the space to the right of the cyclist to overtake.",
+      "(3) You may only overtake after reaching the section marked with directional separation lines."
+    ],
+    "correct_answer": "(3) You may only overtake after reaching the section marked with directional separation lines.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4260. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZkxsxRFAjA51ajqWIktAoU8zv8umX/5-pOZHEEA7pFPp4Gwjfm1PUspdJdaIF4-Q8tAbCHHigs",
+    "video_number": "4260"
+  },
+  {
+    "id": "MOTO_HP_120",
+    "official_num": 120,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, which driving behaviors do you see in the video that comply with traffic regulations?",
+    "options": [
+      "(1) The driver of the blue car traveling in the same direction maintains a stable speed.",
+      "(2) The crossing motorcyclist should slow down when passing through the intersection.",
+      "(3) The above behaviors do not comply with traffic regulations."
+    ],
+    "correct_answer": "(3) The above behaviors do not comply with traffic regulations.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4261. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZmbvjfPrRLlZJrDEflzzpgsL8O2E5/QiYiUP302oy9377_myoq9hmd7AsfJ-Fo-0M7gzCrHigs",
+    "video_number": "4261"
+  },
+  {
+    "id": "MOTO_HP_121",
+    "official_num": 121,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what action should you take at this moment?",
+    "options": [
+      "(1) Stop before the stop line, and proceed only after the car in front has cleared the way.",
+      "(2) Follow the car in front closely to avoid obstructing the traffic behind.",
+      "(3) You can pass immediately once the barrier rises."
+    ],
+    "correct_answer": "(1) Stop before the stop line, and proceed only after the car in front has cleared the way.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4262. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZTrpxhhQRInlbzgTLBXKiQV7oaHzr/zo5SlJHBjBgFjLGJLrSBMay6RBqseRN7-9MYgpzXHigs",
+    "video_number": "4262"
+  },
+  {
+    "id": "MOTO_HP_122",
+    "official_num": 122,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, how should you use your lights most appropriately when driving through the road section shown in the video?",
+    "options": [
+      "(1) Keep your headlights on.",
+      "(2) You can either turn your headlights on or off.",
+      "(3) You only need to turn on the hazard lights."
+    ],
+    "correct_answer": "(1) Keep your headlights on.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4263. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZUOcdG3MHEKz7rUM8Edt3njWG5CDZ/tc2_c90TM7VESGm1FS68Ylq5TFFpmLRA-a8hguT7Higs",
+    "video_number": "4263"
+  },
+  {
+    "id": "MOTO_HP_123",
+    "official_num": 123,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, can you identify which spaces in the video are safe for you to drive in?",
+    "options": [
+      "(1) Use the motorcycle lane and right shoulder.",
+      "(2) Use the left-side fast lane and the motorcycle lane.",
+      "(3) The left fast lane, the motorcycle lane, and the right shoulder."
+    ],
+    "correct_answer": "(2) Use the left-side fast lane and the motorcycle lane.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4264. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZVMNCAXrWImCCkbYKYjdYPvNvT3uy/cq8XHlWVk70ge5YaLPFPRlNbGalK9NFf--cpg6kfHigs",
+    "video_number": "4264"
+  },
+  {
+    "id": "MOTO_HP_124",
+    "official_num": 124,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what action should you take at this moment?",
+    "options": [
+      "(1) After yielding to pedestrians, move into the inner fast lane.",
+      "(2) After yielding to pedestrians, move into the outer fast lane.",
+      "(3) The pedestrian is moving 29 on Video slowly; you can accelerate and enter the motorcycle lane."
+    ],
+    "correct_answer": "(2) After yielding to pedestrians, move into the outer fast lane.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4265. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zWIrxOVNULXLT5S3z8fBupAmqoaiZXBG/mBk06_bcTWQ8m5B2AYwpp22PeMBGUW7e-bctAh6zCjgs",
+    "video_number": "4265"
+  },
+  {
+    "id": "MOTO_HP_125",
+    "official_num": 125,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, what danger are you most likely to encounter at this moment?",
+    "options": [
+      "(1) A pedestrian emerges from the right-side shadow and enters your vehicle's path.",
+      "(2) A pedestrian is entering your vehicle's path from the blind spot in front of the left side of the vehicle.",
+      "(3) The vehicle in front to the left suddenly makes a right turn into your vehicle's path."
+    ],
+    "correct_answer": "(2) A pedestrian is entering your vehicle's path from the blind spot in front of the left side of the vehicle.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4266. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZWEjNbou2yeHalaDxCPtm4eQz2nOW/Xn_xq7OTA_ofgrJlVm5lkZQgq98dr_LQ-Ws1g71fHigs",
+    "video_number": "4266"
+  },
+  {
+    "id": "MOTO_HP_126",
+    "official_num": 126,
+    "category": "Motorcycle Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "As a motorcyclist, based on defensive driving principles, what action should you take at this moment?",
+    "options": [
+      "(1) There is unidentified debris on the road ahead in your lane, switch to the opposite lane to avoid it.",
+      "(2) There is unidentified debris on the road ahead in your lane; you should first slow down and approach, then ensure it is safe before passing through.",
+      "(3) There is unidentified debris on the road ahead in your lane; you should get off the vehicle and pass by pulling it."
+    ],
+    "correct_answer": "(2) There is unidentified debris on the road ahead in your lane; you should first slow down and approach, then ensure it is safe before passing through.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Motorcycle Hazard Perception Video #4267. Defensive Riding Rule: Always anticipate potential hazards and maintain defensive awareness.",
+    "video_link": "https://space2.thb.gov.tw/d/s/zRAZX8eMGYjLMPAZcxGREX1cVyDDJhQs/J9t5kJ_k_7zjYXB67suGfrRTahvKsWD--6sUAZWLHigs",
+    "video_number": "4267"
+  }
+]

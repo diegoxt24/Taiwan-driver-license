@@ -476,9 +476,18 @@ function renderCurrentQuestion() {
   const q = filteredQuestions[currentIndex];
   const m = getModuleData();
 
-  // Sign SVG Rendering
-  if (q.sign_svg) {
-    signSvgDiv.innerHTML = q.sign_svg;
+  // Sign Image & Video Link Rendering
+  if (q.sign_image || q.sign_svg || q.video_link) {
+    let mediaHTML = '';
+    if (q.sign_image) {
+      mediaHTML += `<div style="text-align:center; padding:0.5rem;"><img src="${q.sign_image}" style="max-height:120px; max-width:100%; border-radius:8px; border:1px solid var(--border-color); background:#fff; padding:4px;" alt="Official Sign Image" /></div>`;
+    } else if (q.sign_svg) {
+      mediaHTML += q.sign_svg;
+    }
+    if (q.video_link) {
+      mediaHTML += `<div style="text-align:center; margin-top:0.5rem;"><a href="${q.video_link}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-flex; align-items:center; gap:0.4rem; padding:0.4rem 0.8rem; font-size:0.82rem; text-decoration:none; border-radius:6px; background:#ef4444; color:#fff;">🎬 Watch Official THB Hazard Video #${q.video_number || ''}</a></div>`;
+    }
+    signSvgDiv.innerHTML = mediaHTML;
     signBox.classList.remove('hidden');
   } else {
     signBox.classList.add('hidden');

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "CAR_HP_01",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "An oncoming vehicle continues to display its turn signal and approaches the intersection without slowing down. What should you do?",
+    "options": [
+      "(1) Slow down first and proceed only after confirming it is safe.",
+      "(2) Honk or flash your lights to remind the vehicle to let you pass first.",
+      "(3) Vehicles going straight have priority; assume the other vehicle will yield to me."
+    ],
+    "correct_answer": "(1) Slow down first and proceed only after confirming it is safe.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202601. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOJhYA7zb0ddUn5cirG3IEQPtV5q3/w0XjZBCrh6cqzzFZIhd5a-DpOcCtAxnM-ibGA2PqiOw0",
+    "video_number": "202601"
+  },
+  {
+    "id": "CAR_HP_02",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "When passing through an unsignalized intersection, you notice a motorcycle approaching from the side without slowing down. What should you do?",
+    "options": [
+      "(1) Speed up to pass and avoid conflict with the other vehicle.",
+      "(2) Vehicles going straight have priority; assume the other party will yield to me.",
+      "(3) Slow down and prepare to stop."
+    ],
+    "correct_answer": "(3) Slow down and prepare to stop.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202602. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOLWWVu0g030ejVfAj1FuItqdfmeU/qNiV4LIsdz6xRJJd0Uj9tom9NXRtarGw-PrKAvgujOw0",
+    "video_number": "202602"
+  },
+  {
+    "id": "CAR_HP_03",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "You notice a vehicle approaching from behind and displaying its turn signal in your rearview mirror. What should you do?",
+    "options": [
+      "(1) Speed up and drive away to avoid conflict with the other vehicle.",
+      "(2) Release the accelerator and slow down to respond.",
+      "(3) The other vehicle may not affect me, so there is no need to pay attention."
+    ],
+    "correct_answer": "(2) Release the accelerator and slow down to respond.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202603. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18WqUzA66D7uWe8DGp9LpkNQkBbovX74/gmRmhBleoWTWGUY6QvoWrFKW7YKXpYx0-cbsgrk8EQA0",
+    "video_number": "202603"
+  },
+  {
+    "id": "CAR_HP_04",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "When starting on a green light, you notice a vehicle from the cross direction showing no sign of slowing down and rapidly approaching the intersection. What should you do?",
+    "options": [
+      "(1) Delay starting and brake to a stop; proceed only after confirming the cross-traffic vehicle has stopped or passed.",
+      "(2) Assume the other vehicle will stop at the intersection, and start at normal speed.",
+      "(3) Since the light is green for me, start immediately and honk to remind the other vehicle to stop."
+    ],
+    "correct_answer": "(1) Delay starting and brake to a stop; proceed only after confirming the cross-traffic vehicle has stopped or passed.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202604. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18WqV0v64BdGmS7Xzd5ZREbF4ff7J0sL/sFnMTn9_OBH29Ify0dFm7cly_Nr1HPDz-FLzg8lQEQA0",
+    "video_number": "202604"
+  },
+  {
+    "id": "CAR_HP_05",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "Please identify the blind spot in the video from which a vehicle may emerge.",
+    "options": [
+      "(1) The pillar on the sidewalk.",
+      "(2) Behind the oncoming vehicle.",
+      "(3) Parked vehicles on the roadside."
+    ],
+    "correct_answer": "(2) Behind the oncoming vehicle.",
+    "correct_index": 1,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202605. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCO8LsZho7HoGZ4M1DmMMVbMnhK4di/DElLZdVFNCTfxFa5uxfVRdGn9Z-2FVqi-kbQgBDejOw0",
+    "video_number": "202605"
+  },
+  {
+    "id": "CAR_HP_06",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "When turning right, there are pedestrians crossing on the pedestrian crosswalk at the intersection. What should you do?",
+    "options": [
+      "(1) Slow down and stop temporarily to let the pedestrians pass first.",
+      "(2) Maintain speed and pass before the pedestrians enter your driving path.",
+      "(3) Honk to remind the pedestrians that your vehicle goes first."
+    ],
+    "correct_answer": "(1) Slow down and stop temporarily to let the pedestrians pass first.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202606. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOAPkroD3cj86oVvdHh6eAzfbDwru/t_HVnpaqDHFTtPAFGdL04-nhnwYk09ig-C7WgnUCjOw0",
+    "video_number": "202606"
+  },
+  {
+    "id": "CAR_HP_07",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "A pedestrian on the roadside may cross the road. What should you do?",
+    "options": [
+      "(1) Honk or flash your lights to warn the pedestrian.",
+      "(2) Maintain speed and swerve around them directly.",
+      "(3) Slow down in advance and let the pedestrian cross first."
+    ],
+    "correct_answer": "(3) Slow down in advance and let the pedestrian cross first.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202607. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOCaRX28pQteNbFtxtHYUPbBi84xy/3oL6s21agbgdR5rV9HH7chZJwOSiTsD0-kLXAhEqjOw0",
+    "video_number": "202607"
+  },
+  {
+    "id": "CAR_HP_08",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "While driving on a freeway, the vehicle ahead to your right changes lanes to the left. What should you do?",
+    "options": [
+      "(1) First judge whether the safe distance is sufficient and slow down in advance.",
+      "(2) No need to pay attention; the other driver will judge the safe distance from your vehicle on their own.",
+      "(3) Honk or continuously flash your lights to remind the other driver that you go first."
+    ],
+    "correct_answer": "(1) First judge whether the safe distance is sufficient and slow down in advance.",
+    "correct_index": 0,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202608. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOEqNl69CLEiUJONpbCaxLmCl6P9W/EILxeP4ao1SJ6oBisHfPSQDDKtWGHyf9-2bUg6lGjOw0",
+    "video_number": "202608"
+  },
+  {
+    "id": "CAR_HP_09",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "When preparing to pull away from the roadside, what should you do?",
+    "options": [
+      "(1) Use the rearview mirror to confirm there are no vehicles approaching from behind.",
+      "(2) Activate the turn signal.",
+      "(3) All of the above."
+    ],
+    "correct_answer": "(3) All of the above.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202609. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOGIn022s96VEEEmpm41FTs0bSJqe/ebOEiu66XWZGZMXiOTEYNr8zqRutUXpt-gLZgqlyjOw0",
+    "video_number": "202609"
+  },
+  {
+    "id": "CAR_HP_10",
+    "category": "Car Hazard Perception",
+    "topic": "Hazard Perception Video Scenarios",
+    "question": "When preparing to make a left turn from the roadside, what should you do?",
+    "options": [
+      "(1) Activate the turn signal.",
+      "(2) Confirm there are no pedestrians on the pedestrian crosswalk.",
+      "(3) All of the above."
+    ],
+    "correct_answer": "(3) All of the above.",
+    "correct_index": 2,
+    "explanation": "Official Taiwan THB Hazard Perception Video #202610. Defensive Driving Rule: Always anticipate potential hazards, slow down at intersections, and maintain safe following distance.",
+    "video_link": "https://space2.thb.gov.tw/d/s/18RCOHWihKbDJm2hAaqdqCjJXj54t40x/U174b78Ed4R-7xaae5f6OSyNxdFBfn4O--LagTGajOw0",
+    "video_number": "202610"
+  }
+]
