@@ -747,7 +747,7 @@ function renderCheatSheet() {
     let itemsHTML = sec.items.map(item => `
       <div class="cheat-row">
         <span class="cheat-label">${item.label}</span>
-        <span class="cheat-badge">${item.val}</span>
+        <span class="cheat-badge">${item.value || item.val || ''}</span>
       </div>
     `).join('');
 
