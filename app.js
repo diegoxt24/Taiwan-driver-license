@@ -243,6 +243,20 @@ function setupEventListeners() {
     });
   }
 
+  // Restart Current Mode Button
+  const restartBtn = document.getElementById('restartModeBtn');
+  if (restartBtn) {
+    restartBtn.addEventListener('click', () => {
+      if (confirm(`Reset current mode progress (${currentTab}) back to Question #1? Your overall studied progress and Exam Readiness will be preserved.`)) {
+        currentIndex = 0;
+        const m = getModuleData();
+        if (m.lastIndices) m.lastIndices[currentTab] = 0;
+        saveStateToStorage();
+        renderCurrentQuestion();
+      }
+    });
+  }
+
   // Jump-to-Question Input Listener
   const jumpInp = document.getElementById('jumpInput');
   if (jumpInp) {
@@ -545,7 +559,10 @@ function renderCurrentQuestion() {
   }
 
   // Badges & Jump Input Sync
-  document.getElementById('questionCategoryBadge').textContent = q.category;
+  const isStudied = m.studiedQuestions && m.studiedQuestions.includes(q.id);
+  const studiedBadgeHTML = isStudied ? `<span style="font-size:0.7rem; font-weight:800; background:rgba(16,185,129,0.2); color:#34d399; border:1px solid rgba(16,185,129,0.4); padding:0.15rem 0.45rem; border-radius:6px; margin-right:0.4rem;">✓ STUDIED</span>` : '';
+  
+  document.getElementById('questionCategoryBadge').innerHTML = studiedBadgeHTML + q.category;
   document.getElementById('questionTopicBadge').textContent = q.topic || 'General Law';
   document.getElementById('questionIndexText').textContent = `Question ${currentIndex + 1} of ${filteredQuestions.length}`;
   const jumpInpEl = document.getElementById('jumpInput');
@@ -579,30 +596,42 @@ function renderCurrentQuestion() {
   explTextEl.innerHTML = `<div style="line-height:1.5; font-size:0.92rem;">${formattedExpl}</div>${diagramHTML}`;
 
   if (currentTab === 'sheppard1') {
-    // Mode 1: SHOW ONLY CORRECT ANSWER
-    const optBtn = document.createElement('div');
+    // Mode 1: SHOW ONLY CORRECT ANSWER (Clickable to mark studied)
+    const optBtn = document.createElement('button');
     optBtn.className = 'opt-btn correct-highlight';
+    optBtn.style.width = '100%';
+    optBtn.style.cursor = 'pointer';
     optBtn.innerHTML = `
       <div>
-        <div style="font-size:0.7rem; text-transform:uppercase; font-weight:800; color:#34d399; margin-bottom:0.2rem;">Sheppard Air Correct Recall Answer</div>
-        <div>${q.correct_answer}</div>
+        <div style="font-size:0.7rem; text-transform:uppercase; font-weight:800; color:#34d399; margin-bottom:0.2rem;">Sheppard Air Correct Recall Answer ${isStudied ? '(Marked Studied ✓)' : '(Click to Mark Studied)'}</div>
+        <div style="font-size:0.95rem; font-weight:700;">${q.correct_answer}</div>
       </div>
-      <span style="font-size:1.2rem;">✓</span>
+      <span style="font-size:1.2rem;">${isStudied ? '✓' : '👉'}</span>
     `;
+    optBtn.addEventListener('click', () => {
+      recordQuestionStudied(q.id);
+      renderCurrentQuestion();
+    });
     optionsDiv.appendChild(optBtn);
   } else if (currentTab === 'sheppard2') {
-    // Mode 2: HIGHLIGHT CORRECT ANSWER IN GREEN
+    // Mode 2: HIGHLIGHT CORRECT ANSWER IN GREEN (Clickable to mark studied)
     q.options.forEach((optText, idx) => {
-      const optBtn = document.createElement('div');
+      const optBtn = document.createElement('button');
+      optBtn.style.width = '100%';
+      optBtn.style.cursor = 'pointer';
       const isCorrect = (idx === q.correct_index);
       if (isCorrect) {
         optBtn.className = 'opt-btn correct-highlight';
-        optBtn.innerHTML = `<span>${optText}</span> <span style="font-weight:800; font-size:0.75rem; background:rgba(16,185,129,0.25); padding:0.2rem 0.5rem; border-radius:4px;">CORRECT</span>`;
+        optBtn.innerHTML = `<span>${optText}</span> <span style="font-weight:800; font-size:0.75rem; background:rgba(16,185,129,0.25); padding:0.2rem 0.5rem; border-radius:4px;">${isStudied ? '✓ STUDIED' : 'CORRECT (CLICK)'}</span>`;
       } else {
         optBtn.className = 'opt-btn';
         optBtn.style.opacity = '0.5';
         optBtn.innerHTML = `<span>${optText}</span>`;
       }
+      optBtn.addEventListener('click', () => {
+        recordQuestionStudied(q.id);
+        renderCurrentQuestion();
+      });
       optionsDiv.appendChild(optBtn);
     });
   } else if (currentTab === 'interactive') {
