@@ -30,6 +30,11 @@ let userState = {
     name: 'Johana (Study Profile)',
     motorcycle: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] },
     car: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] }
+  },
+  alejandro: {
+    name: 'Alejandro (Study Profile)',
+    motorcycle: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] },
+    car: { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] }
   }
 };
 
@@ -134,7 +139,7 @@ async function syncWithCloud(forcePush = false) {
 
       if (remoteRecord && remoteRecord.diego) {
         // Smart Merge Studied Questions & Last Indices across devices
-        ['diego', 'johana'].forEach(prof => {
+        ['diego', 'johana', 'alejandro'].forEach(prof => {
           ['motorcycle', 'car'].forEach(mod => {
             if (remoteRecord[prof] && remoteRecord[prof][mod] && userState[prof] && userState[prof][mod]) {
               const rStudied = remoteRecord[prof][mod].studiedQuestions || [];
