@@ -106,8 +106,8 @@ function updateCategoryAndTopicDropdowns() {
 }
 
 // CLOUD AUTO-SYNC ENGINE (OFFLINE FIRST + MULTI-DEVICE INSTANT SYNC)
-const CLOUD_SYNC_KEY = 'tw_driver_prep_cloud_v2';
-const CLOUD_BIN_ID = '67aa5794e41b4d34e48b8120'; // Persistent shared cloud store
+const CLOUD_BLOB_ID = '019fec96-40e6-7aae-b2ba-dc7e687d7c92'; 
+const CLOUD_ENDPOINT = `https://jsonblob.com/api/jsonBlob/${CLOUD_BLOB_ID}`;
 
 async function syncWithCloud(forcePush = false) {
   const syncBadge = document.getElementById('cloudSyncStatus');
@@ -125,28 +125,51 @@ async function syncWithCloud(forcePush = false) {
 
   try {
     // 1. Fetch remote cloud state
-    const res = await fetch(`https://api.jsonbin.io/v3/b/${CLOUD_BIN_ID}/latest`, {
-      headers: { 'X-Master-Key': '$2a$10$wO8c.S45jD4TqK5tO8/t.e8J4/M0wG8h7K8z.9J0h7Z5/9Z.9Z.9Z' } // Fallback key or public read
+    const res = await fetch(CLOUD_ENDPOINT, {
+      headers: { 'Accept': 'application/json' }
     });
 
     if (res.ok) {
-      const remoteData = await res.json();
-      const remoteRecord = remoteData.record;
+      const remoteRecord = await res.json();
 
       if (remoteRecord && remoteRecord.diego) {
-        // Compare timestamps
+        // Smart Merge Studied Questions & Last Indices across devices
+        ['diego', 'johana'].forEach(prof => {
+          ['motorcycle', 'car'].forEach(mod => {
+            if (remoteRecord[prof] && remoteRecord[prof][mod] && userState[prof] && userState[prof][mod]) {
+              const rStudied = remoteRecord[prof][mod].studiedQuestions || [];
+              const lStudied = userState[prof][mod].studiedQuestions || [];
+              const mergedStudied = Array.from(new Set([...rStudied, ...lStudied]));
+              
+              userState[prof][mod].studiedQuestions = mergedStudied;
+              remoteRecord[prof][mod].studiedQuestions = mergedStudied;
+
+              const rFailed = remoteRecord[prof][mod].failedQuestions || [];
+              const lFailed = userState[prof][mod].failedQuestions || [];
+              userState[prof][mod].failedQuestions = Array.from(new Set([...rFailed, ...lFailed]));
+              remoteRecord[prof][mod].failedQuestions = userState[prof][mod].failedQuestions;
+
+              const rBook = remoteRecord[prof][mod].bookmarks || [];
+              const lBook = userState[prof][mod].bookmarks || [];
+              userState[prof][mod].bookmarks = Array.from(new Set([...rBook, ...lBook]));
+              remoteRecord[prof][mod].bookmarks = userState[prof][mod].bookmarks;
+            }
+          });
+        });
+
         const localTime = parseInt(localStorage.getItem('tw_driver_last_sync_time') || '0');
         const remoteTime = remoteRecord.last_updated || 0;
 
-        if (remoteTime > localTime && !forcePush) {
-          // Remote is newer -> Update local state
-          userState = remoteRecord;
+        if (remoteTime > localTime || forcePush) {
+          // If remote is newer, adopt remote last indices
+          if (remoteTime > localTime && !forcePush) {
+            userState = remoteRecord;
+          }
           localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-          localStorage.setItem('tw_driver_last_sync_time', remoteTime.toString());
+          localStorage.setItem('tw_driver_last_sync_time', Math.max(localTime, remoteTime, Date.now()).toString());
           updateDashboardStats();
           renderCurrentQuestion();
-          if (syncText) syncText.textContent = 'Cloud Synced (Updated)';
-          return;
+          if (syncText) syncText.textContent = 'Cloud Synced ✓';
         }
       }
     }
@@ -154,15 +177,15 @@ async function syncWithCloud(forcePush = false) {
     // Fail silently to local storage
   }
 
-  // 2. Push local state if newer or forced
+  // 2. Push merged state to cloud
   try {
     const now = Date.now();
     userState.last_updated = now;
-    const resPush = await fetch(`https://api.jsonbin.io/v3/b/${CLOUD_BIN_ID}`, {
+    const resPush = await fetch(CLOUD_ENDPOINT, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        'X-Master-Key': '$2b$10$WqDk4/9e8Z/7X9Z9Z9Z9Z.9Z9Z9Z9Z9Z9Z9Z9Z' // Secure write
+        'Accept': 'application/json'
       },
       body: JSON.stringify(userState)
     });
