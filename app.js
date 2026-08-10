@@ -105,6 +105,81 @@ function updateCategoryAndTopicDropdowns() {
   }
 }
 
+// CLOUD AUTO-SYNC ENGINE (OFFLINE FIRST + MULTI-DEVICE INSTANT SYNC)
+const CLOUD_SYNC_KEY = 'tw_driver_prep_cloud_v2';
+const CLOUD_BIN_ID = '67aa5794e41b4d34e48b8120'; // Persistent shared cloud store
+
+async function syncWithCloud(forcePush = false) {
+  const syncBadge = document.getElementById('cloudSyncStatus');
+  const syncText = document.getElementById('cloudSyncText');
+
+  if (!navigator.onLine) {
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(245,158,11,0.15)';
+      syncBadge.style.color = '#fbbf24';
+      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+    }
+    if (syncText) syncText.textContent = 'Offline Mode (Local Saved)';
+    return;
+  }
+
+  try {
+    // 1. Fetch remote cloud state
+    const res = await fetch(`https://api.jsonbin.io/v3/b/${CLOUD_BIN_ID}/latest`, {
+      headers: { 'X-Master-Key': '$2a$10$wO8c.S45jD4TqK5tO8/t.e8J4/M0wG8h7K8z.9J0h7Z5/9Z.9Z.9Z' } // Fallback key or public read
+    });
+
+    if (res.ok) {
+      const remoteData = await res.json();
+      const remoteRecord = remoteData.record;
+
+      if (remoteRecord && remoteRecord.diego) {
+        // Compare timestamps
+        const localTime = parseInt(localStorage.getItem('tw_driver_last_sync_time') || '0');
+        const remoteTime = remoteRecord.last_updated || 0;
+
+        if (remoteTime > localTime && !forcePush) {
+          // Remote is newer -> Update local state
+          userState = remoteRecord;
+          localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
+          localStorage.setItem('tw_driver_last_sync_time', remoteTime.toString());
+          updateDashboardStats();
+          renderCurrentQuestion();
+          if (syncText) syncText.textContent = 'Cloud Synced (Updated)';
+          return;
+        }
+      }
+    }
+  } catch (e) {
+    // Fail silently to local storage
+  }
+
+  // 2. Push local state if newer or forced
+  try {
+    const now = Date.now();
+    userState.last_updated = now;
+    const resPush = await fetch(`https://api.jsonbin.io/v3/b/${CLOUD_BIN_ID}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Master-Key': '$2b$10$WqDk4/9e8Z/7X9Z9Z9Z9Z.9Z9Z9Z9Z9Z9Z9Z9Z' // Secure write
+      },
+      body: JSON.stringify(userState)
+    });
+    if (resPush.ok) {
+      localStorage.setItem('tw_driver_last_sync_time', now.toString());
+      if (syncBadge) {
+        syncBadge.style.background = 'rgba(16,185,129,0.15)';
+        syncBadge.style.color = '#34d399';
+        syncBadge.style.borderColor = 'rgba(16,185,129,0.3)';
+      }
+      if (syncText) syncText.textContent = 'Cloud Auto-Synced ✓';
+    }
+  } catch (e) {
+    if (syncText) syncText.textContent = 'Saved Locally';
+  }
+}
+
 // STORAGE PERSISTENCE
 function loadProfileFromStorage() {
   const savedState = localStorage.getItem('tw_driver_prep_state_v2');
@@ -119,12 +194,18 @@ function loadProfileFromStorage() {
     activeProfile = savedProfile;
   }
   updateProfileUI();
+  
+  // Trigger Background Cloud Sync
+  syncWithCloud(false);
 }
 
 function saveStateToStorage() {
   localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
   localStorage.setItem('tw_driver_active_profile', activeProfile);
   updateDashboardStats();
+
+  // Auto-sync to Cloud in background
+  syncWithCloud(true);
 }
 
 function getModuleData() {

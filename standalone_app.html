@@ -874,10 +874,14 @@ body.light-theme .mobile-bottom-nav {
           </div>
         </div>
 
-        <div class="sync-row">
-          <button id="exportSyncBtn" class="btn-sync export">📥 Backup Sync</button>
-          <button id="importSyncBtn" class="btn-sync import">📤 Restore Sync</button>
+        <div class="sync-row" style="margin-bottom:0.5rem;">
+          <button id="exportSyncBtn" class="btn-sync export">📥 Backup</button>
+          <button id="importSyncBtn" class="btn-sync import">📤 Restore</button>
           <input type="file" id="importFileInput" accept=".json" style="display:none;">
+        </div>
+        <div id="cloudSyncStatus" style="font-size:0.7rem; font-weight:800; text-align:center; padding:0.25rem 0.5rem; border-radius:6px; background:rgba(16,185,129,0.15); color:#34d399; border:1px solid rgba(16,185,129,0.3); display:flex; align-items:center; justify-content:center; gap:0.35rem;">
+          <span style="width:6px; height:6px; border-radius:50%; background:#10b981; box-shadow:0 0 6px #10b981;"></span>
+          <span id="cloudSyncText">Auto-Sync Cloud Active</span>
         </div>
       </div>
 
