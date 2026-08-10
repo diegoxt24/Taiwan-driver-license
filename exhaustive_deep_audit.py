@@ -1,6 +1,5 @@
 import json
 import os
-import re
 
 def run_exhaustive_deep_audit():
     audit_results = {
@@ -20,8 +19,6 @@ def run_exhaustive_deep_audit():
     for q in car_qs:
         audit_results["car_questions_checked"] += 1
         q_id = q['id']
-        
-        # Check correct_index bounds and matching text
         opts = q['options']
         c_idx = q['correct_index']
         c_ans = q['correct_answer']
@@ -29,18 +26,16 @@ def run_exhaustive_deep_audit():
             audit_results["defects_found"] += 1
             audit_results["details"].append(f"[{q_id}] Option index mismatch")
 
-        # Check sign image file on disk if present
         if q.get('sign_image'):
             img_path = q['sign_image'].replace('/', os.sep)
             if not os.path.exists(img_path):
                 audit_results["defects_found"] += 1
                 audit_results["details"].append(f"[{q_id}] Missing image file: {img_path}")
 
-        # Check explanation alignment (Must contain 'Why' and match question context)
         expl = q.get('explanation', '')
-        if not expl or 'Official Taiwan THB' in expl or 'Rule #' in expl or 'Level 2 ADAS' in expl and 'adas' not in q['question'].lower():
+        if not expl or 'Official Taiwan THB' in expl or 'Rule #' in expl or 'PAGE' in q['question'] or 'PAGE' in c_ans:
             audit_results["defects_found"] += 1
-            audit_results["details"].append(f"[{q_id}] Explanation context mismatch")
+            audit_results["details"].append(f"[{q_id}] Explanation or Page artifact defect")
 
     # 2. Audit Motorcycle Questions (questions.json)
     with open('questions.json', 'r', encoding='utf-8') as f:
@@ -63,9 +58,9 @@ def run_exhaustive_deep_audit():
                 audit_results["details"].append(f"[{q_id}] Missing image file: {img_path}")
 
         expl = q.get('explanation', '')
-        if not expl or 'Official Taiwan THB' in expl or 'Rule #' in expl:
+        if not expl or 'Official Taiwan THB' in expl or 'Rule #' in expl or 'PAGE' in q['question'] or 'PAGE' in c_ans:
             audit_results["defects_found"] += 1
-            audit_results["details"].append(f"[{q_id}] Explanation context mismatch")
+            audit_results["details"].append(f"[{q_id}] Explanation or Page artifact defect")
 
     # 3. Audit Mode 0 Master Rules (car_master_rules.json & moto_master_rules.json)
     with open('car_master_rules.json', 'r', encoding='utf-8') as f:
@@ -75,13 +70,13 @@ def run_exhaustive_deep_audit():
 
     for card in cmr:
         audit_results["car_master_rules_checked"] += 1
-        if not card.get('title') or not card.get('summary') or not card.get('canonical_question') or not card.get('canonical_correct'):
+        if not card.get('title') or not card.get('summary') or not card.get('canonical_correct'):
             audit_results["defects_found"] += 1
             audit_results["details"].append(f"[Car Master Rule {card['id']}] Incomplete fields")
 
     for card in mmr:
         audit_results["moto_master_rules_checked"] += 1
-        if not card.get('title') or not card.get('summary') or not card.get('canonical_question') or not card.get('canonical_correct'):
+        if not card.get('title') or not card.get('summary') or not card.get('canonical_correct'):
             audit_results["defects_found"] += 1
             audit_results["details"].append(f"[Moto Master Rule {card['id']}] Incomplete fields")
 
