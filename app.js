@@ -130,7 +130,16 @@ function saveStateToStorage() {
 function getModuleData() {
   const p = userState[activeProfile] || userState['diego'];
   if (!p[currentModule]) {
-    p[currentModule] = { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [] };
+    p[currentModule] = { 
+      bookmarks: [], 
+      failedQuestions: [], 
+      studiedQuestions: [], 
+      examHistory: [],
+      lastIndices: { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 }
+    };
+  }
+  if (!p[currentModule].lastIndices) {
+    p[currentModule].lastIndices = { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 };
   }
   return p[currentModule];
 }
@@ -234,6 +243,21 @@ function setupEventListeners() {
     });
   }
 
+  // Jump-to-Question Input Listener
+  const jumpInp = document.getElementById('jumpInput');
+  if (jumpInp) {
+    jumpInp.addEventListener('change', (e) => {
+      const targetVal = parseInt(e.target.value);
+      if (!isNaN(targetVal) && targetVal >= 1 && targetVal <= filteredQuestions.length) {
+        currentIndex = targetVal - 1;
+        const m = getModuleData();
+        if (m.lastIndices) m.lastIndices[currentTab] = currentIndex;
+        saveStateToStorage();
+        renderCurrentQuestion();
+      }
+    });
+  }
+
   // Tab Buttons
   document.querySelectorAll('.nav-tab').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -291,6 +315,9 @@ function setupEventListeners() {
   document.getElementById('prevBtn')?.addEventListener('click', () => {
     if (currentIndex > 0) {
       currentIndex--;
+      const m = getModuleData();
+      if (m.lastIndices) m.lastIndices[currentTab] = currentIndex;
+      saveStateToStorage();
       renderCurrentQuestion();
     }
   });
@@ -298,6 +325,9 @@ function setupEventListeners() {
   document.getElementById('nextBtn')?.addEventListener('click', () => {
     if (currentIndex < filteredQuestions.length - 1) {
       currentIndex++;
+      const m = getModuleData();
+      if (m.lastIndices) m.lastIndices[currentTab] = currentIndex;
+      saveStateToStorage();
       recordQuestionStudied(filteredQuestions[currentIndex - 1]?.id);
       renderCurrentQuestion();
     }
@@ -462,7 +492,12 @@ function switchTab(tab) {
     renderCheatSheet();
   }
 
-  currentIndex = 0;
+  const m = getModuleData();
+  if (m.lastIndices && m.lastIndices[tab] !== undefined) {
+    currentIndex = m.lastIndices[tab];
+  } else {
+    currentIndex = 0;
+  }
   updateFilteredQuestions();
   renderCurrentQuestion();
 }
@@ -509,10 +544,15 @@ function renderCurrentQuestion() {
     signBox.classList.add('hidden');
   }
 
-  // Badges
+  // Badges & Jump Input Sync
   document.getElementById('questionCategoryBadge').textContent = q.category;
   document.getElementById('questionTopicBadge').textContent = q.topic || 'General Law';
   document.getElementById('questionIndexText').textContent = `Question ${currentIndex + 1} of ${filteredQuestions.length}`;
+  const jumpInpEl = document.getElementById('jumpInput');
+  if (jumpInpEl) {
+    jumpInpEl.value = currentIndex + 1;
+    jumpInpEl.max = filteredQuestions.length;
+  }
 
   // Bookmark Button State
   updateBookmarkUI(q.id);
