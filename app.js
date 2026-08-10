@@ -161,12 +161,11 @@ async function syncWithCloud(forcePush = false) {
         const remoteTime = remoteRecord.last_updated || 0;
 
         if (remoteTime > localTime || forcePush) {
-          // If remote is newer, adopt remote last indices
           if (remoteTime > localTime && !forcePush) {
-            userState = remoteRecord;
+            userState.last_updated = remoteTime;
           }
           localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-          localStorage.setItem('tw_driver_last_sync_time', Math.max(localTime, remoteTime, Date.now()).toString());
+          localStorage.setItem('tw_driver_last_sync_time', (userState.last_updated || Date.now()).toString());
           updateDashboardStats();
           renderCurrentQuestion();
           if (syncText) syncText.textContent = 'Cloud Synced ✓';
