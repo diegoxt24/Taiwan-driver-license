@@ -29,7 +29,10 @@
       {"label": "Lending Driver's License Penalty", "value": "Driver's license suspension for 3 months"},
       {"label": "Failing to Yield to Emergency Sirens Fine", "value": "NT$3,600 fine + Driver's license revocation"},
       {"label": "Failing to Yield to Pedestrians on Crosswalk", "value": "NT$1,200 to NT$6,000 fine + 3 demerit points"},
-      {"label": "Spilling / Unsecured Cargo Falling Fine", "value": "NT$3,000 to NT$18,000 fine"}
+      {"label": "Spilling / Unsecured Cargo Falling Fine", "value": "NT$3,000 to NT$18,000 fine"},
+      {"label": "3 Violations in 3 Months Vehicle Penalty", "value": "Suspension of vehicle license plate for 1 month"},
+      {"label": "Professional License Review Frequency (<60 yrs)", "value": "Reviewed once every 3 years from issuance date"},
+      {"label": "Driving License Revocation Traffic Class", "value": "2.5 days (18 hours total) instruction required"}
     ]
   },
   {

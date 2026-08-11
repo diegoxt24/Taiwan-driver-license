@@ -794,7 +794,7 @@
     "summary": "Motorcycle cargo must not extend forward past rider seat or more than 50 cm beyond rear wheel axle.",
     "key_fact": "13. Motorcycle Cargo Rear Extension (Max 50 cm)",
     "diagram": "cargo_rear",
-    "canonical_question": "When parking, a vehicle shall be positioned in the direction of traffic flow and kept close to the edge of the roadway. The distance between the outer side of the front and rear tires and the curb or edge of the  road shall not exceed:",
+    "canonical_question": "When parking, a vehicle shall be positioned in the direction of traffic flow and kept close to the edge of the roadway. The distance between the outer side of the front and rear tires and the curb or edge of the Question road shall not exceed:",
     "canonical_options": [
       "(1) 40 cm",
       "(2) 50 cm",
@@ -813,7 +813,7 @@
     "summary": "Cargo width on motorcycles must not extend more than 10 cm beyond outer edges of handlebars.",
     "key_fact": "14. Motorcycle Cargo Width Extension (Max 10 cm)",
     "diagram": "cargo_rear",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) No vehicles allowed.",
       "(2) No cars (4+ wheels) or motorcycles allowed.",
@@ -832,7 +832,7 @@
     "summary": "Motorcycle load weight limits: Small light = 30 kg; Regular light = 60 kg; Heavy = 90 kg.",
     "key_fact": "15. Motorcycle Cargo Weight Limits (30kg / 60kg / 90kg)",
     "diagram": "cargo_rear",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) No vehicles allowed.",
       "(2) No cars (4+ wheels) or motorcycles allowed.",
@@ -1217,7 +1217,7 @@
     "summary": "Drivers MUST stop at least 3 meters (4 zebra stripes) before crosswalks to yield to pedestrians.",
     "key_fact": "22. Pedestrian Crosswalk Priority (3 Meters / 4 Stripes)",
     "diagram": "right_of_way",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) No vehicles allowed.",
       "(2) No cars (4+ wheels) or motorcycles allowed.",
@@ -1373,7 +1373,7 @@
     "summary": "Vehicles entering roundabouts MUST yield right-of-way to vehicles already inside the roundabout.",
     "key_fact": "23. Roundabout Traffic Priority",
     "diagram": "right_of_way",
-    "canonical_question": "(1) Roundabout direction. (2) Divided road. (3) One-way road.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) Roundabout direction.",
       "(2) Divided road.",
@@ -1588,7 +1588,7 @@
     "summary": "Overtake on the left side only. Overtaking is prohibited in tunnels, bridges, curves, or level crossings.",
     "key_fact": "32. Overtaking Regulations & Prohibited Locations",
     "diagram": "right_of_way",
-    "canonical_question": "(1) No overtaking. (2) No oncoming traffic. (3) No motor vehicles allowed.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) No overtaking.",
       "(2) No oncoming traffic.",
@@ -1710,7 +1710,7 @@
     "summary": "Operating handheld mobile phones while driving incurs fines of NT$3,000 for cars and NT$1,000 for motorcycles.",
     "key_fact": "35. Handheld Mobile Device Penalties (Car NT$3,000 / Moto NT$1,000)",
     "diagram": "phone_fine",
-    "canonical_question": "(1) No vehicles allowed. (2) No cars (4+ wheels) or motorcycles allowed. (3) No pedestrians allowed.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) No vehicles allowed.",
       "(2) No cars (4+ wheels) or motorcycles allowed.",
@@ -1967,7 +1967,7 @@
     "summary": "Cars >5 years old require annual inspection; cars >10 years old require inspection twice per year.",
     "key_fact": "44. Periodic Vehicle Inspection Frequency",
     "diagram": "demerit_points",
-    "canonical_question": "(1) No parking. (2) Stop for inspection. (3) No motor vehicles allowed.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) No parking.",
       "(2) Stop for inspection.",
@@ -2148,11 +2148,11 @@
     "summary": "General road safety regulations, ethical driving habits, and situational hazard awareness.",
     "key_fact": "General Traffic Safety Rules",
     "diagram": "right_of_way",
-    "canonical_question": "(1) Two-way traffic. (2) No oncoming traffic. (3) Divided road.",
+    "canonical_question": "",
     "canonical_options": [
       "(1) Two-way traffic.",
       "(2) No oncoming traffic.",
-      "(3) Divided road."
+      "(3) Divided road. Question"
     ],
     "canonical_correct": "(2) No oncoming traffic.",
     "canonical_correct_index": 1,

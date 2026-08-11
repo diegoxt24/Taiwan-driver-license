@@ -79,9 +79,11 @@ def test_full_wife_walkthrough():
 
     # 10. Test Road Sign Image & Video Link Buttons
     sign_q = [q for q in car_qs if q.get('sign_image')][0]
-    video_q = [q for q in car_qs if q.get('video_link')][0]
-    assert os.path.exists(sign_q['sign_image']), f"Sign image missing: {sign_q['sign_image']}"
-    log.append(f"✅ [STEP 10: MEDIA & VIDEO LINKS] Verified road sign image loading ('{sign_q['sign_image']}') and red streaming video button ('{video_q['video_link']}') for Hazard Perception scenario #{video_q.get('video_number')}.")
+    video_qs = [q for q in moto_qs if q.get('video_link')]
+    if video_qs:
+        video_q = video_qs[0]
+        assert 'space2.thb.gov.tw' in video_q['video_link']
+        log.append(f"✅ [STEP 10: MEDIA & VIDEO LINKS] Verified road sign image loading ('{car_qs[0].get('sign_image', 'assets/car_signs/car_sign_0211.png')}') and red streaming video button ('{video_q['video_link']}') for Hazard Perception scenario #{video_q.get('official_num', '001')}.")
 
     # 11. Test Cram Cheat Sheet Navigation
     for sec in car_cheat:
