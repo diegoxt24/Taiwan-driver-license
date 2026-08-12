@@ -4,7 +4,7 @@
     "official_num": 1,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No vehicles allowed.",
       "(2) No cars (4+ wheels) or motorcycles allowed.",
@@ -20,7 +20,7 @@
     "official_num": 2,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No overtaking.",
       "(2) No oncoming traffic.",
@@ -36,15 +36,15 @@
     "official_num": 3,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Two-way traffic.",
       "(2) No oncoming traffic.",
-      "(3) Divided road. Question"
+      "(3) Divided road"
     ],
     "correct_answer": "(2) No oncoming traffic.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"No oncoming traffic.\") is correct because the law mandates Choice (2) (\"No oncoming traffic.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Two-way traffic.\" and \"Divided road. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"No oncoming traffic.\") is correct because the law mandates Choice (2) (\"No oncoming traffic.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Two-way traffic.\" and \"Divided road\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0003.png"
   },
   {
@@ -312,11 +312,11 @@
     "options": [
       "(1) A fine of NT$15,000 to NT$90,000 shall be imposed.",
       "(2) A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.",
-      "(3) A warning only. Question"
+      "(3) A warning only"
     ],
     "correct_answer": "(2) A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (2) (\"A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"A fine of NT$15,000 to NT$90,000 shall be imposed.\" and \"A warning only. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (2) (\"A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"A fine of NT$15,000 to NT$90,000 shall be imposed.\" and \"A warning only\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -727,12 +727,12 @@
     "question": "Which of the following statements is incorrect?",
     "options": [
       "(1) On road sections with a no-stopping sign, temporary stopping is permitted.",
-      "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. Question",
+      "(2) On road sections with a no-stopping sign, temporary stopping is not permitted",
       "(3) On road sections with no-stopping road markings, if there are no other sign or marking regulations, parking and temporary stopping are permitted from 8 p.m. to 7 a.m. the following morning."
     ],
-    "correct_answer": "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. Question",
+    "correct_answer": "(2) On road sections with a no-stopping sign, temporary stopping is not permitted",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"On road sections with a no-stopping sign, temporary stopping is not permitted. Question\") is correct because the law mandates Choice (2) (\"On road sections with a no-stopping sign, temporary stopping is not permitted. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"On road sections with a no-stopping sign, temporary stopping is permitted.\" and \"On road sections with no-stopping road markings, if there are no other sign or marking regulations, parking and temporary stopping are permitted from 8 p.m. to 7 a.m. the following morning.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"On road sections with a no-stopping sign, temporary stopping is not permitted\") is correct because the law mandates Choice (2) (\"On road sections with a no-stopping sign, temporary stopping is not permitted\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"On road sections with a no-stopping sign, temporary stopping is permitted.\" and \"On road sections with no-stopping road markings, if there are no other sign or marking regulations, parking and temporary stopping are permitted from 8 p.m. to 7 a.m. the following morning.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -984,11 +984,11 @@
     "options": [
       "(1) If the driver causes an accident resulting in death, they shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be revoked.",
       "(2) Only a fine shall be imposed.",
-      "(3) The driver shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be suspended. Question"
+      "(3) The driver shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be suspended"
     ],
     "correct_answer": "(2) Only a fine shall be imposed.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (2) (\"Only a fine shall be imposed.\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"If the driver causes an accident resulting in death, they shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be revoked.\" and \"The driver shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be suspended. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (2) (\"Only a fine shall be imposed.\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"If the driver causes an accident resulting in death, they shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be revoked.\" and \"The driver shall be fined, the vehicle shall be immediately impounded, and the driver's license shall be suspended\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -1128,11 +1128,11 @@
     "options": [
       "(1) 1,200–2,400 NTD.",
       "(2) 2,400–6,000 NTD.",
-      "(3) 6,000–36,000 NTD. Question"
+      "(3) 6,000–36,000 NTD"
     ],
-    "correct_answer": "(3) 6,000–36,000 NTD. Question",
+    "correct_answer": "(3) 6,000–36,000 NTD",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (3) (\"6,000–36,000 NTD. Question\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"1,200–2,400 NTD.\" and \"2,400–6,000 NTD.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (3) (\"6,000–36,000 NTD\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"1,200–2,400 NTD.\" and \"2,400–6,000 NTD.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -1400,11 +1400,11 @@
     "options": [
       "(1) 4 years old.",
       "(2) 5 years old.",
-      "(3) 6 years old. Question"
+      "(3) 6 years old"
     ],
-    "correct_answer": "(3) 6 years old. Question",
+    "correct_answer": "(3) 6 years old",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Road Traffic Management Penalty Act, Choice (3) (\"6 years old. Question\") is correct because Choice (3) (\"6 years old. Question\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"4 years old.\" and \"5 years old.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Road Traffic Management Penalty Act, Choice (3) (\"6 years old\") is correct because Choice (3) (\"6 years old\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"4 years old.\" and \"5 years old.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -1592,11 +1592,11 @@
     "options": [
       "(1) Revocation of the driver’s license",
       "(2) Suspension of the driver’s license for one month",
-      "(3) Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics) Question"
+      "(3) Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics)"
     ],
-    "correct_answer": "(3) Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics) Question",
+    "correct_answer": "(3) Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Road Traffic Management Penalty Act, Choice (3) (\"Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics) Question\") is correct because Choice (3) (\"Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics) Question\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"Revocation of the driver’s license\" and \"Suspension of the driver’s license for one month\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Road Traffic Management Penalty Act, Choice (3) (\"Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics)\") is correct because Choice (3) (\"Suspension of the driver’s license for six months ▸ Other (Railway Crossings, Compulsory Insurance, Eco-Driving, Weather, Driving Ethics)\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"Revocation of the driver’s license\" and \"Suspension of the driver’s license for one month\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -1604,7 +1604,7 @@
     "official_num": 101,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No motor vehicles allowed.",
       "(2) Unguarded railway level crossing.",
@@ -1620,15 +1620,15 @@
     "official_num": 102,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Narrow road.",
       "(2) Tunnel.",
-      "(3) Narrow bridge. Question"
+      "(3) Narrow bridge"
     ],
     "correct_answer": "(2) Tunnel.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Tunnel.\") is correct because the law mandates Choice (2) (\"Tunnel.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Narrow road.\" and \"Narrow bridge. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Tunnel.\") is correct because the law mandates Choice (2) (\"Tunnel.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Narrow road.\" and \"Narrow bridge\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0102.png"
   },
   {
@@ -1636,7 +1636,7 @@
     "official_num": 103,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Steep downhill slope.",
       "(2) Wharf / embankment.",
@@ -1652,7 +1652,7 @@
     "official_num": 104,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Keep right.",
       "(2) One-way road.",
@@ -1668,7 +1668,7 @@
     "official_num": 105,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No parking.",
       "(2) Stop for inspection.",
@@ -1684,7 +1684,7 @@
     "official_num": 106,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No pedestrians allowed.",
       "(2) Stop and go.",
@@ -1700,7 +1700,7 @@
     "official_num": 107,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No pedestrians allowed.",
       "(2) No vehicles of any kind allowed.",
@@ -1716,7 +1716,7 @@
     "official_num": 108,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No vehicles of any kind allowed.",
       "(2) No articulated vehicles allowed.",
@@ -1732,7 +1732,7 @@
     "official_num": 109,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No motorcycles allowed except heavy motorcycles.",
       "(2) No cars (4+ wheels) allowed.",
@@ -1748,15 +1748,15 @@
     "official_num": 110,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Single-track electrified railway crossing.",
       "(2) Double-track or more electrified railway crossing.",
-      "(3) Single-track railway crossing. Question"
+      "(3) Single-track railway crossing"
     ],
     "correct_answer": "(2) Double-track or more electrified railway crossing.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Double-track or more electrified railway crossing.\") is correct because the law mandates Choice (2) (\"Double-track or more electrified railway crossing.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Single-track electrified railway crossing.\" and \"Single-track railway crossing. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Double-track or more electrified railway crossing.\") is correct because the law mandates Choice (2) (\"Double-track or more electrified railway crossing.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Single-track electrified railway crossing.\" and \"Single-track railway crossing\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0110.png"
   },
   {
@@ -1764,7 +1764,7 @@
     "official_num": 111,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Provincial highway route number.",
       "(2) County road route number.",
@@ -1780,7 +1780,7 @@
     "official_num": 112,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) First-aid station.",
       "(2) Gas station.",
@@ -1796,7 +1796,7 @@
     "official_num": 113,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Pedestrian overpass.",
       "(2) Pedestrian underpass.",
@@ -1844,7 +1844,7 @@
     "official_num": 116,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Parking line.",
       "(2) Obstacle approach line.",
@@ -1876,7 +1876,7 @@
     "official_num": 118,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Obstacle approach line.",
       "(2) Railway crossing approach line.",
@@ -1908,7 +1908,7 @@
     "official_num": 120,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Railway crossing approach line.",
       "(2) Obstacle approach line.",
@@ -1924,7 +1924,7 @@
     "official_num": 121,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No parking line.",
       "(2) Directional dividing line.",
@@ -2024,11 +2024,11 @@
     "options": [
       "(1) Lane line.",
       "(2) Directional restriction line.",
-      "(3) Directional dividing line. Question"
+      "(3) Directional dividing line"
     ],
-    "correct_answer": "(3) Directional dividing line. Question",
+    "correct_answer": "(3) Directional dividing line",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Directional dividing line. Question\") is correct because the law mandates Choice (3) (\"Directional dividing line. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Lane line.\" and \"Directional restriction line.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Directional dividing line\") is correct because the law mandates Choice (3) (\"Directional dividing line\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Lane line.\" and \"Directional restriction line.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0127.png"
   },
   {
@@ -2052,7 +2052,7 @@
     "official_num": 129,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Watch for bicycles.",
       "(2) Watch for pedestrians.",
@@ -2068,7 +2068,7 @@
     "official_num": 130,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Railway crossing ahead.",
       "(2) Highway vehicle spacing distance.",
@@ -2084,7 +2084,7 @@
     "official_num": 131,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Highway interchange name.",
       "(2) Place name and mileage.",
@@ -2100,7 +2100,7 @@
     "official_num": 132,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Industrial road.",
       "(2) County road route number sign.",
@@ -2116,7 +2116,7 @@
     "official_num": 133,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Provincial highway route number sign (regular road).",
       "(2) Provincial highway route number sign (expressway).",
@@ -2132,7 +2132,7 @@
     "official_num": 134,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Parking area.",
       "(2) Park.",
@@ -2148,7 +2148,7 @@
     "official_num": 135,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Bus station or transfer station.",
       "(2) Metro station.",
@@ -2164,7 +2164,7 @@
     "official_num": 136,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "Question",
+    "question": "",
     "options": [
       "(1) Lane designated for bicycles only.",
       "(2) Lane designated for motor vehicles only.",
@@ -2232,11 +2232,11 @@
     "options": [
       "(1) Right turn.",
       "(2) Left turn.",
-      "(3) Slow down / temporary stop. Question"
+      "(3) Slow down / temporary stop"
     ],
-    "correct_answer": "(3) Slow down / temporary stop. Question",
+    "correct_answer": "(3) Slow down / temporary stop",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 109 (Traffic Control Signal Rules), Choice (3) (\"Slow down / temporary stop. Question\") is correct because running a red light incurs a fine of NT$1,800 to NT$5,400 + 3 demerit points.\n\n❌ **Why other choices are Incorrect**: Choices \"Right turn.\" and \"Left turn.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 109 (Traffic Control Signal Rules), Choice (3) (\"Slow down / temporary stop\") is correct because running a red light incurs a fine of NT$1,800 to NT$5,400 + 3 demerit points.\n\n❌ **Why other choices are Incorrect**: Choices \"Right turn.\" and \"Left turn.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0140.png"
   },
   {
@@ -2820,7 +2820,7 @@
     "official_num": 177,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Catering and Hospitality Services",
       "(2) Service Area",
@@ -2888,11 +2888,11 @@
     "options": [
       "(1) Manual transmission vehicles can freely select gears, so engine braking is more effective than automatic transmission vehicles, but the foot brake should still be used in conjunction.",
       "(2) When an automatic transmission vehicle is in D gear, the transmission automatically adjusts to the optimal gear, and the engine braking effect is equivalent to that of a manual transmission vehicle.",
-      "(3) Regardless of manual or automatic transmission, engine braking is sufficient to handle all downhill situations and no additional use of the foot brake is necessary. Question"
+      "(3) Regardless of manual or automatic transmission, engine braking is sufficient to handle all downhill situations and no additional use of the foot brake is necessary"
     ],
     "correct_answer": "(1) Manual transmission vehicles can freely select gears, so engine braking is more effective than automatic transmission vehicles, but the foot brake should still be used in conjunction.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (1) (\"Manual transmission vehicles can freely select gears, so engine braking is more effective than automatic transmission vehicles, but the foot brake should still be used in conjunction.\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"When an automatic transmission vehicle is in D gear, the transmission automatically adjusts to the optimal gear, and the engine braking effect is equivalent to that of a manual transmission vehicle.\" and \"Regardless of manual or automatic transmission, engine braking is sufficient to handle all downhill situations and no additional use of the foot brake is necessary. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (1) (\"Manual transmission vehicles can freely select gears, so engine braking is more effective than automatic transmission vehicles, but the foot brake should still be used in conjunction.\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"When an automatic transmission vehicle is in D gear, the transmission automatically adjusts to the optimal gear, and the engine braking effect is equivalent to that of a manual transmission vehicle.\" and \"Regardless of manual or automatic transmission, engine braking is sufficient to handle all downhill situations and no additional use of the foot brake is necessary\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -3080,11 +3080,11 @@
     "options": [
       "(1) 'No Passing' is a warning sign that alerts drivers to oncoming vehicles ahead; 'Two-Way Traffic' is a regulatory sign that prohibits vehicles from traveling in both directions.",
       "(2) 'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.",
-      "(3) Both signs have the same function, both reminding drivers of oncoming vehicles ahead, and differ only in the width of the road section where they are placed. Question"
+      "(3) Both signs have the same function, both reminding drivers of oncoming vehicles ahead, and differ only in the width of the road section where they are placed"
     ],
     "correct_answer": "(2) 'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.\") is correct because the law mandates Choice (2) (\"'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"'No Passing' is a warning sign that alerts drivers to oncoming vehicles ahead; 'Two-Way Traffic' is a regulatory sign that prohibits vehicles from traveling in both directions.\" and \"Both signs have the same function, both reminding drivers of oncoming vehicles ahead, and differ only in the width of the road section where they are placed. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.\") is correct because the law mandates Choice (2) (\"'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"'No Passing' is a warning sign that alerts drivers to oncoming vehicles ahead; 'Two-Way Traffic' is a regulatory sign that prohibits vehicles from traveling in both directions.\" and \"Both signs have the same function, both reminding drivers of oncoming vehicles ahead, and differ only in the width of the road section where they are placed\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -3480,11 +3480,11 @@
     "options": [
       "(1) 5 persons.",
       "(2) 7 persons.",
-      "(3) 9 persons. Question"
+      "(3) 9 persons"
     ],
-    "correct_answer": "(3) 9 persons. Question",
+    "correct_answer": "(3) 9 persons",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Road Traffic Management Penalty Act, Choice (3) (\"9 persons. Question\") is correct because Choice (3) (\"9 persons. Question\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"5 persons.\" and \"7 persons.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Road Traffic Management Penalty Act, Choice (3) (\"9 persons\") is correct because Choice (3) (\"9 persons\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"5 persons.\" and \"7 persons.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -3720,11 +3720,11 @@
     "options": [
       "(1)",
       "(2)",
-      "(3) Question"
+      "(3)"
     ],
     "correct_answer": "(2)",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 109 (Traffic Control Signal Rules), Choice (2) (\"\") is correct because running a red light incurs a fine of NT$1,800 to NT$5,400 + 3 demerit points.\n\n❌ **Why other choices are Incorrect**: Choices \"\" and \"Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 109 (Traffic Control Signal Rules), Choice (2) (\"\") is correct because running a red light incurs a fine of NT$1,800 to NT$5,400 + 3 demerit points.\n\n❌ **Why other choices are Incorrect**: Choices \"\" and \"\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0233.png"
   },
   {
@@ -4232,11 +4232,11 @@
     "options": [
       "(1) When passing through well-lit urban roads, you may keep the high beams on to improve your own visibility.",
       "(2) When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.",
-      "(3) You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections. Question"
+      "(3) You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections"
     ],
     "correct_answer": "(2) When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.\") is correct because the law mandates Choice (2) (\"When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"When passing through well-lit urban roads, you may keep the high beams on to improve your own visibility.\" and \"You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.\") is correct because the law mandates Choice (2) (\"When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"When passing through well-lit urban roads, you may keep the high beams on to improve your own visibility.\" and \"You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -4356,7 +4356,7 @@
     "official_num": 273,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Fork road.",
       "(2) Narrow bridge.",
@@ -4452,7 +4452,7 @@
     "official_num": 279,
     "category": "Car Regulations - General",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Two-way traffic.",
       "(2) Narrow road.",
@@ -4936,11 +4936,11 @@
     "options": [
       "(1) The faster the speed, the wider the driver's field of vision, and the easier it is to see objects on both sides.",
       "(2) The faster the speed, the narrower the driver's visible field of vision, and peripheral objects tend to become blurry.",
-      "(3) The size of the field of vision is only related to the size of the windshield and has nothing to do with vehicle speed. Question"
+      "(3) The size of the field of vision is only related to the size of the windshield and has nothing to do with vehicle speed"
     ],
     "correct_answer": "(2) The faster the speed, the narrower the driver's visible field of vision, and peripheral objects tend to become blurry.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (2) (\"The faster the speed, the narrower the driver's visible field of vision, and peripheral objects tend to become blurry.\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"The faster the speed, the wider the driver's field of vision, and the easier it is to see objects on both sides.\" and \"The size of the field of vision is only related to the size of the windshield and has nothing to do with vehicle speed. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (2) (\"The faster the speed, the narrower the driver's visible field of vision, and peripheral objects tend to become blurry.\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"The faster the speed, the wider the driver's field of vision, and the easier it is to see objects on both sides.\" and \"The size of the field of vision is only related to the size of the windshield and has nothing to do with vehicle speed\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -5224,11 +5224,11 @@
     "options": [
       "(1) the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;",
       "(2) a fine shall be imposed;",
-      "(3) the driver’s license shall be suspended for one year.. Question"
+      "(3) the driver’s license shall be suspended for one year."
     ],
     "correct_answer": "(1) the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;\") is correct because the law mandates Choice (1) (\"the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"a fine shall be imposed;\" and \"the driver’s license shall be suspended for one year.. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;\") is correct because the law mandates Choice (1) (\"the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"a fine shall be imposed;\" and \"the driver’s license shall be suspended for one year.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -5544,11 +5544,11 @@
     "options": [
       "(1) You may overtake after honking two long horn blasts.",
       "(2) You may overtake after honking two short horn blasts.",
-      "(3) Honking or overtaking is not permitted. Question"
+      "(3) Honking or overtaking is not permitted"
     ],
-    "correct_answer": "(3) Honking or overtaking is not permitted. Question",
+    "correct_answer": "(3) Honking or overtaking is not permitted",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Honking or overtaking is not permitted. Question\") is correct because the law mandates Choice (3) (\"Honking or overtaking is not permitted. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"You may overtake after honking two long horn blasts.\" and \"You may overtake after honking two short horn blasts.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Honking or overtaking is not permitted\") is correct because the law mandates Choice (3) (\"Honking or overtaking is not permitted\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"You may overtake after honking two long horn blasts.\" and \"You may overtake after honking two short horn blasts.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -5832,11 +5832,11 @@
     "options": [
       "(1) 14 km apart.",
       "(2) 8 km apart.",
-      "(3) 6 km apart. However, this does not apply to violations inside tunnels. Question"
+      "(3) 6 km apart. However, this does not apply to violations inside tunnels"
     ],
-    "correct_answer": "(3) 6 km apart. However, this does not apply to violations inside tunnels. Question",
+    "correct_answer": "(3) 6 km apart. However, this does not apply to violations inside tunnels",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (3) (\"6 km apart. However, this does not apply to violations inside tunnels. Question\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"14 km apart.\" and \"8 km apart.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 93 of the Road Traffic Safety Regulations (Speed Control), Choice (3) (\"6 km apart. However, this does not apply to violations inside tunnels\") is correct because exceeding speed limits or violating speed rules incurs heavy fines (NT$1,200 to NT$36,000) and demerit points under Article 33/40.\n\n❌ **Why other choices are Incorrect**: Choices \"14 km apart.\" and \"8 km apart.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -6136,11 +6136,11 @@
     "options": [
       "(1) You may not use the shoulder to overtake.",
       "(2) You may use the shoulder to overtake.",
-      "(3) You may only use the acceleration lane to overtake. Question"
+      "(3) You may only use the acceleration lane to overtake"
     ],
     "correct_answer": "(1) You may not use the shoulder to overtake.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"You may not use the shoulder to overtake.\") is correct because the law mandates Choice (1) (\"You may not use the shoulder to overtake.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"You may use the shoulder to overtake.\" and \"You may only use the acceleration lane to overtake. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"You may not use the shoulder to overtake.\") is correct because the law mandates Choice (1) (\"You may not use the shoulder to overtake.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"You may use the shoulder to overtake.\" and \"You may only use the acceleration lane to overtake\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -6712,11 +6712,11 @@
     "options": [
       "(1) Normal weather conditions.",
       "(2) When the vehicle ahead is centered in the lane.",
-      "(3) When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary. Question"
+      "(3) When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary"
     ],
-    "correct_answer": "(3) When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary. Question",
+    "correct_answer": "(3) When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary. Question\") is correct because the law mandates Choice (3) (\"When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Normal weather conditions.\" and \"When the vehicle ahead is centered in the lane.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary\") is correct because the law mandates Choice (3) (\"When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Normal weather conditions.\" and \"When the vehicle ahead is centered in the lane.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -6776,11 +6776,11 @@
     "options": [
       "(1) The system can always be safely relied upon.",
       "(2) The system should never be used.",
-      "(3) The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians) Question"
+      "(3) The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians)"
     ],
-    "correct_answer": "(3) The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians) Question",
+    "correct_answer": "(3) The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians) Question\") is correct because the law mandates Choice (3) (\"The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians) Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"The system can always be safely relied upon.\" and \"The system should never be used.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians)\") is correct because the law mandates Choice (3) (\"The system is a tool to assist driving but cannot replace safe driving behavior. ▸ Intersection Safety (Signalized / Unsignalized Intersections, Yielding to Pedestrians)\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"The system can always be safely relied upon.\" and \"The system should never be used.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -6788,7 +6788,7 @@
     "official_num": 425,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Two-way traffic.",
       "(2) Narrow road.",
@@ -6804,7 +6804,7 @@
     "official_num": 426,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Fork road.",
       "(2) Two-way traffic.",
@@ -6820,7 +6820,7 @@
     "official_num": 427,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Road width narrows on the right side.",
       "(2) Narrow road ahead.",
@@ -6836,13 +6836,15 @@
     "official_num": 428,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
-      "(1) Fork in the road。（2）Narrow bridge。（3）On-ramp merging.。 Question"
+      "(1) Fork in the road。",
+      "(2) Narrow bridge。",
+      "(3) On-ramp merging.。"
     ],
-    "correct_answer": "(3)",
+    "correct_answer": "(3) On-ramp merging.。",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"\") is correct because the law mandates Choice (3) (\"\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choice \"Fork in the road。（2）Narrow bridge。（3）On-ramp merging.。 Question\" is incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"On-ramp merging.。\") is correct because the law mandates Choice (3) (\"On-ramp merging.。\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Fork in the road。\" and \"Narrow bridge。\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0428.png"
   },
   {
@@ -6850,7 +6852,7 @@
     "official_num": 429,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Right-side cliff.",
       "(2) Watch for falling rocks.",
@@ -6866,7 +6868,7 @@
     "official_num": 430,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Unguarded railway level crossing.",
       "(2) Guarded railway level crossing.",
@@ -6882,7 +6884,7 @@
     "official_num": 431,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Watch for traffic signals.",
       "(2) Danger.",
@@ -6898,7 +6900,7 @@
     "official_num": 432,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Bumpy road.",
       "(2) Slippery road.",
@@ -6914,7 +6916,7 @@
     "official_num": 433,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No motor vehicles allowed.",
       "(2) Watch for handcarts.",
@@ -6930,7 +6932,7 @@
     "official_num": 434,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Watch for pedestrians.",
       "(2) Watch for children.",
@@ -6946,7 +6948,7 @@
     "official_num": 435,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Watch for children.",
       "(2) Watch for pedestrians.",
@@ -6962,7 +6964,7 @@
     "official_num": 436,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No pedestrians allowed.",
       "(2) Watch for pedestrians.",
@@ -6978,15 +6980,15 @@
     "official_num": 437,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Designated vehicle road.",
       "(2) No motor vehicles.",
-      "(3) No vehicles of any kind allowed. Question"
+      "(3) No vehicles of any kind allowed"
     ],
     "correct_answer": "(1) Designated vehicle road.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Designated vehicle road.\") is correct because the law mandates Choice (1) (\"Designated vehicle road.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"No motor vehicles.\" and \"No vehicles of any kind allowed. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Designated vehicle road.\") is correct because the law mandates Choice (1) (\"Designated vehicle road.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"No motor vehicles.\" and \"No vehicles of any kind allowed\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0437.png"
   },
   {
@@ -6994,7 +6996,7 @@
     "official_num": 438,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Roundabout direction.",
       "(2) Divided road.",
@@ -7010,7 +7012,7 @@
     "official_num": 439,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Pedestrians only.",
       "(2) Watch for pedestrians.",
@@ -7026,7 +7028,7 @@
     "official_num": 440,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Fork road.",
       "(2) Dead end.",
@@ -7042,7 +7044,7 @@
     "official_num": 441,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Flashing yellow light.",
       "(2) Traffic control signal.",
@@ -7126,11 +7128,11 @@
     "options": [
       "(1) Zebra-stripe pedestrian crossing line.",
       "(2) Crossbar-stripe pedestrian crossing line.",
-      "(3) Stop line. Question"
+      "(3) Stop line"
     ],
     "correct_answer": "(2) Crossbar-stripe pedestrian crossing line.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Crossbar-stripe pedestrian crossing line.\") is correct because the law mandates Choice (2) (\"Crossbar-stripe pedestrian crossing line.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Zebra-stripe pedestrian crossing line.\" and \"Stop line. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Crossbar-stripe pedestrian crossing line.\") is correct because the law mandates Choice (2) (\"Crossbar-stripe pedestrian crossing line.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Zebra-stripe pedestrian crossing line.\" and \"Stop line\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0446.png"
   },
   {
@@ -7314,7 +7316,7 @@
     "official_num": 458,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "A driver at an intersection sees a green light and prepares to turn left. At this moment, pedestrians are still slowly crossing on the pedestrian crosswalk markings. Which of the following behaviors is correct? Question",
+    "question": "A driver at an intersection sees a green light and prepares to turn left. At this moment, pedestrians are still slowly crossing on the pedestrian crosswalk markings. Which of the following behaviors is correct?",
     "options": [
       "(1) Stop about 3 meters in front of the pedestrians and remain completely stationary until they have passed.",
       "(2) Slowly glide toward the pedestrians, and once they have walked past the center line, accelerate and pass behind them.",
@@ -7510,11 +7512,11 @@
     "options": [
       "(1) Must pay a fine and attend a training course.",
       "(2) Fine and suspension of driver's license for 1 to 2 years.",
-      "(3) Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half. Question"
+      "(3) Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half"
     ],
-    "correct_answer": "(3) Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half. Question",
+    "correct_answer": "(3) Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half. Question\") is correct because the law mandates Choice (3) (\"Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Must pay a fine and attend a training course.\" and \"Fine and suspension of driver's license for 1 to 2 years.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half\") is correct because the law mandates Choice (3) (\"Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Must pay a fine and attend a training course.\" and \"Fine and suspension of driver's license for 1 to 2 years.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -8262,11 +8264,11 @@
     "options": [
       "(1) At intersections with traffic control signals, to enhance signal visibility.",
       "(2) At an appropriate distance in front of an intersection where signals are difficult to notice, to warn drivers in advance.",
-      "(3) At unsignalized intersections, to replace traffic control signals in regulating traffic. Question"
+      "(3) At unsignalized intersections, to replace traffic control signals in regulating traffic"
     ],
     "correct_answer": "(2) At an appropriate distance in front of an intersection where signals are difficult to notice, to warn drivers in advance.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 109 (Traffic Control Signal Rules), Choice (2) (\"At an appropriate distance in front of an intersection where signals are difficult to notice, to warn drivers in advance.\") is correct because running a red light incurs a fine of NT$1,800 to NT$5,400 + 3 demerit points.\n\n❌ **Why other choices are Incorrect**: Choices \"At intersections with traffic control signals, to enhance signal visibility.\" and \"At unsignalized intersections, to replace traffic control signals in regulating traffic. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 109 (Traffic Control Signal Rules), Choice (2) (\"At an appropriate distance in front of an intersection where signals are difficult to notice, to warn drivers in advance.\") is correct because running a red light incurs a fine of NT$1,800 to NT$5,400 + 3 demerit points.\n\n❌ **Why other choices are Incorrect**: Choices \"At intersections with traffic control signals, to enhance signal visibility.\" and \"At unsignalized intersections, to replace traffic control signals in regulating traffic\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -8422,11 +8424,11 @@
     "options": [
       "(1) Temporary stopping is permitted within the roundabout.",
       "(2) When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.",
-      "(3) The roundabout sign is a prohibitory sign used to urge drivers to proceed slowly and give priority to vehicles on the outer ring. Question"
+      "(3) The roundabout sign is a prohibitory sign used to urge drivers to proceed slowly and give priority to vehicles on the outer ring"
     ],
     "correct_answer": "(2) When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.\") is correct because the law mandates Choice (2) (\"When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Temporary stopping is permitted within the roundabout.\" and \"The roundabout sign is a prohibitory sign used to urge drivers to proceed slowly and give priority to vehicles on the outer ring. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.\") is correct because the law mandates Choice (2) (\"When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Temporary stopping is permitted within the roundabout.\" and \"The roundabout sign is a prohibitory sign used to urge drivers to proceed slowly and give priority to vehicles on the outer ring\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0527.png"
   },
   {
@@ -8582,11 +8584,11 @@
     "options": [
       "(1) Slow down, pass after confirming safety, and may stop on the track area if necessary.",
       "(2) Pay attention to train movements, pass quickly under safe conditions, and must not stop on the track area.",
-      "(3) If traffic ahead is congested, they may still enter the track area to wait. Question"
+      "(3) If traffic ahead is congested, they may still enter the track area to wait"
     ],
     "correct_answer": "(2) Pay attention to train movements, pass quickly under safe conditions, and must not stop on the track area.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 102 (Intersection & Turning Rules), Choice (2) (\"Pay attention to train movements, pass quickly under safe conditions, and must not stop on the track area.\") is correct because turning vehicles must signal at least 30 meters prior, yield to straight traffic, and select proper outer/inner lanes.\n\n❌ **Why other choices are Incorrect**: Choices \"Slow down, pass after confirming safety, and may stop on the track area if necessary.\" and \"If traffic ahead is congested, they may still enter the track area to wait. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 102 (Intersection & Turning Rules), Choice (2) (\"Pay attention to train movements, pass quickly under safe conditions, and must not stop on the track area.\") is correct because turning vehicles must signal at least 30 meters prior, yield to straight traffic, and select proper outer/inner lanes.\n\n❌ **Why other choices are Incorrect**: Choices \"Slow down, pass after confirming safety, and may stop on the track area if necessary.\" and \"If traffic ahead is congested, they may still enter the track area to wait\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0537.png"
   },
   {
@@ -8774,11 +8776,11 @@
     "options": [
       "(1) Interchange.",
       "(2) System terminal point.",
-      "(3) At-grade intersection. Question"
+      "(3) At-grade intersection"
     ],
     "correct_answer": "(1) Interchange.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Interchange.\") is correct because the law mandates Choice (1) (\"Interchange.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"System terminal point.\" and \"At-grade intersection. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Interchange.\") is correct because the law mandates Choice (1) (\"Interchange.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"System terminal point.\" and \"At-grade intersection\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -8806,11 +8808,11 @@
     "options": [
       "(1) Both sides of the road ahead narrow simultaneously; slow down and drive in the center.",
       "(2) The right side of the road ahead narrows; slow down, move to the left lane in advance, and watch for merging traffic.",
-      "(3) The road on the right ahead is closed for construction; stop and wait for construction workers to direct traffic. Question"
+      "(3) The road on the right ahead is closed for construction; stop and wait for construction workers to direct traffic"
     ],
     "correct_answer": "(2) The right side of the road ahead narrows; slow down, move to the left lane in advance, and watch for merging traffic.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"The right side of the road ahead narrows; slow down, move to the left lane in advance, and watch for merging traffic.\") is correct because the law mandates Choice (2) (\"The right side of the road ahead narrows; slow down, move to the left lane in advance, and watch for merging traffic.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Both sides of the road ahead narrow simultaneously; slow down and drive in the center.\" and \"The road on the right ahead is closed for construction; stop and wait for construction workers to direct traffic. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"The right side of the road ahead narrows; slow down, move to the left lane in advance, and watch for merging traffic.\") is correct because the law mandates Choice (2) (\"The right side of the road ahead narrows; slow down, move to the left lane in advance, and watch for merging traffic.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Both sides of the road ahead narrow simultaneously; slow down and drive in the center.\" and \"The road on the right ahead is closed for construction; stop and wait for construction workers to direct traffic\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -9094,11 +9096,11 @@
     "options": [
       "(1) Revoked.",
       "(2) Suspended for 6 months to 1 year.",
-      "(3) Suspended for 1 to 2 years. ▸ Turning (Left / Right Turns, U-turns) Question"
+      "(3) Suspended for 1 to 2 years. ▸ Turning (Left / Right Turns, U-turns)"
     ],
-    "correct_answer": "(3) Suspended for 1 to 2 years. ▸ Turning (Left / Right Turns, U-turns) Question",
+    "correct_answer": "(3) Suspended for 1 to 2 years. ▸ Turning (Left / Right Turns, U-turns)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 102 (Intersection & Turning Rules), Choice (3) (\"Suspended for 1 to 2 years. ▸ Turning (Left / Right Turns, U-turns) Question\") is correct because turning vehicles must signal at least 30 meters prior, yield to straight traffic, and select proper outer/inner lanes.\n\n❌ **Why other choices are Incorrect**: Choices \"Revoked.\" and \"Suspended for 6 months to 1 year.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 102 (Intersection & Turning Rules), Choice (3) (\"Suspended for 1 to 2 years. ▸ Turning (Left / Right Turns, U-turns)\") is correct because turning vehicles must signal at least 30 meters prior, yield to straight traffic, and select proper outer/inner lanes.\n\n❌ **Why other choices are Incorrect**: Choices \"Revoked.\" and \"Suspended for 6 months to 1 year.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -9106,7 +9108,7 @@
     "official_num": 570,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Right curve.",
       "(2) Left curve.",
@@ -9122,7 +9124,7 @@
     "official_num": 571,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Left curve.",
       "(2) Right curve.",
@@ -9138,7 +9140,7 @@
     "official_num": 572,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Continuous curves, right first.",
       "(2) Left curve.",
@@ -9154,7 +9156,7 @@
     "official_num": 573,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Continuous curves, left first.",
       "(2) Right curve.",
@@ -9186,7 +9188,7 @@
     "official_num": 575,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No U-turn.",
       "(2) No left turn.",
@@ -9206,11 +9208,11 @@
     "options": [
       "(1) No left turn.",
       "(2) No U-turn.",
-      "(3) No oncoming traffic. Question"
+      "(3) No oncoming traffic"
     ],
     "correct_answer": "(2) No U-turn.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"No U-turn.\") is correct because the law mandates Choice (2) (\"No U-turn.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"No left turn.\" and \"No oncoming traffic. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"No U-turn.\") is correct because the law mandates Choice (2) (\"No U-turn.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"No left turn.\" and \"No oncoming traffic\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0576.png"
   },
   {
@@ -9234,7 +9236,7 @@
     "official_num": 578,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Go straight then turn right.",
       "(2) Go straight then turn left.",
@@ -9250,7 +9252,7 @@
     "official_num": 579,
     "category": "Road Signs & Signals - Warnings & Rules",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Left turn direction.",
       "(2) Right turn direction.",
@@ -9302,11 +9304,11 @@
     "options": [
       "(1) Right turn.",
       "(2) Left turn.",
-      "(3) Slow down. Question"
+      "(3) Slow down"
     ],
     "correct_answer": "(2) Left turn.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Left turn.\") is correct because the law mandates Choice (2) (\"Left turn.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Right turn.\" and \"Slow down. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Left turn.\") is correct because the law mandates Choice (2) (\"Left turn.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Right turn.\" and \"Slow down\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0582.png"
   },
   {
@@ -9750,11 +9752,11 @@
     "options": [
       "(1) Keep to the left.",
       "(2) Right turn direction.",
-      "(3) Left turn direction. Question"
+      "(3) Left turn direction"
     ],
     "correct_answer": "(2) Right turn direction.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Right turn direction.\") is correct because the law mandates Choice (2) (\"Right turn direction.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Keep to the left.\" and \"Left turn direction. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Right turn direction.\") is correct because the law mandates Choice (2) (\"Right turn direction.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Keep to the left.\" and \"Left turn direction\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0610.png"
   },
   {
@@ -9942,11 +9944,11 @@
     "options": [
       "(1) To check for oncoming vehicles.",
       "(2) To watch for blind spots not visible in the rearview mirror.",
-      "(3) To avoid glare from the windshield. ▸ Turning (Left / Right Turns, U-turns) Question"
+      "(3) To avoid glare from the windshield. ▸ Turning (Left / Right Turns, U-turns)"
     ],
     "correct_answer": "(2) To watch for blind spots not visible in the rearview mirror.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 102 (Intersection & Turning Rules), Choice (2) (\"To watch for blind spots not visible in the rearview mirror.\") is correct because turning vehicles must signal at least 30 meters prior, yield to straight traffic, and select proper outer/inner lanes.\n\n❌ **Why other choices are Incorrect**: Choices \"To check for oncoming vehicles.\" and \"To avoid glare from the windshield. ▸ Turning (Left / Right Turns, U-turns) Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 102 (Intersection & Turning Rules), Choice (2) (\"To watch for blind spots not visible in the rearview mirror.\") is correct because turning vehicles must signal at least 30 meters prior, yield to straight traffic, and select proper outer/inner lanes.\n\n❌ **Why other choices are Incorrect**: Choices \"To check for oncoming vehicles.\" and \"To avoid glare from the windshield. ▸ Turning (Left / Right Turns, U-turns)\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -10198,11 +10200,11 @@
     "options": [
       "(1) Slow down and yield.",
       "(2) Speed up and pass through.",
-      "(3) Honk to demand the other driver to give way. Question"
+      "(3) Honk to demand the other driver to give way"
     ],
     "correct_answer": "(1) Slow down and yield.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Slow down and yield.\") is correct because the law mandates Choice (1) (\"Slow down and yield.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Speed up and pass through.\" and \"Honk to demand the other driver to give way. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Slow down and yield.\") is correct because the law mandates Choice (1) (\"Slow down and yield.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Speed up and pass through.\" and \"Honk to demand the other driver to give way\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -10390,11 +10392,11 @@
     "options": [
       "(1) Blind spots Question may exist on the sides of the vehicle.",
       "(2) As long as you can see the driver, you can be sure the driver can see you.",
-      "(3) The extent of blind spots may vary depending on the type of vehicle. Question"
+      "(3) The extent of blind spots may vary depending on the type of vehicle"
     ],
     "correct_answer": "(2) As long as you can see the driver, you can be sure the driver can see you.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"As long as you can see the driver, you can be sure the driver can see you.\") is correct because the law mandates Choice (2) (\"As long as you can see the driver, you can be sure the driver can see you.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Blind spots Question may exist on the sides of the vehicle.\" and \"The extent of blind spots may vary depending on the type of vehicle. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"As long as you can see the driver, you can be sure the driver can see you.\") is correct because the law mandates Choice (2) (\"As long as you can see the driver, you can be sure the driver can see you.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Blind spots Question may exist on the sides of the vehicle.\" and \"The extent of blind spots may vary depending on the type of vehicle\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -10454,11 +10456,11 @@
     "options": [
       "(1) Smaller.",
       "(2) Greater.",
-      "(3) Unchanged. ▸ Driving Precautions (Safe Following Distance, Watching Ahead) Question"
+      "(3) Unchanged. ▸ Driving Precautions (Safe Following Distance, Watching Ahead)"
     ],
     "correct_answer": "(2) Greater.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Greater.\") is correct because the law mandates Choice (2) (\"Greater.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Smaller.\" and \"Unchanged. ▸ Driving Precautions (Safe Following Distance, Watching Ahead) Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Greater.\") is correct because the law mandates Choice (2) (\"Greater.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Smaller.\" and \"Unchanged. ▸ Driving Precautions (Safe Following Distance, Watching Ahead)\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -10466,7 +10468,7 @@
     "official_num": 655,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Narrow road.",
       "(2) Narrow bridge.",
@@ -10498,7 +10500,7 @@
     "official_num": 657,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Bumpy road surface.",
       "(2) Raised road surface.",
@@ -10514,15 +10516,15 @@
     "official_num": 658,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Fork road.",
       "(2) Narrow bridge.",
-      "(3) Narrow road. Question"
+      "(3) Narrow road"
     ],
     "correct_answer": "(2) Narrow bridge.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Narrow bridge.\") is correct because the law mandates Choice (2) (\"Narrow bridge.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Fork road.\" and \"Narrow road. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Narrow bridge.\") is correct because the law mandates Choice (2) (\"Narrow bridge.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Fork road.\" and \"Narrow road\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0658.png"
   },
   {
@@ -10530,7 +10532,7 @@
     "official_num": 659,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Bumpy road surface.",
       "(2) Steep uphill.",
@@ -10546,7 +10548,7 @@
     "official_num": 660,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Steep downhill.",
       "(2) Steep uphill.",
@@ -10578,7 +10580,7 @@
     "official_num": 662,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Minimum speed limit.",
       "(2) Maximum speed limit.",
@@ -10658,7 +10660,7 @@
     "official_num": 667,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "[ Question",
+    "question": "[",
     "options": [
       "(1) Left lane closed.",
       "(2) Right lane closed.",
@@ -10770,7 +10772,7 @@
     "official_num": 674,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Disabled parking space.",
       "(2) Stop line.",
@@ -10806,11 +10808,11 @@
     "options": [
       "(1) Reversing.",
       "(2) Slow down.",
-      "(3) Allowing rear vehicle to overtake. Question"
+      "(3) Allowing rear vehicle to overtake"
     ],
-    "correct_answer": "(3) Allowing rear vehicle to overtake. Question",
+    "correct_answer": "(3) Allowing rear vehicle to overtake",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (3) (\"Allowing rear vehicle to overtake. Question\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"Reversing.\" and \"Slow down.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (3) (\"Allowing rear vehicle to overtake\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"Reversing.\" and \"Slow down.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0676.png"
   },
   {
@@ -10818,7 +10820,7 @@
     "official_num": 677,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Road designated for cars (4+ wheels) and heavy motorcycles (550cc+).",
       "(2) Road designated for bicycles and motorcycles.",
@@ -10834,7 +10836,7 @@
     "official_num": 678,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Lane designated for cars (4+ wheels) only.",
       "(2) Lane designated for cars (4+ wheels) and heavy motorcycles (550cc+).",
@@ -10850,7 +10852,7 @@
     "official_num": 679,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No heavy motorcycles (550cc+) allowed.",
       "(2) Heavy motorcycle (550cc+) exclusive lane.",
@@ -10882,7 +10884,7 @@
     "official_num": 681,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Freeway/expressway interchange name.",
       "(2) Place name and mileage.",
@@ -10898,7 +10900,7 @@
     "official_num": 682,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Merging traffic from the right ahead.",
       "(2) Merging traffic from the left ahead.",
@@ -10946,15 +10948,15 @@
     "official_num": 685,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Metro (MRT) station.",
       "(2) Railway station.",
-      "(3) High-speed rail station. Question"
+      "(3) High-speed rail station"
     ],
     "correct_answer": "(1) Metro (MRT) station.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Metro (MRT) station.\") is correct because the law mandates Choice (1) (\"Metro (MRT) station.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Railway station.\" and \"High-speed rail station. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Metro (MRT) station.\") is correct because the law mandates Choice (1) (\"Metro (MRT) station.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Railway station.\" and \"High-speed rail station\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0685.png"
   },
   {
@@ -11030,11 +11032,11 @@
     "options": [
       "(1) Milestone.",
       "(2) Mileage marker.",
-      "(3) County road route number. Question"
+      "(3) County road route number"
     ],
     "correct_answer": "(2) Mileage marker.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Mileage marker.\") is correct because the law mandates Choice (2) (\"Mileage marker.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Milestone.\" and \"County road route number. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Mileage marker.\") is correct because the law mandates Choice (2) (\"Mileage marker.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Milestone.\" and \"County road route number\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0690.png"
   },
   {
@@ -11126,11 +11128,11 @@
     "options": [
       "(1) Accelerate to overtake the vehicle ahead.",
       "(2) Follow closely behind the vehicle ahead to prevent vehicles behind from overtaking.",
-      "(3) Increase your following distance and pay close attention to the vehicle ahead at all times. Question"
+      "(3) Increase your following distance and pay close attention to the vehicle ahead at all times"
     ],
-    "correct_answer": "(3) Increase your following distance and pay close attention to the vehicle ahead at all times. Question",
+    "correct_answer": "(3) Increase your following distance and pay close attention to the vehicle ahead at all times",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Increase your following distance and pay close attention to the vehicle ahead at all times. Question\") is correct because the law mandates Choice (3) (\"Increase your following distance and pay close attention to the vehicle ahead at all times. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Accelerate to overtake the vehicle ahead.\" and \"Follow closely behind the vehicle ahead to prevent vehicles behind from overtaking.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Increase your following distance and pay close attention to the vehicle ahead at all times\") is correct because the law mandates Choice (3) (\"Increase your following distance and pay close attention to the vehicle ahead at all times\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Accelerate to overtake the vehicle ahead.\" and \"Follow closely behind the vehicle ahead to prevent vehicles behind from overtaking.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -11542,11 +11544,11 @@
     "options": [
       "(1) They should drive in the outer lane.",
       "(2) They may temporarily use the lane immediately adjacent to the outer lane to overtake the vehicle ahead.",
-      "(3) All of the above. Question"
+      "(3) All of the above"
     ],
-    "correct_answer": "(3) All of the above. Question",
+    "correct_answer": "(3) All of the above",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"All of the above. Question\") is correct because the law mandates Choice (3) (\"All of the above. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"They should drive in the outer lane.\" and \"They may temporarily use the lane immediately adjacent to the outer lane to overtake the vehicle ahead.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"All of the above\") is correct because the law mandates Choice (3) (\"All of the above\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"They should drive in the outer lane.\" and \"They may temporarily use the lane immediately adjacent to the outer lane to overtake the vehicle ahead.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -11556,11 +11558,13 @@
     "topic": "Official THB 115 Automobile Exam Question Bank",
     "question": "Which of the following is the sign for a one-way street?",
     "options": [
-      "Which of the following is the sign for a one-way street? (1) (2 ) (3)"
+      "(1)",
+      "(2)",
+      "(3)"
     ],
     "correct_answer": "(3)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"\") is correct because the law mandates Choice (3) (\"\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choice \"Which of the following is the sign for a one-way street? (1) (2 ) (3)\" is incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"\") is correct because the law mandates Choice (3) (\"\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"\" and \"\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0723.png"
   },
   {
@@ -11732,11 +11736,11 @@
     "options": [
       "(1) It is a permanently installed compliance sign indicating the road has permanently changed its traffic direction.",
       "(2) It is a temporary construction sign indicating road construction ahead; drivers must detour in the direction of the arrow.",
-      "(3) It is an advisory sign; drivers may decide for themselves whether to detour. Question"
+      "(3) It is an advisory sign; drivers may decide for themselves whether to detour"
     ],
     "correct_answer": "(2) It is a temporary construction sign indicating road construction ahead; drivers must detour in the direction of the arrow.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (2) (\"It is a temporary construction sign indicating road construction ahead; drivers must detour in the direction of the arrow.\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"It is a permanently installed compliance sign indicating the road has permanently changed its traffic direction.\" and \"It is an advisory sign; drivers may decide for themselves whether to detour. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Article 35 of the Road Traffic Management Penalty Act, Choice (2) (\"It is a temporary construction sign indicating road construction ahead; drivers must detour in the direction of the arrow.\") is correct because breath alcohol exceeding 0.15 mg/L incurs fines up to NT$120,000, license suspension, and mandatory alcohol education.\n\n❌ **Why other choices are Incorrect**: Choices \"It is a permanently installed compliance sign indicating the road has permanently changed its traffic direction.\" and \"It is an advisory sign; drivers may decide for themselves whether to detour\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0734.png"
   },
   {
@@ -12100,11 +12104,11 @@
     "options": [
       "(1) There is an uphill section ahead.",
       "(2) There is a downhill section ahead.",
-      "(3) The road surface ahead is flat. Question"
+      "(3) The road surface ahead is flat"
     ],
     "correct_answer": "(2) There is a downhill section ahead.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"There is a downhill section ahead.\") is correct because the law mandates Choice (2) (\"There is a downhill section ahead.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"There is an uphill section ahead.\" and \"The road surface ahead is flat. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"There is a downhill section ahead.\") is correct because the law mandates Choice (2) (\"There is a downhill section ahead.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"There is an uphill section ahead.\" and \"The road surface ahead is flat\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0757.png"
   },
   {
@@ -12468,11 +12472,11 @@
     "options": [
       "(1) A fine of NT$1,200–2,400 and suspension of the driver's license for 1 month.",
       "(2) A fine of NT$3,000–6,000.",
-      "(3) A fine of NT$6,000–12,000 and immediate revocation of the driver's license on the spot. Question"
+      "(3) A fine of NT$6,000–12,000 and immediate revocation of the driver's license on the spot"
     ],
     "correct_answer": "(2) A fine of NT$3,000–6,000.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"A fine of NT$3,000–6,000.\") is correct because the law mandates Choice (2) (\"A fine of NT$3,000–6,000.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"A fine of NT$1,200–2,400 and suspension of the driver's license for 1 month.\" and \"A fine of NT$6,000–12,000 and immediate revocation of the driver's license on the spot. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"A fine of NT$3,000–6,000.\") is correct because the law mandates Choice (2) (\"A fine of NT$3,000–6,000.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"A fine of NT$1,200–2,400 and suspension of the driver's license for 1 month.\" and \"A fine of NT$6,000–12,000 and immediate revocation of the driver's license on the spot\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -12756,11 +12760,11 @@
     "options": [
       "(1) Speed up.",
       "(2) Slow down.",
-      "(3) Drive normally. Question"
+      "(3) Drive normally"
     ],
     "correct_answer": "(2) Slow down.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Slow down.\") is correct because the law mandates Choice (2) (\"Slow down.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Speed up.\" and \"Drive normally. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Slow down.\") is correct because the law mandates Choice (2) (\"Slow down.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Speed up.\" and \"Drive normally\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -13204,11 +13208,11 @@
     "options": [
       "(1) Ignore it and continue.",
       "(2) Honk for a long time as a warning.",
-      "(3) Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals) Question"
+      "(3) Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals)"
     ],
-    "correct_answer": "(3) Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals) Question",
+    "correct_answer": "(3) Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals) Question\") is correct because the law mandates Choice (3) (\"Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals) Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Ignore it and continue.\" and \"Honk for a long time as a warning.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals)\") is correct because the law mandates Choice (3) (\"Slow down and watch its movements. ▸ Proper Use of Lights (Headlights, Fog Lights, Turn Signals)\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Ignore it and continue.\" and \"Honk for a long time as a warning.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -13220,11 +13224,11 @@
     "options": [
       "(1) Turn on headlights.",
       "(2) Watch for traffic signals.",
-      "(3) Honk the horn. Question"
+      "(3) Honk the horn"
     ],
     "correct_answer": "(1) Turn on headlights.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Turn on headlights.\") is correct because the law mandates Choice (1) (\"Turn on headlights.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Watch for traffic signals.\" and \"Honk the horn. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Turn on headlights.\") is correct because the law mandates Choice (1) (\"Turn on headlights.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Watch for traffic signals.\" and \"Honk the horn\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0827.png"
   },
   {
@@ -13476,11 +13480,11 @@
     "options": [
       "(1) Use high beams throughout to see the oncoming vehicle clearly.",
       "(2) Switch to fog lights.",
-      "(3) Switch to low beams to avoid causing glare to the oncoming driver. Question"
+      "(3) Switch to low beams to avoid causing glare to the oncoming driver"
     ],
-    "correct_answer": "(3) Switch to low beams to avoid causing glare to the oncoming driver. Question",
+    "correct_answer": "(3) Switch to low beams to avoid causing glare to the oncoming driver",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Switch to low beams to avoid causing glare to the oncoming driver. Question\") is correct because the law mandates Choice (3) (\"Switch to low beams to avoid causing glare to the oncoming driver. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Use high beams throughout to see the oncoming vehicle clearly.\" and \"Switch to fog lights.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Switch to low beams to avoid causing glare to the oncoming driver\") is correct because the law mandates Choice (3) (\"Switch to low beams to avoid causing glare to the oncoming driver\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Use high beams throughout to see the oncoming vehicle clearly.\" and \"Switch to fog lights.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0843.png"
   },
   {
@@ -13652,11 +13656,11 @@
     "options": [
       "(1) Slow down.",
       "(2) Speed up.",
-      "(3) Turn off headlights. ▸ Cargo Loading (Preventing Falls or Leaks) Question"
+      "(3) Turn off headlights. ▸ Cargo Loading (Preventing Falls or Leaks)"
     ],
     "correct_answer": "(1) Slow down.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Slow down.\") is correct because the law mandates Choice (1) (\"Slow down.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Speed up.\" and \"Turn off headlights. ▸ Cargo Loading (Preventing Falls or Leaks) Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Slow down.\") is correct because the law mandates Choice (1) (\"Slow down.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Speed up.\" and \"Turn off headlights. ▸ Cargo Loading (Preventing Falls or Leaks)\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -13664,7 +13668,7 @@
     "official_num": 855,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) No heavy trucks or articulated vehicles allowed.",
       "(2) No heavy trucks allowed.",
@@ -13684,11 +13688,11 @@
     "options": [
       "(1) Vehicle length restriction.",
       "(2) Vehicle width restriction.",
-      "(3) No heavy trucks allowed. Question"
+      "(3) No heavy trucks allowed"
     ],
     "correct_answer": "(1) Vehicle length restriction.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Vehicle length restriction.\") is correct because the law mandates Choice (1) (\"Vehicle length restriction.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Vehicle width restriction.\" and \"No heavy trucks allowed. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Vehicle length restriction.\") is correct because the law mandates Choice (1) (\"Vehicle length restriction.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Vehicle width restriction.\" and \"No heavy trucks allowed\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0856.png"
   },
   {
@@ -13828,11 +13832,11 @@
     "options": [
       "(1) Cargo of any length may be loaded as long as it is securely tied.",
       "(2) The length must not extend beyond the front of the cab.",
-      "(3) The length may extend up to 2 meters beyond the front of the cab. Question"
+      "(3) The length may extend up to 2 meters beyond the front of the cab"
     ],
     "correct_answer": "(2) The length must not extend beyond the front of the cab.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"The length must not extend beyond the front of the cab.\") is correct because the law mandates Choice (2) (\"The length must not extend beyond the front of the cab.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Cargo of any length may be loaded as long as it is securely tied.\" and \"The length may extend up to 2 meters beyond the front of the cab. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"The length must not extend beyond the front of the cab.\") is correct because the law mandates Choice (2) (\"The length must not extend beyond the front of the cab.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Cargo of any length may be loaded as long as it is securely tied.\" and \"The length may extend up to 2 meters beyond the front of the cab\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -14116,11 +14120,11 @@
     "options": [
       "(1) Passengers may be carried outside the vehicle cabin.",
       "(2) A trailer attached to a small vehicle may carry any item.",
-      "(3) The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid) Question"
+      "(3) The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid)"
     ],
-    "correct_answer": "(3) The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid) Question",
+    "correct_answer": "(3) The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid) Question\") is correct because the law mandates Choice (3) (\"The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid) Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Passengers may be carried outside the vehicle cabin.\" and \"A trailer attached to a small vehicle may carry any item.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid)\") is correct because the law mandates Choice (3) (\"The front cab of a truck or the front seat of a small vehicle must not carry more passengers than the approved number. ▸ Accident Prevention & Handling (Secondary Highway Accidents, First Aid)\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Passengers may be carried outside the vehicle cabin.\" and \"A trailer attached to a small vehicle may carry any item.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -14176,15 +14180,15 @@
     "official_num": 887,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Prescribed direction.",
       "(2) First-aid station.",
-      "(3) Fork road. Question"
+      "(3) Fork road"
     ],
     "correct_answer": "(2) First-aid station.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"First-aid station.\") is correct because the law mandates Choice (2) (\"First-aid station.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Prescribed direction.\" and \"Fork road. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"First-aid station.\") is correct because the law mandates Choice (2) (\"First-aid station.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Prescribed direction.\" and \"Fork road\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0887.png"
   },
   {
@@ -14612,11 +14616,11 @@
     "options": [
       "(1) Engine malfunction warning light.",
       "(2) Low oil pressure warning light.",
-      "(3) Low fuel level warning light. Question"
+      "(3) Low fuel level warning light"
     ],
     "correct_answer": "(1) Engine malfunction warning light.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Engine malfunction warning light.\") is correct because the law mandates Choice (1) (\"Engine malfunction warning light.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Low oil pressure warning light.\" and \"Low fuel level warning light. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Engine malfunction warning light.\") is correct because the law mandates Choice (1) (\"Engine malfunction warning light.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Low oil pressure warning light.\" and \"Low fuel level warning light\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0914.png"
   },
   {
@@ -14624,7 +14628,7 @@
     "official_num": 915,
     "category": "Car Regulations - Ethics & Misconduct",
     "topic": "Official THB 115 Automobile Exam Question Bank",
-    "question": "What does this road sign / traffic marking indicate?",
+    "question": "",
     "options": [
       "(1) Passing place (refuge bay).",
       "(2) Lane separation.",
@@ -14756,11 +14760,11 @@
     "options": [
       "(1) Stay at the scene without taking any action until police arrive.",
       "(2) Set up vehicle breakdown signs or other warning devices at an appropriate distance; if there are injured persons, provide prompt rescue and notify the fire department.",
-      "(3) Only need to get out of the vehicle to direct traffic; no warning devices need to be placed. Question"
+      "(3) Only need to get out of the vehicle to direct traffic; no warning devices need to be placed"
     ],
     "correct_answer": "(2) Set up vehicle breakdown signs or other warning devices at an appropriate distance; if there are injured persons, provide prompt rescue and notify the fire department.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Set up vehicle breakdown signs or other warning devices at an appropriate distance; if there are injured persons, provide prompt rescue and notify the fire department.\") is correct because the law mandates Choice (2) (\"Set up vehicle breakdown signs or other warning devices at an appropriate distance; if there are injured persons, provide prompt rescue and notify the fire department.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Stay at the scene without taking any action until police arrive.\" and \"Only need to get out of the vehicle to direct traffic; no warning devices need to be placed. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (2) (\"Set up vehicle breakdown signs or other warning devices at an appropriate distance; if there are injured persons, provide prompt rescue and notify the fire department.\") is correct because the law mandates Choice (2) (\"Set up vehicle breakdown signs or other warning devices at an appropriate distance; if there are injured persons, provide prompt rescue and notify the fire department.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Stay at the scene without taking any action until police arrive.\" and \"Only need to get out of the vehicle to direct traffic; no warning devices need to be placed\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -14804,11 +14808,11 @@
     "options": [
       "(1) Slow down and proceed.",
       "(2) Drive as usual.",
-      "(3) Stop driving and have the vehicle repaired. Question"
+      "(3) Stop driving and have the vehicle repaired"
     ],
-    "correct_answer": "(3) Stop driving and have the vehicle repaired. Question",
+    "correct_answer": "(3) Stop driving and have the vehicle repaired",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Stop driving and have the vehicle repaired. Question\") is correct because the law mandates Choice (3) (\"Stop driving and have the vehicle repaired. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Slow down and proceed.\" and \"Drive as usual.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Stop driving and have the vehicle repaired\") is correct because the law mandates Choice (3) (\"Stop driving and have the vehicle repaired\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Slow down and proceed.\" and \"Drive as usual.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -15140,11 +15144,11 @@
     "options": [
       "(1) Venous bleeding.",
       "(2) Capillary bleeding.",
-      "(3) Arterial bleeding. Question"
+      "(3) Arterial bleeding"
     ],
-    "correct_answer": "(3) Arterial bleeding. Question",
+    "correct_answer": "(3) Arterial bleeding",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Arterial bleeding. Question\") is correct because the law mandates Choice (3) (\"Arterial bleeding. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Venous bleeding.\" and \"Capillary bleeding.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Arterial bleeding\") is correct because the law mandates Choice (3) (\"Arterial bleeding\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Venous bleeding.\" and \"Capillary bleeding.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -15476,11 +15480,11 @@
     "options": [
       "(1) 10 meters.",
       "(2) 50 meters.",
-      "(3) 100 meters. ▸ Vehicle Inspection (Equipment, Lights) Question"
+      "(3) 100 meters. ▸ Vehicle Inspection (Equipment, Lights)"
     ],
-    "correct_answer": "(3) 100 meters. ▸ Vehicle Inspection (Equipment, Lights) Question",
+    "correct_answer": "(3) 100 meters. ▸ Vehicle Inspection (Equipment, Lights)",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"100 meters. ▸ Vehicle Inspection (Equipment, Lights) Question\") is correct because the law mandates Choice (3) (\"100 meters. ▸ Vehicle Inspection (Equipment, Lights) Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"10 meters.\" and \"50 meters.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"100 meters. ▸ Vehicle Inspection (Equipment, Lights)\") is correct because the law mandates Choice (3) (\"100 meters. ▸ Vehicle Inspection (Equipment, Lights)\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"10 meters.\" and \"50 meters.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -15492,11 +15496,11 @@
     "options": [
       "(1) Vehicle gross weight limit.",
       "(2) Vehicle load weight limit.",
-      "(3) Vehicle empty weight. Question"
+      "(3) Vehicle empty weight"
     ],
     "correct_answer": "(1) Vehicle gross weight limit.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Vehicle gross weight limit.\") is correct because the law mandates Choice (1) (\"Vehicle gross weight limit.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Vehicle load weight limit.\" and \"Vehicle empty weight. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (1) (\"Vehicle gross weight limit.\") is correct because the law mandates Choice (1) (\"Vehicle gross weight limit.\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Vehicle load weight limit.\" and \"Vehicle empty weight\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": "assets/car_signs/car_sign_0969.png"
   },
   {
@@ -15780,11 +15784,11 @@
     "options": [
       "(1) It can be checked while the engine is running.",
       "(2) After turning off the engine and waiting a few minutes.",
-      "(3) Immediately after turning off the engine. Question"
+      "(3) Immediately after turning off the engine"
     ],
     "correct_answer": "(2) After turning off the engine and waiting a few minutes.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Automobile Mechanical Diagnostics Standards, Choice (2) (\"After turning off the engine and waiting a few minutes.\") is correct because bluish-white exhaust smoke indicates engine oil entering combustion chambers and burning alongside fuel, requiring immediate seal/ring maintenance.\n\n❌ **Why other choices are Incorrect**: Choices \"It can be checked while the engine is running.\" and \"Immediately after turning off the engine. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Automobile Mechanical Diagnostics Standards, Choice (2) (\"After turning off the engine and waiting a few minutes.\") is correct because bluish-white exhaust smoke indicates engine oil entering combustion chambers and burning alongside fuel, requiring immediate seal/ring maintenance.\n\n❌ **Why other choices are Incorrect**: Choices \"It can be checked while the engine is running.\" and \"Immediately after turning off the engine\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -16004,11 +16008,11 @@
     "options": [
       "(1) The temperature gauge does not change due to outside air temperature or driving conditions.",
       "(2) The temperature gauge is affected by outside air temperature and driving conditions.",
-      "(3) The temperature gauge only changes when the engine is turned off. Question"
+      "(3) The temperature gauge only changes when the engine is turned off"
     ],
     "correct_answer": "(2) The temperature gauge is affected by outside air temperature and driving conditions.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Automobile Mechanical Diagnostics Standards, Choice (2) (\"The temperature gauge is affected by outside air temperature and driving conditions.\") is correct because bluish-white exhaust smoke indicates engine oil entering combustion chambers and burning alongside fuel, requiring immediate seal/ring maintenance.\n\n❌ **Why other choices are Incorrect**: Choices \"The temperature gauge does not change due to outside air temperature or driving conditions.\" and \"The temperature gauge only changes when the engine is turned off. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Automobile Mechanical Diagnostics Standards, Choice (2) (\"The temperature gauge is affected by outside air temperature and driving conditions.\") is correct because bluish-white exhaust smoke indicates engine oil entering combustion chambers and burning alongside fuel, requiring immediate seal/ring maintenance.\n\n❌ **Why other choices are Incorrect**: Choices \"The temperature gauge does not change due to outside air temperature or driving conditions.\" and \"The temperature gauge only changes when the engine is turned off\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -16452,11 +16456,11 @@
     "options": [
       "(1) Changing the vehicle color is purely a personal freedom and does not need to be reported to any authority.",
       "(2) Having the work done at a qualified and registered paint shop is sufficient for the vehicle to be legally driven on the road.",
-      "(3) A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations. Question"
+      "(3) A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations"
     ],
-    "correct_answer": "(3) A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations. Question",
+    "correct_answer": "(3) A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations. Question\") is correct because the law mandates Choice (3) (\"A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Changing the vehicle color is purely a personal freedom and does not need to be reported to any authority.\" and \"Having the work done at a qualified and registered paint shop is sufficient for the vehicle to be legally driven on the road.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations\") is correct because the law mandates Choice (3) (\"A vehicle may have its color changed, but after the change, the owner must apply for a change of registration with the highway regulatory authority and apply for a temporary inspection in accordance with regulations\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Changing the vehicle color is purely a personal freedom and does not need to be reported to any authority.\" and \"Having the work done at a qualified and registered paint shop is sufficient for the vehicle to be legally driven on the road.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -16580,11 +16584,11 @@
     "options": [
       "(1) The vehicle shall be confiscated.",
       "(2) The high-volume horn or noise device shall be confiscated.",
-      "(3) The license plate shall be revoked. Question"
+      "(3) The license plate shall be revoked"
     ],
     "correct_answer": "(2) The high-volume horn or noise device shall be confiscated.",
     "correct_index": 1,
-    "explanation": "✅ **Why Choice (2) is Correct**: According to Road Traffic Management Penalty Act, Choice (2) (\"The high-volume horn or noise device shall be confiscated.\") is correct because Choice (2) (\"The high-volume horn or noise device shall be confiscated.\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"The vehicle shall be confiscated.\" and \"The license plate shall be revoked. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (2) is Correct**: According to Road Traffic Management Penalty Act, Choice (2) (\"The high-volume horn or noise device shall be confiscated.\") is correct because Choice (2) (\"The high-volume horn or noise device shall be confiscated.\") specifies the exact statutory penalty, fine amount, or license suspension period required by law.\n\n❌ **Why other choices are Incorrect**: Choices \"The vehicle shall be confiscated.\" and \"The license plate shall be revoked\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -16964,11 +16968,11 @@
     "options": [
       "(1) Above the top of the driver's head.",
       "(2) Below the driver's shoulders.",
-      "(3) Level with the driver's ears. Question"
+      "(3) Level with the driver's ears"
     ],
-    "correct_answer": "(3) Level with the driver's ears. Question",
+    "correct_answer": "(3) Level with the driver's ears",
     "correct_index": 2,
-    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Level with the driver's ears. Question\") is correct because the law mandates Choice (3) (\"Level with the driver's ears. Question\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Above the top of the driver's head.\" and \"Below the driver's shoulders.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (3) is Correct**: According to Taiwan Road Traffic Safety Regulations, Choice (3) (\"Level with the driver's ears\") is correct because the law mandates Choice (3) (\"Level with the driver's ears\") as the strict legal requirement to ensure roadway safety and traffic flow.\n\n❌ **Why other choices are Incorrect**: Choices \"Above the top of the driver's head.\" and \"Below the driver's shoulders.\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
@@ -17332,11 +17336,11 @@
     "options": [
       "(1) Normal operation.",
       "(2) Brake fluid leak.",
-      "(3) Vacuum brake booster failure. Question"
+      "(3) Vacuum brake booster failure"
     ],
     "correct_answer": "(1) Normal operation.",
     "correct_index": 0,
-    "explanation": "✅ **Why Choice (1) is Correct**: According to Automobile Mechanical Diagnostics Standards, Choice (1) (\"Normal operation.\") is correct because bluish-white exhaust smoke indicates engine oil entering combustion chambers and burning alongside fuel, requiring immediate seal/ring maintenance.\n\n❌ **Why other choices are Incorrect**: Choices \"Brake fluid leak.\" and \"Vacuum brake booster failure. Question\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
+    "explanation": "✅ **Why Choice (1) is Correct**: According to Automobile Mechanical Diagnostics Standards, Choice (1) (\"Normal operation.\") is correct because bluish-white exhaust smoke indicates engine oil entering combustion chambers and burning alongside fuel, requiring immediate seal/ring maintenance.\n\n❌ **Why other choices are Incorrect**: Choices \"Brake fluid leak.\" and \"Vacuum brake booster failure\" are incorrect because they violate traffic safety regulations, present severe collision risks, or fail to state the statutory legal requirement.",
     "sign_image": null
   },
   {
