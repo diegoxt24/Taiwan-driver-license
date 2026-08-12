@@ -173,31 +173,6 @@ async function syncWithCloud(forcePush = false) {
   } catch (e) {
     console.warn('Sync attempt info:', e);
   }
-
-  // 2. Push merged state to cloud
-  try {
-    const now = Date.now();
-    userState.last_updated = now;
-    const resPush = await fetch(CLOUD_ENDPOINT, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-      body: JSON.stringify(userState)
-    });
-    if (resPush.ok) {
-      localStorage.setItem('tw_driver_last_sync_time', now.toString());
-      if (syncBadge) {
-        syncBadge.style.background = 'rgba(16,185,129,0.15)';
-        syncBadge.style.color = '#34d399';
-        syncBadge.style.borderColor = 'rgba(16,185,129,0.3)';
-      }
-      if (syncText) syncText.textContent = 'Cloud Auto-Synced ✓';
-    }
-  } catch (e) {
-    if (syncText) syncText.textContent = 'Saved Locally';
-  }
 }
 
 // STORAGE PERSISTENCE
