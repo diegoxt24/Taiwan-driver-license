@@ -678,7 +678,8 @@ function renderCurrentQuestion() {
   updateBookmarkUI(q.id);
 
   // Question Text
-  document.getElementById('questionText').textContent = q.question;
+  const defaultStem = (q.sign_image || q.sign_svg) ? "What does this road sign / traffic marking indicate?" : "Official Traffic Regulation Question";
+  document.getElementById('questionText').textContent = q.question.strip ? (q.question.trim() || defaultStem) : (q.question || defaultStem);
 
   // Render Options By Tab Mode
   optionsDiv.innerHTML = '';
