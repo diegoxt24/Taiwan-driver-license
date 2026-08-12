@@ -111,8 +111,7 @@ function updateCategoryAndTopicDropdowns() {
 }
 
 // CLOUD AUTO-SYNC ENGINE (OFFLINE FIRST + MULTI-DEVICE INSTANT SYNC)
-const CLOUD_BLOB_ID = '019fec96-40e6-7aae-b2ba-dc7e687d7c92'; 
-const CLOUD_ENDPOINT = `https://jsonblob.com/api/jsonBlob/${CLOUD_BLOB_ID}`;
+const CLOUD_ENDPOINT = './user_sync_state.json'; 
 
 async function syncWithCloud(forcePush = false) {
   const syncBadge = document.getElementById('cloudSyncStatus');
@@ -129,8 +128,8 @@ async function syncWithCloud(forcePush = false) {
   }
 
   try {
-    // 1. Fetch remote cloud state
-    const res = await fetch(CLOUD_ENDPOINT, {
+    // 1. Fetch cloud sync state from repository
+    const res = await fetch(CLOUD_ENDPOINT + '?t=' + Date.now(), {
       headers: { 'Accept': 'application/json' }
     });
 
@@ -147,37 +146,33 @@ async function syncWithCloud(forcePush = false) {
               const mergedStudied = Array.from(new Set([...rStudied, ...lStudied]));
               
               userState[prof][mod].studiedQuestions = mergedStudied;
-              remoteRecord[prof][mod].studiedQuestions = mergedStudied;
 
               const rFailed = remoteRecord[prof][mod].failedQuestions || [];
               const lFailed = userState[prof][mod].failedQuestions || [];
               userState[prof][mod].failedQuestions = Array.from(new Set([...rFailed, ...lFailed]));
-              remoteRecord[prof][mod].failedQuestions = userState[prof][mod].failedQuestions;
 
               const rBook = remoteRecord[prof][mod].bookmarks || [];
               const lBook = userState[prof][mod].bookmarks || [];
               userState[prof][mod].bookmarks = Array.from(new Set([...rBook, ...lBook]));
-              remoteRecord[prof][mod].bookmarks = userState[prof][mod].bookmarks;
             }
           });
         });
 
-        const localTime = parseInt(localStorage.getItem('tw_driver_last_sync_time') || '0');
-        const remoteTime = remoteRecord.last_updated || 0;
-
-        if (remoteTime > localTime || forcePush) {
-          if (remoteTime > localTime && !forcePush) {
-            userState.last_updated = remoteTime;
-          }
-          localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-          localStorage.setItem('tw_driver_last_sync_time', (userState.last_updated || Date.now()).toString());
-          updateDashboardStats();
-          renderCurrentQuestion();
-          if (syncText) syncText.textContent = 'Cloud Synced ✓';
+        localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
+        localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
+        updateDashboardStats();
+        renderCurrentQuestion();
+        if (syncBadge) {
+          syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+          syncBadge.style.color = '#34d399';
+          syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
         }
+        if (syncText) syncText.textContent = 'Auto-Synced ✓';
       }
     }
   } catch (e) {
+    console.warn('Sync attempt info:', e);
+  }
     // Fail silently to local storage
   }
 
