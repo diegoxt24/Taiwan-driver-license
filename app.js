@@ -656,6 +656,8 @@ function renderCurrentQuestion() {
   // Render Options By Tab Mode
   optionsDiv.innerHTML = '';
   explanationCard.classList.add('hidden');
+  const explLabel = document.getElementById('explBtnLabel');
+  if (explLabel) explLabel.textContent = 'Show Explanation';
   const explTextEl = document.getElementById('explanationText');
 
   // Prepare explanation HTML with visual diagram if available
@@ -747,6 +749,7 @@ function renderCurrentQuestion() {
 
     if (userSel !== undefined) {
       explanationCard.classList.remove('hidden');
+      if (explLabel) explLabel.textContent = 'Hide Explanation';
     }
   } else if (currentTab === 'practice') {
     // Mode 4: PRACTICE EXAM CHOICES
@@ -788,6 +791,7 @@ function renderCurrentQuestion() {
       optionsDiv.appendChild(optBtn);
     });
     explanationCard.classList.remove('hidden');
+    if (explLabel) explLabel.textContent = 'Hide Explanation';
   }
 
   // Update Nav Buttons & Submit Exam Visibility
