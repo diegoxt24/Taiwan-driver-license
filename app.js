@@ -261,13 +261,17 @@ function setupEventListeners() {
       reader.onload = (event) => {
         try {
           const importedData = JSON.parse(event.target.result);
-          if (importedData.diego || importedData.johana) {
+          if (importedData.diego || importedData.johana || importedData.alejandro) {
             userState = importedData;
             saveStateToStorage();
+            updateFilteredQuestions();
+            renderCurrentQuestion();
             alert('🎉 Progress synced successfully across devices!');
+          } else {
+            alert('⚠️ Unrecognized backup structure.');
           }
         } catch (err) {
-          alert('⚠️ Invalid backup file format.');
+          alert('⚠️ Invalid JSON backup file format.');
         }
       };
       reader.readAsText(file);
