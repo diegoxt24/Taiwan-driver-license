@@ -247,6 +247,112 @@
     </button>
   </div>
 
+  <!-- BACKUP, RESTORE & CLOUD SYNC HUB MODAL -->
+  <div id="syncHubModal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span>🔄 Backup & Cloud Sync Hub</span>
+        </div>
+        <button id="closeSyncModalBtn" class="modal-close-btn" title="Close">&times;</button>
+      </div>
+
+      <div class="modal-nav">
+        <button id="modalTabBackup" class="modal-tab-btn active">📥 Backup / Share</button>
+        <button id="modalTabRestore" class="modal-tab-btn">📤 Restore / Import</button>
+        <button id="modalTabCloud" class="modal-tab-btn">☁️ Cloud Sync</button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- SECTION 1: BACKUP & SHARE -->
+        <div id="modalSectionBackup">
+          <div class="modal-card" style="margin-bottom: 0.75rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">
+              Current Profile Summary (<span id="backupProfileName" style="color: var(--accent-indigo);">Diego</span>)
+            </div>
+            <div id="backupStatsSummary" style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.4;">
+              Loading progress summary...
+            </div>
+          </div>
+
+          <div class="modal-btn-grid" style="margin-bottom: 0.75rem;">
+            <button id="shareBackupBtn" class="action-btn success" title="AirDrop or save to Files on iPad/iPhone">
+              <span>📱 AirDrop / Save File</span>
+            </button>
+            <button id="copyBackupCodeBtn" class="action-btn primary" title="Copy raw JSON backup code to clipboard">
+              <span>📋 Copy Backup Code</span>
+            </button>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 0.75rem;">
+            <button id="directDownloadJsonBtn" class="action-btn secondary" style="flex: 1; font-size: 0.78rem;">
+              <span>💾 Download .json File</span>
+            </button>
+            <button id="toggleRawJsonBtn" class="action-btn secondary" style="font-size: 0.78rem;">
+              <span>👁️ View Code</span>
+            </button>
+          </div>
+
+          <div id="rawJsonBox" class="hidden">
+            <textarea id="rawJsonArea" class="json-textarea" readonly></textarea>
+          </div>
+        </div>
+
+        <!-- SECTION 2: RESTORE & IMPORT -->
+        <div id="modalSectionRestore" class="hidden">
+          <div class="modal-card" style="margin-bottom: 0.75rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.35rem;">
+              Paste Backup Code or Upload JSON File
+            </div>
+            <textarea id="pasteRestoreArea" class="json-textarea" placeholder="Paste your backup code / JSON here..."></textarea>
+            <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+              <button id="applyPastedRestoreBtn" class="action-btn success" style="flex: 1;">
+                <span>✓ Restore & Merge Progress</span>
+              </button>
+              <button id="chooseFileRestoreBtn" class="action-btn secondary" style="font-size: 0.8rem;">
+                <span>📁 Upload File</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 3: CLOUD SYNC -->
+        <div id="modalSectionCloud" class="hidden">
+          <div class="modal-card">
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--text-main); margin-bottom: 0.25rem;">
+              Zero-Config Cloud Sync Status
+            </div>
+            <div id="cloudModalStatusText" style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+              Connected to Cloud Sync Bin. Progress is automatically synced in the background.
+            </div>
+
+            <div class="modal-btn-grid" style="margin-bottom: 0.75rem;">
+              <button id="forcePushCloudBtn" class="action-btn primary">
+                <span>⬆️ Push Local to Cloud</span>
+              </button>
+              <button id="forcePullCloudBtn" class="action-btn success">
+                <span>⬇️ Pull from Cloud</span>
+              </button>
+            </div>
+
+            <div style="margin-top: 0.5rem;">
+              <label style="font-size: 0.72rem; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 0.25rem;">
+                Cloud Sync Endpoint (Optional Custom URL / Hetzner):
+              </label>
+              <div style="display: flex; gap: 0.35rem;">
+                <input type="text" id="customCloudEndpointInput" class="text-input" style="font-size: 0.75rem; margin: 0; padding: 0.35rem 0.5rem; flex: 1;" placeholder="Default Cloud Bin">
+                <button id="saveCloudEndpointBtn" class="action-btn secondary" style="font-size: 0.75rem; padding: 0.35rem 0.65rem;">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
   <script src="app.js?v=20260808_OFFICIAL"></script>
 </body>
 </html>
+

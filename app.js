@@ -110,12 +110,42 @@ function updateCategoryAndTopicDropdowns() {
   }
 }
 
-// CLOUD AUTO-SYNC ENGINE (OFFLINE FIRST + MULTI-DEVICE INSTANT SYNC)
-const CLOUD_ENDPOINT = './user_sync_state.json'; 
+// ==========================================
+// TOAST NOTIFICATIONS & FEEDBACK
+// ==========================================
+function showToast(msg, isError = false) {
+  const existing = document.getElementById('appToastMsg');
+  if (existing) existing.remove();
 
-async function syncWithCloud(forcePush = false) {
+  const toast = document.createElement('div');
+  toast.id = 'appToastMsg';
+  toast.className = 'toast-msg';
+  if (isError) {
+    toast.style.backgroundColor = '#ef4444';
+  }
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  setTimeout(() => {
+    if (toast && toast.parentNode) toast.remove();
+  }, 2600);
+}
+
+// ==========================================
+// ROBUST CLOUD AUTO-SYNC ENGINE (OPTION A)
+// ==========================================
+const DEFAULT_CLOUD_ENDPOINT = 'https://extendsclass.com/api/json-storage/bin/cabdedc';
+
+function getCloudEndpoint() {
+  return localStorage.getItem('tw_driver_custom_cloud_endpoint') || DEFAULT_CLOUD_ENDPOINT;
+}
+
+let isSyncing = false;
+let syncDebounceTimer = null;
+
+async function syncWithCloud(forcePush = false, showFeedback = false) {
   const syncBadge = document.getElementById('cloudSyncStatus');
   const syncText = document.getElementById('cloudSyncText');
+  const cloudEndpoint = getCloudEndpoint();
 
   if (!navigator.onLine) {
     if (syncBadge) {
@@ -123,68 +153,106 @@ async function syncWithCloud(forcePush = false) {
       syncBadge.style.color = '#fbbf24';
       syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
     }
-    if (syncText) syncText.textContent = 'Offline Mode (Local Saved)';
+    if (syncText) syncText.textContent = 'Offline (Local Saved)';
+    if (showFeedback) showToast('⚠️ Working in offline mode (local data preserved)', true);
     return;
   }
 
+  if (syncBadge) {
+    syncBadge.style.background = 'rgba(99, 102, 241, 0.15)';
+    syncBadge.style.color = '#818cf8';
+    syncBadge.style.borderColor = 'rgba(99, 102, 241, 0.3)';
+  }
+  if (syncText) syncText.textContent = 'Syncing...';
+
   try {
-    // 1. Fetch and merge from server / cloud
-    const res = await fetch(CLOUD_ENDPOINT + '?t=' + Date.now(), {
+    // 1. PULL & MERGE FROM CLOUD
+    const getRes = await fetch(cloudEndpoint + '?nocache=' + Date.now(), {
+      method: 'GET',
       headers: { 'Accept': 'application/json' }
     });
 
-    if (res.ok) {
-      const remoteRecord = await res.json();
+    let cloudData = null;
+    if (getRes.ok) {
+      const raw = await getRes.json();
+      if (typeof raw === 'string') {
+        try { cloudData = JSON.parse(raw); } catch (e) {}
+      } else if (raw && (raw.diego || raw.data)) {
+        cloudData = raw.data ? (typeof raw.data === 'string' ? JSON.parse(raw.data) : raw.data) : raw;
+      }
+    }
 
-      if (remoteRecord && remoteRecord.diego) {
-        // Smart Merge Studied Questions & Last Indices across devices
-        ['diego', 'johana', 'alejandro'].forEach(prof => {
+    if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
+      // Smart non-destructive union merge
+      ['diego', 'johana', 'alejandro'].forEach(prof => {
+        if (!userState[prof]) userState[prof] = {};
+        if (cloudData[prof]) {
           ['motorcycle', 'car'].forEach(mod => {
-            if (remoteRecord[prof] && remoteRecord[prof][mod] && userState[prof] && userState[prof][mod]) {
-              const rStudied = remoteRecord[prof][mod].studiedQuestions || [];
+            if (!userState[prof][mod]) {
+              userState[prof][mod] = { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [], lastIndices: { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 } };
+            }
+            if (cloudData[prof][mod]) {
+              const rStudied = cloudData[prof][mod].studiedQuestions || [];
               const lStudied = userState[prof][mod].studiedQuestions || [];
-              const mergedStudied = Array.from(new Set([...rStudied, ...lStudied]));
-              
-              userState[prof][mod].studiedQuestions = mergedStudied;
+              userState[prof][mod].studiedQuestions = Array.from(new Set([...rStudied, ...lStudied]));
 
-              const rFailed = remoteRecord[prof][mod].failedQuestions || [];
+              const rFailed = cloudData[prof][mod].failedQuestions || [];
               const lFailed = userState[prof][mod].failedQuestions || [];
               userState[prof][mod].failedQuestions = Array.from(new Set([...rFailed, ...lFailed]));
 
-              const rBook = remoteRecord[prof][mod].bookmarks || [];
+              const rBook = cloudData[prof][mod].bookmarks || [];
               const lBook = userState[prof][mod].bookmarks || [];
               userState[prof][mod].bookmarks = Array.from(new Set([...rBook, ...lBook]));
+
+              if (cloudData[prof][mod].lastIndices) {
+                userState[prof][mod].lastIndices = {
+                  ...userState[prof][mod].lastIndices,
+                  ...cloudData[prof][mod].lastIndices
+                };
+              }
             }
           });
-        });
-
-        localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-        localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
-        updateDashboardStats();
-        renderCurrentQuestion();
-        if (syncBadge) {
-          syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
-          syncBadge.style.color = '#34d399';
-          syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
         }
-        if (syncText) syncText.textContent = 'Auto-Synced ✓';
-      }
+      });
+      localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
     }
-  } catch (e) {
-    console.warn('Sync fetch info:', e);
-  }
 
-  // 2. If pushing updates or when studying, broadcast update to server
-  if (forcePush) {
-    try {
+    // 2. PUSH MERGED STATE TO CLOUD
+    if (forcePush || (cloudData && cloudData.diego)) {
       userState.last_updated = Date.now();
-      await fetch(CLOUD_ENDPOINT, {
-        method: 'POST',
+      await fetch(cloudEndpoint, {
+        method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userState)
       });
-    } catch (e) {
-      // Offline fallback
+    }
+
+    const nowStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+      syncBadge.style.color = '#34d399';
+      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+    }
+    if (syncText) syncText.textContent = `Cloud Synced ✓ (${nowStr})`;
+    localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
+
+    updateDashboardStats();
+    renderCurrentQuestion();
+    updateModalSummary();
+
+    if (showFeedback) {
+      showToast('🎉 Cloud sync complete! All devices are synchronized.');
+    }
+  } catch (err) {
+    console.warn('Cloud sync note:', err);
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(245,158,11,0.15)';
+      syncBadge.style.color = '#fbbf24';
+      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+    }
+    if (syncText) syncText.textContent = 'Local Saved (Auto-Retrying)';
+    if (showFeedback) {
+      showToast('⚠️ Cloud sync could not connect. Local progress is saved safely.', true);
     }
   }
 }
@@ -204,7 +272,7 @@ function loadProfileFromStorage() {
   }
   updateProfileUI();
   
-  // Trigger Background Cloud Sync
+  // Background Cloud Sync on startup
   syncWithCloud(false);
 }
 
@@ -213,8 +281,11 @@ function saveStateToStorage() {
   localStorage.setItem('tw_driver_active_profile', activeProfile);
   updateDashboardStats();
 
-  // Auto-sync to Cloud in background
-  syncWithCloud(true);
+  // Debounced auto-sync to Cloud in background
+  if (syncDebounceTimer) clearTimeout(syncDebounceTimer);
+  syncDebounceTimer = setTimeout(() => {
+    syncWithCloud(true);
+  }, 1200);
 }
 
 function getModuleData() {
@@ -239,6 +310,195 @@ function updateProfileUI() {
   if (profSelect) profSelect.value = activeProfile;
 }
 
+// ==========================================
+// BACKUP, RESTORE & MODAL HUB LOGIC
+// ==========================================
+function updateModalSummary() {
+  const profNameEl = document.getElementById('backupProfileName');
+  const statsEl = document.getElementById('backupStatsSummary');
+  const rawJsonArea = document.getElementById('rawJsonArea');
+
+  const p = userState[activeProfile] || {};
+  const motoStudied = p.motorcycle?.studiedQuestions?.length || 0;
+  const carStudied = p.car?.studiedQuestions?.length || 0;
+  const motoFailed = p.motorcycle?.failedQuestions?.length || 0;
+  const carFailed = p.car?.failedQuestions?.length || 0;
+  const motoBook = p.motorcycle?.bookmarks?.length || 0;
+  const carBook = p.car?.bookmarks?.length || 0;
+
+  if (profNameEl) profNameEl.textContent = activeProfile.charAt(0).toUpperCase() + activeProfile.slice(1);
+  if (statsEl) {
+    statsEl.innerHTML = `
+      <div>🏍️ <strong>Motorcycle:</strong> ${motoStudied} studied • ${motoFailed} failed • ${motoBook} stars</div>
+      <div>🚗 <strong>Car:</strong> ${carStudied} studied • ${carFailed} failed • ${carBook} stars</div>
+      <div style="margin-top:0.25rem; font-size:0.75rem; color:#10b981; font-weight:700;">✓ Total Diego Studied: ${motoStudied + carStudied} questions</div>
+    `;
+  }
+  if (rawJsonArea) {
+    rawJsonArea.value = JSON.stringify(userState, null, 2);
+  }
+}
+
+function openSyncModal(initialTab = 'backup') {
+  const modal = document.getElementById('syncHubModal');
+  if (!modal) return;
+  modal.classList.remove('hidden');
+  switchModalTab(initialTab);
+  updateModalSummary();
+
+  const customInp = document.getElementById('customCloudEndpointInput');
+  if (customInp) {
+    customInp.value = localStorage.getItem('tw_driver_custom_cloud_endpoint') || '';
+  }
+}
+
+function closeSyncModal() {
+  const modal = document.getElementById('syncHubModal');
+  if (modal) modal.classList.add('hidden');
+}
+
+function switchModalTab(tab) {
+  const tabs = {
+    backup: { btn: document.getElementById('modalTabBackup'), sec: document.getElementById('modalSectionBackup') },
+    restore: { btn: document.getElementById('modalTabRestore'), sec: document.getElementById('modalSectionRestore') },
+    cloud: { btn: document.getElementById('modalTabCloud'), sec: document.getElementById('modalSectionCloud') }
+  };
+
+  Object.keys(tabs).forEach(k => {
+    if (tabs[k].btn) tabs[k].btn.classList.toggle('active', k === tab);
+    if (tabs[k].sec) tabs[k].sec.classList.toggle('hidden', k !== tab);
+  });
+}
+
+// Share via Native Share API (AirDrop / Files on iPadOS/iOS)
+async function shareBackupFile() {
+  const jsonStr = JSON.stringify(userState, null, 2);
+  const fileName = `taiwan_driver_backup_${activeProfile}_${new Date().toISOString().slice(0,10)}.json`;
+
+  try {
+    const file = new File([jsonStr], fileName, { type: 'application/json' });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        title: 'Taiwan License Prep Backup',
+        text: `Backup for ${activeProfile} (${new Date().toLocaleDateString()})`,
+        files: [file]
+      });
+      showToast('✓ Backup shared successfully!');
+      return;
+    }
+  } catch (e) {
+    if (e.name !== 'AbortError') {
+      console.warn('Share file error:', e);
+    }
+  }
+
+  // Fallback 1: Text Share
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: 'Taiwan License Prep Backup Code',
+        text: jsonStr
+      });
+      showToast('✓ Backup shared successfully!');
+      return;
+    } catch (e) {}
+  }
+
+  // Fallback 2: Direct Blob Download
+  downloadBackupBlob(jsonStr, fileName);
+}
+
+function downloadBackupBlob(jsonStr, fileName) {
+  try {
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = fileName || `taiwan_driver_backup_${activeProfile}.json`;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(() => {
+      URL.revokeObjectURL(url);
+      a.remove();
+    }, 1500);
+    showToast('✓ Backup file downloaded!');
+  } catch (e) {
+    copyBackupToClipboard();
+  }
+}
+
+async function copyBackupToClipboard() {
+  const jsonStr = JSON.stringify(userState, null, 2);
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(jsonStr);
+      showToast('📋 Copied full backup code to clipboard!');
+      return;
+    }
+  } catch (e) {}
+
+  // Fallback for older WebViews / iOS Safari
+  const textArea = document.createElement('textarea');
+  textArea.value = jsonStr;
+  textArea.style.position = 'fixed';
+  textArea.style.left = '-9999px';
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  try {
+    document.execCommand('copy');
+    showToast('📋 Copied full backup code to clipboard!');
+  } catch (err) {
+    alert('Please copy manually from the View Code box.');
+  }
+  document.body.removeChild(textArea);
+}
+
+function applyRestoredData(importedData) {
+  if (importedData && (importedData.diego || importedData.johana || importedData.alejandro)) {
+    // Smart merge with existing local state
+    ['diego', 'johana', 'alejandro'].forEach(prof => {
+      if (importedData[prof]) {
+        if (!userState[prof]) userState[prof] = {};
+        ['motorcycle', 'car'].forEach(mod => {
+          if (!userState[prof][mod]) {
+            userState[prof][mod] = { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [], lastIndices: { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 } };
+          }
+          if (importedData[prof][mod]) {
+            const impStudied = importedData[prof][mod].studiedQuestions || [];
+            const locStudied = userState[prof][mod].studiedQuestions || [];
+            userState[prof][mod].studiedQuestions = Array.from(new Set([...impStudied, ...locStudied]));
+
+            const impFailed = importedData[prof][mod].failedQuestions || [];
+            const locFailed = userState[prof][mod].failedQuestions || [];
+            userState[prof][mod].failedQuestions = Array.from(new Set([...impFailed, ...locFailed]));
+
+            const impBook = importedData[prof][mod].bookmarks || [];
+            const locBook = userState[prof][mod].bookmarks || [];
+            userState[prof][mod].bookmarks = Array.from(new Set([...impBook, ...locBook]));
+
+            if (importedData[prof][mod].lastIndices) {
+              userState[prof][mod].lastIndices = {
+                ...userState[prof][mod].lastIndices,
+                ...importedData[prof][mod].lastIndices
+              };
+            }
+          }
+        });
+      }
+    });
+
+    saveStateToStorage();
+    updateFilteredQuestions();
+    renderCurrentQuestion();
+    updateModalSummary();
+    closeSyncModal();
+    showToast('🎉 Progress successfully restored and merged!');
+  } else {
+    showToast('⚠️ Unrecognized backup file format.', true);
+  }
+}
+
 // EVENT LISTENERS SETUP
 function setupEventListeners() {
   const profSelect = document.getElementById('profileSelect');
@@ -248,26 +508,73 @@ function setupEventListeners() {
       saveStateToStorage();
       updateFilteredQuestions();
       renderCurrentQuestion();
+      updateModalSummary();
     });
   }
 
+  // Backup & Restore Hub Triggers
   const expBtn = document.getElementById('exportSyncBtn');
-  if (expBtn) {
-    expBtn.addEventListener('click', () => {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(userState, null, 2));
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", `taiwan_driver_prep_backup_${activeProfile}.json`);
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
-    });
-  }
+  if (expBtn) expBtn.addEventListener('click', () => openSyncModal('backup'));
 
   const impBtn = document.getElementById('importSyncBtn');
+  if (impBtn) impBtn.addEventListener('click', () => openSyncModal('restore'));
+
+  const cloudPill = document.getElementById('cloudSyncStatus');
+  if (cloudPill) cloudPill.addEventListener('click', () => openSyncModal('cloud'));
+
+  // Modal Controls
+  const closeBtn = document.getElementById('closeSyncModalBtn');
+  if (closeBtn) closeBtn.addEventListener('click', closeSyncModal);
+
+  const modalTabBackup = document.getElementById('modalTabBackup');
+  if (modalTabBackup) modalTabBackup.addEventListener('click', () => switchModalTab('backup'));
+
+  const modalTabRestore = document.getElementById('modalTabRestore');
+  if (modalTabRestore) modalTabRestore.addEventListener('click', () => switchModalTab('restore'));
+
+  const modalTabCloud = document.getElementById('modalTabCloud');
+  if (modalTabCloud) modalTabCloud.addEventListener('click', () => switchModalTab('cloud'));
+
+  // Modal Action Buttons
+  const shareBtn = document.getElementById('shareBackupBtn');
+  if (shareBtn) shareBtn.addEventListener('click', shareBackupFile);
+
+  const copyBtn = document.getElementById('copyBackupCodeBtn');
+  if (copyBtn) copyBtn.addEventListener('click', copyBackupToClipboard);
+
+  const dlBtn = document.getElementById('directDownloadJsonBtn');
+  if (dlBtn) dlBtn.addEventListener('click', () => downloadBackupBlob(JSON.stringify(userState, null, 2)));
+
+  const toggleRawBtn = document.getElementById('toggleRawJsonBtn');
+  const rawBox = document.getElementById('rawJsonBox');
+  if (toggleRawBtn && rawBox) {
+    toggleRawBtn.addEventListener('click', () => rawBox.classList.toggle('hidden'));
+  }
+
+  // Paste Restore
+  const applyPastedBtn = document.getElementById('applyPastedRestoreBtn');
+  const pasteArea = document.getElementById('pasteRestoreArea');
+  if (applyPastedBtn && pasteArea) {
+    applyPastedBtn.addEventListener('click', () => {
+      const text = pasteArea.value.trim();
+      if (!text) {
+        showToast('⚠️ Please paste JSON backup code first.', true);
+        return;
+      }
+      try {
+        const parsed = JSON.parse(text);
+        applyRestoredData(parsed);
+      } catch (err) {
+        showToast('⚠️ Invalid JSON code. Check and try again.', true);
+      }
+    });
+  }
+
+  // File Upload Restore
   const impFile = document.getElementById('importFileInput');
-  if (impBtn && impFile) {
-    impBtn.addEventListener('click', () => impFile.click());
+  const chooseFileBtn = document.getElementById('chooseFileRestoreBtn');
+  if (chooseFileBtn && impFile) {
+    chooseFileBtn.addEventListener('click', () => impFile.click());
     impFile.addEventListener('change', (e) => {
       const file = e.target.files[0];
       if (!file) return;
@@ -275,22 +582,38 @@ function setupEventListeners() {
       reader.onload = (event) => {
         try {
           const importedData = JSON.parse(event.target.result);
-          if (importedData.diego || importedData.johana || importedData.alejandro) {
-            userState = importedData;
-            saveStateToStorage();
-            updateFilteredQuestions();
-            renderCurrentQuestion();
-            alert('🎉 Progress synced successfully across devices!');
-          } else {
-            alert('⚠️ Unrecognized backup structure.');
-          }
+          applyRestoredData(importedData);
         } catch (err) {
-          alert('⚠️ Invalid JSON backup file format.');
+          showToast('⚠️ Invalid JSON backup file format.', true);
         }
       };
       reader.readAsText(file);
     });
   }
+
+  // Cloud Manual Sync
+  const forcePushBtn = document.getElementById('forcePushCloudBtn');
+  if (forcePushBtn) forcePushBtn.addEventListener('click', () => syncWithCloud(true, true));
+
+  const forcePullBtn = document.getElementById('forcePullCloudBtn');
+  if (forcePullBtn) forcePullBtn.addEventListener('click', () => syncWithCloud(false, true));
+
+  const saveEndpointBtn = document.getElementById('saveCloudEndpointBtn');
+  const customInp = document.getElementById('customCloudEndpointInput');
+  if (saveEndpointBtn && customInp) {
+    saveEndpointBtn.addEventListener('click', () => {
+      const val = customInp.value.trim();
+      if (val) {
+        localStorage.setItem('tw_driver_custom_cloud_endpoint', val);
+        showToast('✓ Custom sync endpoint saved!');
+      } else {
+        localStorage.removeItem('tw_driver_custom_cloud_endpoint');
+        showToast('✓ Reset to Default Cloud Bin');
+      }
+      syncWithCloud(true, true);
+    });
+  }
+
   const modSelect = document.getElementById('moduleSelect');
   if (modSelect) {
     modSelect.addEventListener('change', async (e) => {
