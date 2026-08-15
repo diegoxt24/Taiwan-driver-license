@@ -1,4 +1,5 @@
 import json
+import re
 
 def build_standalone():
     with open('index.html', 'r', encoding='utf-8') as f:
@@ -29,7 +30,7 @@ def build_standalone():
         car_rules = json.load(f)
 
     # Embed CSS
-    html = html.replace('<link rel="stylesheet" href="styles.css">', f'<style>\n{css}\n</style>')
+    html = re.sub(r'<link rel="stylesheet" href="styles\.css.*?>', f'<style>\n{css}\n</style>', html)
 
     # Modify JS loadModuleData to use embedded objects directly
     embedded_data_js = f"""
@@ -47,7 +48,7 @@ const EMBEDDED_CAR_RULES = {json.dumps(car_rules, ensure_ascii=False)};
     )
 
     full_script = f"<script>\n{embedded_data_js}\n{modified_js}\n</script>"
-    html = html.replace('<script src="app.js"></script>', full_script)
+    html = re.sub(r'<script src="app\.js.*?></script>', lambda m: full_script, html)
 
     with open('standalone_app.html', 'w', encoding='utf-8') as f:
         f.write(html)
