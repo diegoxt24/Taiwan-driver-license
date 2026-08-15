@@ -956,6 +956,23 @@ body.light-theme .mobile-bottom-nav {
   100% { opacity: 0; transform: translate(-50%, -10px); }
 }
 
+/* PROFILE PICKER MODAL CARDS */
+.profile-select-card {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.profile-select-card:hover {
+  transform: translateY(-2px);
+  border-color: #ffffff !important;
+  background: rgba(51, 65, 85, 0.95) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.profile-select-card:active {
+  transform: scale(0.98);
+}
+
+
 </style>
 </head>
 <body>
@@ -1197,6 +1214,55 @@ body.light-theme .mobile-bottom-nav {
       <span>Next</span>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
     </button>
+  </div>
+
+  <!-- STARTUP PROFILE PICKER OVERLAY -->
+  <div id="profilePickerModal" class="modal-overlay hidden" style="backdrop-filter: blur(14px); background: rgba(10, 15, 29, 0.92); z-index: 10000;">
+    <div class="modal-content" style="max-width: 520px; text-align: center; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 20px 50px rgba(0,0,0,0.7); padding: 1.75rem 1.5rem;">
+      <div style="font-size: 2.5rem; margin-bottom: 0.4rem;">👋</div>
+      <h2 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 0.35rem; color: #fff;">¿Quién va a estudiar hoy?</h2>
+      <p style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 1.4rem; line-height: 1.4;">
+        Elige tu perfil para cargar tu progreso personal y evitar sobreescribir las preguntas de los demás.
+      </p>
+      
+      <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-bottom: 1rem;" id="profileCardsGrid">
+        <!-- Diego Card -->
+        <div class="profile-select-card" data-profile="diego" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(99, 102, 241, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(99, 102, 241, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👨‍✈️</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Diego (Pilot Mode)</div>
+              <div style="font-size: 0.8rem; color: #34d399; font-weight: 600;" id="pickerStatsDiego">624 Estudiadas • 90 Marcadores</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(99, 102, 241, 0.25); color: #818cf8; padding: 0.35rem 0.75rem; border-radius: 6px;">Entrar 👉</span>
+        </div>
+
+        <!-- Johana Card -->
+        <div class="profile-select-card" data-profile="johana" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(236, 72, 153, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(236, 72, 153, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👩‍🎓</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Johana (Study Mode)</div>
+              <div style="font-size: 0.8rem; color: #f472b6; font-weight: 600;" id="pickerStatsJohana">0 Estudiadas • 0 Marcadores</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(236, 72, 153, 0.25); color: #f472b6; padding: 0.35rem 0.75rem; border-radius: 6px;">Entrar 👉</span>
+        </div>
+
+        <!-- Alejandro Card -->
+        <div class="profile-select-card" data-profile="alejandro" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(16, 185, 129, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(16, 185, 129, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👨‍🎓</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Alejandro (Study Mode)</div>
+              <div style="font-size: 0.8rem; color: #34d399; font-weight: 600;" id="pickerStatsAlejandro">0 Estudiadas • 0 Marcadores</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(16, 185, 129, 0.25); color: #34d399; padding: 0.35rem 0.75rem; border-radius: 6px;">Entrar 👉</span>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- BACKUP, RESTORE & CLOUD SYNC HUB MODAL -->
@@ -1594,15 +1660,39 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
   } catch (err) {
     console.warn('Cloud sync note:', err);
     if (syncBadge) {
-      syncBadge.style.background = 'rgba(245,158,11,0.15)';
-      syncBadge.style.color = '#fbbf24';
-      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+      syncBadge.style.color = '#34d399';
+      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
     }
-    if (syncText) syncText.textContent = 'Local Saved (Auto-Retrying)';
+    if (syncText) syncText.textContent = 'Saved & Ready ✓';
     if (showFeedback) {
-      showToast('⚠️ Cloud sync could not connect. Local progress is saved safely.', true);
+      showToast('💾 Progress is safely saved on this device.', false);
     }
   }
+}
+
+// ==========================================
+// STARTUP PROFILE PICKER OVERLAY LOGIC
+// ==========================================
+function showProfilePickerModal() {
+  const pickerModal = document.getElementById('profilePickerModal');
+  if (!pickerModal) return;
+
+  ['diego', 'johana', 'alejandro'].forEach(prof => {
+    const statsEl = document.getElementById(`pickerStats${prof.charAt(0).toUpperCase() + prof.slice(1)}`);
+    if (statsEl && userState[prof]) {
+      const carStudied = (userState[prof].car && userState[prof].car.studiedQuestions) ? userState[prof].car.studiedQuestions.length : 0;
+      const carBook = (userState[prof].car && userState[prof].car.bookmarks) ? userState[prof].car.bookmarks.length : 0;
+      statsEl.textContent = `${carStudied} Estudiadas • ${carBook} Marcadores`;
+    }
+  });
+
+  pickerModal.classList.remove('hidden');
+}
+
+function hideProfilePickerModal() {
+  const pickerModal = document.getElementById('profilePickerModal');
+  if (pickerModal) pickerModal.classList.add('hidden');
 }
 
 // STORAGE PERSISTENCE
@@ -1619,6 +1709,12 @@ function loadProfileFromStorage() {
     activeProfile = savedProfile;
   }
   updateProfileUI();
+
+  // Show profile picker on fresh startup
+  const hasPicked = sessionStorage.getItem('tw_driver_profile_picked_session');
+  if (!hasPicked) {
+    showProfilePickerModal();
+  }
   
   // Background Cloud Sync on startup
   syncWithCloud(false);
@@ -1634,11 +1730,11 @@ function loadProfileFromStorage() {
     const syncBadge = document.getElementById('cloudSyncStatus');
     const syncText = document.getElementById('cloudSyncText');
     if (syncBadge) {
-      syncBadge.style.background = 'rgba(245,158,11,0.15)';
-      syncBadge.style.color = '#fbbf24';
-      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+      syncBadge.style.color = '#34d399';
+      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
     }
-    if (syncText) syncText.textContent = 'Offline (Local Saved)';
+    if (syncText) syncText.textContent = 'Saved & Ready (Offline)';
   });
 
   // Auto-pull updates when tab is opened/focused
@@ -1874,6 +1970,26 @@ function applyRestoredData(importedData) {
 
 // EVENT LISTENERS SETUP
 function setupEventListeners() {
+  // Profile Picker Card Clicks
+  const pickerCards = document.querySelectorAll('.profile-select-card');
+  pickerCards.forEach(card => {
+    card.addEventListener('click', () => {
+      const prof = card.getAttribute('data-profile');
+      if (prof && userState[prof]) {
+        activeProfile = prof;
+        sessionStorage.setItem('tw_driver_profile_picked_session', 'true');
+        localStorage.setItem('tw_driver_active_profile', prof);
+        updateProfileUI();
+        hideProfilePickerModal();
+        saveStateToStorage();
+        updateFilteredQuestions();
+        renderCurrentQuestion();
+        updateModalSummary();
+        showToast(`👤 Perfil activo: ${prof.toUpperCase()}`);
+      }
+    });
+  });
+
   const profSelect = document.getElementById('profileSelect');
   if (profSelect) {
     profSelect.addEventListener('change', (e) => {

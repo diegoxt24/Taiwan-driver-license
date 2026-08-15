@@ -948,3 +948,20 @@ body.light-theme .mobile-bottom-nav {
   85% { opacity: 1; transform: translate(-50%, 0); }
   100% { opacity: 0; transform: translate(-50%, -10px); }
 }
+
+/* PROFILE PICKER MODAL CARDS */
+.profile-select-card {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.profile-select-card:hover {
+  transform: translateY(-2px);
+  border-color: #ffffff !important;
+  background: rgba(51, 65, 85, 0.95) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.profile-select-card:active {
+  transform: scale(0.98);
+}
+

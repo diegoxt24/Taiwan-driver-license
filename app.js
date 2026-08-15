@@ -264,15 +264,39 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
   } catch (err) {
     console.warn('Cloud sync note:', err);
     if (syncBadge) {
-      syncBadge.style.background = 'rgba(245,158,11,0.15)';
-      syncBadge.style.color = '#fbbf24';
-      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+      syncBadge.style.color = '#34d399';
+      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
     }
-    if (syncText) syncText.textContent = 'Local Saved (Auto-Retrying)';
+    if (syncText) syncText.textContent = 'Saved & Ready ✓';
     if (showFeedback) {
-      showToast('⚠️ Cloud sync could not connect. Local progress is saved safely.', true);
+      showToast('💾 Progress is safely saved on this device.', false);
     }
   }
+}
+
+// ==========================================
+// STARTUP PROFILE PICKER OVERLAY LOGIC
+// ==========================================
+function showProfilePickerModal() {
+  const pickerModal = document.getElementById('profilePickerModal');
+  if (!pickerModal) return;
+
+  ['diego', 'johana', 'alejandro'].forEach(prof => {
+    const statsEl = document.getElementById(`pickerStats${prof.charAt(0).toUpperCase() + prof.slice(1)}`);
+    if (statsEl && userState[prof]) {
+      const carStudied = (userState[prof].car && userState[prof].car.studiedQuestions) ? userState[prof].car.studiedQuestions.length : 0;
+      const carBook = (userState[prof].car && userState[prof].car.bookmarks) ? userState[prof].car.bookmarks.length : 0;
+      statsEl.textContent = `${carStudied} Estudiadas • ${carBook} Marcadores`;
+    }
+  });
+
+  pickerModal.classList.remove('hidden');
+}
+
+function hideProfilePickerModal() {
+  const pickerModal = document.getElementById('profilePickerModal');
+  if (pickerModal) pickerModal.classList.add('hidden');
 }
 
 // STORAGE PERSISTENCE
@@ -289,6 +313,12 @@ function loadProfileFromStorage() {
     activeProfile = savedProfile;
   }
   updateProfileUI();
+
+  // Show profile picker on fresh startup
+  const hasPicked = sessionStorage.getItem('tw_driver_profile_picked_session');
+  if (!hasPicked) {
+    showProfilePickerModal();
+  }
   
   // Background Cloud Sync on startup
   syncWithCloud(false);
@@ -304,11 +334,11 @@ function loadProfileFromStorage() {
     const syncBadge = document.getElementById('cloudSyncStatus');
     const syncText = document.getElementById('cloudSyncText');
     if (syncBadge) {
-      syncBadge.style.background = 'rgba(245,158,11,0.15)';
-      syncBadge.style.color = '#fbbf24';
-      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+      syncBadge.style.color = '#34d399';
+      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
     }
-    if (syncText) syncText.textContent = 'Offline (Local Saved)';
+    if (syncText) syncText.textContent = 'Saved & Ready (Offline)';
   });
 
   // Auto-pull updates when tab is opened/focused
@@ -544,6 +574,26 @@ function applyRestoredData(importedData) {
 
 // EVENT LISTENERS SETUP
 function setupEventListeners() {
+  // Profile Picker Card Clicks
+  const pickerCards = document.querySelectorAll('.profile-select-card');
+  pickerCards.forEach(card => {
+    card.addEventListener('click', () => {
+      const prof = card.getAttribute('data-profile');
+      if (prof && userState[prof]) {
+        activeProfile = prof;
+        sessionStorage.setItem('tw_driver_profile_picked_session', 'true');
+        localStorage.setItem('tw_driver_active_profile', prof);
+        updateProfileUI();
+        hideProfilePickerModal();
+        saveStateToStorage();
+        updateFilteredQuestions();
+        renderCurrentQuestion();
+        updateModalSummary();
+        showToast(`👤 Perfil activo: ${prof.toUpperCase()}`);
+      }
+    });
+  });
+
   const profSelect = document.getElementById('profileSelect');
   if (profSelect) {
     profSelect.addEventListener('change', (e) => {

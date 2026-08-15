@@ -247,6 +247,55 @@
     </button>
   </div>
 
+  <!-- STARTUP PROFILE PICKER OVERLAY -->
+  <div id="profilePickerModal" class="modal-overlay hidden" style="backdrop-filter: blur(14px); background: rgba(10, 15, 29, 0.92); z-index: 10000;">
+    <div class="modal-content" style="max-width: 520px; text-align: center; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 20px 50px rgba(0,0,0,0.7); padding: 1.75rem 1.5rem;">
+      <div style="font-size: 2.5rem; margin-bottom: 0.4rem;">👋</div>
+      <h2 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 0.35rem; color: #fff;">¿Quién va a estudiar hoy?</h2>
+      <p style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 1.4rem; line-height: 1.4;">
+        Elige tu perfil para cargar tu progreso personal y evitar sobreescribir las preguntas de los demás.
+      </p>
+      
+      <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-bottom: 1rem;" id="profileCardsGrid">
+        <!-- Diego Card -->
+        <div class="profile-select-card" data-profile="diego" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(99, 102, 241, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(99, 102, 241, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👨‍✈️</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Diego (Pilot Mode)</div>
+              <div style="font-size: 0.8rem; color: #34d399; font-weight: 600;" id="pickerStatsDiego">624 Estudiadas • 90 Marcadores</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(99, 102, 241, 0.25); color: #818cf8; padding: 0.35rem 0.75rem; border-radius: 6px;">Entrar 👉</span>
+        </div>
+
+        <!-- Johana Card -->
+        <div class="profile-select-card" data-profile="johana" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(236, 72, 153, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(236, 72, 153, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👩‍🎓</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Johana (Study Mode)</div>
+              <div style="font-size: 0.8rem; color: #f472b6; font-weight: 600;" id="pickerStatsJohana">0 Estudiadas • 0 Marcadores</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(236, 72, 153, 0.25); color: #f472b6; padding: 0.35rem 0.75rem; border-radius: 6px;">Entrar 👉</span>
+        </div>
+
+        <!-- Alejandro Card -->
+        <div class="profile-select-card" data-profile="alejandro" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(16, 185, 129, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(16, 185, 129, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👨‍🎓</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Alejandro (Study Mode)</div>
+              <div style="font-size: 0.8rem; color: #34d399; font-weight: 600;" id="pickerStatsAlejandro">0 Estudiadas • 0 Marcadores</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(16, 185, 129, 0.25); color: #34d399; padding: 0.35rem 0.75rem; border-radius: 6px;">Entrar 👉</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- BACKUP, RESTORE & CLOUD SYNC HUB MODAL -->
   <div id="syncHubModal" class="modal-overlay hidden">
     <div class="modal-content">
