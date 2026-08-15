@@ -212,15 +212,16 @@
     "num": 14,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When transporting cargo on a motorcycle, which of the following statements regarding loading regulations is correct? (1) If the cargo is securely fastened",
+    "question": "When transporting cargo on a motorcycle, which of the following statements regarding loading regulations is correct?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) If the cargo is securely fastened with ropes and does not block the rear lights, it is not subject to size restrictions.",
+      "(2) If the cargo width does not exceed the handlebars and the weight is within the rider's controllable range, it complies with regulations.",
+      "(3) Cargo must comply with the legally prescribed limits for width, length, height, and weight, and overloading is prohibited."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Cargo must comply with the legally prescribed limits for width, length, height, and weight, and overloading is prohibited.."
   },
   {
     "id": "MOTO_0015",
@@ -387,15 +388,16 @@
     "num": 25,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "Which of the following places are high-risk areas where parking should be avoided? (1) road surfaces with falling small stones (2) areas with rockfall",
+    "question": "Which of the following places are high-risk areas where parking should be avoided?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) road surfaces with falling small stones",
+      "(2) areas with rockfall protection fences or roadside guardrails that are damaged or deformed from impact",
+      "(3) all of the above."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) all of the above.."
   },
   {
     "id": "MOTO_0026",
@@ -1202,15 +1204,16 @@
     "num": 76,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "After a motorcycle traffic accident occurs, which of the following statements regarding the method of reporting and handling is correct? (1) You should immediately call 110 to report the accident, briefly explain the location and",
+    "question": "After a motorcycle traffic accident occurs, which of the following statements regarding the method of reporting and handling is correct?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) You should immediately call 110 to report the accident, briefly explain the location and any injuries or fatalities, and follow instructions for subsequent handling.",
+      "(2) You should first complete photographing the scene and marking vehicle positions, then report the accident to provide more complete information.",
+      "(3) You should first confirm with the other party the extent of damages and determination of liability, then decide whether to report the accident depending on the situation."
     ],
     "answer": 1,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) True (O)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) You should immediately call 110 to report the accident, briefly explain the location and any injuries or fatalities, and follow instructions for subsequent handling.."
   },
   {
     "id": "MOTO_0077",
@@ -1329,15 +1332,16 @@
     "num": 84,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "If the blood alcohol concentration exceeds the legal limit and the driver causes a serious injury or death in an accident, after the driver\\'s license is revoked, according to regulations: (1) the driver is permanently prohibited from obtaining a driver\\'s license and has no chance to retake the test (2) the driver is permanently prohibited from obtaining a driver\\'s license but may",
+    "question": "If the blood alcohol concentration exceeds the legal limit and the driver causes a serious injury or death in an accident, after the driver\\'s license is revoked, according to regulations:",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) the driver is permanently prohibited from obtaining a driver\\'s license and has no chance to retake the test",
+      "(2) the driver is permanently prohibited from obtaining a driver\\'s license but may retake the test under certain conditions",
+      "(3) the driver may retake the driver\\'s license test after 3 years."
     ],
     "answer": 1,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) True (O)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) the driver is permanently prohibited from obtaining a driver\\'s license and has no chance to retake the test."
   },
   {
     "id": "MOTO_0085",
@@ -1488,15 +1492,16 @@
     "num": 94,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "For a motorcyclist reported for violating drunk driving laws, under which violation will the driver be fined NTD 90,000, have their license revoked for 3 years, and be required to attend road traffic safety education? (1) Second offense of drunk driving reported within 10 years (2) Failure to stop for",
+    "question": "For a motorcyclist reported for violating drunk driving laws, under which violation will the driver be fined NTD 90,000, have their license revoked for 3 years, and be required to attend road traffic safety education?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Second offense of drunk driving reported within 10 years",
+      "(2) Failure to stop for breathalyzer inspection as instructed or refusal to take the test",
+      "(3) All of the above."
     ],
     "answer": 1,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) True (O)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) Second offense of drunk driving reported within 10 years."
   },
   {
     "id": "MOTO_0095",
@@ -1663,15 +1668,16 @@
     "num": 105,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "For lending license plates to another vehicle or using another vehicle's license plates to drive, in addition to a fine, the penalty shall be: (1) suspension of the",
+    "question": "For lending license plates to another vehicle or using another vehicle's license plates to drive, in addition to a fine, the penalty shall be:",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) suspension of the license plates",
+      "(2) revocation of the license plates",
+      "(3) confiscation of the vehicle."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) revocation of the license plates."
   },
   {
     "id": "MOTO_0106",
@@ -1966,15 +1972,16 @@
     "num": 124,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "While riding, if you suddenly feel fatigued and sleepy, which of the following actions is correct? (1) Look for a suitable place to stop and rest, and resume riding after your alertness has recovered. (2) Increase riding speed to",
+    "question": "While riding, if you suddenly feel fatigued and sleepy, which of the following actions is correct?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Look for a suitable place to stop and rest, and resume riding after your alertness has recovered.",
+      "(2) Increase riding speed to stimulate alertness.",
+      "(3) As long as you reduce riding speed, it will not affect riding safety."
     ],
     "answer": 1,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) True (O)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) Look for a suitable place to stop and rest, and resume riding after your alertness has recovered.."
   },
   {
     "id": "MOTO_0125",
@@ -2093,15 +2100,16 @@
     "num": 132,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "If a motorcycle rider feels tired or has been riding continuously for too long, what should be done? (1) As long as the rider still feels mentally alert, he/she may continue riding. (2) Continue riding by reducing speed to avoid fatigue.",
+    "question": "If a motorcycle rider feels tired or has been riding continuously for too long, what should be done?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) As long as the rider still feels mentally alert, he/she may continue riding.",
+      "(2) Continue riding by reducing speed to avoid fatigue.",
+      "(3) Immediately look for a safe place to stop and rest, and only continue riding after physical strength has recovered."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Immediately look for a safe place to stop and rest, and only continue riding after physical strength has recovered.."
   },
   {
     "id": "MOTO_0133",
@@ -2236,15 +2244,16 @@
     "num": 141,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "If a motorcycle rider's breath alcohol test result exceeds the legal limit, which of the following statements about the administrative penalty is correct? (1) For a first offense with only a slight excess over the limit, the penalty may be replaced by counseling or a lecture instead of suspending the driver's license. (2) If no traffic accident occurs at the time of the violation, only a fine will be",
+    "question": "If a motorcycle rider's breath alcohol test result exceeds the legal limit, which of the following statements about the administrative penalty is correct?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) For a first offense with only a slight excess over the limit, the penalty may be replaced by counseling or a lecture instead of suspending the driver's license.",
+      "(2) If no traffic accident occurs at the time of the violation, only a fine will be imposed and the driver's license will not be suspended.",
+      "(3) For a first offense, both a fine and suspension of the driver's license shall be imposed."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) For a first offense, both a fine and suspension of the driver's license shall be imposed.."
   },
   {
     "id": "MOTO_0142",
@@ -3579,15 +3588,16 @@
     "num": 225,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When a motorcycle rider and passenger wear a safety helmet, regarding the fastening of the chin strap, which of the following statements is correct? (1) After fastening the strap, leave about one to two finger-widths of slack to balance comfort and ventilation. (2) The helmet should be worn facing forward and the chin strap securely fastened, ensuring the helmet fits snugly on the",
+    "question": "When a motorcycle rider and passenger wear a safety helmet, regarding the fastening of the chin strap, which of the following statements is correct?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) After fastening the strap, leave about one to two finger-widths of slack to balance comfort and ventilation.",
+      "(2) The helmet should be worn facing forward and the chin strap securely fastened, ensuring the helmet fits snugly on the head.",
+      "(3) For short trips or low-speed riding, the strap only needs to be lightly fastened and does not need to be tight."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) The helmet should be worn facing forward and the chin strap securely fastened, ensuring the helmet fits snugly on the head.."
   },
   {
     "id": "MOTO_0226",
@@ -4266,15 +4276,16 @@
     "num": 268,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "If a driver is caught speeding but the driving speed does not exceed the regulated maximum speed by more than 40 km/h, the penalty upon on-the-",
+    "question": "If a driver is caught speeding but the driving speed does not exceed the regulated maximum speed by more than 40 km/h, the penalty upon on-the- spot citation is",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) a fine",
+      "(2) a fine and 1-month license suspension",
+      "(3) a fine and 1 demerit point."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) a fine and 1 demerit point.."
   },
   {
     "id": "MOTO_0269",
@@ -4809,15 +4820,16 @@
     "num": 302,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "A person who drives a small vehicle or motorcycle using a forged, altered, or fraudulently obtained driver\\'s license shall be subject to (1) a fine and",
+    "question": "A person who drives a small vehicle or motorcycle using a forged, altered, or fraudulently obtained driver\\'s license shall be subject to",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) a fine and immediate prohibition from driving",
+      "(2) drivers under 18 years old and their legal representatives or guardians shall simultaneously undergo a road traffic safety course",
+      "(3) all of the above."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) all of the above.."
   },
   {
     "id": "MOTO_0303",
@@ -5288,15 +5300,16 @@
     "num": 332,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "For applicants taking the driving license test, which of the following is incorrect regarding those who register or take the test by improper means or not following regulations? (1) Those who have already obtained a driving license will have it invalidated, revoked, and recovered by the Motor Vehicles Office (2) Both the applicant and the impersonator are prohibited from retaking the",
+    "question": "For applicants taking the driving license test, which of the following is incorrect regarding those who register or take the test by improper means or not following regulations?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Those who have already obtained a driving license will have it invalidated, revoked, and recovered by the Motor Vehicles Office",
+      "(2) Both the applicant and the impersonator are prohibited from retaking the test for five years from the date of detection",
+      "(3) Those who have already obtained a driving license cannot have it revoked."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Those who have already obtained a driving license cannot have it revoked.."
   },
   {
     "id": "MOTO_0333",
@@ -5607,15 +5620,16 @@
     "num": 352,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "If a driver causes an accident but no one is injured or killed, yet fails to handle the situation according to regulations and flees the scene, in addition to a fine,",
+    "question": "If a driver causes an accident but no one is injured or killed, yet fails to handle the situation according to regulations and flees the scene, in addition to a fine, the driver shall also:",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Have the vehicle registration suspended",
+      "(2) Have the driver\\'s license suspended",
+      "(3) Have the driver\\'s license revoked."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) Have the driver\\'s license suspended."
   },
   {
     "id": "MOTO_0353",
@@ -5974,15 +5988,16 @@
     "num": 375,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When a motorcyclist mistakenly enters the national highway, which of the following responses is incorrect? (1) Stop safely on the shoulder and call for",
+    "question": "When a motorcyclist mistakenly enters the national highway, which of the following responses is incorrect?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Stop safely on the shoulder and call for assistance",
+      "(2) Try to keep up with traffic speed in the outer lane and exit at the next interchange",
+      "(3) Drive against traffic along the shoulder to quickly leave the highway."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Drive against traffic along the shoulder to quickly leave the highway.."
   },
   {
     "id": "MOTO_0376",
@@ -6117,15 +6132,16 @@
     "num": 384,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When a railway level crossing is equipped with barriers or managed by a crossing guard, if the barrier has not been lowered, (1) you should seize the time to pass quickly; (2) closely follow the vehicle in front and accelerate to",
+    "question": "When a railway level crossing is equipped with barriers or managed by a crossing guard, if the barrier has not been lowered,",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) you should seize the time to pass quickly;",
+      "(2) closely follow the vehicle in front and accelerate to pass;",
+      "(3) you should still look and listen carefully for trains from both directions before crossing."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) you should still look and listen carefully for trains from both directions before crossing.."
   },
   {
     "id": "MOTO_0385",
@@ -6276,15 +6292,16 @@
     "num": 394,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "Going out during a typhoon, the vehicle encounters a landslide and debris flow. The driver escapes safely, but the passenger in the same vehicle is",
+    "question": "Going out during a typhoon, the vehicle encounters a landslide and debris flow. The driver escapes safely, but the passenger in the same vehicle is seriously injured. Who can claim compensation under compulsory automobile liability insurance?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) The driver",
+      "(2) The passenger",
+      "(3) Both of the above."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) The passenger."
   },
   {
     "id": "MOTO_0395",
@@ -7283,15 +7300,16 @@
     "num": 457,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "If a motorcycle rider accumulates 12 violation points within one year for violating the Road Traffic Management and Penalty Act, what penalty should be imposed? (1) Revocation of the driver's license, and cannot reapply within",
+    "question": "If a motorcycle rider accumulates 12 violation points within one year for violating the Road Traffic Management and Penalty Act, what penalty should be imposed?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Revocation of the driver's license, and cannot reapply within one year.",
+      "(2) Suspension of the driver's license for 2 months, and must attend a traffic safety lecture.",
+      "(3) A fine of NT\\$600, and attendance at a traffic safety lecture."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) Suspension of the driver's license for 2 months, and must attend a traffic safety lecture.."
   },
   {
     "id": "MOTO_0458",
@@ -7414,7 +7432,7 @@
     "options": [
       "(1) During the suspension period, the person may not apply for any driver's license; must wait until the suspension ends and the original license is returned before applying.",
       "(2) Suspension only restricts driving behavior and does not affect eligibility to apply for other license categories.",
-      "(3) If fines are"
+      "(3) If fines are paid and traffic safety lectures completed, the person may take the exam during the suspension period."
     ],
     "answer": 1,
     "image": null,
@@ -7570,15 +7588,16 @@
     "num": 475,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When riding a motorcycle, regarding vehicle characteristics and braking performance, which statement is correct? (1) Only by braking suddenly can you know the motorcycle's performance and braking effect. (2) You should",
+    "question": "When riding a motorcycle, regarding vehicle characteristics and braking performance, which statement is correct?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Only by braking suddenly can you know the motorcycle's performance and braking effect.",
+      "(2) You should understand the motorcycle and braking performance through safe riding.",
+      "(3) Whether you understand the motorcycle's performance is unrelated to safety."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) You should understand the motorcycle and braking performance through safe riding.."
   },
   {
     "id": "MOTO_0476",
@@ -7697,15 +7716,16 @@
     "num": 483,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When approaching a railway level crossing on a motorcycle, and the crossing gate is slowly lowering, while many motorcycles ahead accelerate to cross first, what should you do? (1) Immediately follow the vehicles ahead to cross",
+    "question": "When approaching a railway level crossing on a motorcycle, and the crossing gate is slowly lowering, while many motorcycles ahead accelerate to cross first, what should you do?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Immediately follow the vehicles ahead to cross first",
+      "(2) Stop and check both sides for danger, then pass under the gate",
+      "(3) Stop and wait until the train passes and the gate is raised before crossing."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": ""
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Stop and wait until the train passes and the gate is raised before crossing.."
   },
   {
     "id": "MOTO_0484",
@@ -8560,15 +8580,16 @@
     "num": 537,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "Which of the following actions does NOT constitute running a red light? (1) After the traffic signal turns red, the vehicle crosses the stop line and",
+    "question": "Which of the following actions does NOT constitute running a red light?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) After the traffic signal turns red, the vehicle crosses the stop line and obstructs the movement of pedestrians or vehicles from other directions.",
+      "(2) The vehicle passes the stop line before the signal turns red, but due to heavy oncoming traffic, it does not turn into the connecting roadway until the signal for all directions turns red.",
+      "(3) After the traffic signal turns red, the vehicle crosses the stop line and makes a U-turn into the connecting roadway."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) The vehicle passes the stop line before the signal turns red, but due to heavy oncoming traffic, it does not turn into the connecting roadway until the signal for all directions turns red.."
   },
   {
     "id": "MOTO_0538",
@@ -8643,12 +8664,12 @@
     "options": [
       "(1) The intersection area shall, in all cases, be defined as the area formed by connecting the stop lines of all approaching roads.",
       "(2) The intersection area shall be defined based on the controlled area covered by traffic signals or traffic signs.",
-      "(3) Where stop lines are marked, the intersection area shall be the roadway area covered after the stop lines are drawn; where no stop lines are marked, the intersection area"
+      "(3) Where stop lines are marked, the intersection area shall be the roadway area covered after the stop lines are drawn; where no stop lines are marked, the intersection area shall be the roadway area covered after drawing an imaginary line extending from the edges of the roadway or sidewalk, plus 5 meters outward."
     ],
     "answer": 3,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Where stop lines are marked, the intersection area shall be the roadway area covered after the stop lines are drawn; where no stop lines are marked, the intersection area."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (3) is correct: (3) Where stop lines are marked, the intersection area shall be the roadway area covered after the stop lines are drawn; where no stop lines are marked, the intersection area shall be the roadway area covered after drawing an imaginary line extending from the edges of the roadway or sidewalk, plus 5 meters outward.."
   },
   {
     "id": "MOTO_0543",
@@ -8767,15 +8788,16 @@
     "num": 550,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "When a motorcycle reaches an intersection and encounters a green traffic signal, how should it proceed through the intersection? (1) A green light confers absolute right-of-way; accelerate and pass through. (2) Reduce speed",
+    "question": "When a motorcycle reaches an intersection and encounters a green traffic signal, how should it proceed through the intersection?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) A green light confers absolute right-of-way; accelerate and pass through.",
+      "(2) Reduce speed and proceed with caution.",
+      "(3) A green light confers absolute right-of-way; maintain the original speed and pass through."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) Reduce speed and proceed with caution.."
   },
   {
     "id": "MOTO_0551",
@@ -9566,15 +9588,16 @@
     "num": 600,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "Is it permitted to make a U-turn in a section of road where left turns are prohibited? (1) Yes, but you must pay attention to vehicles approaching from behind.",
+    "question": "Is it permitted to make a U-turn in a section of road where left turns are prohibited?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Yes, but you must pay attention to vehicles approaching from behind.",
+      "(2) No. If a violation is observed and cited on the spot, the driver will be fined and will also receive 1 demerit point.",
+      "(3) Yes, but you must first activate the left-turn signal."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) No. If a violation is observed and cited on the spot, the driver will be fined and will also receive 1 demerit point.."
   },
   {
     "id": "MOTO_0601",
@@ -9885,15 +9908,16 @@
     "num": 620,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "Motorcycle speed limits, according to speed limit signs or markings; if no speed limit signs or markings exist, on roads without lane lines or directional",
+    "question": "Motorcycle speed limits, according to speed limit signs or markings; if no speed limit signs or markings exist, on roads without lane lines or directional markings, the speed must not exceed per hour:",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) 20 km",
+      "(2) 30 km",
+      "(3) 40 km."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) 30 km."
   },
   {
     "id": "MOTO_0621",
@@ -10416,7 +10440,7 @@
     "options": [
       "(1) From 7:00 a.m. to 8:00 p.m. daily",
       "(2) From 7:00 p.m. to 8:00 a.m.",
-      "(3) 24 hours a"
+      "(3) 24 hours a day. If there is any need to extend or shorten the restriction period, it must be clearly indicated with road markings, signs, or additional plates."
     ],
     "answer": 1,
     "image": null,
@@ -10636,15 +10660,16 @@
     "num": 667,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "Drivers who have any of the following situations shall be required to attend a road traffic safety lecture: (1) Crossing a railway level crossing illegally (2)",
+    "question": "Drivers who have any of the following situations shall be required to attend a road traffic safety lecture:",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Crossing a railway level crossing illegally",
+      "(2) Temporarily parking within 10 meters of an intersection",
+      "(3) Failing to maintain a safe distance when changing lanes."
     ],
     "answer": 1,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) True (O)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) Crossing a railway level crossing illegally."
   },
   {
     "id": "MOTO_0668",
@@ -11755,15 +11780,16 @@
     "num": 737,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "(1) Lane designated exclusively for motorcycles other than bicycles and large heavy motorcycles\\ (2) Lane designated exclusively for bicycles and large",
+    "question": "What does this road sign / hand signal indicate?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Lane designated exclusively for motorcycles other than bicycles and large heavy motorcycles\\",
+      "(2) Lane designated exclusively for bicycles and large heavy motorcycles\\",
+      "(3) Lane designated exclusively for bicycles and light motorcycles"
     ],
     "answer": 1,
     "image": "assets/moto_signs/moto_737.png",
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) True (O)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (1) is correct: (1) Lane designated exclusively for motorcycles other than bicycles and large heavy motorcycles\\."
   },
   {
     "id": "MOTO_0738",
@@ -12010,15 +12036,16 @@
     "num": 753,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "On a two-way, two-lane road, when there is oncoming traffic, which of the following is the correct way to overtake? (1) You should accelerate to",
+    "question": "On a two-way, two-lane road, when there is oncoming traffic, which of the following is the correct way to overtake?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) You should accelerate to overtake.",
+      "(2) Overtaking is not allowed.",
+      "(3) Decide whether to overtake based on the type of oncoming vehicle."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) Overtaking is not allowed.."
   },
   {
     "id": "MOTO_0754",
@@ -12141,7 +12168,7 @@
     "options": [
       "(1) To make it easier for vehicles behind to overtake, the motorcycle should ride as close as possible to the right edge of the lane.",
       "(2) The motorcycle should maintain a central position in its lane while riding.",
-      "(3)"
+      "(3) Because motorcycles are narrow, they may move left and right within the lane to stay flexible."
     ],
     "answer": 2,
     "image": null,
@@ -12745,15 +12772,16 @@
     "num": 799,
     "category": "Traffic Regulations (Motorcycle)",
     "topic": "General Regulations",
-    "question": "According to traffic regulations, apart from nighttime, when should a vehicle turn on the headlight? (1) Only when passing through tunnels or culverts without lighting; if lighting is provided, headlights may be turned off. (2) When",
+    "question": "According to traffic regulations, apart from nighttime, when should a vehicle turn on the headlight?",
     "options": [
-      "(1) True (O)",
-      "(2) False (X)"
+      "(1) Only when passing through tunnels or culverts without lighting; if lighting is provided, headlights may be turned off.",
+      "(2) When passing through tunnels, culverts, reversible lanes, or when encountering dense fog or heavy rain that reduces visibility, headlights must be turned on.",
+      "(3) When passing through well-lit underpasses, headlights may be turned off because the environment is sufficiently bright."
     ],
     "answer": 2,
     "image": null,
     "option_images": null,
-    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) False (X)."
+    "explanation": "According to Taiwan Motorcycle Traffic Regulations, Choice (2) is correct: (2) When passing through tunnels, culverts, reversible lanes, or when encountering dense fog or heavy rain that reduces visibility, headlights must be turned on.."
   },
   {
     "id": "MOTO_0800",
