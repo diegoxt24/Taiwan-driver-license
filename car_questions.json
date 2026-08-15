@@ -116,7 +116,7 @@
     "num": 8,
     "category": "Traffic Regulations (Automobile)",
     "topic": "Prohibited Misconduct (Drunk Driving, Mobile Phone Use, Dangerous Driving)",
-    "question": "When changing lanes while driving, if the turn signal is not displayed throughout the entire maneuver as | Year 115 Edition required, what is the regulation?",
+    "question": "When changing lanes while driving, if the turn signal is not displayed throughout the entire maneuver as required, what is the regulation?",
     "options": [
       "(1) Regardless of whether it is a regular road or a highway, it is a violation and should be penalized according to the law.",
       "(2) It is only a violation when driving on a highway.",
@@ -312,7 +312,7 @@
     "options": [
       "(1) A fine of NT$15,000 to NT$90,000 shall be imposed.",
       "(2) A fine of NT$30,000 to NT$120,000 shall be imposed and the driver's license shall be suspended.",
-      "(3) A warning only. | Year 115 Edition"
+      "(3) A warning only."
     ],
     "answer": 2,
     "image": null,
@@ -503,7 +503,7 @@
     "question": "If a driver commits a drunk driving violation while driving another person's vehicle, is the vehicle's license plate subject to suspension?",
     "options": [
       "(1) The license plate must still be suspended.",
-      "(2) As long as it is not your | Year 115 Edition own vehicle, suspension is not required.",
+      "(2) As long as it is not your own vehicle, suspension is not required.",
       "(3) There is no specific regulation."
     ],
     "answer": 1,
@@ -727,7 +727,7 @@
     "question": "Which of the following statements is incorrect?",
     "options": [
       "(1) On road sections with a no-stopping sign, temporary stopping is permitted.",
-      "(2) On road sections with a no-stopping sign, temporary stopping is not permitted. | Year 115 Edition",
+      "(2) On road sections with a no-stopping sign, temporary stopping is not permitted.",
       "(3) On road sections with no-stopping road markings, if there are no other sign or marking regulations, parking and temporary stopping are permitted from 8 p.m. to 7 a.m. the following morning."
     ],
     "answer": 2,
@@ -967,7 +967,7 @@
     "question": "While driving, which of the following is correct regarding the use of display devices within the driver's field of vision?",
     "options": [
       "(1) In-vehicle audio-visual devices may be used while driving as long as the sound is muted.",
-      "(2) Entertainment display devices should be turned off, but driving assistance displays such as navigation | Year 115 Edition or reversing cameras may be used.",
+      "(2) Entertainment display devices should be turned off, but driving assistance displays such as navigation or reversing cameras may be used.",
       "(3) All display devices must be turned off to avoid distracting the driver."
     ],
     "answer": 2,
@@ -1128,7 +1128,7 @@
     "options": [
       "(1) 1,200–2,400 NTD.",
       "(2) 2,400–6,000 NTD.",
-      "(3) 6,000–36,000 NTD. | Year 115 Edition"
+      "(3) 6,000–36,000 NTD."
     ],
     "answer": 3,
     "image": null,
@@ -1400,7 +1400,7 @@
     "options": [
       "(1) 4 years old.",
       "(2) 5 years old.",
-      "(3) 6 years old. | Year 115 Edition"
+      "(3) 6 years old."
     ],
     "answer": 3,
     "image": null,
@@ -1624,7 +1624,7 @@
     "options": [
       "(1) Narrow road.",
       "(2) Tunnel.",
-      "(3) Narrow bridge. | Year 115 Edition"
+      "(3) Narrow bridge."
     ],
     "answer": 2,
     "image": "assets/car_signs/car_102.png",
@@ -1752,7 +1752,7 @@
     "options": [
       "(1) Single-track electrified railway crossing.",
       "(2) Double-track or more electrified railway crossing.",
-      "(3) Single-track railway crossing. | Year 115 Edition"
+      "(3) Single-track railway crossing."
     ],
     "answer": 2,
     "image": "assets/car_signs/car_110.png",
@@ -1892,7 +1892,7 @@
     "num": 119,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "| Year 115 Edition The white dashed line is:",
+    "question": "The white dashed line is:",
     "options": [
       "(1) Zebra pedestrian crossing line.",
       "(2) Lane line.",
@@ -2024,7 +2024,7 @@
     "options": [
       "(1) Lane line.",
       "(2) Directional restriction line.",
-      "(3) Directional dividing line. | Year 115 Edition"
+      "(3) Directional dividing line."
     ],
     "answer": 3,
     "image": "assets/car_signs/car_127.png",
@@ -2164,7 +2164,7 @@
     "num": 136,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "| Year 115 Edition",
+    "question": "",
     "options": [
       "(1) Lane designated for bicycles only.",
       "(2) Lane designated for motor vehicles only.",
@@ -2311,7 +2311,7 @@
     "question": "When approaching a railway level crossing, if the barrier is malfunctioning and remains raised, but a watchman is present and signaling a warning with a flag, what should the driver do?",
     "options": [
       "(1) Observe that no train is coming and proceed directly.",
-      "(2) Immediately slow down and stop, and obey the watchman's | Year 115 Edition instructions to stop or proceed.",
+      "(2) Immediately slow down and stop, and obey the watchman's instructions to stop or proceed.",
       "(3) Honk the horn and pass quickly to avoid disrupting traffic."
     ],
     "answer": 2,
@@ -2486,7 +2486,7 @@
     "topic": "General Regulations",
     "question": "There have been several incidents on national freeways where vehicles with Advanced Driver Assistance Systems (ADAS) collided with attenuator trucks. Which of the following statements about ADAS is incorrect?",
     "options": [
-      "(1) It has autonomous driving capability, so the driver does not need to actively monitor road | Year 115 Edition conditions.",
+      "(1) It has autonomous driving capability, so the driver does not need to actively monitor road conditions.",
       "(2) The rear-end collisions with attenuator trucks occurred because the system failed to correctly identify stationary objects.",
       "(3) It has driver assistance functions that help improve driving safety."
     ],
@@ -2708,7 +2708,7 @@
     "num": 170,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "According to legal definitions, traffic control facilities established by prescribed lines, figures, lettering, or | Year 115 Edition other guiding devices marked on road surfaces or other structures to regulate the movement of vehicle drivers and pedestrians on roads are called?",
+    "question": "According to legal definitions, traffic control facilities established by prescribed lines, figures, lettering, or other guiding devices marked on road surfaces or other structures to regulate the movement of vehicle drivers and pedestrians on roads are called?",
     "options": [
       "(1) Signs.",
       "(2) Markings.",
@@ -2888,7 +2888,7 @@
     "options": [
       "(1) Manual transmission vehicles can freely select gears, so engine braking is more effective than automatic transmission vehicles, but the foot brake should still be used in conjunction.",
       "(2) When an automatic transmission vehicle is in D gear, the transmission automatically adjusts to the optimal gear, and the engine braking effect is equivalent to that of a manual transmission vehicle.",
-      "(3) Regardless of manual or automatic transmission, engine braking is sufficient to handle all downhill situations and no additional use of the foot brake is necessary. | Year 115 Edition"
+      "(3) Regardless of manual or automatic transmission, engine braking is sufficient to handle all downhill situations and no additional use of the foot brake is necessary."
     ],
     "answer": 1,
     "image": null,
@@ -3088,7 +3088,7 @@
     "options": [
       "(1) 'No Passing' is a warning sign that alerts drivers to oncoming vehicles ahead; 'Two-Way Traffic' is a regulatory sign that prohibits vehicles from traveling in both directions.",
       "(2) 'No Passing' is a regulatory sign that prohibits two vehicles from passing each other on that road section; 'Two-Way Traffic' is a warning sign that alerts drivers that the road ahead changes from one-way to two-way traffic.",
-      "(3) Both signs have the same function, both reminding drivers of oncoming vehicles ahead, and differ only in the width of the road section where they are placed. | Year 115 Edition"
+      "(3) Both signs have the same function, both reminding drivers of oncoming vehicles ahead, and differ only in the width of the road section where they are placed."
     ],
     "answer": 2,
     "image": null,
@@ -3292,7 +3292,7 @@
     "num": 206,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "| Year 115 Edition When is this signal used?",
+    "question": "When is this signal used?",
     "options": [
       "(1) When a vehicle breaks down or is temporarily parked on the roadside.",
       "(2) To indicate direction.",
@@ -3488,7 +3488,7 @@
     "options": [
       "(1) 5 persons.",
       "(2) 7 persons.",
-      "(3) 9 persons. | Year 115 Edition"
+      "(3) 9 persons."
     ],
     "answer": 3,
     "image": null,
@@ -3907,7 +3907,7 @@
     "question": "Regarding the penalty for a driver who fails to yield to emergency vehicles such as fire trucks and ambulances upon hearing their sirens, which of the following statements is correct?",
     "options": [
       "(1) If the driver fails to yield but no accident occurs, a fine of NT$3,600 and 1 demerit point are imposed; if the failure causes death or injury, the penalty is increased to a fine of NT$6,000 to NT$30,000 and suspension of the driver's license.",
-      "(2) Regardless of whether an accident occurs, a uniform fine of NT$10,000 to | Year 115 Edition NT$100,000 and revocation of the driver's license are imposed to deter drivers from taking chances.",
+      "(2) Regardless of whether an accident occurs, a uniform fine of NT$10,000 to NT$100,000 and revocation of the driver's license are imposed to deter drivers from taking chances.",
       "(3) If the driver fails to yield without causing an accident, a fine of not less than NT$6,000 and not more than NT$30,000 and 3 demerit points are imposed; if the failure causes death or injury, the penalty is increased to a fine of NT$10,000 to NT$100,000, revocation of the driver's license, and revocation of the vehicle's license plate."
     ],
     "answer": 3,
@@ -4080,7 +4080,7 @@
     "num": 255,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "For a professional small vehicle driver aged 68 or above who wishes to extend their professional driver's | Year 115 Edition license validity until age 70, which of the following regulations is correct?",
+    "question": "For a professional small vehicle driver aged 68 or above who wishes to extend their professional driver's license validity until age 70, which of the following regulations is correct?",
     "options": [
       "(1) As long as the physical examination is deemed qualified, the extension can be granted directly regardless of whether there was any penalty record in the previous year.",
       "(2) The driver must have had no license suspension penalty in the previous year, pass a physical examination, and submit proof of passing a cognitive function test or a certificate of no dementia; the license may then be renewed or annotated for extension each year.",
@@ -4244,7 +4244,7 @@
     "options": [
       "(1) When passing through well-lit urban roads, you may keep the high beams on to improve your own visibility.",
       "(2) When meeting oncoming vehicles or approaching vehicles traveling in the same direction ahead, you should switch to low-beam headlights to avoid causing glare to others.",
-      "(3) You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections. | Year 115 Edition"
+      "(3) You only need to switch to low-beam headlights when entering a tunnel; high beams may be used throughout all other road sections."
     ],
     "answer": 2,
     "image": null,
@@ -4452,7 +4452,7 @@
     "options": [
       "(1) After obtaining the International Driving Permit, the original domestic driver's license becomes invalid and is confiscated by the highway supervisory authority.",
       "(2) One must pass the international road traffic signs examination again before being eligible to obtain it.",
-      "(3) Within the validity period of the domestic driver's license, one may exchange | Year 115 Edition it for an International Driving Permit of the same vehicle category."
+      "(3) Within the validity period of the domestic driver's license, one may exchange it for an International Driving Permit of the same vehicle category."
     ],
     "answer": 3,
     "image": null,
@@ -4674,7 +4674,7 @@
     "topic": "General Regulations",
     "question": "Regarding the time limit for idling while a vehicle is parked, which of the following is correct?",
     "options": [
-      "(1) A vehicle | Year 115 Edition may idle continuously while parked with no time limit.",
+      "(1) A vehicle may idle continuously while parked with no time limit.",
       "(2) While driving, idling should be minimized as much as possible, which not only saves energy but also reduces pollutant emissions.",
       "(3) You may stay in the vehicle with the air conditioning on because you are afraid of the heat."
     ],
@@ -4852,7 +4852,7 @@
     "options": [
       "(1) Water washes away dirt from the brake pads, so braking performance improves.",
       "(2) Braking performance is unchanged and no special attention is needed.",
-      "(3) Moisture creates a water film between the brake | Year 115 Edition pads and brake disc, causing a significant reduction in braking performance; the brakes should be gently applied under safe conditions to generate heat through friction and remove the moisture."
+      "(3) Moisture creates a water film between the brake pads and brake disc, causing a significant reduction in braking performance; the brakes should be gently applied under safe conditions to generate heat through friction and remove the moisture."
     ],
     "answer": 3,
     "image": null,
@@ -5026,7 +5026,7 @@
     "topic": "General Regulations",
     "question": "To establish safe road habits, which of the following practices is most appropriate for a driver?",
     "options": [
-      "(1) Obey | Year 115 Edition traffic rules throughout the entire journey, without violating rules due to smooth road conditions, sparse traffic, or time pressure.",
+      "(1) Obey traffic rules throughout the entire journey, without violating rules due to smooth road conditions, sparse traffic, or time pressure.",
       "(2) Flexibly adjust based on the current situation, for example, it is acceptable to run a red light late at night when there is no traffic in order to save time.",
       "(3) Accelerate through intersections when there are no surveillance cameras to improve commuting efficiency."
     ],
@@ -5236,7 +5236,7 @@
     "options": [
       "(1) the driver’s license shall be revoked, and the person shall be permanently barred from reapplying;",
       "(2) a fine shall be imposed;",
-      "(3) the driver’s license shall be suspended for one year.. | Year 115 Edition"
+      "(3) the driver’s license shall be suspended for one year.."
     ],
     "answer": 1,
     "image": null,
@@ -5556,7 +5556,7 @@
     "options": [
       "(1) You may overtake after honking two long horn blasts.",
       "(2) You may overtake after honking two short horn blasts.",
-      "(3) Honking or overtaking is not permitted. | Year 115 Edition"
+      "(3) Honking or overtaking is not permitted."
     ],
     "answer": 3,
     "image": null,
@@ -5844,7 +5844,7 @@
     "options": [
       "(1) 14 km apart.",
       "(2) 8 km apart.",
-      "(3) 6 km apart. However, this does not apply to violations inside tunnels. | Year 115 Edition"
+      "(3) 6 km apart. However, this does not apply to violations inside tunnels."
     ],
     "answer": 3,
     "image": null,
@@ -6148,7 +6148,7 @@
     "options": [
       "(1) You may not use the shoulder to overtake.",
       "(2) You may use the shoulder to overtake.",
-      "(3) You may only use the acceleration lane to overtake. | Year 115 Edition"
+      "(3) You may only use the acceleration lane to overtake."
     ],
     "answer": 1,
     "image": null,
@@ -6480,7 +6480,7 @@
     "num": 405,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "When parking, a vehicle shall be positioned in the direction of traffic flow and kept close to the edge of the roadway. The distance between the outer side of the front and rear tires and the curb or edge of the | Year 115 Edition road shall not exceed:",
+    "question": "When parking, a vehicle shall be positioned in the direction of traffic flow and kept close to the edge of the roadway. The distance between the outer side of the front and rear tires and the curb or edge of the road shall not exceed:",
     "options": [
       "(1) 40 cm",
       "(2) 50 cm",
@@ -6724,7 +6724,7 @@
     "options": [
       "(1) Normal weather conditions.",
       "(2) When the vehicle ahead is centered in the lane.",
-      "(3) When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary. | Year 115 Edition"
+      "(3) When there is a large speed difference with the vehicle ahead or the vehicle ahead is stationary."
     ],
     "answer": 3,
     "image": null,
@@ -6852,7 +6852,7 @@
     "options": [
       "(1) Fork in the road.",
       "(2) Narrow bridge.",
-      "(3) On-ramp merging.. | Year 115 Edition"
+      "(3) On-ramp merging.."
     ],
     "answer": 3,
     "image": "assets/car_signs/car_428.png",
@@ -6996,7 +6996,7 @@
     "options": [
       "(1) Designated vehicle road.",
       "(2) No motor vehicles.",
-      "(3) No vehicles of any kind allowed. | Year 115 Edition"
+      "(3) No vehicles of any kind allowed."
     ],
     "answer": 1,
     "image": "assets/car_signs/car_437.png",
@@ -7140,7 +7140,7 @@
     "options": [
       "(1) Zebra-stripe pedestrian crossing line.",
       "(2) Crossbar-stripe pedestrian crossing line.",
-      "(3) Stop line. | Year 115 Edition"
+      "(3) Stop line."
     ],
     "answer": 2,
     "image": "assets/car_signs/car_446.png",
@@ -7328,7 +7328,7 @@
     "num": 458,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "A driver at an intersection sees a green light and prepares to turn left. At this moment, pedestrians are still slowly crossing on the pedestrian crosswalk markings. Which of the following behaviors is correct? | Year 115 Edition",
+    "question": "A driver at an intersection sees a green light and prepares to turn left. At this moment, pedestrians are still slowly crossing on the pedestrian crosswalk markings. Which of the following behaviors is correct?",
     "options": [
       "(1) Stop about 3 meters in front of the pedestrians and remain completely stationary until they have passed.",
       "(2) Slowly glide toward the pedestrians, and once they have walked past the center line, accelerate and pass behind them.",
@@ -7524,7 +7524,7 @@
     "options": [
       "(1) Must pay a fine and attend a training course.",
       "(2) Fine and suspension of driver's license for 1 to 2 years.",
-      "(3) Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half. | Year 115 Edition"
+      "(3) Fine, suspension/revocation of driver's license, criminal liability under the law, with sentence increased by up to one-half."
     ],
     "answer": 3,
     "image": null,
@@ -7744,7 +7744,7 @@
     "num": 484,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "Two vehicles arrive simultaneously at an uncontrolled intersection from different directions, with the same number of lanes in their respective directions of travel. Regarding right of way, which of the following is | Year 115 Edition correct?",
+    "question": "Two vehicles arrive simultaneously at an uncontrolled intersection from different directions, with the same number of lanes in their respective directions of travel. Regarding right of way, which of the following is correct?",
     "options": [
       "(1) The left-side vehicle is going straight and the right-side vehicle is turning; the left-side vehicle must yield to the right-side vehicle.",
       "(2) Both vehicles are going straight; the left-side vehicle must yield to the right-side vehicle.",
@@ -7920,7 +7920,7 @@
     "num": 495,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "Regarding the correct procedure when a car driver runs a red light by crossing into the opposing lane | Year 115 Edition while yielding to a fire truck on duty, which of the following is correct?",
+    "question": "Regarding the correct procedure when a car driver runs a red light by crossing into the opposing lane while yielding to a fire truck on duty, which of the following is correct?",
     "options": [
       "(1) Drive away from the intersection after yielding and ignore any traffic ticket.",
       "(2) Come to a safe stop as soon as possible after yielding; if cited, you may file an appeal with supporting facts to have the ticket dismissed.",
@@ -8114,7 +8114,7 @@
     "topic": "General Regulations",
     "question": "When a vehicle approaches a pedestrian crossing where pedestrians are already crossing, what distance must the vehicle maintain from pedestrians to avoid a violation?",
     "options": [
-      "(1) The vehicle must maintain a distance | Year 115 Edition of at least 3 meters.",
+      "(1) The vehicle must maintain a distance of at least 3 meters.",
       "(2) The vehicle must maintain a safe yielding distance of 1 meter.",
       "(3) As long as the vehicle does not collide with a pedestrian, there is no specific distance requirement."
     ],
@@ -8276,7 +8276,7 @@
     "options": [
       "(1) At intersections with traffic control signals, to enhance signal visibility.",
       "(2) At an appropriate distance in front of an intersection where signals are difficult to notice, to warn drivers in advance.",
-      "(3) At unsignalized intersections, to replace traffic control signals in regulating traffic. | Year 115 Edition"
+      "(3) At unsignalized intersections, to replace traffic control signals in regulating traffic."
     ],
     "answer": 2,
     "image": null,
@@ -8440,7 +8440,7 @@
     "options": [
       "(1) Temporary stopping is permitted within the roundabout.",
       "(2) When approaching an unsignalized roundabout, you must yield to vehicles already in the roundabout.",
-      "(3) The roundabout sign is a prohibitory sign used to urge drivers to proceed slowly and give priority to vehicles on the outer ring. | Year 115 Edition"
+      "(3) The roundabout sign is a prohibitory sign used to urge drivers to proceed slowly and give priority to vehicles on the outer ring."
     ],
     "answer": 2,
     "image": null,
@@ -8600,7 +8600,7 @@
     "options": [
       "(1) Slow down, pass after confirming safety, and may stop on the track area if necessary.",
       "(2) Pay attention to train movements, pass quickly under safe conditions, and must not stop on the track area.",
-      "(3) If traffic ahead is congested, they may still enter the track area to wait. | Year 115 Edition"
+      "(3) If traffic ahead is congested, they may still enter the track area to wait."
     ],
     "answer": 2,
     "image": null,
@@ -8792,7 +8792,7 @@
     "options": [
       "(1) Interchange.",
       "(2) System terminal point.",
-      "(3) At-grade intersection. | Year 115 Edition"
+      "(3) At-grade intersection."
     ],
     "answer": 1,
     "image": null,
@@ -9078,7 +9078,7 @@
     "topic": "General Regulations",
     "question": "Which driving behavior is incorrect?",
     "options": [
-      "(1) The yellow zone along light rail tracks is a no-stopping area; pass | Year 115 Edition through quickly.",
+      "(1) The yellow zone along light rail tracks is a no-stopping area; pass through quickly.",
       "(2) When the light rail audio/visual warning sounds, ignore it and speed up.",
       "(3) When passing through intersections shared with light rail transit, obey traffic signals."
     ],
@@ -9224,7 +9224,7 @@
     "options": [
       "(1) No left turn.",
       "(2) No U-turn.",
-      "(3) No oncoming traffic. | Year 115 Edition"
+      "(3) No oncoming traffic."
     ],
     "answer": 2,
     "image": "assets/car_signs/car_576.png",
@@ -9368,7 +9368,7 @@
     "options": [
       "(1) When merging from two same-direction lanes into one lane, if there is no straight-through lane, vehicles in the inner lane shall yield to vehicles in the outer lane.",
       "(2) When merging from two same-direction lanes into one lane, vehicles shall yield to vehicles in the straight-through lane.",
-      "(3) During traffic congestion, vehicles in inner and outer lanes shall mutually yield, taking turns alternately | Year 115 Edition vehicle by vehicle, while maintaining safe following distances and intervals."
+      "(3) During traffic congestion, vehicles in inner and outer lanes shall mutually yield, taking turns alternately vehicle by vehicle, while maintaining safe following distances and intervals."
     ],
     "answer": 1,
     "image": null,
@@ -9588,7 +9588,7 @@
     "num": 599,
     "category": "Traffic Regulations (Automobile)",
     "topic": "General Regulations",
-    "question": "When a car travels on a road with a median island dividing fast and slow lanes, unless otherwise | Year 115 Edition indicated by signs, markings, or signals, what is the general rule?",
+    "question": "When a car travels on a road with a median island dividing fast and slow lanes, unless otherwise indicated by signs, markings, or signals, what is the general rule?",
     "options": [
       "(1) Vehicles in the fast lane may not make a left turn.",
       "(2) Vehicles in the slow lane must first merge into the fast lane before turning right.",
@@ -9768,7 +9768,7 @@
     "options": [
       "(1) Keep to the left.",
       "(2) Right turn direction.",
-      "(3) Left turn direction. | Year 115 Edition"
+      "(3) Left turn direction."
     ],
     "answer": 2,
     "image": "assets/car_signs/car_610.png",
@@ -10022,7 +10022,7 @@
     "topic": "Turning (Left / Right Turns, U-turns)",
     "question": "When a large vehicle makes a right turn, what is the most correct operation to avoid accidents caused by the inner wheel difference?",
     "options": [
-      "(1) When turning right, the vehicle should activate the turn signal 30 meters | Year 115 Edition before the intersection, move into the outer lane, right-turn lane, or slow lane, and then make the right turn after reaching the intersection.",
+      "(1) When turning right, the vehicle should activate the turn signal 30 meters before the intersection, move into the outer lane, right-turn lane, or slow lane, and then make the right turn after reaching the intersection.",
       "(2) Hug the right side and turn directly to shorten the distance.",
       "(3) Accelerate through the intersection to avoid obstructing traffic."
     ],
@@ -10216,7 +10216,7 @@
     "options": [
       "(1) Slow down and yield.",
       "(2) Speed up and pass through.",
-      "(3) Honk to demand the other driver to give way. | Year 115 Edition"
+      "(3) Honk to demand the other driver to give way."
     ],
     "answer": 1,
     "image": null,
@@ -10406,7 +10406,7 @@
     "topic": "General Regulations",
     "question": "Regarding the blind spots of large vehicles, which of the following is an incorrect concept?",
     "options": [
-      "(1) Blind spots | Year 115 Edition may exist on the sides of the vehicle.",
+      "(1) Blind spots may exist on the sides of the vehicle.",
       "(2) As long as you can see the driver, you can be sure the driver can see you.",
       "(3) The extent of blind spots may vary depending on the type of vehicle."
     ],
@@ -10536,7 +10536,7 @@
     "options": [
       "(1) Fork road.",
       "(2) Narrow bridge.",
-      "(3) Narrow road. | Year 115 Edition"
+      "(3) Narrow road."
     ],
     "answer": 2,
     "image": "assets/car_signs/car_658.png",
@@ -10824,7 +10824,7 @@
     "options": [
       "(1) Reversing.",
       "(2) Slow down.",
-      "(3) Allowing rear vehicle to overtake. | Year 115 Edition"
+      "(3) Allowing rear vehicle to overtake."
     ],
     "answer": 3,
     "image": "assets/car_signs/car_676.png",
@@ -10968,7 +10968,7 @@
     "options": [
       "(1) Metro (MRT) station.",
       "(2) Railway station.",
-      "(3) High-speed rail station. | Year 115 Edition"
+      "(3) High-speed rail station."
     ],
     "answer": 1,
     "image": "assets/car_signs/car_685.png",
@@ -11144,7 +11144,7 @@
     "options": [
       "(1) Accelerate to overtake the vehicle ahead.",
       "(2) Follow closely behind the vehicle ahead to prevent vehicles behind from overtaking.",
-      "(3) Increase your following distance and pay close attention to the vehicle ahead at all times. | Year 115 Edition"
+      "(3) Increase your following distance and pay close attention to the vehicle ahead at all times."
     ],
     "answer": 3,
     "image": null,
@@ -11368,7 +11368,7 @@
     "options": [
       "(1) Speed must not exceed 30 km/h.",
       "(2) Speed must not exceed 40 km/h.",
-      "(3) Speed | Year 115 Edition must not exceed 50 km/h."
+      "(3) Speed must not exceed 50 km/h."
     ],
     "answer": 2,
     "image": null,
@@ -11560,7 +11560,7 @@
     "options": [
       "(1) They should drive in the outer lane.",
       "(2) They may temporarily use the lane immediately adjacent to the outer lane to overtake the vehicle ahead.",
-      "(3) All of the above. | Year 115 Edition"
+      "(3) All of the above."
     ],
     "answer": 3,
     "image": null,
@@ -11756,7 +11756,7 @@
     "options": [
       "(1) It is a permanently installed compliance sign indicating the road has permanently changed its traffic direction.",
       "(2) It is a temporary construction sign indicating road construction ahead; drivers must detour in the direction of the arrow.",
-      "(3) It is an advisory sign; drivers may decide for themselves whether to detour. | Year 115 Edition"
+      "(3) It is an advisory sign; drivers may decide for themselves whether to detour."
     ],
     "answer": 2,
     "image": null,
@@ -11932,7 +11932,7 @@
     "options": [
       "(1) The visual distance should be kept very short and does not need to change with speed.",
       "(2) Keeping the visual distance fixed is sufficient.",
-      "(3) The visual distance should increase as speed | Year 115 Edition increases."
+      "(3) The visual distance should increase as speed increases."
     ],
     "answer": 3,
     "image": null,
@@ -12124,7 +12124,7 @@
     "options": [
       "(1) There is an uphill section ahead.",
       "(2) There is a downhill section ahead.",
-      "(3) The road surface ahead is flat. | Year 115 Edition"
+      "(3) The road surface ahead is flat."
     ],
     "answer": 2,
     "image": null,
@@ -12315,7 +12315,7 @@
     "question": "A median island is installed in the center of the road, with 'Keep Right' and 'Keep Left' compliance signs placed at each end of the median island respectively. Which of the following descriptions of their placement is correct?",
     "options": [
       "(1) Both signs are placed on the same side, and the driver chooses which one to follow based on vehicle speed.",
-      "(2) The 'Keep Right' sign is placed at the approaching end, directing | Year 115 Edition vehicles to pass on the right side; the 'Keep Left' sign is placed at the departing end, guiding vehicles back to their original lane.",
+      "(2) The 'Keep Right' sign is placed at the approaching end, directing vehicles to pass on the right side; the 'Keep Left' sign is placed at the departing end, guiding vehicles back to their original lane.",
       "(3) Both signs serve the same function; the arrows point in opposite directions only because the road runs in different directions, without affecting the actual travel route."
     ],
     "answer": 2,
@@ -12475,7 +12475,7 @@
     "question": "What does a solid yellow line marked at the edge of the road indicate?",
     "options": [
       "(1) No stopping line (equivalent to a red curb; temporary stopping is prohibited).",
-      "(2) No parking line (yellow line; brief temporary stopping is | Year 115 Edition permitted).",
+      "(2) No parking line (yellow line; brief temporary stopping is permitted).",
       "(3) Yield line."
     ],
     "answer": 2,
@@ -12780,7 +12780,7 @@
     "options": [
       "(1) Speed up.",
       "(2) Slow down.",
-      "(3) Drive normally. | Year 115 Edition"
+      "(3) Drive normally."
     ],
     "answer": 2,
     "image": null,
@@ -13128,7 +13128,7 @@
     "num": 820,
     "category": "Road Signs & Signals",
     "topic": "Traffic Signs & Markings",
-    "question": "In a tunnel 4 km or longer or one announced by the management authority, when traffic slows below 20 | Year 115 Edition km/h or stops due to congestion or an accident, vehicles should still maintain at least:",
+    "question": "In a tunnel 4 km or longer or one announced by the management authority, when traffic slows below 20 km/h or stops due to congestion or an accident, vehicles should still maintain at least:",
     "options": [
       "(1) 20 meters.",
       "(2) 30 meters.",
@@ -13308,7 +13308,7 @@
     "options": [
       "(1) As long as the slow lane is clear, you may cut in quickly without signaling to avoid blocking traffic in the fast lane behind you.",
       "(2) The slow lane is a secondary lane; vehicles in the fast lane have the right of way, so there is no need to check the safe following distance when changing lanes.",
-      "(3) You should first activate the right turn signal, proactively yield to straight-moving vehicles in the | Year 115 Edition slow lane (such as motorcycles and bicycles), and change lanes only after ensuring a safe following distance."
+      "(3) You should first activate the right turn signal, proactively yield to straight-moving vehicles in the slow lane (such as motorcycles and bicycles), and change lanes only after ensuring a safe following distance."
     ],
     "answer": 3,
     "image": null,
@@ -13546,7 +13546,7 @@
     "topic": "General Regulations",
     "question": "When your vehicle's high beams are about to reach the eyes of an oncoming driver, you should:",
     "options": [
-      "(1) | Year 115 Edition Switch to low beams.",
+      "(1) Switch to low beams.",
       "(2) Turn off all lights.",
       "(3) Keep using high beams."
     ],
@@ -13784,7 +13784,7 @@
     "num": 861,
     "category": "Traffic Regulations (Automobile)",
     "topic": "Cargo Loading (Preventing Falls or Leaks)",
-    "question": "When a vehicle carrying cargo travels within 5 kilometers of a weigh station, if the driver fails to proceed | Year 115 Edition to the weigh station as indicated by signs, markings, or signals, how much shall the driver be fined, and may be compelled to weigh the vehicle?",
+    "question": "When a vehicle carrying cargo travels within 5 kilometers of a weigh station, if the driver fails to proceed to the weigh station as indicated by signs, markings, or signals, how much shall the driver be fined, and may be compelled to weigh the vehicle?",
     "options": [
       "(1) NT$30,000.",
       "(2) NT$60,000.",
@@ -14074,7 +14074,7 @@
     "topic": "General Regulations",
     "question": "A driver transporting dangerous goods:",
     "options": [
-      "(1) Must hold the appropriate vehicle class license and have | Year 115 Edition completed professional training with a certificate.",
+      "(1) Must hold the appropriate vehicle class license and have completed professional training with a certificate.",
       "(2) Only needs a professional driver's license.",
       "(3) Only needs an articulated vehicle license."
     ],
@@ -14252,7 +14252,7 @@
     "options": [
       "(1) On an expressway, 70 meters behind the accident site.",
       "(2) On a freeway, 100 meters behind the accident site.",
-      "(3) On a road section with a maximum speed limit of 50 km/h or below, 20 meters behind the accident | Year 115 Edition site."
+      "(3) On a road section with a maximum speed limit of 50 km/h or below, 20 meters behind the accident site."
     ],
     "answer": 2,
     "image": null,
@@ -14412,7 +14412,7 @@
     "options": [
       "(1) The vehicle should be coasted off the main lane and parked on the shoulder to wait for rescue.",
       "(2) While waiting for rescue, hazard warning lights should be turned on and a breakdown warning sign should be placed behind the vehicle.",
-      "(3) A broken-down vehicle parked on the shoulder must not remain there for more | Year 115 Edition than 4 hours."
+      "(3) A broken-down vehicle parked on the shoulder must not remain there for more than 4 hours."
     ],
     "answer": 3,
     "image": null,
@@ -14636,7 +14636,7 @@
     "options": [
       "(1) Engine malfunction warning light.",
       "(2) Low oil pressure warning light.",
-      "(3) Low fuel level warning light. | Year 115 Edition"
+      "(3) Low fuel level warning light."
     ],
     "answer": 1,
     "image": "assets/car_signs/car_914.png",
@@ -14828,7 +14828,7 @@
     "options": [
       "(1) Slow down and proceed.",
       "(2) Drive as usual.",
-      "(3) Stop driving and have the vehicle repaired. | Year 115 Edition"
+      "(3) Stop driving and have the vehicle repaired."
     ],
     "answer": 3,
     "image": null,
@@ -15164,7 +15164,7 @@
     "options": [
       "(1) Venous bleeding.",
       "(2) Capillary bleeding.",
-      "(3) Arterial bleeding. | Year 115 Edition"
+      "(3) Arterial bleeding."
     ],
     "answer": 3,
     "image": null,
@@ -15402,7 +15402,7 @@
     "topic": "General Regulations",
     "question": "In a no-injury accident where vehicles can still be driven, when using photographic tools to record vehicle positions and scene evidence, which is NOT correct?",
     "options": [
-      "(1) Ensure safety during photographing and | Year 115 Edition moving, and place a warning triangle.",
+      "(1) Ensure safety during photographing and moving, and place a warning triangle.",
       "(2) Using road markings as reference, photograph the accident vehicle and surroundings from front and rear.",
       "(3) Prevent the other party from using recording tools to document vehicle positions and scene evidence."
     ],
@@ -15547,7 +15547,7 @@
     "question": "Before driving, which of the following is correct for a driver?",
     "options": [
       "(1) There is no need to check the lights when driving during the day.",
-      "(2) Relevant safety equipment must be thoroughly inspected to ensure it is | Year 115 Edition functioning properly before taking to the road.",
+      "(2) Relevant safety equipment must be thoroughly inspected to ensure it is functioning properly before taking to the road.",
       "(3) Since maintenance has already been performed according to the manufacturer's prescribed time and mileage intervals, there is no need to check the engine oil, water, and tires before driving."
     ],
     "answer": 2,
@@ -15804,7 +15804,7 @@
     "options": [
       "(1) It can be checked while the engine is running.",
       "(2) After turning off the engine and waiting a few minutes.",
-      "(3) Immediately after turning off the engine. | Year 115 Edition"
+      "(3) Immediately after turning off the engine."
     ],
     "answer": 2,
     "image": null,
@@ -16028,7 +16028,7 @@
     "options": [
       "(1) The temperature gauge does not change due to outside air temperature or driving conditions.",
       "(2) The temperature gauge is affected by outside air temperature and driving conditions.",
-      "(3) The temperature gauge only changes when the engine is turned off. | Year 115 Edition"
+      "(3) The temperature gauge only changes when the engine is turned off."
     ],
     "answer": 2,
     "image": null,
@@ -16202,7 +16202,7 @@
     "topic": "General Regulations",
     "question": "Before each on-road driving practice session, regarding the confirmation of the vehicle’s safety condition, which of the following practices by the learner driver is most correct?",
     "options": [
-      "(1) Although an instructor accompanies the practice and the driving school regularly maintains the vehicle, the learner should still proactively learn and perform pre-trip | Year 115 Edition vehicle inspections to develop the habit of self-responsibility for future independent driving.",
+      "(1) Although an instructor accompanies the practice and the driving school regularly maintains the vehicle, the learner should still proactively learn and perform pre-trip vehicle inspections to develop the habit of self-responsibility for future independent driving.",
       "(2) Since the learner has not yet obtained an official driver’s license, all vehicle safety responsibilities rest with the driving school and instructor; the learner should focus solely on driving techniques.",
       "(3) The driving school’s vehicle is regularly maintained and the instructor supervises onboard, so there is no need to repeat inspections before each session, in order to maximize training time efficiency."
     ],
@@ -16379,7 +16379,7 @@
     "question": "When adding engine oil, if too much oil is added, what effect might it cause?",
     "options": [
       "(1) Better engine cooling and lubrication, less likely to overheat.",
-      "(2) It can cause carbon buildup on spark plugs, increased fuel | Year 115 Edition consumption, and reduced horsepower.",
+      "(2) It can cause carbon buildup on spark plugs, increased fuel consumption, and reduced horsepower.",
       "(3) It can cause excessive hydraulic pressure in the braking system, creating a risk of brake failure."
     ],
     "answer": 2,
@@ -16604,7 +16604,7 @@
     "options": [
       "(1) The vehicle shall be confiscated.",
       "(2) The high-volume horn or noise device shall be confiscated.",
-      "(3) The license plate shall be revoked. | Year 115 Edition"
+      "(3) The license plate shall be revoked."
     ],
     "answer": 2,
     "image": null,
@@ -16988,7 +16988,7 @@
     "options": [
       "(1) Above the top of the driver's head.",
       "(2) Below the driver's shoulders.",
-      "(3) Level with the driver's ears. | Year 115 Edition"
+      "(3) Level with the driver's ears."
     ],
     "answer": 3,
     "image": null,
@@ -17356,7 +17356,7 @@
     "options": [
       "(1) Normal operation.",
       "(2) Brake fluid leak.",
-      "(3) Vacuum brake booster failure. | Year 115 Edition"
+      "(3) Vacuum brake booster failure."
     ],
     "answer": 1,
     "image": null,
