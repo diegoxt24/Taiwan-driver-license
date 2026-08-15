@@ -64,6 +64,21 @@ async function loadModuleData(mod) {
     const qResp = await fetch(qFile);
     allQuestions = await qResp.json();
 
+    // Comprehensive question normalization
+    allQuestions.forEach((q, qIndex) => {
+      if (q.answer !== undefined) {
+        q.correct_index = (typeof q.answer === 'number') ? (q.answer - 1) : (parseInt(q.answer) - 1);
+      } else if (q.correct_index === undefined) {
+        q.correct_index = 0;
+      }
+      if (!q.correct_answer && q.options && q.options[q.correct_index]) {
+        q.correct_answer = q.options[q.correct_index];
+      }
+      if (q.image && !q.sign_image) {
+        q.sign_image = q.image;
+      }
+    });
+
     const cResp = await fetch(cFile);
     cheatSheetData = await cResp.json();
 
@@ -984,10 +999,11 @@ function renderCurrentQuestion() {
   const m = getModuleData();
 
   // Sign Image & Video Link Rendering
-  if (q.sign_image || q.sign_svg || q.video_link) {
+  const imgUrl = q.sign_image || q.image;
+  if (imgUrl || q.sign_svg || q.video_link) {
     let mediaHTML = '';
-    if (q.sign_image) {
-      mediaHTML += `<div style="text-align:center; padding:0.5rem;"><img src="${q.sign_image}" style="max-height:120px; max-width:100%; border-radius:8px; border:1px solid var(--border-color); background:#fff; padding:4px;" alt="Official Sign Image" /></div>`;
+    if (imgUrl) {
+      mediaHTML += `<div style="text-align:center; padding:0.5rem;"><img src="${imgUrl}" style="max-height:140px; max-width:100%; border-radius:8px; border:1px solid var(--border-color); background:#fff; padding:6px; box-shadow:0 4px 12px rgba(0,0,0,0.25);" alt="Official Sign Image" /></div>`;
     } else if (q.sign_svg) {
       mediaHTML += q.sign_svg;
     }
@@ -1026,6 +1042,19 @@ function renderCurrentQuestion() {
   if (explLabel) explLabel.textContent = 'Show Explanation';
   const explTextEl = document.getElementById('explanationText');
 
+  // Helper for rendering option label with sign image if present
+  function getOptHTML(optIdx, labelText) {
+    if (q.option_images && q.option_images[optIdx]) {
+      return `<div style="display:flex; align-items:center; gap:0.75rem; width:100%;">
+        <div style="background:#fff; padding:4px; border-radius:8px; display:inline-flex; align-items:center; justify-content:center; box-shadow:0 2px 6px rgba(0,0,0,0.15); flex-shrink:0;">
+          <img src="${q.option_images[optIdx]}" style="max-height:75px; max-width:85px; object-fit:contain;" alt="Option ${optIdx+1}">
+        </div>
+        <span style="font-weight:700; font-size:0.92rem;">${labelText}</span>
+      </div>`;
+    }
+    return `<span>${labelText}</span>`;
+  }
+
   // Prepare explanation HTML with visual diagram if available
   let diagramHTML = '';
   if (q.diagram) {
@@ -1045,12 +1074,14 @@ function renderCurrentQuestion() {
     optBtn.className = 'opt-btn correct-highlight';
     optBtn.style.width = '100%';
     optBtn.style.cursor = 'pointer';
+    
+    const correctLabel = q.correct_answer || (q.options ? q.options[q.correct_index] : '');
     optBtn.innerHTML = `
-      <div>
-        <div style="font-size:0.7rem; text-transform:uppercase; font-weight:800; color:#34d399; margin-bottom:0.2rem;">Sheppard Air Correct Recall Answer ${isStudied ? '(Marked Studied ✓)' : '(Click to Mark Studied)'}</div>
-        <div style="font-size:0.95rem; font-weight:700;">${q.correct_answer}</div>
+      <div style="width:100%;">
+        <div style="font-size:0.7rem; text-transform:uppercase; font-weight:800; color:#34d399; margin-bottom:0.35rem;">Sheppard Air Correct Recall Answer ${isStudied ? '(Marked Studied ✓)' : '(Click to Mark Studied)'}</div>
+        <div>${getOptHTML(q.correct_index, correctLabel)}</div>
       </div>
-      <span style="font-size:1.2rem;">${isStudied ? '✓' : '👉'}</span>
+      <span style="font-size:1.2rem; flex-shrink:0;">${isStudied ? '✓' : '👉'}</span>
     `;
     optBtn.addEventListener('click', () => {
       recordQuestionStudied(q.id);
@@ -1066,11 +1097,11 @@ function renderCurrentQuestion() {
       const isCorrect = (idx === q.correct_index);
       if (isCorrect) {
         optBtn.className = 'opt-btn correct-highlight';
-        optBtn.innerHTML = `<span>${optText}</span> <span style="font-weight:800; font-size:0.75rem; background:rgba(16,185,129,0.25); padding:0.2rem 0.5rem; border-radius:4px;">${isStudied ? '✓ STUDIED' : 'CORRECT (CLICK)'}</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="font-weight:800; font-size:0.75rem; background:rgba(16,185,129,0.25); padding:0.2rem 0.5rem; border-radius:4px; flex-shrink:0;">${isStudied ? '✓ STUDIED' : 'CORRECT (CLICK)'}</span>`;
       } else {
         optBtn.className = 'opt-btn';
         optBtn.style.opacity = '0.5';
-        optBtn.innerHTML = `<span>${optText}</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
       }
       optBtn.addEventListener('click', () => {
         recordQuestionStudied(q.id);
@@ -1089,16 +1120,16 @@ function renderCurrentQuestion() {
       if (userSel !== undefined) {
         if (idx === q.correct_index) {
           optBtn.classList.add('correct-highlight');
-          optBtn.innerHTML = `<span>${optText}</span> <span>✓ Correct</span>`;
+          optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">✓ Correct</span>`;
         } else if (userSel === idx) {
           optBtn.classList.add('incorrect-highlight');
-          optBtn.innerHTML = `<span>${optText}</span> <span>✗ Incorrect</span>`;
+          optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">✗ Incorrect</span>`;
         } else {
           optBtn.style.opacity = '0.4';
-          optBtn.innerHTML = `<span>${optText}</span>`;
+          optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
         }
       } else {
-        optBtn.innerHTML = `<span>${optText}</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
         optBtn.addEventListener('click', () => {
           interactiveAnswered[q.id] = idx;
           if (idx !== q.correct_index) {
@@ -1128,9 +1159,9 @@ function renderCurrentQuestion() {
       if (userSel === idx) {
         optBtn.style.borderColor = 'var(--accent-indigo)';
         optBtn.style.backgroundColor = 'rgba(99,102,241,0.2)';
-        optBtn.innerHTML = `<span>${optText}</span> <span>Selected</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">Selected</span>`;
       } else {
-        optBtn.innerHTML = `<span>${optText}</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
       }
 
       optBtn.addEventListener('click', () => {
@@ -1148,11 +1179,11 @@ function renderCurrentQuestion() {
       const isCorrect = (idx === q.correct_index);
       if (isCorrect) {
         optBtn.className = 'opt-btn correct-highlight';
-        optBtn.innerHTML = `<span>${optText}</span> <span>Correct Choice</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">Correct Choice</span>`;
       } else {
         optBtn.className = 'opt-btn';
         optBtn.style.opacity = '0.6';
-        optBtn.innerHTML = `<span>${optText}</span>`;
+        optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
       }
       optionsDiv.appendChild(optBtn);
     });
