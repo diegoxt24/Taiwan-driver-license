@@ -181,19 +181,22 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
   if (syncText) syncText.textContent = 'Syncing...';
 
   try {
-    // 1. PULL & MERGE FROM CLOUD
-    const getRes = await fetch(cloudEndpoint + '?nocache=' + Date.now(), {
-      method: 'GET',
-      headers: { 'Accept': 'application/json' }
-    });
+    // 1. PULL & MERGE FROM CLOUD (Simple request without custom headers to avoid preflight)
+    const getRes = await fetch(cloudEndpoint + '?nocache=' + Date.now());
 
     let cloudData = null;
     if (getRes.ok) {
       const raw = await getRes.json();
-      if (typeof raw === 'string') {
-        try { cloudData = JSON.parse(raw); } catch (e) {}
-      } else if (raw && (raw.diego || raw.data)) {
-        cloudData = raw.data ? (typeof raw.data === 'string' ? JSON.parse(raw.data) : raw.data) : raw;
+      if (raw) {
+        if (raw.diego || raw.johana || raw.alejandro) {
+          cloudData = raw;
+        } else if (raw.data) {
+          try {
+            cloudData = (typeof raw.data === 'string') ? JSON.parse(raw.data) : raw.data;
+          } catch (e) {}
+        } else if (typeof raw === 'string') {
+          try { cloudData = JSON.parse(raw); } catch (e) {}
+        }
       }
     }
 
@@ -232,12 +235,12 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
     }
 
-    // 2. PUSH MERGED STATE TO CLOUD
-    if (forcePush || (cloudData && cloudData.diego)) {
+    // 2. PUSH MERGED STATE TO CLOUD (Using Content-Type: text/plain to prevent CORS preflight error)
+    if (forcePush || (cloudData && cloudData.diego) || (userState && userState.diego)) {
       userState.last_updated = Date.now();
       await fetch(cloudEndpoint, {
         method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'text/plain' },
         body: JSON.stringify(userState)
       });
     }
