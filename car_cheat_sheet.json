@@ -20,7 +20,7 @@
       },
       {
         "label": "Dangerous Driving Speed Violation Threshold",
-        "value": "Exceeding speed limit by 40+ km/h (NT$6k–36k + license suspension)"
+        "value": "Exceeding speed limit by 40+ km/h (NT$6k–36k fine + license suspension)"
       },
       {
         "label": "Freeway Small Car Safe Following Distance",
@@ -44,7 +44,7 @@
       },
       {
         "label": "Pedestrian Crosswalk Safe Buffer",
-        "value": "Stop and yield at least 3 meters (approx. 4 zebra stripes) before crosswalk"
+        "value": "Stop and yield at least 3 meters (approx. 3-4 zebra stripes) before crosswalk"
       },
       {
         "label": "Freeway Breakdown Warning Triangle Distance",
@@ -57,7 +57,48 @@
     ]
   },
   {
-    "category": "🍷 2. Alcohol BAC Limits, DUI Offenses & Passenger Penalties",
+    "category": "🗺️ 2. Route Number Signs, Shield Shapes & Hand Signals",
+    "items": [
+      {
+        "label": "🌸 Plum Blossom Shape with Number",
+        "value": "National Freeway / Highway (e.g., National Highway No. 1, No. 3)"
+      },
+      {
+        "label": "🔴 Red Shield Shape with Number",
+        "value": "Provincial Expressway (e.g., Provincial Route 61, 64, 66, 74, 88)"
+      },
+      {
+        "label": "🔵 Blue Shield Shape with Number",
+        "value": "Standard Provincial Highway (e.g., Provincial Route 1, Route 9)"
+      },
+      {
+        "label": "⬜ Square / Rectangle Sign with Number",
+        "value": "City / County Road (e.g., County Route 106, 114)"
+      },
+      {
+        "label": "👮 Hand Signal: One Arm Raised Above Head",
+        "value": "ALL vehicles from all directions must come to a complete STOP"
+      },
+      {
+        "label": "👮 Hand Signal: Two Arms Extended Horizontally",
+        "value": "Front and rear traffic STOP; left and right traffic may proceed"
+      },
+      {
+        "label": "👮 Hand Signal: Right Arm Raised Pointing Left",
+        "value": "Vehicles approaching from the RIGHT side must turn left"
+      },
+      {
+        "label": "👮 Hand Signal: Left Arm Raised Pointing Right",
+        "value": "Vehicles approaching from the LEFT side must turn left"
+      },
+      {
+        "label": "👮 Traffic Police Gestures vs. Traffic Lights",
+        "value": "Police officer hand gestures ALWAYS take absolute priority over lights & signs"
+      }
+    ]
+  },
+  {
+    "category": "🍷 3. Alcohol BAC Limits, DUI Offenses & Passenger Penalties",
     "items": [
       {
         "label": "Administrative Fine BAC Threshold",
@@ -77,7 +118,7 @@
       },
       {
         "label": "Second Refusal to Sobriety Test (within 10 yrs)",
-        "value": "NT$360,000 fine + Instant revocation + Public disclosure"
+        "value": "NT$360,000 fine + Instant revocation + Public photo/name disclosure"
       },
       {
         "label": "Repeat Drunk Driving Window (10 Years)",
@@ -98,7 +139,7 @@
     ]
   },
   {
-    "category": "📱 3. Traffic Fines, Demerit Points & License Laws",
+    "category": "📱 4. Traffic Fines, Demerit Points & License Laws",
     "items": [
       {
         "label": "Demerit Points License Suspension Threshold",
@@ -109,12 +150,28 @@
         "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"
       },
       {
-        "label": "Operating Handheld Mobile Device (Car Driver)",
-        "value": "NT$3,000 fine (prohibited while vehicle is in motion)"
+        "label": "Signal Changes Red Before Stop Line During Turn",
+        "value": "Legally classified as 'Running a Red Light' (NT$1,800–5,400 fine)"
       },
       {
-        "label": "Failing to Yield to Pedestrians on Crosswalk",
+        "label": "Operating Handheld Mobile Device (Car Driver)",
+        "value": "NT$3,000 fine (strictly prohibited while vehicle is in motion)"
+      },
+      {
+        "label": "Pedestrian Crosswalk Failure to Yield (No Injury)",
         "value": "NT$1,200 to NT$6,000 fine + 3 demerit points + 3h safety class"
+      },
+      {
+        "label": "Pedestrian Failure to Yield Causing Injury",
+        "value": "NT$18,000 to NT$36,000 fine + Driver license suspended 6 months to 1 year"
+      },
+      {
+        "label": "Pedestrian Failure to Yield Causing Severe Injury / Death",
+        "value": "NT$18,000 to NT$36,000 fine + Driver license suspended 1 to 2 years / revoked"
+      },
+      {
+        "label": "Muffler Removal / Excessive Loud Noise Modification",
+        "value": "Fine + 6-month plate suspension; Repeat offense in 1 year = 6-month license suspension"
       },
       {
         "label": "Failing to Yield to Emergency Sirens (Ambulance)",
@@ -129,10 +186,6 @@
         "value": "NT$6,000 to NT$24,000 fine + Immediate vehicle impoundment"
       },
       {
-        "label": "Driving With Suspended or Revoked License",
-        "value": "NT$6,000 to NT$24,000 fine + Immediate vehicle impoundment"
-      },
-      {
         "label": "Lending Driver's License to Another Person",
         "value": "Driver's license suspended for 3 months"
       },
@@ -141,21 +194,13 @@
         "value": "Driver license permanently revoked + Criminal prosecution"
       },
       {
-        "label": "Three Violations in 3 Months (Vehicle Penalty)",
-        "value": "Suspension of vehicle license plate for 1 month"
-      },
-      {
-        "label": "Professional License Review Cycle (<60 yrs)",
-        "value": "Reviewed once every 3 years from date of issuance"
-      },
-      {
         "label": "Elderly Drivers (75+ yrs) License Renewal",
         "value": "Must pass physical + cognitive dementia test every 3 years"
       }
     ]
   },
   {
-    "category": "🛑 4. Right-of-Way, Intersections & Road Markings",
+    "category": "🛑 5. Right-of-Way, Intersections & Road Markings",
     "items": [
       {
         "label": "Intersection Right-of-Way Priority #1",
@@ -190,13 +235,17 @@
         "value": "Prohibited from stopping or parking inside grid at all times"
       },
       {
-        "label": "Zig-zag Lines on Pavement (Zebra approach)",
-        "value": "Indicates pedestrian crosswalk ahead; driver must slow down"
+        "label": "Reversible Lane Signals (Red X vs. Green Arrow)",
+        "value": "Green '↓' arrow = Lane open; Red 'X' = Lane strictly closed / prohibited"
+      },
+      {
+        "label": "Keep Right / Keep Left Median Island Placement",
+        "value": "Keep Right sign at approaching end; Keep Left sign at departing end"
       }
     ]
   },
   {
-    "category": "🚪 5. Parking, Stopping & Child Safety Regulations",
+    "category": "🚪 6. Parking, Stopping & Child Safety Regulations",
     "items": [
       {
         "label": "Two-Stage Door Opening Protocol (Art. 112)",
@@ -233,11 +282,35 @@
     ]
   },
   {
-    "category": "🔧 6. Vehicle Mechanics, Maintenance & Troubleshooting",
+    "category": "🔧 7. Vehicle Mechanics, Maintenance & Troubleshooting",
     "items": [
       {
         "label": "Minimum Tire Tread Depth (Automobile)",
-        "value": "1.6 mm (failing depth results in failed inspection and hydroplaning)"
+        "value": "1.6 mm (failing depth results in failed inspection and hydroplaning risk)"
+      },
+      {
+        "label": "Automatic Vehicle Starting Requirement",
+        "value": "Must shift into P (Park) and firmly press foot brake before starting engine"
+      },
+      {
+        "label": "Engine Oil Level Check Procedure",
+        "value": "Turn off engine on level ground, wait a few minutes for oil to drain back, check dipstick"
+      },
+      {
+        "label": "Brake Pedal 1-Inch Drop on Engine Start",
+        "value": "Normal operation confirming the vacuum brake booster is functioning properly"
+      },
+      {
+        "label": "Soft / Spongy Brake Pedal Sensation",
+        "value": "Indicates air trapped inside the hydraulic brake fluid lines (requires bleeding)"
+      },
+      {
+        "label": "Downhill Slope Driving Operation",
+        "value": "Never turn off engine or coast in neutral; shift to low gear for engine braking"
+      },
+      {
+        "label": "Engine Overheating (High Coolant Temp Needle)",
+        "value": "Safely pull over, turn off engine, wait for engine to cool before opening radiator"
       },
       {
         "label": "Exhaust Smoke: Bluish-White Smoke",
@@ -252,14 +325,6 @@
         "value": "Indicates incomplete fuel combustion (too rich air-fuel mixture)"
       },
       {
-        "label": "Low Engine Oil Pressure Warning Light",
-        "value": "Stop vehicle immediately in safe place and shut off engine"
-      },
-      {
-        "label": "Brake Fade on Long Downhill Mountain Slope",
-        "value": "Shift to lower gear to utilize engine braking (avoid riding brakes)"
-      },
-      {
         "label": "Tire Blowout while Driving Response",
         "value": "Grip steering wheel firmly, do NOT slam on brakes, decelerate smoothly"
       },
@@ -270,7 +335,7 @@
     ]
   },
   {
-    "category": "🚑 7. First Aid, CPR & Emergency Crash Response",
+    "category": "🚑 8. First Aid, CPR & Emergency Crash Response",
     "items": [
       {
         "label": "First Aid Medical Emergency Priority",
