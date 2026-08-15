@@ -274,6 +274,31 @@ function loadProfileFromStorage() {
   
   // Background Cloud Sync on startup
   syncWithCloud(false);
+
+  // Auto-sync whenever device reconnects to Wi-Fi/Internet
+  window.addEventListener('online', () => {
+    showToast('🌐 Internet reconnected! Syncing progress...');
+    syncWithCloud(true);
+  });
+
+  // Offline indicator when connection drops
+  window.addEventListener('offline', () => {
+    const syncBadge = document.getElementById('cloudSyncStatus');
+    const syncText = document.getElementById('cloudSyncText');
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(245,158,11,0.15)';
+      syncBadge.style.color = '#fbbf24';
+      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+    }
+    if (syncText) syncText.textContent = 'Offline (Local Saved)';
+  });
+
+  // Auto-pull updates when tab is opened/focused
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && navigator.onLine) {
+      syncWithCloud(false);
+    }
+  });
 }
 
 function saveStateToStorage() {
