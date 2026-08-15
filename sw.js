@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v3-sync';
+const CACHE_NAME = 'tw-driving-prep-v4-sync';
 const ASSETS = [
   './',
   './index.html',
@@ -36,7 +36,11 @@ self.addEventListener('activate', (e) => {
 
 // Network-first for dynamic code (HTML, JS, CSS) so updates apply instantly
 self.addEventListener('fetch', (e) => {
+  // Only handle GET requests for same-origin assets
+  if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
+  if (url.origin !== location.origin) return;
+
   const isCode = url.pathname.endsWith('.html') || url.pathname.endsWith('.js') || url.pathname.endsWith('.css') || url.pathname.endsWith('/');
 
   if (isCode) {
@@ -55,3 +59,4 @@ self.addEventListener('fetch', (e) => {
     );
   }
 });
+
