@@ -128,7 +128,7 @@ async function syncWithCloud(forcePush = false) {
   }
 
   try {
-    // 1. Fetch cloud sync state from repository
+    // 1. Fetch and merge from server / cloud
     const res = await fetch(CLOUD_ENDPOINT + '?t=' + Date.now(), {
       headers: { 'Accept': 'application/json' }
     });
@@ -171,7 +171,21 @@ async function syncWithCloud(forcePush = false) {
       }
     }
   } catch (e) {
-    console.warn('Sync attempt info:', e);
+    console.warn('Sync fetch info:', e);
+  }
+
+  // 2. If pushing updates or when studying, broadcast update to server
+  if (forcePush) {
+    try {
+      userState.last_updated = Date.now();
+      await fetch(CLOUD_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(userState)
+      });
+    } catch (e) {
+      // Offline fallback
+    }
   }
 }
 
