@@ -1116,10 +1116,13 @@ function renderCurrentQuestion() {
 
   const formattedExpl = (q.explanation || 'Official Taiwan Road Traffic Safety Rule.')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/(🎯 [^\n:]+:)/g, '<strong style="color:#34d399; display:block; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
+    .replace(/(❌ [^\n:]+:)/g, '<strong style="color:#f87171; display:block; margin-top:0.65rem; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
+    .replace(/(💡 [^\n:]+:)/g, '<strong style="color:#fbbf24; display:block; margin-top:0.65rem; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
     .replace(/\n\n/g, '<br/><br/>')
     .replace(/\n/g, '<br/>');
 
-  explTextEl.innerHTML = `<div style="line-height:1.5; font-size:0.92rem;">${formattedExpl}</div>${diagramHTML}`;
+  explTextEl.innerHTML = `<div style="line-height:1.6; font-size:0.92rem; color:var(--text-main);">${formattedExpl}</div>${diagramHTML}`;
 
   if (currentTab === 'sheppard1') {
     // Mode 1: SHOW ONLY CORRECT ANSWER (Clickable to mark studied)
