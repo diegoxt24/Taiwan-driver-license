@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v4-sync';
+const CACHE_NAME = 'tw-driving-prep-v7-latest';
 const ASSETS = [
   './',
   './index.html',
@@ -34,16 +34,16 @@ self.addEventListener('activate', (e) => {
   );
 });
 
-// Network-first for dynamic code (HTML, JS, CSS) so updates apply instantly
+// Network-first for dynamic code and question databases (HTML, JS, CSS, JSON) so updates apply instantly
 self.addEventListener('fetch', (e) => {
   // Only handle GET requests for same-origin assets
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
   if (url.origin !== location.origin) return;
 
-  const isCode = url.pathname.endsWith('.html') || url.pathname.endsWith('.js') || url.pathname.endsWith('.css') || url.pathname.endsWith('/');
+  const isDynamic = url.pathname.endsWith('.html') || url.pathname.endsWith('.js') || url.pathname.endsWith('.css') || url.pathname.endsWith('.json') || url.pathname.endsWith('/');
 
-  if (isCode) {
+  if (isDynamic) {
     e.respondWith(
       fetch(e.request)
         .then((res) => {
@@ -59,4 +59,5 @@ self.addEventListener('fetch', (e) => {
     );
   }
 });
+
 

@@ -1427,9 +1427,16 @@ let examSubmitted = false;
 // INITIALIZATION
 document.addEventListener('DOMContentLoaded', async () => {
   loadProfileFromStorage();
+  const savedMod = localStorage.getItem('tw_driver_active_module') || 'car';
+  currentModule = savedMod;
+  const modSelect = document.getElementById('moduleSelect');
+  if (modSelect) modSelect.value = currentModule;
+
   await loadModuleData(currentModule);
   setupEventListeners();
-  switchTab(currentTab);
+
+  const savedTab = localStorage.getItem('tw_driver_active_tab') || 'sheppard1';
+  switchTab(savedTab);
 });
 
 let masterRulesData = [];
@@ -1457,7 +1464,9 @@ async function loadModuleData(mod) {
     const cFile = (mod === 'car') ? 'car_cheat_sheet.json' : 'cheat_sheet.json';
     const mFile = (mod === 'car') ? 'car_master_rules.json' : 'moto_master_rules.json';
 
-    const qResp = await fetch(qFile);
+    // Add cachebuster to ensure latest updated explanations are loaded instantly
+    const cacheBuster = '?v=20260816_V7_' + Date.now();
+    const qResp = await fetch(qFile + cacheBuster);
     allQuestions = await qResp.json();
 
     // Comprehensive question normalization
@@ -1475,10 +1484,10 @@ async function loadModuleData(mod) {
       }
     });
 
-    const cResp = await fetch(cFile);
+    const cResp = await fetch(cFile + cacheBuster);
     cheatSheetData = await cResp.json();
 
-    const mResp = await fetch(mFile);
+    const mResp = await fetch(mFile + cacheBuster);
     masterRulesData = await mResp.json();
 
     updateModuleHeaderUI();
@@ -1708,6 +1717,14 @@ function loadProfileFromStorage() {
   if (savedProfile && userState[savedProfile]) {
     activeProfile = savedProfile;
   }
+  const savedMod = localStorage.getItem('tw_driver_active_module');
+  if (savedMod && (savedMod === 'car' || savedMod === 'motorcycle')) {
+    currentModule = savedMod;
+  }
+  const savedTab = localStorage.getItem('tw_driver_active_tab');
+  if (savedTab) {
+    currentTab = savedTab;
+  }
   updateProfileUI();
 
   // Show profile picker on fresh startup
@@ -1746,8 +1763,15 @@ function loadProfileFromStorage() {
 }
 
 function saveStateToStorage() {
+  const m = getModuleData();
+  if (m) {
+    if (!m.lastIndices) m.lastIndices = {};
+    m.lastIndices[currentTab] = currentIndex;
+  }
   localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
   localStorage.setItem('tw_driver_active_profile', activeProfile);
+  localStorage.setItem('tw_driver_active_module', currentModule);
+  localStorage.setItem('tw_driver_active_tab', currentTab);
   updateDashboardStats();
 
   // Debounced auto-sync to Cloud in background
@@ -1981,6 +2005,16 @@ function setupEventListeners() {
         localStorage.setItem('tw_driver_active_profile', prof);
         updateProfileUI();
         hideProfilePickerModal();
+
+        const m = getModuleData();
+        if (m.lastIndices && m.lastIndices[currentTab] !== undefined && m.lastIndices[currentTab] >= 0) {
+          currentIndex = m.lastIndices[currentTab];
+        } else if (m.studiedQuestions && m.studiedQuestions.length > 0 && (currentTab === 'sheppard1' || currentTab === 'sheppard2' || currentTab === 'interactive')) {
+          currentIndex = Math.min(allQuestions.length - 1, m.studiedQuestions.length);
+        } else {
+          currentIndex = 0;
+        }
+
         saveStateToStorage();
         updateFilteredQuestions();
         renderCurrentQuestion();
