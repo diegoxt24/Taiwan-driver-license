@@ -1118,6 +1118,7 @@ function renderCurrentQuestion() {
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/(🎯 [^\n:]+:)/g, '<strong style="color:#34d399; display:block; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
     .replace(/(❌ [^\n:]+:)/g, '<strong style="color:#f87171; display:block; margin-top:0.65rem; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
+    .replace(/(✅ [^\n:]+:)/g, '<strong style="color:#60a5fa; display:block; margin-top:0.65rem; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
     .replace(/(💡 [^\n:]+:)/g, '<strong style="color:#fbbf24; display:block; margin-top:0.65rem; margin-bottom:0.25rem; font-size:0.95rem;">$1</strong>')
     .replace(/\n\n/g, '<br/><br/>')
     .replace(/\n/g, '<br/>');
