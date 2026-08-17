@@ -1151,141 +1151,262 @@ function showToast(msg, isError = false) {
 }
 
 // ==========================================
-// ROBUST CLOUD AUTO-SYNC ENGINE (OPTION A)
+// ROBUST MULTI-TIER CLOUD AUTO-SYNC ENGINE (OPTION A+)
+// Bulletproof Offline-First CRDT-style Set-Union Synchronization
 // ==========================================
-const DEFAULT_CLOUD_ENDPOINT = 'https://extendsclass.com/api/json-storage/bin/cabdedc';
+const PRIMARY_CLOUD_ENDPOINT = 'https://extendsclass.com/api/json-storage/bin/cabdedc';
 
-function getCloudEndpoint() {
-  return localStorage.getItem('tw_driver_custom_cloud_endpoint') || DEFAULT_CLOUD_ENDPOINT;
+function getCloudEndpoints() {
+  const custom = localStorage.getItem('tw_driver_custom_cloud_endpoint');
+  if (custom && custom.trim()) {
+    return [custom.trim(), PRIMARY_CLOUD_ENDPOINT];
+  }
+  return [PRIMARY_CLOUD_ENDPOINT];
 }
 
 let isSyncing = false;
 let syncDebounceTimer = null;
+let pendingOfflineSync = false;
 
-async function syncWithCloud(forcePush = false, showFeedback = false) {
+// Visual Status Update Helper
+function updateSyncStatusUI(state, extraInfo = '') {
   const syncBadge = document.getElementById('cloudSyncStatus');
   const syncText = document.getElementById('cloudSyncText');
-  const cloudEndpoint = getCloudEndpoint();
+  const modalText = document.getElementById('cloudModalStatusText');
+  if (!syncBadge && !syncText) return;
 
-  if (!navigator.onLine) {
+  const nowStr = extraInfo || new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+  if (state === 'online_synced') {
     if (syncBadge) {
-      syncBadge.style.background = 'rgba(245,158,11,0.15)';
-      syncBadge.style.color = '#fbbf24';
-      syncBadge.style.borderColor = 'rgba(245,158,11,0.3)';
+      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+      syncBadge.style.color = '#34d399';
+      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
     }
-    if (syncText) syncText.textContent = 'Offline (Local Saved)';
-    if (showFeedback) showToast('⚠️ Working in offline mode (local data preserved)', true);
+    if (syncText) syncText.textContent = `🟢 Cloud Synced ✓ (${nowStr})`;
+    if (modalText) modalText.textContent = `🟢 All study progress fully synchronized with Cloud at ${nowStr}.`;
+  } else if (state === 'syncing') {
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(99, 102, 241, 0.15)';
+      syncBadge.style.color = '#818cf8';
+      syncBadge.style.borderColor = 'rgba(99, 102, 241, 0.3)';
+    }
+    if (syncText) syncText.textContent = '🔵 Syncing...';
+  } else if (state === 'offline_flight') {
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(245, 158, 11, 0.15)';
+      syncBadge.style.color = '#fbbf24';
+      syncBadge.style.borderColor = 'rgba(245, 158, 11, 0.3)';
+    }
+    if (syncText) syncText.textContent = '✈️ Flight Mode (Offline - Saved Locally)';
+    if (modalText) modalText.textContent = '✈️ Offline Mode: All questions, answers & bookmarks saved securely in local storage. Auto-sync queued for landing reconnection.';
+  } else if (state === 'warning') {
+    if (syncBadge) {
+      syncBadge.style.background = 'rgba(239, 68, 68, 0.15)';
+      syncBadge.style.color = '#f87171';
+      syncBadge.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+    }
+    if (syncText) syncText.textContent = '🔴 Sync Warning (Local Safe - Retry)';
+    if (modalText) modalText.textContent = `⚠️ Cloud bin temporarily unreachable. Local changes preserved. Next sync retry scheduled.`;
+  }
+}
+
+// Conflict-Free CRDT-Style State Merger
+function mergeCloudAndLocalState(remoteData, localData) {
+  if (!remoteData || typeof remoteData !== 'object') return localData;
+  if (!localData || typeof localData !== 'object') localData = {};
+
+  const profiles = ['diego', 'johana', 'alejandro'];
+  const modules = ['motorcycle', 'car'];
+  const tabKeys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed'];
+
+  profiles.forEach(prof => {
+    if (!localData[prof]) localData[prof] = {};
+    const rProf = remoteData[prof];
+    const lProf = localData[prof];
+
+    if (rProf) {
+      if (rProf.name && !lProf.name) lProf.name = rProf.name;
+
+      modules.forEach(mod => {
+        if (!lProf[mod]) {
+          lProf[mod] = {
+            bookmarks: [],
+            failedQuestions: [],
+            studiedQuestions: [],
+            examHistory: [],
+            lastIndices: { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 }
+          };
+        }
+        if (!lProf[mod].lastIndices) {
+          lProf[mod].lastIndices = { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 };
+        }
+
+        const rMod = rProf[mod];
+        if (rMod) {
+          // 1. Non-destructive Set-Union for Studied Questions
+          const rStudied = Array.isArray(rMod.studiedQuestions) ? rMod.studiedQuestions : [];
+          const lStudied = Array.isArray(lProf[mod].studiedQuestions) ? lProf[mod].studiedQuestions : [];
+          lProf[mod].studiedQuestions = Array.from(new Set([...lStudied, ...rStudied]));
+
+          // 2. Non-destructive Set-Union for Failed Questions
+          const rFailed = Array.isArray(rMod.failedQuestions) ? rMod.failedQuestions : [];
+          const lFailed = Array.isArray(lProf[mod].failedQuestions) ? lProf[mod].failedQuestions : [];
+          lProf[mod].failedQuestions = Array.from(new Set([...lFailed, ...rFailed]));
+
+          // 3. Non-destructive Set-Union for Bookmarks
+          const rBook = Array.isArray(rMod.bookmarks) ? rMod.bookmarks : [];
+          const lBook = Array.isArray(lProf[mod].bookmarks) ? lProf[mod].bookmarks : [];
+          lProf[mod].bookmarks = Array.from(new Set([...lBook, ...rBook]));
+
+          // 4. Exam History Union (keyed by ISO date to prevent duplicates)
+          const rExams = Array.isArray(rMod.examHistory) ? rMod.examHistory : [];
+          const lExams = Array.isArray(lProf[mod].examHistory) ? lProf[mod].examHistory : [];
+          const examMap = new Map();
+          [...lExams, ...rExams].forEach(ex => {
+            if (ex && ex.date) examMap.set(ex.date, ex);
+          });
+          lProf[mod].examHistory = Array.from(examMap.values());
+
+          // 5. Smart Highest-Index Resolution for lastIndices (Never lose spot across iPad and PC)
+          if (rMod.lastIndices && typeof rMod.lastIndices === 'object') {
+            tabKeys.forEach(tk => {
+              const rIdx = Number(rMod.lastIndices[tk]) || 0;
+              const lIdx = Number(lProf[mod].lastIndices[tk]) || 0;
+              lProf[mod].lastIndices[tk] = Math.max(lIdx, rIdx);
+            });
+          }
+        }
+      });
+    }
+  });
+
+  localData.last_updated = Math.max(
+    Number(localData.last_updated) || 0,
+    Number(remoteData.last_updated) || 0,
+    Date.now()
+  );
+
+  return localData;
+}
+
+// Fetch with strict timeout controller
+async function fetchWithTimeout(url, options = {}, timeoutMs = 6000) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { ...options, signal: controller.signal });
+    clearTimeout(timeoutId);
+    return response;
+  } catch (err) {
+    clearTimeout(timeoutId);
+    throw err;
+  }
+}
+
+// Robust Core Sync Engine
+async function syncWithCloud(forcePush = false, showFeedback = false) {
+  if (isSyncing) {
+    pendingOfflineSync = true;
     return;
   }
 
-  if (syncBadge) {
-    syncBadge.style.background = 'rgba(99, 102, 241, 0.15)';
-    syncBadge.style.color = '#818cf8';
-    syncBadge.style.borderColor = 'rgba(99, 102, 241, 0.3)';
+  if (!navigator.onLine) {
+    pendingOfflineSync = true;
+    updateSyncStatusUI('offline_flight');
+    if (showFeedback) {
+      showToast('✈️ Flight Mode: Progress safely preserved offline on iPad.', false);
+    }
+    return;
   }
-  if (syncText) syncText.textContent = 'Syncing...';
 
-  try {
-    // 1. PULL & MERGE FROM CLOUD (Simple request without custom headers to avoid preflight)
-    const getRes = await fetch(cloudEndpoint + '?nocache=' + Date.now());
+  isSyncing = true;
+  updateSyncStatusUI('syncing');
 
-    let cloudData = null;
-    if (getRes.ok) {
-      const raw = await getRes.json();
-      if (raw) {
-        if (raw.diego || raw.johana || raw.alejandro) {
-          cloudData = raw;
-        } else if (raw.data) {
-          try {
-            cloudData = (typeof raw.data === 'string') ? JSON.parse(raw.data) : raw.data;
-          } catch (e) {}
-        } else if (typeof raw === 'string') {
-          try { cloudData = JSON.parse(raw); } catch (e) {}
+  const endpoints = getCloudEndpoints();
+  let syncSuccess = false;
+  let lastError = null;
+
+  for (const endpoint of endpoints) {
+    try {
+      // 1. PULL & MERGE FROM CLOUD
+      const pullUrl = endpoint + (endpoint.includes('?') ? '&' : '?') + 'nocache=' + Date.now();
+      const getRes = await fetchWithTimeout(pullUrl, { method: 'GET' }, 5000);
+
+      let cloudData = null;
+      if (getRes.ok) {
+        const raw = await getRes.json();
+        if (raw) {
+          if (raw.diego || raw.johana || raw.alejandro) {
+            cloudData = raw;
+          } else if (raw.data) {
+            try {
+              cloudData = (typeof raw.data === 'string') ? JSON.parse(raw.data) : raw.data;
+            } catch (e) {}
+          } else if (typeof raw === 'string') {
+            try { cloudData = JSON.parse(raw); } catch (e) {}
+          }
         }
       }
-    }
 
-    if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
-      // Smart non-destructive union merge
-      ['diego', 'johana', 'alejandro'].forEach(prof => {
-        if (!userState[prof]) userState[prof] = {};
-        if (cloudData[prof]) {
-          ['motorcycle', 'car'].forEach(mod => {
-            if (!userState[prof][mod]) {
-              userState[prof][mod] = { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [], lastIndices: { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 } };
-            }
-            if (cloudData[prof][mod]) {
-              const rStudied = cloudData[prof][mod].studiedQuestions || [];
-              const lStudied = userState[prof][mod].studiedQuestions || [];
-              userState[prof][mod].studiedQuestions = Array.from(new Set([...rStudied, ...lStudied]));
+      // Merge Cloud state with Local state
+      if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
+        userState = mergeCloudAndLocalState(cloudData, userState);
+        localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
 
-              const rFailed = cloudData[prof][mod].failedQuestions || [];
-              const lFailed = userState[prof][mod].failedQuestions || [];
-              userState[prof][mod].failedQuestions = Array.from(new Set([...rFailed, ...lFailed]));
-
-              const rBook = cloudData[prof][mod].bookmarks || [];
-              const lBook = userState[prof][mod].bookmarks || [];
-              userState[prof][mod].bookmarks = Array.from(new Set([...rBook, ...lBook]));
-
-              if (cloudData[prof][mod].lastIndices) {
-                userState[prof][mod].lastIndices = {
-                  ...userState[prof][mod].lastIndices,
-                  ...cloudData[prof][mod].lastIndices
-                };
-              }
-            }
-          });
+        // Auto-update active index to latest position if available
+        const m = getModuleData();
+        if (m && m.lastIndices && m.lastIndices[currentTab] !== undefined && m.lastIndices[currentTab] >= 0) {
+          currentIndex = m.lastIndices[currentTab];
+        } else if (m && m.studiedQuestions && m.studiedQuestions.length > 0 && (currentTab === 'sheppard1' || currentTab === 'sheppard2' || currentTab === 'interactive')) {
+          currentIndex = Math.min((filteredQuestions.length || allQuestions.length || 1) - 1, m.studiedQuestions.length);
         }
-      });
-      localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-
-      // Auto-update active index to latest position
-      const m = getModuleData();
-      if (m && m.lastIndices && m.lastIndices[currentTab] !== undefined && m.lastIndices[currentTab] >= 0) {
-        currentIndex = m.lastIndices[currentTab];
-      } else if (m && m.studiedQuestions && m.studiedQuestions.length > 0 && (currentTab === 'sheppard1' || currentTab === 'sheppard2' || currentTab === 'interactive')) {
-        currentIndex = Math.min((filteredQuestions.length || allQuestions.length || 1) - 1, m.studiedQuestions.length);
       }
-    }
 
-    // 2. PUSH MERGED STATE TO CLOUD (Using Content-Type: text/plain to prevent CORS preflight error)
-    if (forcePush || (cloudData && cloudData.diego) || (userState && userState.diego)) {
+      // 2. PUSH MERGED STATE TO CLOUD
       userState.last_updated = Date.now();
-      await fetch(cloudEndpoint, {
+      const putRes = await fetchWithTimeout(endpoint, {
         method: 'PUT',
         headers: { 'Content-Type': 'text/plain' },
         body: JSON.stringify(userState)
-      });
-    }
+      }, 6000);
 
-    const nowStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    if (syncBadge) {
-      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
-      syncBadge.style.color = '#34d399';
-      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
-    }
-    if (syncText) syncText.textContent = `Cloud Synced ✓ (${nowStr})`;
-    localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
+      if (putRes.ok) {
+        syncSuccess = true;
+        pendingOfflineSync = false;
+        const nowStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
+        updateSyncStatusUI('online_synced', nowStr);
 
-    updateProfileUI();
-    updateFilteredQuestions();
-    renderCurrentQuestion();
-    updateDashboardStats();
-    updateModalSummary();
+        updateProfileUI();
+        updateFilteredQuestions();
+        renderCurrentQuestion();
+        updateDashboardStats();
+        updateModalSummary();
 
-    if (showFeedback) {
-      showToast('🎉 Cloud sync complete! All devices are synchronized.');
+        if (showFeedback) {
+          showToast('🎉 Cloud sync complete! All study progress is unified.');
+        }
+        break; // Successfully synced to primary endpoint
+      } else {
+        throw new Error(`Cloud PUT status ${putRes.status}`);
+      }
+    } catch (err) {
+      console.warn(`Sync attempt failed on ${endpoint}:`, err);
+      lastError = err;
     }
-  } catch (err) {
-    console.warn('Cloud sync note:', err);
-    if (syncBadge) {
-      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
-      syncBadge.style.color = '#34d399';
-      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
-    }
-    if (syncText) syncText.textContent = 'Saved & Ready ✓';
-    if (showFeedback) {
-      showToast('💾 Progress is safely saved on this device.', false);
+  }
+
+  isSyncing = false;
+
+  if (!syncSuccess) {
+    if (!navigator.onLine) {
+      updateSyncStatusUI('offline_flight');
+    } else {
+      updateSyncStatusUI('warning');
+      if (showFeedback) {
+        showToast('💾 Progress safely preserved locally (Cloud bin unreachable).', false);
+      }
     }
   }
 }
@@ -1327,7 +1448,9 @@ function loadProfileFromStorage() {
   if (savedState) {
     try {
       const parsed = JSON.parse(savedState);
-      if (parsed.diego) userState = parsed;
+      if (parsed.diego || parsed.johana || parsed.alejandro) {
+        userState = mergeCloudAndLocalState(parsed, userState);
+      }
     } catch (e) {}
   }
   const savedProfile = localStorage.getItem('tw_driver_active_profile');
@@ -1344,6 +1467,17 @@ function loadProfileFromStorage() {
   }
   updateProfileUI();
 
+  // Set initial sync UI based on network status
+  if (!navigator.onLine) {
+    updateSyncStatusUI('offline_flight');
+  } else {
+    const lastSyncTime = localStorage.getItem('tw_driver_last_sync_time');
+    if (lastSyncTime) {
+      const dt = new Date(parseInt(lastSyncTime));
+      updateSyncStatusUI('online_synced', dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
+    }
+  }
+
   // Show profile picker on fresh startup
   const hasPicked = sessionStorage.getItem('tw_driver_profile_picked_session');
   if (!hasPicked) {
@@ -1353,28 +1487,25 @@ function loadProfileFromStorage() {
   // Background Cloud Sync on startup
   syncWithCloud(false);
 
-  // Auto-sync whenever device reconnects to Wi-Fi/Internet
+  // Auto-sync whenever device reconnects to Wi-Fi/Internet (e.g. landing after flight)
   window.addEventListener('online', () => {
-    showToast('🌐 Internet reconnected! Syncing progress...');
+    showToast('🌐 Internet reconnected! Syncing flight progress to Cloud...');
     syncWithCloud(true);
   });
 
-  // Offline indicator when connection drops
+  // Flight Mode indicator when airplane mode is toggled or connection drops
   window.addEventListener('offline', () => {
-    const syncBadge = document.getElementById('cloudSyncStatus');
-    const syncText = document.getElementById('cloudSyncText');
-    if (syncBadge) {
-      syncBadge.style.background = 'rgba(16, 185, 129, 0.15)';
-      syncBadge.style.color = '#34d399';
-      syncBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
-    }
-    if (syncText) syncText.textContent = 'Saved & Ready (Offline)';
+    updateSyncStatusUI('offline_flight');
   });
 
-  // Auto-pull updates when tab is opened/focused
+  // Auto-pull updates when tab is opened/focused on iPad/PC
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible' && navigator.onLine) {
-      syncWithCloud(false);
+    if (document.visibilityState === 'visible') {
+      if (navigator.onLine) {
+        syncWithCloud(false);
+      } else {
+        updateSyncStatusUI('offline_flight');
+      }
     }
   });
 }
@@ -1385,17 +1516,18 @@ function saveStateToStorage() {
     if (!m.lastIndices) m.lastIndices = {};
     m.lastIndices[currentTab] = currentIndex;
   }
+  userState.last_updated = Date.now();
   localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
   localStorage.setItem('tw_driver_active_profile', activeProfile);
   localStorage.setItem('tw_driver_active_module', currentModule);
   localStorage.setItem('tw_driver_active_tab', currentTab);
   updateDashboardStats();
 
-  // Debounced auto-sync to Cloud in background
+  // Debounced auto-sync to Cloud in background (1500ms debounce)
   if (syncDebounceTimer) clearTimeout(syncDebounceTimer);
   syncDebounceTimer = setTimeout(() => {
     syncWithCloud(true);
-  }, 1200);
+  }, 1500);
 }
 
 function getModuleData() {
@@ -1566,44 +1698,15 @@ async function copyBackupToClipboard() {
 
 function applyRestoredData(importedData) {
   if (importedData && (importedData.diego || importedData.johana || importedData.alejandro)) {
-    // Smart merge with existing local state
-    ['diego', 'johana', 'alejandro'].forEach(prof => {
-      if (importedData[prof]) {
-        if (!userState[prof]) userState[prof] = {};
-        ['motorcycle', 'car'].forEach(mod => {
-          if (!userState[prof][mod]) {
-            userState[prof][mod] = { bookmarks: [], failedQuestions: [], studiedQuestions: [], examHistory: [], lastIndices: { sheppard1: 0, sheppard2: 0, interactive: 0, mode0: 0, bookmarks: 0, failed: 0 } };
-          }
-          if (importedData[prof][mod]) {
-            const impStudied = importedData[prof][mod].studiedQuestions || [];
-            const locStudied = userState[prof][mod].studiedQuestions || [];
-            userState[prof][mod].studiedQuestions = Array.from(new Set([...impStudied, ...locStudied]));
-
-            const impFailed = importedData[prof][mod].failedQuestions || [];
-            const locFailed = userState[prof][mod].failedQuestions || [];
-            userState[prof][mod].failedQuestions = Array.from(new Set([...impFailed, ...locFailed]));
-
-            const impBook = importedData[prof][mod].bookmarks || [];
-            const locBook = userState[prof][mod].bookmarks || [];
-            userState[prof][mod].bookmarks = Array.from(new Set([...impBook, ...locBook]));
-
-            if (importedData[prof][mod].lastIndices) {
-              userState[prof][mod].lastIndices = {
-                ...userState[prof][mod].lastIndices,
-                ...importedData[prof][mod].lastIndices
-              };
-            }
-          }
-        });
-      }
-    });
-
+    userState = mergeCloudAndLocalState(importedData, userState);
     saveStateToStorage();
     updateFilteredQuestions();
     renderCurrentQuestion();
+    updateDashboardStats();
     updateModalSummary();
     closeSyncModal();
     showToast('🎉 Progress successfully restored and merged!');
+    syncWithCloud(true, false);
   } else {
     showToast('⚠️ Unrecognized backup file format.', true);
   }
