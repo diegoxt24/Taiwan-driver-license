@@ -1493,7 +1493,7 @@ function showToast(msg, isError = false) {
 // ROBUST MULTI-TIER CLOUD AUTO-SYNC ENGINE
 // Bulletproof Non-Destructive Multi-Device Synchronization
 // ==========================================
-const PRIMARY_CLOUD_ENDPOINT = 'https://extendsclass.com/api/json-storage/bin/cabdedc';
+const PRIMARY_CLOUD_ENDPOINT = 'https://taiwan-car-license-default-rtdb.asia-southeast1.firebasedatabase.app/user_sync_state.json';
 
 function getCloudEndpoints() {
   const endpoints = [];
@@ -1715,7 +1715,7 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       userState.last_updated = Date.now();
       const isLocalServer = endpoint.includes('/api/sync') || endpoint.includes('localhost') || endpoint.includes('127.0.0.1');
       const putMethod = isLocalServer ? 'POST' : 'PUT';
-      const putContentType = isLocalServer ? 'application/json' : 'text/plain';
+      const putContentType = 'application/json';
 
       const putRes = await fetchWithTimeout(endpoint, {
         method: putMethod,
