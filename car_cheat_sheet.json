@@ -28,7 +28,7 @@
       },
       {
         "label": "Freeway Large Vehicle Safe Following Distance",
-        "value": "Speed (km/h) - 50 in meters (e.g. 100 km/h = 50m)"
+        "value": "Speed (km/h) - 20 in meters (e.g. 90 km/h = 70m; 100 km/h = 80m)"
       },
       {
         "label": "Speed vs. Braking Distance Physics",
@@ -158,16 +158,12 @@
         "value": "NT$3,000 fine (strictly prohibited while vehicle is in motion)"
       },
       {
-        "label": "Pedestrian Crosswalk Failure to Yield (No Injury)",
-        "value": "NT$1,200 to NT$6,000 fine + 3 demerit points + 3h safety class"
+        "label": "Pedestrian Crosswalk Safe Buffer",
+        "value": "Stop and yield at least 3 meters (approx. 3-4 zebra stripes) before crosswalk"
       },
       {
-        "label": "Pedestrian Failure to Yield Causing Injury",
-        "value": "NT$18,000 to NT$36,000 fine + Driver license suspended 6 months to 1 year"
-      },
-      {
-        "label": "Pedestrian Failure to Yield Causing Severe Injury / Death",
-        "value": "NT$18,000 to NT$36,000 fine + Driver license suspended 1 to 2 years / revoked"
+        "label": "Pedestrian Failure to Yield Causing Injury or Death",
+        "value": "Fine, license suspension/revocation, and criminal sentence increased by up to one-half (+1/2)"
       },
       {
         "label": "Muffler Removal / Excessive Loud Noise Modification",
@@ -175,7 +171,7 @@
       },
       {
         "label": "Failing to Yield to Emergency Sirens (Ambulance)",
-        "value": "NT$3,600 fine + Mandatory driver license revocation"
+        "value": "NT$6,000 to NT$30,000 fine + Driver License Revocation + 6-month plate suspension"
       },
       {
         "label": "Leaving Child Under 6 Unattended in Car",
