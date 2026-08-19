@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v13-firebase-sync';
+const CACHE_NAME = 'tw-driving-prep-v14-enriched-cram';
 const ASSETS = [
   './',
   './index.html',

@@ -362,5 +362,142 @@
         "value": "1. Press Red Emergency SOS Button → 2. Push car clear → 3. Evacuate"
       }
     ]
+  },
+  {
+    "category": "🛡️ Professional Licenses, Review Periods & Age Limits",
+    "items": [
+      {
+        "label": "Professional Driver License Review (<60 yrs)",
+        "value": "Must undergo review / physical inspection every 3 years"
+      },
+      {
+        "label": "Professional Driver License Age Extension (65–68 yrs)",
+        "value": "Must pass dynamic vision + cognitive assessment annually"
+      },
+      {
+        "label": "Learner Permit Passenger Rule",
+        "value": "Must be accompanied by a licensed driver sitting in front passenger seat"
+      },
+      {
+        "label": "Probationary Period Demerit Points",
+        "value": "Accumulating 6 demerit points within 1 year requires 4h safety course"
+      },
+      {
+        "label": "Lending Vehicle to Unlicensed Driver",
+        "value": "Vehicle license plate suspended for 3 months + fine NT$6,000–24,000"
+      },
+      {
+        "label": "Window Tinting VLT Standard (Front Windshield & Front Sides)",
+        "value": "Visible Light Transmittance (VLT) must be 70% or above"
+      }
+    ]
+  },
+  {
+    "category": "💸 Specific Fines, Revocations & Suspension Durations",
+    "items": [
+      {
+        "label": "Street Racing / Road Competition Penalty",
+        "value": "NT$30,000–90,000 fine + Instant License Revocation + 3-year ban from retesting"
+      },
+      {
+        "label": "Commercial Bus Driver DUI Penalty",
+        "value": "License revoked + Barred from re-taking driving test for 4 years"
+      },
+      {
+        "label": "Traffic Violation Causing Serious Bodily Injury",
+        "value": "Driver's license suspended for 3 to 6 months"
+      },
+      {
+        "label": "Accident Involving Property Damage Only (Fleeing / Refusing to Stop)",
+        "value": "Fine of NT$1,000 to NT$3,000 + License suspended 1 to 3 months"
+      },
+      {
+        "label": "Vehicle Plate Suspension for Repeated Violations",
+        "value": "Accumulating 3 violations in 3 months = Plate suspended for 1 month"
+      },
+      {
+        "label": "Reckless / Dangerous Driving (Exceeding limit by 40+ km/h, tailgating, brake-checking)",
+        "value": "NT$6,000 to NT$36,000 fine + 6-month license plate suspension"
+      },
+      {
+        "label": "Removing Muffler / Noise Pollution (Repeat in 1 yr)",
+        "value": "Driver's license suspended for 6 months"
+      }
+    ]
+  },
+  {
+    "category": "🚆 Railway Level Crossings & Freeway Specific Regulations",
+    "items": [
+      {
+        "label": "Unattended Railway Crossing Stopping Distance",
+        "value": "Must stop and look/listen 3 to 6 meters before the nearest rail"
+      },
+      {
+        "label": "Railway Crossing Serious Violation Fine (Overtaking, U-Turn, Stopping)",
+        "value": "NT$15,000 to NT$90,000 fine + License suspension for 1 year"
+      },
+      {
+        "label": "Freeway Continuous White Line (Lane Separation)",
+        "value": "Strictly prohibited to change lanes; maintain lane discipline"
+      },
+      {
+        "label": "Freeway Fatigued Driving Response",
+        "value": "Must exit at next interchange or pull into a Service Area / Rest Stop"
+      },
+      {
+        "label": "Small Passenger Vehicles on Multi-Lane Roads",
+        "value": "May use both inner and outer fast lanes (large trucks restricted to outer lanes)"
+      },
+      {
+        "label": "Downhill Slope Mountain Driving Gear",
+        "value": "Use the SAME low gear used for uphill (e.g. 2nd gear up → 2nd gear down for engine braking)"
+      }
+    ]
+  },
+  {
+    "category": "🛑 Distinctive Road Markings, Signs & Widths",
+    "items": [
+      {
+        "label": "Fast / Slow Lane Dividing Line",
+        "value": "10 cm wide solid white line (separates fast traffic from slow lane)"
+      },
+      {
+        "label": "Road Edge Line (Curbside Outer Boundary)",
+        "value": "15 cm wide solid white line (indicates the outer boundary of the roadway)"
+      },
+      {
+        "label": "Reversing Rules (When Permitted)",
+        "value": "Permitted ONLY for roadside parking or obstacle evasion; strictly illegal on highways/freeways/crossings"
+      },
+      {
+        "label": "Red Shield vs. Blue Shield Route Signs",
+        "value": "Red Shield = Provincial Expressway (Route 6x/7x/8x); Blue Shield = Standard Provincial Highway"
+      }
+    ]
+  },
+  {
+    "category": "📋 Compulsory Insurance, Dashboard Gauges & Crash Protocol",
+    "items": [
+      {
+        "label": "Compulsory Automobile Liability Insurance Death / Disability Limit",
+        "value": "NT$2,000,000 per person maximum compensation"
+      },
+      {
+        "label": "Compulsory Automobile Liability Medical Expense Limit",
+        "value": "NT$200,000 per person maximum compensation"
+      },
+      {
+        "label": "Low Engine Oil Pressure Warning Light (Red Oil Can)",
+        "value": "Safely pull over immediately, turn off engine, check oil dipstick (Do NOT continue driving)"
+      },
+      {
+        "label": "Battery Charge Warning Light (Red Battery Icon)",
+        "value": "Indicates alternator/charging system failure (drive immediately to nearest repair shop)"
+      },
+      {
+        "label": "Minor Property-Only Crash Protocol (Both Parties Agree)",
+        "value": "Mark tire positions, photograph scene from all 4 angles, move vehicles to side to prevent traffic jams"
+      }
+    ]
   }
 ]
