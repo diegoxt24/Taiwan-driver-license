@@ -473,11 +473,12 @@
     "id": "rule_alcohol_dui",
     "title": "🍷 Alcohol BAC Limits, DUI Escalations, Passenger Liability & Door Safety",
     "category": "Alcohol Laws, Passenger Safety & Door Protocols",
-    "summary": "• Legal Alcohol Limits & Progressive Sanctions:\n  - Administrative Limit (≥0.15 mg/L breath / 0.03% blood): Car fine NT$30,000–$120,000 (Moto NT$15k–$90k) + 1 to 2-year license suspension + On-the-spot vehicle impoundment + 2-year plate suspension.\n  - Criminal Threshold (≥0.25 mg/L breath / 0.05% blood): Public Endangerment crime subject to criminal trial and up to 3 years imprisonment.\n  - 10-Year Repeat DUI Offense (2nd time): Maximum fine (NT$120,000 car / NT$90,000 moto) + 3-year License Revocation + Public disclosure of name and photo on government portal. (3rd offense adds NT$90,000 increment).\n  - Sobriety Breathalyzer Refusal (1st refusal): NT$180,000 flat fine + MANDATORY IMMEDIATE LICENSE REVOCATION (3-year retest ban) + Vehicle impoundment. (2nd refusal in 10 years = NT$360,000).\n  - Adult Passenger Co-Liability: Passengers aged 18 to 70 riding with drunk driver (BAC ≥0.25) are fined NT$6,000 to NT$15,000.\n  - Commercial Bus Driver DUI: License revoked and BANNED FROM RETESTING FOR 4 YEARS.\n  - Alcohol Ignition Interlock: Mandatory 1-year installation upon license restoration (car will not start unless breath tests 0.00).\n• Two-Stage Door Opening Protocol:\n  - 1. Check rearview mirror and shoulder check -> 2. Crack door open ~15 cm to confirm clearance -> 3. Open fully and exit.",
+    "summary": "• Legal Alcohol Limits & Progressive Sanctions:\n  - Administrative Limit (≥0.15 mg/L breath / 0.03% blood): Car fine NT$30,000–$120,000 (Moto NT$15k–$90k) + 1 to 2-year license suspension + On-the-spot vehicle impoundment + 2-year plate suspension.\n  - Criminal Threshold (≥0.25 mg/L breath / 0.05% blood): Public Endangerment crime subject to criminal trial and up to 3 years imprisonment.\n  - 10-Year Repeat DUI Offense (2nd time): Maximum fine (NT$120,000 car / NT$90,000 moto) + 3-year License Revocation + Public disclosure of name and photo on government portal. (3rd offense adds NT$90,000 increment).\n  - Sobriety Breathalyzer Refusal: NT$180,000 flat fine + MANDATORY IMMEDIATE LICENSE REVOCATION (3-year retest ban) + Vehicle impoundment.\n  - DUI / Unlicensed Driving Causing Injury or Death: Criminal sentence and legal penalties increased by up to ONE-HALF (+1/2 or 1.5x).\n  - Adult Passenger Co-Liability: Passengers aged 18 to 70 riding with drunk driver (BAC ≥0.25) are fined NT$6,000 to NT$15,000.\n  - Commercial Bus Driver DUI: License revoked and BANNED FROM RETESTING FOR 4 YEARS.\n  - Alcohol Ignition Interlock: Mandatory 1-year installation upon license restoration (car will not start unless breath tests 0.00).\n• Two-Stage Door Opening Protocol:\n  - 1. Check rearview mirror and shoulder check -> 2. Crack door open ~15 cm to confirm clearance -> 3. Open fully and exit.",
     "key_numbers": [
       "0.15 mg/L (0.03% blood): Administrative DUI threshold (fines + suspension)",
       "0.25 mg/L (0.05% blood): Criminal threshold (criminal trial + prison sentence)",
-      "NT$180,000: Flat fine for refusing breathalyzer test (1st refusal; 2nd = NT$360,000)",
+      "NT$180,000: Flat fine for refusing breathalyzer test (Immediate license revocation + impoundment)",
+      "Increased by up to One-Half (+1/2): Criminal penalty enhancement for DUI causing injury/death",
       "NT$6,000 – NT$15,000: Fine on adult passengers (18+) riding with drunk driver",
       "4 years: Retest ban duration for commercial bus drivers convicted of DUI",
       "10 years: Lookback window for counting repeat DUI violations",
@@ -497,10 +498,16 @@
         "why": "Classified criminal offense under the Taiwan Penal Code."
       },
       {
-        "violation": "Refusing sobriety breathalyzer test (1st offense)",
+        "violation": "Refusing sobriety breathalyzer test",
         "amount": "NT$180,000 flat",
         "points_or_penalty": "Immediate License Revocation (3-yr ban) + Vehicle impounded",
         "why": "Refusal penalty intentionally exceeds maximum DUI fine to prevent obstruction of justice."
+      },
+      {
+        "violation": "DUI or unlicensed driving causing injury or death",
+        "amount": "Criminal Liability",
+        "points_or_penalty": "Criminal sentence increased by up to ONE-HALF (+1/2)",
+        "why": "Aggravated statutory criminal penalty under Article 86 for causing casualty while intoxicated."
       },
       {
         "violation": "Adult passenger (18+) riding with drunk driver",

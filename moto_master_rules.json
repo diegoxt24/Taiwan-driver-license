@@ -50,19 +50,19 @@
         "question_id": "MOTO_0024",
         "question_text": "When driving downhill:",
         "correct_answer": "(2) you must not turn off the engine and coast in neutral",
-        "trap_explanation": "Helmet unfastened or missing carries a flat fine of NT$500."
+        "trap_explanation": "Never coast in neutral or turn off the engine on downhills; maintain gear engagement for engine braking."
       },
       {
         "question_id": "MOTO_0111",
         "question_text": "If a driver causes injury or death due to driving without a license or driving under the influence, and is legally subject to criminal liability, the penalty shall be increased by",
         "correct_answer": "(2) one-half",
-        "trap_explanation": "Operating a phone in hand while riding motorcycle carries a fine of NT$1,000."
+        "trap_explanation": "Criminal sentences for DUI or unlicensed riding causing injury/death are legally increased by up to ONE-HALF (+1/2 or 1.5x)."
       },
       {
         "question_id": "MOTO_0120",
         "question_text": "What does this road sign / hand signal indicate?",
         "correct_answer": "(2) Ramp merging",
-        "trap_explanation": "Failing to make required two-stage turn carries NT$600–1,200 fine and 1 demerit point."
+        "trap_explanation": "Ramp merging requires checking blind spots, matching traffic flow speed, and merging safely."
       }
     ],
     "related_questions": [
