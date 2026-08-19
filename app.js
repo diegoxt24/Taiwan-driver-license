@@ -1704,43 +1704,48 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
         }
       }
 
+      const lTime = Number(userState.last_updated) || 0;
+      const rTime = cloudData ? (Number(cloudData.last_updated) || 0) : 0;
+      const localHasNewerChanges = lTime > rTime;
+
       // Merge Cloud state with Local state
       if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
         userState = mergeCloudAndLocalState(cloudData, userState);
         localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-        // NOTE: We NEVER overwrite currentIndex during background sync so the user's active reading spot is undisturbed!
       }
 
-      // 2. PUSH MERGED STATE TO CLOUD
-      userState.last_updated = Date.now();
-      const isLocalServer = endpoint.includes('/api/sync') || endpoint.includes('localhost') || endpoint.includes('127.0.0.1');
-      const putMethod = isLocalServer ? 'POST' : 'PUT';
-      const putContentType = 'application/json';
+      // 2. PUSH TO CLOUD ONLY IF FORCE PUSH WAS REQUESTED OR LOCAL HAS NEWER CHANGES
+      if (forcePush || localHasNewerChanges) {
+        userState.last_updated = Date.now();
+        const isLocalServer = endpoint.includes('/api/sync') || endpoint.includes('localhost') || endpoint.includes('127.0.0.1');
+        const putMethod = isLocalServer ? 'POST' : 'PUT';
+        const putContentType = 'application/json';
 
-      const putRes = await fetchWithTimeout(endpoint, {
-        method: putMethod,
-        headers: { 'Content-Type': putContentType },
-        body: JSON.stringify(userState)
-      }, 6000);
+        const putRes = await fetchWithTimeout(endpoint, {
+          method: putMethod,
+          headers: { 'Content-Type': putContentType },
+          body: JSON.stringify(userState)
+        }, 6000);
 
-      if (putRes.ok) {
-        syncSuccess = true;
-        pendingOfflineSync = false;
-        const nowStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
-        updateSyncStatusUI('online_synced', nowStr);
-
-        updateProfileUI();
-        updateDashboardStats();
-        updateModalSummary();
-
-        if (showFeedback) {
-          showToast('🎉 Cloud sync complete! All study progress is unified.');
+        if (!putRes.ok) {
+          throw new Error(`Cloud PUT status ${putRes.status}`);
         }
-        break; // Successfully synced to active endpoint
-      } else {
-        throw new Error(`Cloud PUT status ${putRes.status}`);
       }
+
+      syncSuccess = true;
+      pendingOfflineSync = false;
+      const nowStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      localStorage.setItem('tw_driver_last_sync_time', Date.now().toString());
+      updateSyncStatusUI('online_synced', nowStr);
+
+      updateProfileUI();
+      updateDashboardStats();
+      updateFilteredQuestions();
+      renderCurrentQuestion();
+      if (showFeedback) {
+        showToast('🎉 Cloud sync complete! All study progress is unified.');
+      }
+      break; // Successfully synced to active endpoint
     } catch (err) {
       console.warn(`Sync attempt failed on ${endpoint}:`, err);
       lastError = err;
