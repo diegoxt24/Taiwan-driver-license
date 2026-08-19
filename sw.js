@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v14-enriched-cram';
+const CACHE_NAME = 'tw-driving-prep-v15-topic-mastery';
 const ASSETS = [
   './',
   './index.html',

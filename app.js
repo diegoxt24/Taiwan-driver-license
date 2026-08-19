@@ -3169,45 +3169,151 @@ function getDiagramHTML(diagramKey, moduleType) {
   return `<div class="rule-diagram-box"><svg viewBox="0 0 340 100" style="background:#0f172a; border-radius:8px; width:100%;"><circle cx="170" cy="50" r="30" fill="#ffffff" stroke="#ef4444" stroke-width="5"/><text x="170" y="60" fill="#0f172a" font-size="24" font-weight="900" text-anchor="middle">50</text></svg></div>`;
 }
 
-// RENDER MASTER RULES (MODE 0)
+// RENDER MASTER RULES (MODE 0: TOPIC DEEP DIVES)
 function renderMasterRules() {
   const container = document.getElementById('masterRulesContainer');
   if (!container) return;
   container.innerHTML = '';
 
+  if (!masterRulesData || masterRulesData.length === 0) {
+    container.innerHTML = '<div class="empty-state">No master rules available for this vehicle category.</div>';
+    return;
+  }
+
   masterRulesData.forEach(rule => {
     const card = document.createElement('div');
-    card.className = 'cheat-card';
+    card.className = 'master-rule-card';
 
-    const diagramHTML = getDiagramHTML(rule.diagram, currentModule);
-
-    let optionsHTML = rule.canonical_options.map((opt, i) => `
-      <div style="padding:0.4rem 0.6rem; border-radius:6px; margin-top:0.3rem; font-size:0.85rem; ${i === rule.canonical_correct_index ? 'background:rgba(16,185,129,0.2); color:#34d399; font-weight:700;' : 'opacity:0.6;'}">
-        ${opt}
+    // 1. Header
+    const qCount = rule.related_questions ? rule.related_questions.length : (rule.matched_question_count || 0);
+    const headerHTML = `
+      <div class="master-header">
+        <div class="master-title">${rule.title}</div>
+        <div class="master-badges">
+          <span class="cheat-badge" style="background:rgba(99,102,241,0.2); color:#a5b4fc; border-color:rgba(99,102,241,0.4);">${rule.category || 'Topic Cluster'}</span>
+          <span class="cheat-badge" style="background:rgba(168,85,247,0.2); color:#c084fc; border-color:rgba(168,85,247,0.4);">${qCount} Questions Mapped</span>
+        </div>
       </div>
-    `).join('');
+    `;
+
+    // 2. Summary
+    const summaryHTML = `
+      <div class="master-summary">${rule.summary || ''}</div>
+    `;
+
+    // 3. Key Numbers / Formulas Pills
+    let pillsHTML = '';
+    if (rule.key_numbers && rule.key_numbers.length > 0) {
+      const pills = rule.key_numbers.map(numStr => `<span class="master-pill">⚡ ${numStr}</span>`).join('');
+      pillsHTML = `
+        <div>
+          <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--accent-indigo); margin-bottom:0.4rem;">🔑 Key Metrics, Distances & Numbers</div>
+          <div class="master-pills-container">${pills}</div>
+        </div>
+      `;
+    }
+
+    // 4. Fines & Penalties Table
+    let finesHTML = '';
+    if (rule.fines_table && rule.fines_table.length > 0) {
+      const rows = rule.fines_table.map(f => `
+        <tr>
+          <td style="font-weight:700;">${f.violation}</td>
+          <td style="color:#f59e0b; font-weight:800; white-space:nowrap;">${f.amount}</td>
+          <td style="color:#ef4444; font-weight:700;">${f.points_or_penalty}</td>
+          <td style="color:var(--text-muted); font-size:0.78rem;">${f.why}</td>
+        </tr>
+      `).join('');
+
+      finesHTML = `
+        <div>
+          <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--accent-indigo); margin-bottom:0.4rem;">⚖️ Fine Amounts & Legal Penalties Matrix</div>
+          <div class="master-fines-table-wrapper">
+            <table class="master-fines-table">
+              <thead>
+                <tr>
+                  <th>Infracción / Violation</th>
+                  <th>Monto / Fine</th>
+                  <th>Sanción / Penalty</th>
+                  <th>Razón Legal / Por Qué</th>
+                </tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    // 5. Tricky Bookmarks Callouts
+    let trapsHTML = '';
+    if (rule.tricky_bookmarks && rule.tricky_bookmarks.length > 0) {
+      const trapCards = rule.tricky_bookmarks.map(tb => `
+        <div class="master-trap-card">
+          <div class="master-trap-header">
+            <span>⚠️ TRAP ALERT</span>
+            <span class="cheat-badge" style="background:rgba(245,158,11,0.2); color:#fbbf24;">[${tb.question_id}]</span>
+          </div>
+          <div class="master-trap-q">${tb.question_text}</div>
+          <div class="master-trap-ans">✅ Correct Answer: ${tb.correct_answer}</div>
+          <div class="master-trap-exp">💡 Why it tricks students: ${tb.trap_explanation}</div>
+        </div>
+      `).join('');
+
+      trapsHTML = `
+        <div>
+          <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:#f59e0b; margin-bottom:0.4rem;">🎯 Bookmarked Questions & Tricky Traps Explored</div>
+          <div class="master-traps-container">${trapCards}</div>
+        </div>
+      `;
+    }
+
+    // 6. Practice Action Button
+    let practiceBtnHTML = '';
+    if (rule.related_questions && rule.related_questions.length > 0) {
+      practiceBtnHTML = `
+        <button class="master-practice-btn" onclick="practiceRuleQuestions('${rule.id}')">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          Practice this Topic (${rule.related_questions.length} Questions)
+        </button>
+      `;
+    }
 
     card.innerHTML = `
-      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem; margin-bottom:0.75rem;">
-        <span style="font-size:1.1rem; font-weight:800; color:var(--text-main);">${rule.title}</span>
-        <span class="cheat-badge" style="background:rgba(168,85,247,0.2); color:#c084fc; border-color:rgba(168,85,247,0.4);">Covers ${rule.matched_question_count} Questions</span>
-      </div>
-
-      <div style="font-size:0.88rem; color:var(--text-main); line-height:1.6; margin-bottom:0.75rem; white-space:pre-line;">
-        ${rule.summary}
-      </div>
-
-      ${diagramHTML}
-
-      <div style="margin-top:1rem; padding:0.75rem; background:var(--bg-input); border-radius:10px; border:1px solid var(--border-color);">
-        <div style="font-size:0.72rem; font-weight:800; text-transform:uppercase; color:var(--accent-indigo); margin-bottom:0.3rem;">Canonical Representative Question</div>
-        <div style="font-weight:700; font-size:0.9rem; margin-bottom:0.4rem;">${rule.canonical_question}</div>
-        <div>${optionsHTML}</div>
-      </div>
+      ${headerHTML}
+      ${summaryHTML}
+      ${pillsHTML}
+      ${finesHTML}
+      ${trapsHTML}
+      ${practiceBtnHTML}
     `;
 
     container.appendChild(card);
   });
+}
+
+function practiceRuleQuestions(ruleId) {
+  const rule = masterRulesData.find(r => r.id === ruleId);
+  if (!rule || !rule.related_questions || rule.related_questions.length === 0) return;
+
+  const qIds = new Set(rule.related_questions);
+  filteredQuestions = allQuestions.filter(q => qIds.has(q.id));
+  if (filteredQuestions.length === 0) {
+    alert('No questions found for this topic.');
+    return;
+  }
+
+  currentQuestionIndex = 0;
+  switchTab('all');
+  if (currentMode === 'interactive') {
+    // start interactive quiz for this cluster
+    interactiveQuestions = [...filteredQuestions];
+    interactiveCurrentIndex = 0;
+    interactiveScore = 0;
+    renderInteractiveQuiz();
+  } else {
+    renderCurrentQuestion();
+  }
 }
 
 // DASHBOARD STATS
