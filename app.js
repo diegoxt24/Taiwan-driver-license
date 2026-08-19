@@ -1853,7 +1853,7 @@ function loadProfileFromStorage() {
     updateSyncStatusUI('offline_flight');
   });
 
-  // Auto-pull updates when tab is opened/focused on iPad/PC
+  // Auto-pull updates when tab is opened/focused on iPad/PC, flush when hidden
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') {
       if (navigator.onLine) {
@@ -1861,8 +1861,47 @@ function loadProfileFromStorage() {
       } else {
         updateSyncStatusUI('offline_flight');
       }
+    } else if (document.visibilityState === 'hidden') {
+      flushImmediateSync();
     }
   });
+
+  // iOS Safari pagehide (fires when switching apps or locking iPad)
+  window.addEventListener('pagehide', () => {
+    flushImmediateSync();
+  });
+
+  // Window beforeunload (fires when closing desktop tab)
+  window.addEventListener('beforeunload', () => {
+    flushImmediateSync();
+  });
+
+  // Window focus (refresh state when switching back to tab)
+  window.addEventListener('focus', () => {
+    if (navigator.onLine) {
+      syncWithCloud(false);
+    }
+  });
+}
+
+function flushImmediateSync() {
+  if (syncDebounceTimer) {
+    clearTimeout(syncDebounceTimer);
+    syncDebounceTimer = null;
+  }
+  if (navigator.onLine) {
+    userState.last_updated = Date.now();
+    try {
+      fetch(PRIMARY_CLOUD_ENDPOINT, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(userState),
+        keepalive: true
+      });
+    } catch (e) {
+      console.warn('Immediate flush error:', e);
+    }
+  }
 }
 
 function saveStateToStorage() {
