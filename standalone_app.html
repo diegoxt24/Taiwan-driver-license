@@ -4183,7 +4183,9 @@ function renderCurrentQuestion() {
         optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
         optBtn.addEventListener('click', () => {
           interactiveAnswered[q.id] = idx;
-          if (idx !== q.correct_index) {
+          if (idx === q.correct_index) {
+            recordQuestionStudied(q.id);
+          } else {
             if (!m.failedQuestions.includes(q.id)) {
               m.failedQuestions.push(q.id);
               saveStateToStorage();
