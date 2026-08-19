@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v15-topic-mastery';
+const CACHE_NAME = 'tw-driving-prep-v16-interactive-bookmarks';
 const ASSETS = [
   './',
   './index.html',

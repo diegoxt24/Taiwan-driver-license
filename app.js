@@ -17,6 +17,7 @@ let searchQuery = '';
 
 // Interactive Quiz state per question
 let interactiveAnswered = {}; // qId -> selectedIndex
+let bookmarksAnswered = {}; // qId -> selectedIndex
 
 // User Profile Data structure stored in localStorage
 let activeProfile = 'diego';
@@ -1785,7 +1786,7 @@ function showProfilePickerModal() {
     if (statsEl && userState[prof]) {
       const carStudied = (userState[prof].car && userState[prof].car.studiedQuestions) ? userState[prof].car.studiedQuestions.length : 0;
       const carBook = (userState[prof].car && userState[prof].car.bookmarks) ? userState[prof].car.bookmarks.length : 0;
-      statsEl.textContent = `${carStudied} Estudiadas • ${carBook} Marcadores`;
+      statsEl.textContent = `${carStudied} Studied • ${carBook} Bookmarks`;
     }
   });
 
@@ -2411,6 +2412,7 @@ function setupEventListeners() {
       if (m.lastIndices) m.lastIndices[currentTab] = currentIndex;
       saveStateToStorage();
       renderCurrentQuestion();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   });
 
@@ -2422,6 +2424,7 @@ function setupEventListeners() {
       saveStateToStorage();
       recordQuestionStudied(filteredQuestions[currentIndex - 1]?.id);
       renderCurrentQuestion();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   });
 
@@ -2857,22 +2860,49 @@ function renderCurrentQuestion() {
       optionsDiv.appendChild(optBtn);
     });
   } else {
-    // Bookmarks / Failed Mode -> Full interactivity
+    // Bookmarks / Failed Mode -> Interactive Self-Test (Answer and explanation hidden until option selected)
+    const userSel = bookmarksAnswered[q.id];
+
     q.options.forEach((optText, idx) => {
-      const optBtn = document.createElement('div');
-      const isCorrect = (idx === q.correct_index);
-      if (isCorrect) {
-        optBtn.className = 'opt-btn correct-highlight';
-        optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">Correct Choice</span>`;
+      const optBtn = document.createElement('button');
+      optBtn.className = 'opt-btn';
+
+      if (userSel !== undefined) {
+        if (idx === q.correct_index) {
+          optBtn.classList.add('correct-highlight');
+          optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">✓ Correct</span>`;
+        } else if (userSel === idx) {
+          optBtn.classList.add('incorrect-highlight');
+          optBtn.innerHTML = `${getOptHTML(idx, optText)} <span style="flex-shrink:0;">✗ Incorrect</span>`;
+        } else {
+          optBtn.style.opacity = '0.4';
+          optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
+        }
       } else {
-        optBtn.className = 'opt-btn';
-        optBtn.style.opacity = '0.6';
         optBtn.innerHTML = `${getOptHTML(idx, optText)}`;
+        optBtn.addEventListener('click', () => {
+          bookmarksAnswered[q.id] = idx;
+          if (idx === q.correct_index) {
+            recordQuestionStudied(q.id);
+          } else {
+            if (!m.failedQuestions.includes(q.id)) {
+              m.failedQuestions.push(q.id);
+              saveStateToStorage();
+            }
+          }
+          renderCurrentQuestion();
+        });
       }
       optionsDiv.appendChild(optBtn);
     });
-    explanationCard.classList.remove('hidden');
-    if (explLabel) explLabel.textContent = 'Hide Explanation';
+
+    if (userSel !== undefined) {
+      explanationCard.classList.remove('hidden');
+      if (explLabel) explLabel.textContent = 'Hide Explanation';
+    } else {
+      explanationCard.classList.add('hidden');
+      if (explLabel) explLabel.textContent = 'Show Explanation';
+    }
   }
 
   // Update Nav Buttons & Submit Exam Visibility
@@ -3271,10 +3301,10 @@ function renderMasterRules() {
             <table class="master-fines-table">
               <thead>
                 <tr>
-                  <th>Infracción / Violation</th>
-                  <th>Monto / Fine</th>
-                  <th>Sanción / Penalty</th>
-                  <th>Razón Legal / Por Qué</th>
+                  <th>Traffic Violation</th>
+                  <th>Statutory Fine</th>
+                  <th>Points / Penalty</th>
+                  <th>Legal Rationale & Safety Logic</th>
                 </tr>
               </thead>
               <tbody>${rows}</tbody>

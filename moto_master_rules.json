@@ -1,48 +1,48 @@
 [
   {
     "id": "rule_fines_matrix_moto",
-    "title": "💰 Motorcycle Fines, Demerits & Penalties Matrix / Multas de Motocicleta",
+    "title": "💰 Motorcycle Fines, Demerits & Penalties Matrix",
     "category": "Fines & Demerits",
-    "summary": "• Infracciones Básicas (NT$300–$1,000): No usar casco o barbiquejo desabrochado (NT$500); Carga que excede hombros/manubrio (NT$300–600); Teléfono celular en mano mientras se conduce moto (NT$1,000 fijo).\n• Giros y Semáforos (NT$600–$5,400): No hacer giro en dos tiempos (兩段式左轉) o invadir carril exclusivo de autos (NT$600–1,200 + 1 punto); Semáforo en rojo (NT$1,800–5,400 + 3 puntos).\n• Infracciones Graves (NT$6,000–$36,000): Conducir sin licencia de moto (NT$6,000–24,000); Exceso de velocidad ≥40 km/h sobre el límite (NT$6,000–36,000 + 6 meses suspensión de placa + 6 meses suspensión de licencia).\n• Alcohol y DUI (NT$15,000–$90,000): 1ra infracción de alcoholemia en moto (NT$15,000–90,000 + 1 a 2 años suspensión de licencia + retención de moto). 2da infracción en 10 años = NT$90,000 fijo + Revocación de licencia por 3 años + Exposición pública de nombre y foto.\n• Rechazo a Prueba de Alcoholemia: Multa fija de NT$180,000 + Revocación Inmediata de Licencia (3 años inhabilitado) + Retención de la moto.",
+    "summary": "• Basic Violations (NT$300–$1,000): Helmet unfastened / not worn (NT$500); Cargo exceeding shoulders/handlebars (NT$300–600); Handheld mobile phone while riding (NT$1,000 flat).\n• Turns & Signals (NT$600–$5,400): Failure to make required two-stage left turn (兩段式左轉) or riding in no-moto inner lane (NT$600–1,200 + 1 demerit point); Running red light (NT$1,800–5,400 + 3 points).\n• Severe Violations (NT$6,000–$36,000): Unlicensed riding (NT$6,000–24,000); Speeding ≥40 km/h over limit (NT$6,000–36,000 + 6 months plate suspension + 6 months license suspension).\n• Alcohol & DUI (NT$15,000–$90,000): 1st motorcycle DUI offense (NT$15,000–90,000 + 1 to 2-year license suspension + motorcycle impounded). 2nd DUI within 10 years = NT$90,000 flat + 3-year License Revocation + Public disclosure of name and photo.\n• Breathalyzer Refusal: Flat fine of NT$180,000 + Immediate License Revocation (3-year ban) + Motorcycle impounded.",
     "key_numbers": [
-      "NT$500: Multa fija por no usar casco homologado o llevarlo sin abrochar",
-      "NT$1,000: Celular en mano al conducir moto",
-      "NT$600 – 1,200: No hacer giro en 2 tiempos / Invadir carril de autos",
-      "NT$1,800 – 5,400: Semáforo en rojo (+ 3 puntos de demérito)",
-      "NT$15,000 – 90,000: Alcoholemia en moto (1ra vez)",
-      "NT$90,000: Reincidencia de alcoholemia en moto en 10 años",
-      "NT$180,000: Negarse al test de alcoholemia (1ra vez)"
+      "NT$500: Flat fine for failing to wear approved helmet or chin strap unfastened",
+      "NT$1,000: Handheld phone while riding motorcycle",
+      "NT$600 – 1,200: Failure to make 2-stage left turn / Riding in car lane",
+      "NT$1,800 – 5,400: Running a red light (+ 3 demerit points)",
+      "NT$15,000 – 90,000: 1st offense motorcycle DUI",
+      "NT$90,000: 2nd offense motorcycle DUI within 10 years",
+      "NT$180,000: Refusal of breathalyzer test (1st refusal)"
     ],
     "fines_table": [
       {
-        "violation": "No usar casco o llevar el barbiquejo suelto",
-        "amount": "NT$500",
-        "points_or_penalty": "Multa directa al conductor",
-        "why": "El trauma craneal es la causa número uno de mortalidad en motociclistas."
+        "violation": "Failure to wear approved helmet or unfastened chin strap",
+        "amount": "NT$500 flat",
+        "points_or_penalty": "Direct citation on rider",
+        "why": "Head injury is the leading cause of motorcycle fatalities."
       },
       {
-        "violation": "Usar teléfono celular en mano mientras se conduce moto",
-        "amount": "NT$1,000",
-        "points_or_penalty": "Multa directa",
-        "why": "Conducir con una sola mano anula la capacidad de frenado y equilibrio."
+        "violation": "Operating handheld mobile phone while riding motorcycle",
+        "amount": "NT$1,000 flat",
+        "points_or_penalty": "Direct citation",
+        "why": "One-handed riding severely impairs balance, braking, and steering."
       },
       {
-        "violation": "No realizar el giro en dos tiempos obligatorio (Hook-Turn)",
+        "violation": "Failure to make required two-stage left turn (Hook-Turn)",
         "amount": "NT$600 – 1,200",
-        "points_or_penalty": "1 punto de demérito",
-        "why": "Cruzar de forma directa desde la derecha a la izquierda corta el flujo de autos rápidos."
+        "points_or_penalty": "1 demerit point",
+        "why": "Direct left turn across multi-lane traffic cuts off fast motor vehicles."
       },
       {
-        "violation": "Semáforo en rojo en moto",
+        "violation": "Running red light on motorcycle",
         "amount": "NT$1,800 – 5,400",
-        "points_or_penalty": "3 puntos de demérito",
-        "why": "Alto riesgo de impacto perpendicular letal."
+        "points_or_penalty": "3 demerit points",
+        "why": "High risk of fatal perpendicular intersection collision."
       },
       {
-        "violation": "Conducir moto con alcohol ≥ 0.15 mg/L (1ra vez)",
+        "violation": "Motorcycle DUI (BAC ≥ 0.15 mg/L, 1st offense)",
         "amount": "NT$15,000 – 90,000",
-        "points_or_penalty": "Suspensión de licencia 1–2 años + Retención de moto",
-        "why": "Cero tolerancia a la conducción bajo los efectos del alcohol."
+        "points_or_penalty": "1–2 year license suspension + Motorcycle impounded",
+        "why": "Zero tolerance for operating motor vehicles while impaired."
       }
     ],
     "tricky_bookmarks": [
@@ -50,19 +50,19 @@
         "question_id": "MOTO_0024",
         "question_text": "When driving downhill:",
         "correct_answer": "(2) you must not turn off the engine and coast in neutral",
-        "trap_explanation": "No usar casco o no abrochar el barbiquejo conlleva multa fija de NT$500."
+        "trap_explanation": "Helmet unfastened or missing carries a flat fine of NT$500."
       },
       {
         "question_id": "MOTO_0111",
         "question_text": "If a driver causes injury or death due to driving without a license or driving under the influence, and is legally subject to criminal liability, the penalty shall be increased by",
         "correct_answer": "(2) one-half",
-        "trap_explanation": "Manejar moto con el celular en la mano tiene una multa de NT$1,000."
+        "trap_explanation": "Operating a phone in hand while riding motorcycle carries a fine of NT$1,000."
       },
       {
         "question_id": "MOTO_0120",
         "question_text": "What does this road sign / hand signal indicate?",
         "correct_answer": "(2) Ramp merging",
-        "trap_explanation": "No realizar el giro en dos tiempos reglamentario se sanciona con multa de NT$600 a NT$1,200 y 1 punto de demérito."
+        "trap_explanation": "Failing to make required two-stage turn carries NT$600–1,200 fine and 1 demerit point."
       }
     ],
     "related_questions": [
@@ -98,28 +98,28 @@
   },
   {
     "id": "rule_cargo_dimensions_moto",
-    "title": "📦 Motorcycle Dimensions, Cargo & Classifications / Dimensiones y Carga de Motos",
+    "title": "📦 Motorcycle Dimensions, Cargo Limits & Classifications",
     "category": "Motorcycle Hierarchy & Cargo Rules",
-    "summary": "• Dimensiones y Límites de Carga en Motocicletas:\n  - Altura: No debe superar los HOMBROS del conductor (max 1.5m en ligeras, 2.5m en pesadas).\n  - Ancho: No debe sobresalir más de 10 CM a los lados de los extremos del manubrio.\n  - Largo: No debe extenderse más de 50 CM hacia atrás del eje de la rueda trasera.\n  - Peso Máximo de Carga:\n    * Moto Ligera Pequeña (<50cc / Placa Verde): Máximo 30 kg (50 kg en total).\n    * Moto Pesada Ordinaria (50–249cc / Placa Blanca): Máximo 60 kg (80 kg en total).\n    * Moto Pesada Grande (250cc+ / Placa Amarilla o Roja): Máximo 90 kg.\n• Pasajeros y Niños:\n  - Solo 1 pasajero en el asiento trasero para motos regulares y pesadas. Prohibido llevar pasajeros en ciclomotores de 1 plaza y ESTRICTAMENTE PROHIBIDO llevar niños de pie en el piso/posapiés delantero.",
+    "summary": "• Motorcycle Cargo Dimensions & Weight Limits:\n  - Height: Must not exceed rider's SHOULDERS (max 1.5m for light moto, 2.5m for heavy moto).\n  - Width: Must not extend more than 10 CM beyond handlebar ends on either side.\n  - Length: Must not extend more than 50 CM past the rear axle.\n  - Maximum Cargo Weight:\n    * Small Light Motorcycle (<50cc / Green Plate): Maximum 30 kg (50 kg total).\n    * Ordinary Heavy Motorcycle (50–249cc / White Plate): Maximum 60 kg (80 kg total).\n    * Large Heavy Motorcycle (250cc+ / Yellow or Red Plate): Maximum 90 kg.\n• Passengers & Child Seating:\n  - Only 1 passenger permitted on rear seat for regular and heavy motorcycles. Prohibiting passengers on single-seat mopeds, and STRICTLY PROHIBITING children standing on front footrest.",
     "key_numbers": [
-      "Hombros: Límite de altura para bultos y carga en moto",
-      "10 cm: Máximo saliente lateral del ancho de los manubrios",
-      "50 cm: Máximo saliente trasero detrás del eje de la rueda trasera",
-      "60 kg: Límite de carga para motos pesadas ordinarias (50–249cc)",
-      "0.8 mm: Profundidad mínima de ranura en neumáticos de moto"
+      "Shoulders: Height limit for cargo on motorcycles",
+      "10 cm: Maximum lateral overhang beyond handlebar ends",
+      "50 cm: Maximum rearward overhang past rear axle",
+      "60 kg: Cargo weight limit for ordinary heavy motorcycles (50–249cc)",
+      "0.8 mm: Minimum tire tread depth for motorcycles"
     ],
     "fines_table": [
       {
-        "violation": "Cargar bultos que excedan las dimensiones legales de moto",
+        "violation": "Carrying cargo exceeding legal motorcycle dimensions",
         "amount": "NT$300 – 600",
-        "points_or_penalty": "Multa directa al conductor",
-        "why": "Bultos anchos o altos desequilibran el centro de gravedad de dos ruedas."
+        "points_or_penalty": "Direct citation on rider",
+        "why": "Oversized cargo disrupts center of gravity and two-wheeled stability."
       },
       {
-        "violation": "Llevar niños de pie en el pedal/piso delantero",
+        "violation": "Carrying children standing on the front footrest",
         "amount": "NT$300 – 600",
-        "points_or_penalty": "Multa directa",
-        "why": "En cualquier frenada el menor sale despedido sin ninguna sujeción física."
+        "points_or_penalty": "Direct citation",
+        "why": "Children have zero restraint and are thrown off in sudden stops."
       }
     ],
     "tricky_bookmarks": [
@@ -127,19 +127,19 @@
         "question_id": "MOTO_0001",
         "question_text": "The height of items carried on a motorcycle must not exceed the driver\\'s",
         "correct_answer": "(2) shoulder",
-        "trap_explanation": "La altura de la carga no debe exceder los HOMBROS del conductor."
+        "trap_explanation": "Cargo height must not exceed the rider's SHOULDERS."
       },
       {
         "question_id": "MOTO_0002",
         "question_text": "The width of items carried on a motorcycle must not exceed",
         "correct_answer": "(1) 10 cm",
-        "trap_explanation": "El ancho de la carga no debe sobresalir más de 10 CM de los extremos del manubrio."
+        "trap_explanation": "Cargo width must not extend more than 10 CM beyond handlebars."
       },
       {
         "question_id": "MOTO_0003",
         "question_text": "For heavy motorcycles, the weight of items carried must not exceed",
         "correct_answer": "(2) 80 kg",
-        "trap_explanation": "El peso de carga para motos pesadas no debe superar los 60 u 80 kg."
+        "trap_explanation": "Cargo weight for heavy motorcycles must not exceed 60 to 80 kg."
       }
     ],
     "related_questions": [
