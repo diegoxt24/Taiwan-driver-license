@@ -472,14 +472,24 @@ body.light-theme .mobile-nav-bar {
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   cursor: pointer;
-  padding: 0.1rem 0.3rem;
+  padding: 0.15rem 0.4rem;
   line-height: 1;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.btn-bookmark:hover {
+  transform: scale(1.15);
 }
 
 .btn-bookmark.bookmarked {
   color: var(--accent-amber);
+  text-shadow: 0 0 8px rgba(245, 158, 11, 0.45);
 }
 
 /* SIGN ILLUSTRATION BOX */
@@ -1130,6 +1140,7 @@ body.light-theme .mobile-bottom-nav {
               <input type="number" id="jumpInput" min="1" max="3000" style="width:58px; padding:0.15rem 0.35rem; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-input); color:var(--text-main); font-weight:800; font-size:0.8rem; text-align:center;" placeholder="1">
             </div>
             <span id="questionIndexText" class="q-counter">Question 1 of 1072</span>
+            <button id="removeFailedBtn" class="btn-sync hidden" style="background:rgba(239,68,68,0.2); color:#f87171; border:1px solid rgba(239,68,68,0.4); padding:0.2rem 0.55rem; font-size:0.75rem; border-radius:6px; cursor:pointer; font-weight:700;" title="Remove this question from Failed Bank">🗑️ Remove from Failed</button>
             <button id="bookmarkBtn" class="btn-bookmark" title="Star Question">☆</button>
           </div>
         </div>
@@ -1163,6 +1174,7 @@ body.light-theme .mobile-bottom-nav {
         <div class="question-nav desktop-nav">
           <button id="prevBtn" class="btn-nav btn-secondary">← Previous</button>
           <button id="toggleExplBtn" class="btn-nav btn-secondary"><span id="explBtnLabel">Show Explanation</span></button>
+          <button id="actionFailedBtn" class="btn-nav btn-secondary hidden" style="background:rgba(239,68,68,0.18); color:#f87171; border-color:rgba(239,68,68,0.35); font-weight:700;" title="Remove from Failed Bank">🗑️ Remove from Failed</button>
           <button id="submitExamBtn" class="btn-nav hidden submit-btn">Submit Exam ✓</button>
           <button id="nextBtn" class="btn-nav">Next →</button>
         </div>
@@ -1434,7 +1446,6 @@ let userState = {
         "CAR_0111",
         "CAR_0128",
         "CAR_0133",
-        "CAR_0148",
         "CAR_0158",
         "CAR_0164",
         "CAR_0166",
@@ -2752,7 +2763,7 @@ let userState = {
       }
     }
   },
-  "last_updated": 1787115874247
+  "last_updated": 1787163500000
 };
 
 // Practice Exam State
@@ -2969,7 +2980,9 @@ function mergeCloudAndLocalState(remoteData, localData) {
   const modules = ['motorcycle', 'car'];
   const tabKeys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed'];
 
-  const remoteIsNewer = (Number(remoteData.last_updated) || 0) > (Number(localData.last_updated) || 0);
+  const rTime = Number(remoteData.last_updated) || 0;
+  const lTime = Number(localData.last_updated) || 0;
+  const remoteIsNewer = rTime > lTime;
 
   profiles.forEach(prof => {
     if (!localData[prof]) localData[prof] = {};
@@ -2995,22 +3008,26 @@ function mergeCloudAndLocalState(remoteData, localData) {
 
         const rMod = rProf[mod];
         if (rMod) {
-          // 1. Non-destructive Set-Union for Studied Questions
+          // 1. Studied Questions: Non-destructive union merge
           const rStudied = Array.isArray(rMod.studiedQuestions) ? rMod.studiedQuestions : [];
           const lStudied = Array.isArray(lProf[mod].studiedQuestions) ? lProf[mod].studiedQuestions : [];
           lProf[mod].studiedQuestions = Array.from(new Set([...lStudied, ...rStudied]));
 
-          // 2. Non-destructive Set-Union for Failed Questions
-          const rFailed = Array.isArray(rMod.failedQuestions) ? rMod.failedQuestions : [];
-          const lFailed = Array.isArray(lProf[mod].failedQuestions) ? lProf[mod].failedQuestions : [];
-          lProf[mod].failedQuestions = Array.from(new Set([...lFailed, ...rFailed]));
+          // 2. Bookmarks: If remote timestamp is strictly newer, adopt remote. If local is newer/equal, preserve local deletions!
+          if (remoteIsNewer) {
+            lProf[mod].bookmarks = Array.isArray(rMod.bookmarks) ? [...rMod.bookmarks] : [];
+          } else {
+            if (!Array.isArray(lProf[mod].bookmarks)) lProf[mod].bookmarks = [];
+          }
 
-          // 3. Non-destructive Set-Union for Bookmarks
-          const rBook = Array.isArray(rMod.bookmarks) ? rMod.bookmarks : [];
-          const lBook = Array.isArray(lProf[mod].bookmarks) ? lProf[mod].bookmarks : [];
-          lProf[mod].bookmarks = Array.from(new Set([...lBook, ...rBook]));
+          // 3. Failed Questions: If remote timestamp is strictly newer, adopt remote. If local is newer/equal, preserve local deletions!
+          if (remoteIsNewer) {
+            lProf[mod].failedQuestions = Array.isArray(rMod.failedQuestions) ? [...rMod.failedQuestions] : [];
+          } else {
+            if (!Array.isArray(lProf[mod].failedQuestions)) lProf[mod].failedQuestions = [];
+          }
 
-          // 4. Exam History Union (keyed by ISO date to prevent duplicates)
+          // 4. Exam History Union (keyed by ISO date)
           const rExams = Array.isArray(rMod.examHistory) ? rMod.examHistory : [];
           const lExams = Array.isArray(lProf[mod].examHistory) ? lProf[mod].examHistory : [];
           const examMap = new Map();
@@ -3019,7 +3036,7 @@ function mergeCloudAndLocalState(remoteData, localData) {
           });
           lProf[mod].examHistory = Array.from(examMap.values());
 
-          // 5. Smart Index Resolution: Only adopt remote indices if remote state timestamp is strictly newer
+          // 5. Smart Index Resolution: Only adopt remote indices if remote state is strictly newer
           if (remoteIsNewer && rMod.lastIndices && typeof rMod.lastIndices === 'object') {
             tabKeys.forEach(tk => {
               if (rMod.lastIndices[tk] !== undefined) {
@@ -3032,12 +3049,7 @@ function mergeCloudAndLocalState(remoteData, localData) {
     }
   });
 
-  localData.last_updated = Math.max(
-    Number(localData.last_updated) || 0,
-    Number(remoteData.last_updated) || 0,
-    Date.now()
-  );
-
+  localData.last_updated = Math.max(lTime, rTime, Date.now());
   return localData;
 }
 
@@ -3649,16 +3661,34 @@ function setupEventListeners() {
     });
   }
 
-  // Restart Current Mode Button
+  // Restart Mode / Clear Action Button
   const restartBtn = document.getElementById('restartModeBtn');
   if (restartBtn) {
     restartBtn.addEventListener('click', () => {
-      if (confirm(`Reset current mode progress (${currentTab}) back to Question #1? Your overall studied progress and Exam Readiness will be preserved.`)) {
-        currentIndex = 0;
+      if (currentTab === 'failed') {
         const m = getModuleData();
-        if (m.lastIndices) m.lastIndices[currentTab] = 0;
-        saveStateToStorage();
-        renderCurrentQuestion();
+        if (!m.failedQuestions || m.failedQuestions.length === 0) {
+          showToast('⚠️ Failed bank is already empty!');
+          return;
+        }
+        if (confirm(`Clear all ${m.failedQuestions.length} failed questions from your Failed Questions Bank?`)) {
+          m.failedQuestions = [];
+          currentIndex = 0;
+          if (m.lastIndices) m.lastIndices.failed = 0;
+          saveStateToStorage();
+          updateFilteredQuestions();
+          renderCurrentQuestion();
+          showToast('🗑️ All failed questions cleared!');
+        }
+      } else {
+        if (confirm(`Reset current mode progress (${currentTab}) back to Question #1? Your overall studied progress and Exam Readiness will be preserved.`)) {
+          currentIndex = 0;
+          const m = getModuleData();
+          if (m.lastIndices) m.lastIndices[currentTab] = 0;
+          saveStateToStorage();
+          renderCurrentQuestion();
+          showToast('🔄 Returned to Question #1');
+        }
       }
     });
   }
@@ -3685,8 +3715,6 @@ function setupEventListeners() {
       switchTab(tab);
     });
   });
-
-
 
   // Unified Keyboard Shortcuts for Rapid Evaluation (Arrow keys, 1/2/3, Space, E, B)
   window.addEventListener('keydown', (e) => {
@@ -3761,7 +3789,7 @@ function setupEventListeners() {
     }
   });
 
-  // Bookmark Button
+  // Bookmark Button (Toggle Star)
   document.getElementById('bookmarkBtn')?.addEventListener('click', () => {
     if (!filteredQuestions[currentIndex]) return;
     const qId = filteredQuestions[currentIndex].id;
@@ -3769,8 +3797,10 @@ function setupEventListeners() {
     const idx = m.bookmarks.indexOf(qId);
     if (idx >= 0) {
       m.bookmarks.splice(idx, 1);
+      showToast('★ Removed from Bookmarks');
     } else {
       m.bookmarks.push(qId);
+      showToast('★ Added to Bookmarks');
     }
     saveStateToStorage();
     updateBookmarkUI(qId);
@@ -3779,6 +3809,24 @@ function setupEventListeners() {
       renderCurrentQuestion();
     }
   });
+
+  // Remove from Failed Button Handlers (Header and Action bar)
+  const removeFailedHandler = () => {
+    if (!filteredQuestions[currentIndex]) return;
+    const qId = filteredQuestions[currentIndex].id;
+    const m = getModuleData();
+    const idx = m.failedQuestions.indexOf(qId);
+    if (idx >= 0) {
+      m.failedQuestions.splice(idx, 1);
+      saveStateToStorage();
+      showToast('🗑️ Question removed from Failed Bank!');
+      updateFilteredQuestions();
+      renderCurrentQuestion();
+    }
+  };
+
+  document.getElementById('removeFailedBtn')?.addEventListener('click', removeFailedHandler);
+  document.getElementById('actionFailedBtn')?.addEventListener('click', removeFailedHandler);
 
   // Explanation Toggle
   document.getElementById('toggleExplBtn')?.addEventListener('click', () => {
@@ -3861,11 +3909,20 @@ function switchTab(tab) {
 
   const modeTitle = document.getElementById('modeTitle');
   const modeDesc = document.getElementById('modeDesc');
+  const restartBtn = document.getElementById('restartModeBtn');
 
   if (tab === 'mode0') {
     const modLabel = (currentModule === 'car') ? 'Car License (汽車)' : 'Motorcycle License (機車)';
     modeTitle.innerHTML = `🧠 Mode 0: Master Rule Grouping (${modLabel})`;
     modeDesc.textContent = 'High-level synthesis: Consolidates 3,000+ questions into 9 core Master Rule Cards for 5x faster learning.';
+    if (restartBtn) {
+      restartBtn.classList.remove('hidden');
+      restartBtn.innerHTML = '🔄 Restart to #1';
+      restartBtn.title = 'Return to Rule #1';
+      restartBtn.style.background = 'rgba(99,102,241,0.15)';
+      restartBtn.style.color = '#818cf8';
+      restartBtn.style.borderColor = 'rgba(99,102,241,0.3)';
+    }
     if (masterCardContainer) {
       masterCardContainer.classList.remove('hidden');
       renderMasterRules();
@@ -3873,18 +3930,43 @@ function switchTab(tab) {
   } else if (tab === 'sheppard1') {
     modeTitle.innerHTML = '✨ Sheppard Air Mode 1: Direct Answer Recall';
     modeDesc.textContent = 'Shows ONLY the correct answer for rapid, distraction-free neural memorization.';
+    if (restartBtn) {
+      restartBtn.classList.remove('hidden');
+      restartBtn.innerHTML = '🔄 Restart to #1';
+      restartBtn.title = 'Return to Question #1 in this mode';
+      restartBtn.style.background = 'rgba(99,102,241,0.15)';
+      restartBtn.style.color = '#818cf8';
+      restartBtn.style.borderColor = 'rgba(99,102,241,0.3)';
+    }
     questionCard.classList.remove('hidden');
   } else if (tab === 'sheppard2') {
     modeTitle.innerHTML = '🖍️ Sheppard Air Mode 2: Highlighted Options';
     modeDesc.textContent = 'Displays all options with the correct answer explicitly highlighted in green.';
+    if (restartBtn) {
+      restartBtn.classList.remove('hidden');
+      restartBtn.innerHTML = '🔄 Restart to #1';
+      restartBtn.title = 'Return to Question #1 in this mode';
+      restartBtn.style.background = 'rgba(99,102,241,0.15)';
+      restartBtn.style.color = '#818cf8';
+      restartBtn.style.borderColor = 'rgba(99,102,241,0.3)';
+    }
     questionCard.classList.remove('hidden');
   } else if (tab === 'interactive') {
     modeTitle.innerHTML = '🎯 Interactive Quiz + Instant Feedback';
     modeDesc.textContent = 'Click options for instant Green (Correct) / Red (Incorrect) feedback & law context.';
+    if (restartBtn) {
+      restartBtn.classList.remove('hidden');
+      restartBtn.innerHTML = '🔄 Restart to #1';
+      restartBtn.title = 'Return to Question #1 in this mode';
+      restartBtn.style.background = 'rgba(99,102,241,0.15)';
+      restartBtn.style.color = '#818cf8';
+      restartBtn.style.borderColor = 'rgba(99,102,241,0.3)';
+    }
     questionCard.classList.remove('hidden');
   } else if (tab === 'practice') {
     modeTitle.innerHTML = '⏱️ 50-Question Practice Exam Simulation';
     modeDesc.textContent = 'Simulated test environment with 85% passing score threshold.';
+    if (restartBtn) restartBtn.classList.add('hidden');
     if (examQuestions.length === 0 || examSubmitted) {
       startPracticeExam();
     } else {
@@ -3893,15 +3975,32 @@ function switchTab(tab) {
   } else if (tab === 'bookmarks') {
     modeTitle.innerHTML = '⭐ Bookmarked Starred Questions';
     modeDesc.textContent = 'Targeted review for your starred key items.';
+    if (restartBtn) {
+      restartBtn.classList.remove('hidden');
+      restartBtn.innerHTML = '🔄 Go to #1';
+      restartBtn.title = 'Go to first bookmarked item';
+      restartBtn.style.background = 'rgba(99,102,241,0.15)';
+      restartBtn.style.color = '#818cf8';
+      restartBtn.style.borderColor = 'rgba(99,102,241,0.3)';
+    }
     questionCard.classList.remove('hidden');
   } else if (tab === 'failed') {
     modeTitle.innerHTML = '⚠️ Failed Questions Retry Bank';
-    modeDesc.textContent = 'Automatically review questions missed in previous quizzes/exams.';
+    modeDesc.textContent = 'Review questions missed in previous quizzes/exams. Click "Remove from Failed" when mastered!';
+    if (restartBtn) {
+      restartBtn.classList.remove('hidden');
+      restartBtn.innerHTML = '🗑️ Clear All Failed';
+      restartBtn.title = 'Clear all questions from Failed Questions Bank';
+      restartBtn.style.background = 'rgba(239,68,68,0.2)';
+      restartBtn.style.color = '#f87171';
+      restartBtn.style.borderColor = 'rgba(239,68,68,0.4)';
+    }
     questionCard.classList.remove('hidden');
   } else if (tab === 'cheatsheet') {
     const modLabel = (currentModule === 'car') ? 'Car License (汽車)' : 'Motorcycle License (機車)';
     modeTitle.innerHTML = `📋 ${modLabel} Cram Sheet & Key Facts`;
     modeDesc.textContent = 'Quick reference guide covering numbers, cargo, speeds, BAC limits, fines, and CPR.';
+    if (restartBtn) restartBtn.classList.add('hidden');
     cheatCard.classList.remove('hidden');
     renderCheatSheet();
   }
@@ -4164,6 +4263,17 @@ function renderCurrentQuestion() {
   if (nextBtn) nextBtn.disabled = isLast;
   if (mobilePrevBtn) mobilePrevBtn.disabled = isFirst;
   if (mobileNextBtn) mobileNextBtn.disabled = isLast;
+
+  // Contextual Failed Question Removal Buttons
+  const removeFailedBtn = document.getElementById('removeFailedBtn');
+  const actionFailedBtn = document.getElementById('actionFailedBtn');
+  if (currentTab === 'failed') {
+    if (removeFailedBtn) removeFailedBtn.classList.remove('hidden');
+    if (actionFailedBtn) actionFailedBtn.classList.remove('hidden');
+  } else {
+    if (removeFailedBtn) removeFailedBtn.classList.add('hidden');
+    if (actionFailedBtn) actionFailedBtn.classList.add('hidden');
+  }
 }
 
 function updateBookmarkUI(qId) {
@@ -4174,9 +4284,11 @@ function updateBookmarkUI(qId) {
     if (isBookmarked) {
       btn.classList.add('bookmarked');
       btn.textContent = '★';
+      btn.title = 'Click to remove from Bookmarks';
     } else {
       btn.classList.remove('bookmarked');
       btn.textContent = '☆';
+      btn.title = 'Click to star / add to Bookmarks';
     }
   }
 }

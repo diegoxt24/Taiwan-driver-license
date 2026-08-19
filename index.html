@@ -161,6 +161,7 @@
               <input type="number" id="jumpInput" min="1" max="3000" style="width:58px; padding:0.15rem 0.35rem; border-radius:6px; border:1px solid var(--border-color); background:var(--bg-input); color:var(--text-main); font-weight:800; font-size:0.8rem; text-align:center;" placeholder="1">
             </div>
             <span id="questionIndexText" class="q-counter">Question 1 of 1072</span>
+            <button id="removeFailedBtn" class="btn-sync hidden" style="background:rgba(239,68,68,0.2); color:#f87171; border:1px solid rgba(239,68,68,0.4); padding:0.2rem 0.55rem; font-size:0.75rem; border-radius:6px; cursor:pointer; font-weight:700;" title="Remove this question from Failed Bank">🗑️ Remove from Failed</button>
             <button id="bookmarkBtn" class="btn-bookmark" title="Star Question">☆</button>
           </div>
         </div>
@@ -194,6 +195,7 @@
         <div class="question-nav desktop-nav">
           <button id="prevBtn" class="btn-nav btn-secondary">← Previous</button>
           <button id="toggleExplBtn" class="btn-nav btn-secondary"><span id="explBtnLabel">Show Explanation</span></button>
+          <button id="actionFailedBtn" class="btn-nav btn-secondary hidden" style="background:rgba(239,68,68,0.18); color:#f87171; border-color:rgba(239,68,68,0.35); font-weight:700;" title="Remove from Failed Bank">🗑️ Remove from Failed</button>
           <button id="submitExamBtn" class="btn-nav hidden submit-btn">Submit Exam ✓</button>
           <button id="nextBtn" class="btn-nav">Next →</button>
         </div>
