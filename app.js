@@ -51,7 +51,6 @@ let userState = {
         "CAR_0091",
         "CAR_0100",
         "CAR_0111",
-        "CAR_0116",
         "CAR_0128",
         "CAR_0133",
         "CAR_0148",
@@ -161,9 +160,52 @@ let userState = {
         "CAR_0780",
         "CAR_0793",
         "CAR_0803",
+        "CAR_0820",
+        "CAR_0825",
+        "CAR_0855",
+        "CAR_0859",
+        "CAR_0861",
+        "CAR_0864",
+        "CAR_0871",
+        "CAR_0886",
+        "CAR_0906",
+        "CAR_0911",
+        "CAR_0913",
+        "CAR_0915",
+        "CAR_0919",
+        "CAR_0922",
+        "CAR_0929",
+        "CAR_0931",
+        "CAR_0932",
+        "CAR_0934",
+        "CAR_0937",
+        "CAR_0940",
+        "CAR_0942",
+        "CAR_0955",
+        "CAR_0958",
+        "CAR_0959",
+        "CAR_0961",
+        "CAR_0963",
+        "CAR_0969",
+        "CAR_0972",
+        "CAR_0975",
+        "CAR_0980",
+        "CAR_0985",
+        "CAR_0990",
+        "CAR_1011",
+        "CAR_1029",
+        "CAR_1030",
+        "CAR_1035",
+        "CAR_1054",
+        "CAR_1076",
+        "CAR_1077",
+        "CAR_0116"
+      ],
+      "failedQuestions": [
+        "CAR_0825",
+        "CAR_0003",
         "CAR_0820"
       ],
-      "failedQuestions": [],
       "studiedQuestions": [
         "CAR_0001",
         "CAR_0002",
@@ -988,16 +1030,282 @@ let userState = {
         "CAR_0821",
         "CAR_0822",
         "CAR_0823",
-        "CAR_0824"
+        "CAR_0824",
+        "CAR_0825",
+        "CAR_0826",
+        "CAR_0827",
+        "CAR_0828",
+        "CAR_0829",
+        "CAR_0830",
+        "CAR_0831",
+        "CAR_0832",
+        "CAR_0833",
+        "CAR_0834",
+        "CAR_0835",
+        "CAR_0836",
+        "CAR_0837",
+        "CAR_0838",
+        "CAR_0839",
+        "CAR_0840",
+        "CAR_0841",
+        "CAR_0842",
+        "CAR_0843",
+        "CAR_0844",
+        "CAR_0845",
+        "CAR_0846",
+        "CAR_0847",
+        "CAR_0848",
+        "CAR_0849",
+        "CAR_0850",
+        "CAR_0851",
+        "CAR_0852",
+        "CAR_0853",
+        "CAR_0854",
+        "CAR_0855",
+        "CAR_0856",
+        "CAR_0857",
+        "CAR_0858",
+        "CAR_0859",
+        "CAR_0860",
+        "CAR_0861",
+        "CAR_0862",
+        "CAR_0863",
+        "CAR_0864",
+        "CAR_0865",
+        "CAR_0866",
+        "CAR_0867",
+        "CAR_0868",
+        "CAR_0869",
+        "CAR_0870",
+        "CAR_0871",
+        "CAR_0872",
+        "CAR_0873",
+        "CAR_0874",
+        "CAR_0875",
+        "CAR_0876",
+        "CAR_0877",
+        "CAR_0878",
+        "CAR_0879",
+        "CAR_0880",
+        "CAR_0881",
+        "CAR_0882",
+        "CAR_0883",
+        "CAR_0884",
+        "CAR_0885",
+        "CAR_0886",
+        "CAR_0887",
+        "CAR_0888",
+        "CAR_0889",
+        "CAR_0890",
+        "CAR_0891",
+        "CAR_0892",
+        "CAR_0893",
+        "CAR_0894",
+        "CAR_0895",
+        "CAR_0896",
+        "CAR_0897",
+        "CAR_0898",
+        "CAR_0899",
+        "CAR_0900",
+        "CAR_0901",
+        "CAR_0902",
+        "CAR_0903",
+        "CAR_0904",
+        "CAR_0905",
+        "CAR_0906",
+        "CAR_0907",
+        "CAR_0908",
+        "CAR_0909",
+        "CAR_0910",
+        "CAR_0911",
+        "CAR_0912",
+        "CAR_0913",
+        "CAR_0914",
+        "CAR_0915",
+        "CAR_0916",
+        "CAR_0917",
+        "CAR_0918",
+        "CAR_0919",
+        "CAR_0920",
+        "CAR_0921",
+        "CAR_0922",
+        "CAR_0923",
+        "CAR_0924",
+        "CAR_0925",
+        "CAR_0926",
+        "CAR_0927",
+        "CAR_0928",
+        "CAR_0929",
+        "CAR_0930",
+        "CAR_0931",
+        "CAR_0932",
+        "CAR_0933",
+        "CAR_0934",
+        "CAR_0935",
+        "CAR_0936",
+        "CAR_0937",
+        "CAR_0938",
+        "CAR_0939",
+        "CAR_0940",
+        "CAR_0941",
+        "CAR_0942",
+        "CAR_0943",
+        "CAR_0944",
+        "CAR_0945",
+        "CAR_0946",
+        "CAR_0947",
+        "CAR_0948",
+        "CAR_0949",
+        "CAR_0950",
+        "CAR_0951",
+        "CAR_0952",
+        "CAR_0953",
+        "CAR_0954",
+        "CAR_0955",
+        "CAR_0956",
+        "CAR_0957",
+        "CAR_0958",
+        "CAR_0959",
+        "CAR_0960",
+        "CAR_0961",
+        "CAR_0962",
+        "CAR_0963",
+        "CAR_0964",
+        "CAR_0965",
+        "CAR_0966",
+        "CAR_0967",
+        "CAR_0968",
+        "CAR_0969",
+        "CAR_0970",
+        "CAR_0971",
+        "CAR_0972",
+        "CAR_0973",
+        "CAR_0974",
+        "CAR_0975",
+        "CAR_0976",
+        "CAR_0977",
+        "CAR_0978",
+        "CAR_0979",
+        "CAR_0980",
+        "CAR_0981",
+        "CAR_0982",
+        "CAR_0983",
+        "CAR_0984",
+        "CAR_0985",
+        "CAR_0986",
+        "CAR_0987",
+        "CAR_0988",
+        "CAR_0989",
+        "CAR_0990",
+        "CAR_0991",
+        "CAR_0992",
+        "CAR_0993",
+        "CAR_0994",
+        "CAR_0995",
+        "CAR_0996",
+        "CAR_0997",
+        "CAR_0998",
+        "CAR_0999",
+        "CAR_1000",
+        "CAR_1001",
+        "CAR_1002",
+        "CAR_1003",
+        "CAR_1004",
+        "CAR_1005",
+        "CAR_1006",
+        "CAR_1007",
+        "CAR_1008",
+        "CAR_1009",
+        "CAR_1010",
+        "CAR_1011",
+        "CAR_1012",
+        "CAR_1013",
+        "CAR_1014",
+        "CAR_1015",
+        "CAR_1016",
+        "CAR_1017",
+        "CAR_1018",
+        "CAR_1019",
+        "CAR_1020",
+        "CAR_1021",
+        "CAR_1022",
+        "CAR_1023",
+        "CAR_1024",
+        "CAR_1025",
+        "CAR_1026",
+        "CAR_1027",
+        "CAR_1028",
+        "CAR_1029",
+        "CAR_1030",
+        "CAR_1031",
+        "CAR_1032",
+        "CAR_1033",
+        "CAR_1034",
+        "CAR_1035",
+        "CAR_1036",
+        "CAR_1037",
+        "CAR_1038",
+        "CAR_1039",
+        "CAR_1040",
+        "CAR_1041",
+        "CAR_1042",
+        "CAR_1043",
+        "CAR_1044",
+        "CAR_1045",
+        "CAR_1046",
+        "CAR_1047",
+        "CAR_1048",
+        "CAR_1049",
+        "CAR_1050",
+        "CAR_1051",
+        "CAR_1052",
+        "CAR_1053",
+        "CAR_1054",
+        "CAR_1055",
+        "CAR_1056",
+        "CAR_1057",
+        "CAR_1058",
+        "CAR_1059",
+        "CAR_1060",
+        "CAR_1061",
+        "CAR_1062",
+        "CAR_1063",
+        "CAR_1064",
+        "CAR_1065",
+        "CAR_1066",
+        "CAR_1067",
+        "CAR_1068",
+        "CAR_1069",
+        "CAR_1070",
+        "CAR_1071",
+        "CAR_1072",
+        "CAR_1073",
+        "CAR_1074",
+        "CAR_1075",
+        "CAR_1076",
+        "CAR_1077",
+        "CAR_1078",
+        "CAR_1079",
+        "CAR_1080",
+        "CAR_1081",
+        "CAR_1082",
+        "CAR_1083",
+        "CAR_1084",
+        "CAR_1085",
+        "CAR_1086",
+        "CAR_1087",
+        "CAR_1088",
+        "CAR_1089",
+        "CAR_1090"
       ],
       "examHistory": [],
       "lastIndices": {
-        "sheppard1": 823,
+        "sheppard1": 1089,
         "sheppard2": 823,
         "interactive": 823,
         "mode0": 0,
-        "bookmarks": 0,
-        "failed": 0
+        "bookmarks": 19,
+        "failed": 2
       }
     }
   },
@@ -1007,13 +1315,29 @@ let userState = {
       "bookmarks": [],
       "failedQuestions": [],
       "studiedQuestions": [],
-      "examHistory": []
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
     },
     "car": {
       "bookmarks": [],
       "failedQuestions": [],
       "studiedQuestions": [],
-      "examHistory": []
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
     }
   },
   "alejandro": {
@@ -1022,16 +1346,32 @@ let userState = {
       "bookmarks": [],
       "failedQuestions": [],
       "studiedQuestions": [],
-      "examHistory": []
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
     },
     "car": {
       "bookmarks": [],
       "failedQuestions": [],
       "studiedQuestions": [],
-      "examHistory": []
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
     }
   },
-  "last_updated": 1786941024721
+  "last_updated": 1787115874247
 };
 
 // Practice Exam State
@@ -1151,17 +1491,30 @@ function showToast(msg, isError = false) {
 }
 
 // ==========================================
-// ROBUST MULTI-TIER CLOUD AUTO-SYNC ENGINE (OPTION A+)
-// Bulletproof Offline-First CRDT-style Set-Union Synchronization
+// ROBUST MULTI-TIER CLOUD AUTO-SYNC ENGINE
+// Bulletproof Non-Destructive Multi-Device Synchronization
 // ==========================================
 const PRIMARY_CLOUD_ENDPOINT = 'https://extendsclass.com/api/json-storage/bin/cabdedc';
 
 function getCloudEndpoints() {
+  const endpoints = [];
   const custom = localStorage.getItem('tw_driver_custom_cloud_endpoint');
   if (custom && custom.trim()) {
-    return [custom.trim(), PRIMARY_CLOUD_ENDPOINT];
+    endpoints.push(custom.trim());
   }
-  return [PRIMARY_CLOUD_ENDPOINT];
+
+  // If hosted on local/network server with /api/sync
+  if (typeof window !== 'undefined' && window.location && window.location.origin && window.location.origin.startsWith('http')) {
+    const localApi = window.location.origin + '/api/sync';
+    if (!endpoints.includes(localApi)) {
+      endpoints.push(localApi);
+    }
+  }
+
+  if (!endpoints.includes(PRIMARY_CLOUD_ENDPOINT)) {
+    endpoints.push(PRIMARY_CLOUD_ENDPOINT);
+  }
+  return endpoints;
 }
 
 let isSyncing = false;
@@ -1206,12 +1559,12 @@ function updateSyncStatusUI(state, extraInfo = '') {
       syncBadge.style.color = '#f87171';
       syncBadge.style.borderColor = 'rgba(239, 68, 68, 0.3)';
     }
-    if (syncText) syncText.textContent = '🔴 Sync Warning (Local Safe - Retry)';
-    if (modalText) modalText.textContent = `⚠️ Cloud bin temporarily unreachable. Local changes preserved. Next sync retry scheduled.`;
+    if (syncText) syncText.textContent = '💾 Local Safe (Ready to Sync)';
+    if (modalText) modalText.textContent = `💾 Progress safely preserved in local storage. Cloud auto-sync scheduled.`;
   }
 }
 
-// Conflict-Free CRDT-Style State Merger
+// Conflict-Free Non-Destructive State Merger
 function mergeCloudAndLocalState(remoteData, localData) {
   if (!remoteData || typeof remoteData !== 'object') return localData;
   if (!localData || typeof localData !== 'object') localData = {};
@@ -1219,6 +1572,8 @@ function mergeCloudAndLocalState(remoteData, localData) {
   const profiles = ['diego', 'johana', 'alejandro'];
   const modules = ['motorcycle', 'car'];
   const tabKeys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed'];
+
+  const remoteIsNewer = (Number(remoteData.last_updated) || 0) > (Number(localData.last_updated) || 0);
 
   profiles.forEach(prof => {
     if (!localData[prof]) localData[prof] = {};
@@ -1268,12 +1623,12 @@ function mergeCloudAndLocalState(remoteData, localData) {
           });
           lProf[mod].examHistory = Array.from(examMap.values());
 
-          // 5. Smart Highest-Index Resolution for lastIndices (Never lose spot across iPad and PC)
-          if (rMod.lastIndices && typeof rMod.lastIndices === 'object') {
+          // 5. Smart Index Resolution: Only adopt remote indices if remote state timestamp is strictly newer
+          if (remoteIsNewer && rMod.lastIndices && typeof rMod.lastIndices === 'object') {
             tabKeys.forEach(tk => {
-              const rIdx = Number(rMod.lastIndices[tk]) || 0;
-              const lIdx = Number(lProf[mod].lastIndices[tk]) || 0;
-              lProf[mod].lastIndices[tk] = Math.max(lIdx, rIdx);
+              if (rMod.lastIndices[tk] !== undefined) {
+                lProf[mod].lastIndices[tk] = Number(rMod.lastIndices[tk]) || 0;
+              }
             });
           }
         }
@@ -1353,21 +1708,18 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
         userState = mergeCloudAndLocalState(cloudData, userState);
         localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
-
-        // Auto-update active index to latest position if available
-        const m = getModuleData();
-        if (m && m.lastIndices && m.lastIndices[currentTab] !== undefined && m.lastIndices[currentTab] >= 0) {
-          currentIndex = m.lastIndices[currentTab];
-        } else if (m && m.studiedQuestions && m.studiedQuestions.length > 0 && (currentTab === 'sheppard1' || currentTab === 'sheppard2' || currentTab === 'interactive')) {
-          currentIndex = Math.min((filteredQuestions.length || allQuestions.length || 1) - 1, m.studiedQuestions.length);
-        }
+        // NOTE: We NEVER overwrite currentIndex during background sync so the user's active reading spot is undisturbed!
       }
 
       // 2. PUSH MERGED STATE TO CLOUD
       userState.last_updated = Date.now();
+      const isLocalServer = endpoint.includes('/api/sync') || endpoint.includes('localhost') || endpoint.includes('127.0.0.1');
+      const putMethod = isLocalServer ? 'POST' : 'PUT';
+      const putContentType = isLocalServer ? 'application/json' : 'text/plain';
+
       const putRes = await fetchWithTimeout(endpoint, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'text/plain' },
+        method: putMethod,
+        headers: { 'Content-Type': putContentType },
         body: JSON.stringify(userState)
       }, 6000);
 
@@ -1379,15 +1731,13 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
         updateSyncStatusUI('online_synced', nowStr);
 
         updateProfileUI();
-        updateFilteredQuestions();
-        renderCurrentQuestion();
         updateDashboardStats();
         updateModalSummary();
 
         if (showFeedback) {
           showToast('🎉 Cloud sync complete! All study progress is unified.');
         }
-        break; // Successfully synced to primary endpoint
+        break; // Successfully synced to active endpoint
       } else {
         throw new Error(`Cloud PUT status ${putRes.status}`);
       }
@@ -1411,12 +1761,12 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
   }
 }
 
-// Auto-sync polling every 20 seconds while app is active
+// Auto-sync polling every 30 seconds while app is active
 setInterval(() => {
   if (navigator.onLine && document.visibilityState === 'visible') {
     syncWithCloud(false);
   }
-}, 20000);
+}, 30000);
 
 // ==========================================
 // STARTUP PROFILE PICKER OVERLAY LOGIC
@@ -1942,12 +2292,16 @@ function setupEventListeners() {
 
 
 
-  // Keyboard Shortcuts for Rapid Evaluation (Arrow keys & 1/2/3 option selection)
+  // Unified Keyboard Shortcuts for Rapid Evaluation (Arrow keys, 1/2/3, Space, E, B)
   window.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
+    if (document.activeElement && ['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+
     if (e.key === 'ArrowLeft') {
+      e.preventDefault();
       document.getElementById('prevBtn')?.click();
-    } else if (e.key === 'ArrowRight') {
+    } else if (e.key === 'ArrowRight' || e.key === ' ') {
+      e.preventDefault();
       document.getElementById('nextBtn')?.click();
     } else if (['1', '2', '3'].includes(e.key)) {
       const optBtns = document.querySelectorAll('#optionsContainer button.opt-btn');
@@ -1955,6 +2309,10 @@ function setupEventListeners() {
       if (optBtns[idx]) {
         optBtns[idx].click();
       }
+    } else if (e.key === 'e' || e.key === 'E') {
+      document.getElementById('toggleExplBtn')?.click();
+    } else if (e.key === 'b' || e.key === 'B') {
+      document.getElementById('bookmarkBtn')?.click();
     }
   });
 
@@ -2050,21 +2408,7 @@ function setupEventListeners() {
     submitPracticeExam();
   });
 
-  // Keyboard Shortcuts for Rapid Pilot Study
-  document.addEventListener('keydown', (e) => {
-    if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') return;
-    if (e.key === 'ArrowRight' || e.key === ' ') {
-      e.preventDefault();
-      document.getElementById('nextBtn')?.click();
-    } else if (e.key === 'ArrowLeft') {
-      e.preventDefault();
-      document.getElementById('prevBtn')?.click();
-    } else if (e.key === 'e' || e.key === 'E') {
-      document.getElementById('toggleExplBtn')?.click();
-    } else if (e.key === 'b' || e.key === 'B') {
-      document.getElementById('bookmarkBtn')?.click();
-    }
-  });
+
 }
 
 // FILTERING LOGIC

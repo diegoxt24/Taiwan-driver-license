@@ -11,6 +11,8 @@ def merge_cloud_and_local_state(remote_data, local_data):
     modules = ['motorcycle', 'car']
     tab_keys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed']
 
+    remote_is_newer = (int(remote_data.get('last_updated', 0) or 0)) > (int(local_data.get('last_updated', 0) or 0))
+
     for prof in profiles:
         if prof not in local_data:
             local_data[prof] = {}
@@ -56,13 +58,11 @@ def merge_cloud_and_local_state(remote_data, local_data):
                     exam_map = {ex['date']: ex for ex in (l_exams + r_exams) if isinstance(ex, dict) and 'date' in ex}
                     l_prof[mod]['examHistory'] = list(exam_map.values())
 
-                    # 5. Smart Highest-Index Resolution for lastIndices
-                    r_indices = r_mod.get('lastIndices', {})
-                    if isinstance(r_indices, dict):
+                    # 5. Smart Index Resolution: Only adopt remote indices if remote state is strictly newer
+                    if remote_is_newer and isinstance(r_mod.get('lastIndices'), dict):
                         for tk in tab_keys:
-                            r_idx = int(r_indices.get(tk, 0))
-                            l_idx = int(l_prof[mod]['lastIndices'].get(tk, 0))
-                            l_prof[mod]['lastIndices'][tk] = max(l_idx, r_idx)
+                            if tk in r_mod['lastIndices']:
+                                l_prof[mod]['lastIndices'][tk] = int(r_mod['lastIndices'][tk])
 
     local_data['last_updated'] = max(
         int(local_data.get('last_updated', 0) or 0),
@@ -119,15 +119,17 @@ class TestSyncEngineCRDT(unittest.TestCase):
         self.assertEqual(len(merged['johana']['car']['studiedQuestions']), 2)
         self.assertIn('CAR_0100', merged['johana']['car']['studiedQuestions'])
 
-    def test_smart_highest_last_indices(self):
-        # Device A reached question 120 in Sheppard1, Device B reached question 45
+    def test_smart_timestamp_last_indices(self):
+        # Device A has last_updated 2000 (newer) and reached question 120 in Sheppard1
+        # Device B has last_updated 1000 (older) and reached question 45
         local_a = {
             'diego': {
                 'car': {
                     'studiedQuestions': ['CAR_0001'],
                     'lastIndices': {'sheppard1': 120, 'mode0': 10}
                 }
-            }
+            },
+            'last_updated': 2000
         }
         cloud_b = {
             'diego': {
@@ -135,13 +137,14 @@ class TestSyncEngineCRDT(unittest.TestCase):
                     'studiedQuestions': ['CAR_0002'],
                     'lastIndices': {'sheppard1': 45, 'mode0': 25}
                 }
-            }
+            },
+            'last_updated': 1000
         }
         merged = merge_cloud_and_local_state(cloud_b, local_a)
-        # sheppard1 should pick max(120, 45) = 120; mode0 should pick max(10, 25) = 25
+        # Because local_a is newer, its indices 120 and 10 are preserved
         self.assertEqual(merged['diego']['car']['lastIndices']['sheppard1'], 120)
-        self.assertEqual(merged['diego']['car']['lastIndices']['mode0'], 25)
-        # Studied questions should be union: ['CAR_0001', 'CAR_0002']
+        self.assertEqual(merged['diego']['car']['lastIndices']['mode0'], 10)
+        # Studied questions should be non-destructive union: ['CAR_0001', 'CAR_0002']
         self.assertEqual(set(merged['diego']['car']['studiedQuestions']), {'CAR_0001', 'CAR_0002'})
 
     def test_malformed_and_empty_cloud_payload(self):

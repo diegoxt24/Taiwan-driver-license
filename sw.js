@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v8-crdt-sync';
+const CACHE_NAME = 'tw-driving-prep-v9-stable-sync';
 const ASSETS = [
   './',
   './index.html',
