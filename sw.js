@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v16-interactive-bookmarks';
+const CACHE_NAME = 'tw-driving-prep-v17-failed-mode-union-sync';
 const ASSETS = [
   './',
   './index.html',

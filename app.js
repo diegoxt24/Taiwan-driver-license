@@ -1606,19 +1606,15 @@ function mergeCloudAndLocalState(remoteData, localData) {
           const lStudied = Array.isArray(lProf[mod].studiedQuestions) ? lProf[mod].studiedQuestions : [];
           lProf[mod].studiedQuestions = Array.from(new Set([...lStudied, ...rStudied]));
 
-          // 2. Bookmarks: If remote timestamp is strictly newer, adopt remote. If local is newer/equal, preserve local deletions!
-          if (remoteIsNewer) {
-            lProf[mod].bookmarks = Array.isArray(rMod.bookmarks) ? [...rMod.bookmarks] : [];
-          } else {
-            if (!Array.isArray(lProf[mod].bookmarks)) lProf[mod].bookmarks = [];
-          }
+          // 2. Bookmarks: Union merge across all devices so bookmarks are never lost
+          const rBookmarks = Array.isArray(rMod.bookmarks) ? rMod.bookmarks : [];
+          const lBookmarks = Array.isArray(lProf[mod].bookmarks) ? lProf[mod].bookmarks : [];
+          lProf[mod].bookmarks = Array.from(new Set([...lBookmarks, ...rBookmarks]));
 
-          // 3. Failed Questions: If remote timestamp is strictly newer, adopt remote. If local is newer/equal, preserve local deletions!
-          if (remoteIsNewer) {
-            lProf[mod].failedQuestions = Array.isArray(rMod.failedQuestions) ? [...rMod.failedQuestions] : [];
-          } else {
-            if (!Array.isArray(lProf[mod].failedQuestions)) lProf[mod].failedQuestions = [];
-          }
+          // 3. Failed Questions: Union merge across all devices so missed questions are always unified
+          const rFailed = Array.isArray(rMod.failedQuestions) ? rMod.failedQuestions : [];
+          const lFailed = Array.isArray(lProf[mod].failedQuestions) ? lProf[mod].failedQuestions : [];
+          lProf[mod].failedQuestions = Array.from(new Set([...lFailed, ...rFailed]));
 
           // 4. Exam History Union (keyed by ISO date)
           const rExams = Array.isArray(rMod.examHistory) ? rMod.examHistory : [];
@@ -2652,6 +2648,7 @@ function switchTab(tab) {
   }
   updateFilteredQuestions();
   renderCurrentQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // RENDER CURRENT QUESTION
