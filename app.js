@@ -1625,12 +1625,12 @@ function mergeCloudAndLocalState(remoteData, localData) {
           });
           lProf[mod].examHistory = Array.from(examMap.values());
 
-          // 5. Smart Index Resolution: Only adopt remote indices if remote state is strictly newer
-          if (remoteIsNewer && rMod.lastIndices && typeof rMod.lastIndices === 'object') {
+          // 5. Smart Index Resolution: Take the furthest studied question index across all devices
+          if (rMod.lastIndices && typeof rMod.lastIndices === 'object') {
             tabKeys.forEach(tk => {
-              if (rMod.lastIndices[tk] !== undefined) {
-                lProf[mod].lastIndices[tk] = Number(rMod.lastIndices[tk]) || 0;
-              }
+              const rIdx = Number(rMod.lastIndices[tk]) || 0;
+              const lIdx = Number(lProf[mod].lastIndices[tk]) || 0;
+              lProf[mod].lastIndices[tk] = Math.max(lIdx, rIdx);
             });
           }
         }
@@ -1711,9 +1711,10 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
         localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
       }
 
-      // 2. PUSH TO CLOUD ONLY IF FORCE PUSH WAS REQUESTED OR LOCAL HAS NEWER CHANGES
-      if (forcePush || localHasNewerChanges) {
-        userState.last_updated = Date.now();
+      // 2. PUSH TO CLOUD IF FORCE PUSH REQUESTED, OR LOCAL HAS NEWER DATA, OR STATE EXPANDED
+      const stateNeedsPush = forcePush || localHasNewerChanges || (cloudData && JSON.stringify(cloudData) !== JSON.stringify(userState));
+      if (stateNeedsPush) {
+        userState.last_updated = Math.max(lTime, rTime, Date.now());
         const isLocalServer = endpoint.includes('/api/sync') || endpoint.includes('localhost') || endpoint.includes('127.0.0.1');
         const putMethod = isLocalServer ? 'POST' : 'PUT';
         const putContentType = 'application/json';
@@ -2126,11 +2127,12 @@ function setupEventListeners() {
           currentIndex = 0;
         }
 
-        saveStateToStorage();
+        localStorage.setItem('tw_driver_active_profile', prof);
         updateFilteredQuestions();
         renderCurrentQuestion();
         updateModalSummary();
         showToast(`👤 Perfil activo: ${prof.toUpperCase()}`);
+        syncWithCloud(false);
       }
     });
   });
@@ -2139,10 +2141,11 @@ function setupEventListeners() {
   if (profSelect) {
     profSelect.addEventListener('change', (e) => {
       activeProfile = e.target.value;
-      saveStateToStorage();
+      localStorage.setItem('tw_driver_active_profile', activeProfile);
       updateFilteredQuestions();
       renderCurrentQuestion();
       updateModalSummary();
+      syncWithCloud(false);
     });
   }
 
