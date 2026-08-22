@@ -1,142 +1,456 @@
 [
   {
-    "category": "🏍️ 1. Motorcycle Classification, Speed & Road Rules",
+    "category": "🏍️ 1. Motorcycle Classifications, Dimensions & Technical Specs",
     "items": [
       {
-        "label": "Small Light Motorcycle (<50cc / Green Plate)",
-        "value": "Max speed 45 km/h on regular roads"
+        "label": "Small Light Electric Motorcycle (小型輕型機車)",
+        "value": "Curb weight < 70 kg (incl. battery); Power < 1.34 HP (1 kW); Max speed ≤ 45 km/h; Tire diameter 300–420 mm; 0 passengers allowed (single-rider only)"
       },
       {
-        "label": "Regular Heavy Motorcycle (50cc–249cc / White Plate)",
-        "value": "Max speed 50 km/h (urban), 40 km/h (narrow/slow lane); No freeway access"
+        "label": "Regular Light Motorcycle (普通輕型機車 / Green Plate)",
+        "value": "Displacement ≤ 50 cc or electric motor > 1.34 HP & ≤ 5 HP; Cargo weight limit: 50 kg; Max 1 passenger (fixed rear seat)"
       },
       {
-        "label": "Large Heavy Motorcycle (250cc–549cc / Yellow Plate)",
-        "value": "Follows small car rules; Permitted on designated expressways, NO freeways"
+        "label": "Regular Heavy Motorcycle (普通重型機車 / White Plate)",
+        "value": "Displacement 50 cc–249 cc or electric motor > 5 HP & ≤ 40 HP; Cargo weight limit: 80 kg; Max 1 passenger (fixed rear seat)"
       },
       {
-        "label": "Super Heavy Motorcycle (550cc+ / Red Plate)",
-        "value": "Follows small car rules; Permitted on expressways & designated national freeways"
+        "label": "Large Heavy Motorcycle (Yellow Plate 250–549 cc / Red Plate 550 cc+)",
+        "value": "Follows small passenger car rules; Yellow = Expressways only; Red = Expressways & designated freeways; Driver min age 20 yrs + 1 yr heavy license"
       },
       {
-        "label": "Two-Stage Left Turn (Hook Turn / 兩段式左轉)",
-        "value": "Mandatory when hook turn sign is posted OR on roads with 3+ lanes / 'No Moto' inner lane"
+        "label": "Maximum Cargo Loading Height",
+        "value": "Must not exceed the rider's shoulder height"
       },
       {
-        "label": "Inner Lane 'No Motorcycle' (禁行機車) Marking",
-        "value": "Strictly prohibited from riding or overtaking in inner lane when marked"
+        "label": "Maximum Cargo Loading Width",
+        "value": "Must not exceed 10 cm beyond outer edge of handlebars on each side (total width ≤ handlebars + 20 cm)"
       },
       {
-        "label": "Minimum Tire Tread Depth (Motorcycle)",
-        "value": "0.8 mm (check wear indicator bar on tire shoulder)"
-      }
-    ]
-  },
-  {
-    "category": "🛡️ 2. Helmet, Passenger & Cargo Regulations",
-    "items": [
+        "label": "Maximum Cargo Length (Rear Overhang)",
+        "value": "Must not extend more than 0.5 meters (50 cm) beyond the rear wheel axle"
+      },
       {
-        "label": "Motorcycle Helmet Standard & Fastening",
-        "value": "Must wear approved CNS safety helmet firmly strapped; NT$500 fine for violation"
+        "label": "Maximum Cargo Length (Forward Overhang)",
+        "value": "Must not extend forward beyond the rear of the seat"
+      },
+      {
+        "label": "Maximum Overall Vehicle Height",
+        "value": "Overall motorcycle height must not exceed 2.0 meters"
       },
       {
         "label": "Pillion Passenger Seating Rule",
-        "value": "Must sit astride on rear seat facing forward; Strictly 1 passenger on heavy moto"
+        "value": "Must sit astride facing forward on fixed rear seat; Sitting sideways (側坐) is strictly prohibited"
       },
       {
-        "label": "Carrying Children on Footrest Area",
-        "value": "Strictly PROHIBITED to place children/babies on front pedal/footrest"
+        "label": "Carrying Cargo While Carrying a Passenger",
+        "value": "Prohibited to carry additional cargo when carrying a passenger (small personal hand-carried items exempt)"
       },
       {
-        "label": "Motorcycle Cargo Weight Limit",
-        "value": "Heavy moto: max 80 kg; Light moto: max 50 kg"
+        "label": "Carrying Children on Front Footrest",
+        "value": "Strictly prohibited to carry children, babies, or pets on the front floorboard/footrest"
       },
       {
-        "label": "Motorcycle Cargo Dimensions",
-        "value": "Height: max shoulder height; Width: max handlebar width + 15cm per side; Length: max 50cm past rear"
+        "label": "Turn Signal Light Color Standard",
+        "value": "Turn signal indicator lights must be ORANGE (not red or yellow)"
+      },
+      {
+        "label": "Headlight Standard",
+        "value": "Must include both High Beam (遠光燈) and Low Beam (近光燈)"
       }
     ]
   },
   {
-    "category": "🍷 3. Motorcycle Alcohol Limits & Penalty Laws",
+    "category": "🔧 2. Mechanical Maintenance, Tires, Battery & Inspection Rules",
+    "items": [
+      {
+        "label": "Normal Exhaust Smoke Color",
+        "value": "Colorless / transparent (indicates proper gasoline combustion)"
+      },
+      {
+        "label": "Black Exhaust Smoke Cause",
+        "value": "Incomplete gasoline combustion (overly rich fuel-air mixture, clogged air filter, or faulty carburetor/injector)"
+      },
+      {
+        "label": "Bluish-White Exhaust Smoke Cause",
+        "value": "Burning engine oil inside combustion chamber (worn piston rings or leaking valve stem seals)"
+      },
+      {
+        "label": "White Steam in Cold Weather",
+        "value": "Normal condensation of water vapor in cold exhaust system; dissipates quickly"
+      },
+      {
+        "label": "Primary Greenhouse Gas in Motorcycle Emissions",
+        "value": "Carbon dioxide (CO₂)"
+      },
+      {
+        "label": "Battery Terminal Maintenance",
+        "value": "Apply grease / Vaseline to battery terminals to prevent corrosion and oxidation"
+      },
+      {
+        "label": "Battery Fluid Replenishment",
+        "value": "Replenish only with Distilled Water (never tap water, mineral water, or acid)"
+      },
+      {
+        "label": "Air Filter Purpose",
+        "value": "Filters sand, dust, and abrasives from intake air to prevent cylinder wall and piston scoring"
+      },
+      {
+        "label": "Brake Lever Free Play",
+        "value": "1 to 2 cm (10–20 mm) of lever travel before braking engagement begins"
+      },
+      {
+        "label": "Spark Plug Gap",
+        "value": "0.6 to 0.7 mm"
+      },
+      {
+        "label": "Minimum Tire Tread Depth",
+        "value": "0.8 mm (must replace immediately when tread reaches wear indicator bump on tire shoulder)"
+      },
+      {
+        "label": "Maximum Recommended Tire Age",
+        "value": "No more than 6 years from manufacture date"
+      },
+      {
+        "label": "Tire Date Code Decoding (e.g. MMD1213)",
+        "value": "1213 = 12th week of the year 2013 (first 2 digits = week, last 2 digits = year)"
+      },
+      {
+        "label": "Tire Specification Code (e.g. 3.50-10-8PR)",
+        "value": "3.50 = 3.5 inch tire width; 10 = 10 inch rim diameter; 8PR = 8 Ply Rating structural carcass strength"
+      },
+      {
+        "label": "Under-Inflated Tire Symptoms",
+        "value": "Wear on both outer shoulder edges + increased fuel consumption + heavy sluggish steering"
+      },
+      {
+        "label": "Over-Inflated Tire Symptoms",
+        "value": "Wear along center rib + reduced road grip + harsh bumpy ride damaging shock absorbers"
+      },
+      {
+        "label": "Tire Pressure Measurement Condition",
+        "value": "Always measure tire pressure when tires are COLD before riding"
+      },
+      {
+        "label": "Transfer of Ownership Inspection",
+        "value": "Mandatory temporary inspection if motorcycle is > 5 years old from manufacture date"
+      },
+      {
+        "label": "Temporary Out-of-Service (報停) Max Period",
+        "value": "Up to 1 year maximum"
+      },
+      {
+        "label": "Severe Accident Repair Inspection",
+        "value": "Requires Temporary Inspection (臨時檢驗) after repair before returning to road use"
+      },
+      {
+        "label": "Long-Term Parked Motorcycle Maintenance",
+        "value": "Start engine and idle for 3–5 minutes at least once every week"
+      }
+    ]
+  },
+  {
+    "category": "🚑 3. Emergency First Aid, CPR Sequence & Bleeding Protocols",
+    "items": [
+      {
+        "label": "CPR Life-Support Protocol Sequence",
+        "value": "Call 119 → Call for AED → C (Compressions) → A (Airway) → B (Breathing) → D (Defibrillation with AED)"
+      },
+      {
+        "label": "Chest Compression Rate",
+        "value": "100 to 120 compressions per minute (approx. 100/min)"
+      },
+      {
+        "label": "Chest Compression Depth (Adult)",
+        "value": "5 to 6 cm at center of sternum between nipples"
+      },
+      {
+        "label": "Compression to Ventilation Ratio",
+        "value": "30 compressions to 2 rescue breaths (30:2) for adult CPR"
+      },
+      {
+        "label": "Maximum Allowable CPR Interruption",
+        "value": "Must not exceed 10 seconds (for pulse checks, breaths, or AED pads)"
+      },
+      {
+        "label": "CPR Re-Evaluation Frequency",
+        "value": "Check pulse and breathing effectiveness every 2 minutes (approx. 5 cycles of 30:2)"
+      },
+      {
+        "label": "Airway & Breathing Check Duration",
+        "value": "Check breathing and airway for no more than 10 seconds"
+      },
+      {
+        "label": "Cardiac Arrest Brain Damage Window",
+        "value": "CPR must begin within 4 to 6 minutes to prevent irreversible hypoxic brain damage"
+      },
+      {
+        "label": "Unconscious Victim with Normal Breathing",
+        "value": "Place in Recovery Position (side-lying) to keep airway clear and allow fluid drainage"
+      },
+      {
+        "label": "Suspected Cervical / Spine Trauma Airway",
+        "value": "Use Jaw-Thrust Maneuver without tilting the head or extending the neck"
+      },
+      {
+        "label": "Choking / Heimlich Maneuver Hand Position",
+        "value": "Place clenched fist midway between navel and lower sternum (xiphoid process), thrust upward & inward"
+      },
+      {
+        "label": "Arterial Bleeding Characteristics",
+        "value": "Bright red oxygenated blood spurting pulsatile under high pressure → Immediate direct pressure / tourniquet"
+      },
+      {
+        "label": "Venous Bleeding Characteristics",
+        "value": "Dark red blood flowing steadily in continuous stream → Direct pressure with sterile dressing"
+      },
+      {
+        "label": "Capillary Bleeding Characteristics",
+        "value": "Slow reddish oozing from surface abrasions → Clean with normal saline and apply sterile dressing"
+      },
+      {
+        "label": "Tourniquet Protocol",
+        "value": "Record exact time applied; briefly loosen every 15 to 20 minutes to prevent limb tissue necrosis"
+      },
+      {
+        "label": "Severe Burn Management (5 Steps)",
+        "value": "Rinse (cool running water 15–30 min), Remove loose clothing (never tear stuck cloth), Soak, Cover, Send to hospital"
+      },
+      {
+        "label": "Compound Fracture with Bleeding",
+        "value": "Stop the bleeding first; never attempt to push protruding bone fragments back into the flesh"
+      },
+      {
+        "label": "Chemical Skin Exposure Treatment",
+        "value": "Immediately rinse affected area with copious amounts of running clean water (do not neutralize with chemicals)"
+      }
+    ]
+  },
+  {
+    "category": "🍷 4. Alcohol Limits, DUI Penalties & License Sanctions",
     "items": [
       {
         "label": "Administrative Fine BAC Threshold",
         "value": "0.15 mg/L breath alcohol (or 0.03% blood alcohol)"
       },
       {
-        "label": "First-Time Motorcycle DUI Fine",
-        "value": "NT$15,000 to NT$90,000 + License suspension for 1 to 2 years"
+        "label": "Criminal Public Endangerment BAC Threshold",
+        "value": "0.25 mg/L breath alcohol (or 0.05% blood alcohol) → up to 3 yrs imprisonment + fine up to NT$300,000"
       },
       {
-        "label": "Refusing Breathalyzer Sobriety Test",
-        "value": "NT$180,000 fine + Instant license revocation + Vehicle impoundment"
+        "label": "1st Motorcycle DUI Offense",
+        "value": "NT$15,000 to NT$90,000 fine + 1 to 2-year license suspension + motorcycle impounded on the spot"
       },
       {
-        "label": "Operating Mobile Phone While Riding",
-        "value": "NT$1,000 fine (strictly prohibited while riding)"
+        "label": "2nd Motorcycle DUI within 10 Years",
+        "value": "NT$90,000 flat fine + 3-year license revocation + motorcycle impounded + public disclosure of name and photo"
+      },
+      {
+        "label": "3rd+ Motorcycle DUI within 10 Years",
+        "value": "Previous fine + NT$90,000 additional per offense + license revocation + vehicle impounded"
+      },
+      {
+        "label": "Refusal of Breathalyzer Test (1st Offense)",
+        "value": "NT$180,000 flat fine + immediate license revocation (3-year reapplication ban) + vehicle impounded + lecture"
+      },
+      {
+        "label": "Refusal of Breathalyzer Test (2nd Offense in 10 Yrs)",
+        "value": "NT$360,000 flat fine (+ NT$180,000 for each subsequent refusal) + 5-year reapplication ban"
+      },
+      {
+        "label": "DUI Causing Serious Injury or Death",
+        "value": "Permanent driver license revocation (lifetime ban from retaking test) + vehicle confiscated"
+      },
+      {
+        "label": "DUI or Unlicensed Riding Causing Injury/Death",
+        "value": "Criminal penalties legally increased by up to ONE-HALF (+1/2 or 1.5x sentence)"
       },
       {
         "label": "Accumulating 12 Demerit Points within 1 Year",
-        "value": "Driver license suspended for 2 months"
+        "value": "Driver's license suspended for 2 months"
+      },
+      {
+        "label": "Lending Driver's License to Others",
+        "value": "3-month driver's license suspension for both lender and unauthorized rider"
+      },
+      {
+        "label": "Damaged / Unidentifiable Driver's License",
+        "value": "Apply for a replacement license (do not need to retake driving test)"
       }
     ]
   },
   {
-    "category": "🛑 4. Right-of-Way, Intersections & Hand Signals",
+    "category": "💰 5. Complete Traffic Fines & Demerit Points Matrix",
     "items": [
       {
-        "label": "Intersection Right-of-Way Priority #1",
-        "value": "Straight-going vehicle has absolute priority over turning vehicle"
+        "label": "Helmet Not Worn / Unfastened Chin Strap",
+        "value": "NT$500 flat fine"
       },
       {
-        "label": "Intersection Right-of-Way Priority #2",
-        "value": "Left-turning vehicle MUST yield to Right-turning vehicle"
+        "label": "Operating Handheld Mobile Phone While Riding",
+        "value": "NT$1,000 flat fine"
       },
       {
-        "label": "Uncontrolled / Equal Intersections",
-        "value": "Vehicle on left must yield to vehicle approaching from RIGHT side"
+        "label": "Running Red Light (Traffic Signal)",
+        "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"
       },
       {
-        "label": "Roundabout Traffic Right-of-Way",
-        "value": "Vehicles entering roundabout MUST yield to vehicles already circulating inside"
+        "label": "Crossing Stop Line on Red (Front Wheel Over Line)",
+        "value": "NT$900 to NT$1,800 fine + 1 demerit point"
       },
       {
-        "label": "Left Arm Extended Horizontally, Palm Downward",
-        "value": "Indicates Left Turn (or lane change to left)"
+        "label": "Failure to Make Two-Stage Left Turn (Hook-Turn)",
+        "value": "NT$600 to NT$1,200 fine + 1 demerit point"
       },
       {
-        "label": "Left Upper Arm Horizontal, Forearm Upward",
-        "value": "Indicates Right Turn (or lane change to right)"
+        "label": "Riding in Designated 'No Motorcycles' (禁行機車) Lane",
+        "value": "NT$600 to NT$1,800 fine + 1 demerit point"
       },
       {
-        "label": "Left Arm Extended Downward, Palm Backward",
-        "value": "Indicates Slowing Down or Stopping"
+        "label": "Failure to Yield to Pedestrians on Crosswalk",
+        "value": "NT$1,200 to NT$6,000 fine + 3 demerit points + road safety lecture"
+      },
+      {
+        "label": "Failure to Yield to Emergency Vehicles (Ambulance/Fire)",
+        "value": "NT$6,000 to NT$90,000 fine + DRIVER LICENSE REVOCATION"
+      },
+      {
+        "label": "Unlicensed Motorcycle Riding",
+        "value": "NT$6,000 to NT$24,000 fine + prohibited from riding + vehicle impounded"
+      },
+      {
+        "label": "Speeding ≤ 40 km/h Over Limit",
+        "value": "NT$1,200 to NT$2,400 fine + 1 demerit point"
+      },
+      {
+        "label": "Excessive Speeding (≥ 40 km/h Over Limit - Dangerous Driving)",
+        "value": "NT$6,000 to NT$36,000 fine + 6 months license plate suspension + 3 demerit points + lecture"
+      },
+      {
+        "label": "Turning or Changing Lanes Without Turn Signal",
+        "value": "NT$1,200 to NT$3,600 fine + 1 demerit point"
+      },
+      {
+        "label": "Opening Car Door Dangerously / Unsafe Dooring",
+        "value": "NT$2,400 to NT$4,800 fine"
+      },
+      {
+        "label": "Hit and Run in Property-Damage-Only Accident",
+        "value": "NT$1,000 to NT$3,000 fine + 1 to 3 months driver license suspension"
+      },
+      {
+        "label": "Hit and Run Causing Injury or Death",
+        "value": "Driver license revoked + 1 to 7 years imprisonment (Criminal Code Art. 185-4)"
+      },
+      {
+        "label": "Failing to Move Vehicle in Minor Non-Injury Accident",
+        "value": "NT$600 to NT$1,800 fine (if vehicle is operable and obstructs traffic)"
       }
     ]
   },
   {
-    "category": "🎬 5. Hazard Perception & Defensive Riding Guidelines",
+    "category": "🛑 6. Right-of-Way, Intersections & Speed Limits",
     "items": [
       {
-        "label": "Passing Stopped Public Bus at Bus Stop",
-        "value": "Slow down, maintain safe buffer, expect hidden pedestrians stepping out from front of bus"
+        "label": "Speed Limit - Alleys & Roads Without Center Lines",
+        "value": "30 km/h"
       },
       {
-        "label": "Entering / Exiting Tunnel Glare Hazard",
-        "value": "Turn on low-beam headlights, decelerate, expect brief visual adaptation delay"
+        "label": "Speed Limit - Roads With Center Lines but No Speed Signs",
+        "value": "50 km/h"
       },
       {
-        "label": "Wet Road Surface & Manhole Covers / Road Paint",
-        "value": "Avoid hard braking or sharp leaning on painted road markings and metal covers"
+        "label": "Speed Limit - Slow Lanes & Designated Curved / Mountain Sections",
+        "value": "40 km/h"
       },
       {
-        "label": "Large Vehicle Turning Blind Spots & Off-Tracking",
-        "value": "Stay clear of inner rear wheel path of turning large trucks/buses"
+        "label": "Speed vs. Braking Distance Physics",
+        "value": "Braking distance ∝ Speed² (Doubling speed from 30 to 60 km/h quadruples braking distance 4x)"
       },
       {
-        "label": "Car Doors Opening Suddenly (Dooring Risk)",
-        "value": "Maintain at least 1 meter buffer from parked cars along roadside"
+        "label": "Speed vs. Fatality Risk (OECD Research)",
+        "value": "Increasing impact speed from 30 km/h to 50 km/h increases motorcycle fatality rate sharply from 10% to ~80%"
+      },
+      {
+        "label": "Turn Signal Advance Distance",
+        "value": "Must activate turn signal at least 30 meters before turning or changing lanes"
+      },
+      {
+        "label": "Intersection Right-of-Way #1 (Straight vs Turning)",
+        "value": "Straight-going vehicle has absolute right-of-way over turning vehicle"
+      },
+      {
+        "label": "Intersection Right-of-Way #2 (Left vs Right Turn)",
+        "value": "Left-turning vehicle must yield to oncoming Right-turning vehicle at same intersection"
+      },
+      {
+        "label": "Intersection Right-of-Way #3 (Uncontrolled / Equal Intersections)",
+        "value": "Vehicle on LEFT must yield to vehicle approaching from the RIGHT"
+      },
+      {
+        "label": "Intersection Right-of-Way #4 (Main vs Branch Road)",
+        "value": "Branch road (fewer lanes / stop/yield sign) must yield to Main road (more lanes / through road)"
+      },
+      {
+        "label": "Roundabout Right-of-Way",
+        "value": "Entering vehicles must yield to vehicles already circulating inside the roundabout"
+      },
+      {
+        "label": "Two-Stage Left Turn (Hook-Turn / 兩段式左轉)",
+        "value": "Mandatory when hook-turn sign posted OR road has 3+ fast lanes OR inner lane marked 'No Motorcycles'"
+      },
+      {
+        "label": "U-Turns Prohibited Sections",
+        "value": "Prohibited on double solid yellow lines, single solid yellow line, on bridges, in tunnels, underpasses, roundabouts, or where left turns prohibited"
+      },
+      {
+        "label": "Riding Downhill Mountain Road",
+        "value": "Strictly prohibited to turn off engine or coast in neutral (must use lower gear for engine braking)"
+      }
+    ]
+  },
+  {
+    "category": "🎬 7. Hazard Perception, Road Markings & Defensive Riding",
+    "items": [
+      {
+        "label": "Double Solid Yellow Lines",
+        "value": "Divides opposing traffic lanes; strictly prohibited to cross, overtake, or make U-turns"
+      },
+      {
+        "label": "Single Solid White Line",
+        "value": "Roadway edge line (outer side is shoulder) or lane boundary prohibiting lane changes"
+      },
+      {
+        "label": "Double Solid White Lines",
+        "value": "Prohibits changing lanes between lanes traveling in the same direction"
+      },
+      {
+        "label": "Yellow Diagonal Striped Area",
+        "value": "Painted obstacle zone / safety island; strictly prohibited to ride into or park on"
+      },
+      {
+        "label": "Passing Stopped Public Bus",
+        "value": "Slow down, leave wide lateral buffer, anticipate hidden pedestrians stepping out from front of bus"
+      },
+      {
+        "label": "Wet Asphalt & Road Markings (Manholes / Paint)",
+        "value": "Friction coefficient drops sharply when wet; avoid hard braking or severe lean angles on paint and metal covers"
+      },
+      {
+        "label": "Large Vehicle Turning (Inner Wheel Off-Tracking)",
+        "value": "Rear wheels cut significantly inside front wheels; stay completely clear of turning large trucks/buses"
+      },
+      {
+        "label": "Parked Car Door Opening (Dooring Hazard)",
+        "value": "Maintain at least 0.5 to 1.0 meter safety buffer from parked cars along roadside"
+      },
+      {
+        "label": "Motorcycle Braking Technique (Normal Stop)",
+        "value": "Apply front brake (~70% force) and rear brake (~30% force) simultaneously in a straight line"
+      },
+      {
+        "label": "Riding in Heavy Rain / Dense Fog",
+        "value": "Turn on low-beam headlights, reduce speed by 20–30%, and increase following distance to double normal"
       }
     ]
   }
