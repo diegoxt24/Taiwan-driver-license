@@ -17458,5 +17458,37 @@
     "image": null,
     "option_images": null,
     "explanation": "🎯 Why Choice (3) is Correct: 'Immediately slow down and stop at least 3 meters (approximately four zebra stripes’ width) before the pedestrian crossing, and resume driving only after the pedestrian has completely passed. Section 3 — Total: 436 questions (No. 655 ~ 1090)' is the legally prescribed driving action under Taiwan Road Traffic Security Rules. It directly addresses the primary risk factors in this scenario by maintaining vehicle stability, preserving reaction time, and respecting right-of-way priority.\n\n❌ Why Other Options are Wrong:\n• Option (1) ('The pedestrian has just stepped onto the crossing and has not yet reached the lane the vehicle is traveling in, so it is safe to maintain the current speed and pass through.'): This action introduces collision risks, misjudges traffic flow dynamics, or fails to comply with safety regulations.\n• Option (2) ('Lightly honk the horn to alert the pedestrian, then accelerate through to avoid meeting on the crossing.'): This option creates unsafe driving conditions and violates established traffic hierarchy.\n\n💡 Pro Study Tip: Always select the option that prioritizes caution, preserves safety buffers, and complies with traffic laws!"
+  },
+  {
+    "id": "CAR_1091",
+    "num": 1091,
+    "category": "Traffic Regulations (Automobile)",
+    "topic": "General Regulations",
+    "question": "If an accident victim has a broken bone and/or is unconscious,",
+    "options": [
+      "(1) it is not necessary to move the victim unless they are in critical condition.",
+      "(2) serious breathing problems, bleeding and any broken bones have to be treated before a victim is moved.",
+      "(3) Both statements are true."
+    ],
+    "answer": 3,
+    "image": null,
+    "option_images": null,
+    "explanation": "🎯 Why Choice (3) is Correct: In emergency trauma management, unconsciousness and severe bleeding/breathing difficulties take priority over moving the casualty. An injured victim with fractures or unconsciousness should not be moved arbitrarily unless immediate danger exists (e.g. fire/explosion hazard), and life-threatening conditions (airway, breathing, bleeding) must be addressed first before transport.\n\n❌ Why Other Options are Wrong:\n• Option (1) alone is incomplete.\n• Option (2) alone is incomplete.\n\n💡 Pro Study Tip: For unconscious/fracture trauma victims: Do not move arbitrarily without emergency; treat airway, breathing, bleeding, and fractures BEFORE moving!"
+  },
+  {
+    "id": "CAR_1092",
+    "num": 1092,
+    "category": "Traffic Regulations (Automobile)",
+    "topic": "General Regulations",
+    "question": "If a driver is discovered to be using a counterfeit, forged, or illegally obtained license, the driver will:",
+    "options": [
+      "(1) be fined;",
+      "(2) have their driver's license revoked;",
+      "(3) be fined and have their driver's license confiscated."
+    ],
+    "answer": 3,
+    "image": null,
+    "option_images": null,
+    "explanation": "🎯 Why Choice (3) is Correct: Under Article 21, Paragraph 1, Item 3 of the Road Traffic Management and Penalty Act, driving with a counterfeit, forged, or fraudulently obtained driver's license results in a heavy monetary fine (NT$6,000 to NT$24,000), immediate driving prohibition, and the fraudulent driver's license is officially CONFISCATED on the spot.\n\n❌ Why Other Options are Wrong:\n• Option (1) ('be fined only'): Fails to include statutory immediate document confiscation.\n• Option (2) ('have their driver\\'s license revoked'): Revocation applies to valid licenses; fraudulent/counterfeit documents are invalid and confiscated directly.\n\n💡 Pro Study Tip: Counterfeit/Forged driver's license = Heavy Fine + Immediate Confiscation of fake license!"
   }
 ]

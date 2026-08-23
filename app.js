@@ -25,11 +25,7 @@ let userState = {
   "diego": {
     "name": "Diego (Pilot Mode)",
     "motorcycle": {
-      "bookmarks": [
-        "MOTO_0018",
-        "MOTO_0262",
-        "MOTO_0410"
-      ],
+      "bookmarks": [],
       "failedQuestions": [],
       "studiedQuestions": [
         1,
@@ -208,7 +204,9 @@ let userState = {
         "CAR_0108",
         "CAR_0642",
         "CAR_0912",
-        "CAR_0949"
+        "CAR_0949",
+        "CAR_1091",
+        "CAR_1092"
       ],
       "failedQuestions": [
         "CAR_0825",
