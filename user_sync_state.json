@@ -2,7 +2,11 @@
   "diego": {
     "name": "Diego (Pilot Mode)",
     "motorcycle": {
-      "bookmarks": [],
+      "bookmarks": [
+        "MOTO_0018",
+        "MOTO_0262",
+        "MOTO_0410"
+      ],
       "failedQuestions": [],
       "studiedQuestions": [
         1,
@@ -177,7 +181,11 @@
         "CAR_1035",
         "CAR_1054",
         "CAR_1076",
-        "CAR_1077"
+        "CAR_1077",
+        "CAR_0108",
+        "CAR_0642",
+        "CAR_0912",
+        "CAR_0949"
       ],
       "failedQuestions": [
         "CAR_0825",
