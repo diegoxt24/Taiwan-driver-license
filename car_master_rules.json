@@ -33,7 +33,7 @@
         "why": "Conflicts with crossing pedestrians and ongoing perpendicular traffic flow."
       },
       {
-        "violation": "Running red light at Light Rail Transit (LRT) shared crossing",
+        "violation": "Running red light at Light Rail Transit shared crossing",
         "amount": "NT$3,600 – 10,800",
         "points_or_penalty": "3 demerit points",
         "why": "Catastrophic impact and derailment hazard involving mass passenger rail transit."
@@ -67,25 +67,25 @@
       {
         "question_id": "CAR_0071",
         "question_text": "For a motor vehicle driver who exceeds the prescribed maximum speed limit by 40 km/h or more, the fine imposed shall be in New Taiwan Dollars:",
-        "correct_answer": "(3) 6,000–36,000 NTD.",
+        "correct_answer": "6,000–36,000 NTD.",
         "trap_explanation": "Speeding ≥40 km/h over limit is classified as dangerous driving (NT$6,000–36,000 + 6mo plate suspension), NOT minor speeding (NT$1,200–2,400)."
       },
       {
         "question_id": "CAR_0200",
         "question_text": "If a vehicle accumulates 3 traffic violations within 3 months, what penalty shall be imposed?",
-        "correct_answer": "(1) Suspension of the vehicle license plate for 1 month.",
+        "correct_answer": "Suspension of the vehicle license plate for 1 month.",
         "trap_explanation": "Accumulating 3 violations in 3 months suspends the vehicle's LICENSE PLATE for 1 month (not the driver's license)."
       },
       {
         "question_id": "CAR_0243",
         "question_text": "When a motor vehicle driver hears the siren of a fire truck, ambulance, police patrol vehicle, engineering rescue vehicle, or toxic chemical disaster response vehicle and fails to yield immediately, what penalty will be imposed under the Road Traffic Management Penalty Act?",
-        "correct_answer": "(3) A fine of not less than NT$6,000 and not more than NT$30,000, revocation of the driver's license, and suspension of the vehicle's license plate for 6 months.",
+        "correct_answer": "A fine of not less than NT$6,000 and not more than NT$30,000, revocation of the driver's license, and suspension of the vehicle's license plate for 6 months.",
         "trap_explanation": "Blocking an ambulance with sirens results in mandatory LICENSE REVOCATION."
       },
       {
         "question_id": "CAR_0356",
         "question_text": "A person who drives a small vehicle during the period when their small vehicle driver's license is suspended shall, in addition to a fine of NT$36,000–60,000 and immediate impoundment of the vehicle on the spot, also:",
-        "correct_answer": "(3) Have their driver's license revoked.",
+        "correct_answer": "Have their driver's license revoked.",
         "trap_explanation": "Driving while suspended escalates to NT$36,000–60,000 and PERMANENT REVOCATION."
       }
     ],
@@ -122,23 +122,23 @@
     "id": "rule_noise_modifications",
     "title": "🔊 Noise, Mufflers, Equipment Modifications & Confiscations",
     "category": "Vehicle Modifications & Equipment Laws",
-    "summary": "• Progressive Escalation for Noise & Removed Mufflers (Article 43):\n  - 1st Offense: Fine of NT$6,000 to NT$24,000, on-the-spot driving ban, and 6-MONTH VEHICLE LICENSE PLATE SUSPENSION + Confiscation of illegal noise device.\n  - 2nd Offense within 1 Year (Repeat): 6-MONTH DRIVER'S LICENSE SUSPENSION.\n• Window Tinting Standards (Visible Light Transmittance - VLT):\n  - Mandatory for newly registered private passenger cars starting February 28, 2026 (ROC Year 115).\n  - Front windshield and front side windows must have a Visible Light Transmittance (VLT) ≥ 70%.\n• Equipment & Vehicle Confiscations:\n  - Unlawfully loud horns and noise devices are CONFISCATED on the spot.\n  - Illegally assembled cars or scrapped vehicles driven on public roads are CONFISCATED and scrapped.\n  - Forged, altered, or fraudulent license plates are CONFISCATED immediately.",
+    "summary": "• Progressive Escalation for Noise & Removed Mufflers:\n  - 1st Offense: Fine of NT$6,000 to NT$24,000, on-the-spot driving ban, and 6-MONTH VEHICLE LICENSE PLATE SUSPENSION + Confiscation of illegal noise device.\n  - 2nd Offense within 1 Year: 6-MONTH DRIVER'S LICENSE SUSPENSION.\n• Window Tinting Standards (Visible Light Transmittance - VLT):\n  - Mandatory for newly registered private passenger cars starting February 28, 2026.\n  - Front windshield and front side windows must have a Visible Light Transmittance ≥ 70%.\n• Equipment & Vehicle Confiscations:\n  - Unlawfully loud horns and noise devices are CONFISCATED on the spot.\n  - Illegally assembled cars or scrapped vehicles driven on public roads are CONFISCATED and scrapped.\n  - Forged, altered, or fraudulent license plates are CONFISCATED immediately.",
     "key_numbers": [
       "6-month PLATE suspension: 1st offense penalty for removed muffler / illegal noise",
       "6-month LICENSE suspension: 2nd repeat offense within 1 year for noise / muffler",
       "VLT ≥ 70%: Minimum visible light transmittance for front windshield from 2026",
-      "Horn duration: Maximum 0.5 seconds (half a second) per press; max 2 consecutive honks",
+      "Horn duration: Maximum 0.5 seconds per press; max 2 consecutive honks",
       "Private car periodic inspections: <5 yrs exempt; 5–10 yrs 1x/year; ≥10 yrs 2x/year"
     ],
     "fines_table": [
       {
-        "violation": "Removed muffler / Installing illegal noise device (1st offense)",
+        "violation": "Removed muffler / Installing illegal noise device",
         "amount": "NT$6,000 – 24,000",
         "points_or_penalty": "6-month vehicle PLATE suspension + device confiscated",
         "why": "Immobilizes the vehicle to enforce restoring factory acoustic standards."
       },
       {
-        "violation": "Muffler removal / Noise violation (2nd offense within 1 year)",
+        "violation": "Muffler removal / Noise violation",
         "amount": "NT$6,000 – 24,000",
         "points_or_penalty": "6-month DRIVER'S LICENSE suspension",
         "why": "Direct individual sanction on the repeat driver for intentional non-compliance."
@@ -160,25 +160,25 @@
       {
         "question_id": "CAR_0100",
         "question_text": "If a motor vehicle driver removes the muffler, causing noise pollution, the driver shall be fined, prohibited from driving on the spot, and have the vehicle license plates suspended for six months. If the offense is repeated within one year, the penalty shall be:",
-        "correct_answer": "(3) Suspension of the driver’s license for six months",
+        "correct_answer": "Suspension of the driver’s license for six months",
         "trap_explanation": "Top exam trap! Repeat noise/muffler offense within 1 year suspends the DRIVER'S LICENSE for 6 months."
       },
       {
         "question_id": "CAR_0263",
         "question_text": "If a motor vehicle driver removes the muffler and causes noise pollution, what is the duration of the fine, on-the-spot prohibition from driving, and suspension of the vehicle license plate?",
-        "correct_answer": "(1) 6 months.",
+        "correct_answer": "6 months.",
         "trap_explanation": "First offense for removing muffler suspends the vehicle's LICENSE PLATE for 6 months."
       },
       {
         "question_id": "CAR_0158",
-        "question_text": "For privately owned passenger vehicles newly registered and licensed from February 28, Republic of China Year 115 (2026) onward that have window tinting film applied, the visible light transmittance of the front windshield must be:",
-        "correct_answer": "(3) 70% or above.",
+        "question_text": "For privately owned passenger vehicles newly registered and licensed from February 28, Republic of China Year 115 onward that have window tinting film applied, the visible light transmittance of the front windshield must be:",
+        "correct_answer": "70% or above.",
         "trap_explanation": "Window tinting VLT standard for front windshield from 2026 is 70% or higher (not 50% or 60%)."
       },
       {
         "question_id": "CAR_1037",
         "question_text": "Installing a high-volume horn or other noise-producing device: the vehicle owner shall be fined and:",
-        "correct_answer": "(2) The high-volume horn or noise device shall be confiscated.",
+        "correct_answer": "The high-volume horn or noise device shall be confiscated.",
         "trap_explanation": "Illegal sirens and excessively loud sound devices are CONFISCATED."
       }
     ],
@@ -208,14 +208,14 @@
     "id": "rule_tunnels_freeways",
     "title": "🚇 Long Tunnels, Freeways, Speeds & Adverse Weather",
     "category": "Highways, Tunnels & Adverse Weather",
-    "summary": "• Long Tunnels (≥ 4 km, e.g., Hsuehshan Tunnel):\n  - Normal cruising distance: Minimum 50 meters for small cars (100 meters for heavy vehicles).\n  - Traffic Jam / Standstill Distance (<20 km/h or stopped): MAINTAIN AT LEAST 20 METERS behind preceding vehicle (prevents chain-reaction fire spread and allows emergency vehicle access).\n  - Hsuehshan Tunnel Speed Limits: Minimum 70 km/h, Maximum 90 km/h.\n  - Low-beam headlights mandatory 24/7. No lane changing (solid white line).\n  - Tunnel Fire Protocol: Pull to right, turn off engine, LEAVE KEYS IN IGNITION/CAR, LEAVE DOORS UNLOCKED, crawl low and evacuate ON FOOT IN OPPOSITE DIRECTION OF TRAFFIC FLOW towards cross-tunnel pedestrian evacuation doors.\n• National Freeways:\n  - Small Car Following Distance Formula: Speed (km/h) ÷ 2 in meters (e.g. 100 km/h = 50m; 90 km/h = 45m; 70 km/h = 35m).\n  - Heavy Truck Following Distance Formula: Speed (km/h) - 20 in meters (e.g. 100 km/h = 80m; 90 km/h = 70m).\n  - Innermost (Left) Lane: Strictly for overtaking or cruising at maximum legal speed limit of the segment.\n  - Slow vehicles (<80 km/h in ≥90 km/h zones): Must drive in outer lane.\n  - Heavy Fog / Torrential Rain (Visibility <100m): Reduce speed to below 40 km/h.\n  - Warning Triangle Breakdown Distance: 100 meters behind on freeways (100–200m in dense fog/curves).",
+    "summary": "• Long Tunnels (≥ 4 km, e.g., Hsuehshan Tunnel):\n  - Normal cruising distance: Minimum 50 meters for small cars.\n  - Traffic Jam / Standstill Distance (<20 km/h or stopped): MAINTAIN AT LEAST 20 METERS behind preceding vehicle (prevents chain-reaction fire spread and allows emergency vehicle access).\n  - Hsuehshan Tunnel Speed Limits: Minimum 70 km/h, Maximum 90 km/h.\n  - Low-beam headlights mandatory 24/7. No lane changing.\n  - Tunnel Fire Protocol: Pull to right, turn off engine, LEAVE KEYS IN IGNITION/CAR, LEAVE DOORS UNLOCKED, crawl low and evacuate ON FOOT IN OPPOSITE DIRECTION OF TRAFFIC FLOW towards cross-tunnel pedestrian evacuation doors.\n• National Freeways:\n  - Small Car Following Distance Formula: Speed ÷ 2 in meters (e.g. 100 km/h = 50m; 90 km/h = 45m; 70 km/h = 35m).\n  - Heavy Truck Following Distance Formula: Speed - 20 in meters (e.g. 100 km/h = 80m; 90 km/h = 70m).\n  - Innermost Lane: Strictly for overtaking or cruising at maximum legal speed limit of the segment.\n  - Slow vehicles (<80 km/h in ≥90 km/h zones): Must drive in outer lane.\n  - Heavy Fog / Torrential Rain (Visibility <100m): Reduce speed to below 40 km/h.\n  - Warning Triangle Breakdown Distance: 100 meters behind on freeways (100–200m in dense fog/curves).",
     "key_numbers": [
       "50 meters: Safe following distance for small cars in long tunnels ≥4 km",
       "100 meters: Safe following distance for heavy trucks in long tunnels",
       "20 meters: Mandatory distance in long tunnels during standstill / speeds <20 km/h",
       "70 – 90 km/h: Official speed range in Hsuehshan Tunnel",
-      "Speed ÷ 2 (m): Small car freeway following distance formula (e.g. 70 km/h = 35m)",
-      "Speed - 20 (m): Heavy vehicle freeway distance formula (e.g. 90 km/h = 70m)",
+      "Speed ÷ 2: Small car freeway following distance formula (e.g. 70 km/h = 35m)",
+      "Speed - 20: Heavy vehicle freeway distance formula (e.g. 90 km/h = 70m)",
       "<40 km/h: Maximum speed on freeways during dense fog or torrential rain",
       "100 meters: Triangle breakdown warning distance on freeways and expressways",
       "50 meters: Triangle distance on 50–60 km/h roads (5–30m on roads ≤40 km/h)"
@@ -224,7 +224,7 @@
       {
         "violation": "Tailgating / Failing to maintain safe following distance on freeway",
         "amount": "NT$3,000 – 6,000",
-        "points_or_penalty": "1 demerit point (Revocation if causing fatal crash)",
+        "points_or_penalty": "1 demerit point",
         "why": "Tailgating is the primary cause of multi-vehicle high-speed pileups."
       },
       {
@@ -244,43 +244,43 @@
       {
         "question_id": "CAR_0820",
         "question_text": "In a tunnel 4 km or longer or one announced by the management authority, when traffic slows below 20 km/h or stops due to congestion or an accident, vehicles should still maintain at least:",
-        "correct_answer": "(1) 20 meters.",
+        "correct_answer": "20 meters.",
         "trap_explanation": "Common exam trap: When traffic crawls (<20 km/h) or stops in long tunnels, maintain at least 20 METERS distance."
       },
       {
         "question_id": "CAR_0825",
         "question_text": "When driving through a tunnel 4 km or longer or one announced by the management authority, large vehicles should maintain a following distance of at least:",
-        "correct_answer": "(3) 100 meters.",
-        "trap_explanation": "In long tunnels ≥4 km, large heavy trucks must maintain 100 METERS distance (small cars 50m)."
+        "correct_answer": "100 meters.",
+        "trap_explanation": "In long tunnels ≥4 km, large heavy trucks must maintain 100 METERS distance."
       },
       {
         "question_id": "CAR_0382",
         "question_text": "On a freeway or expressway, small vehicles traveling in the same lane at 70 km/h should maintain a minimum following distance of:",
-        "correct_answer": "(3) 35 meters.",
+        "correct_answer": "35 meters.",
         "trap_explanation": "At 70 km/h on freeway, small car distance is 35 meters (70 ÷ 2)."
       },
       {
         "question_id": "CAR_0634",
         "question_text": "Under normal weather conditions, when a vehicle is traveling on a freeway or expressway at a speed of 90 kilometers per hour, the safe following distance between the vehicle and the one ahead is:",
-        "correct_answer": "(2) 70 meters for large vehicles, 45 meters for small vehicles.",
+        "correct_answer": "70 meters for large vehicles, 45 meters for small vehicles.",
         "trap_explanation": "At 90 km/h on freeway, large truck distance is 70 meters (90 - 20) and car is 45 meters (90 ÷ 2)."
       },
       {
         "question_id": "CAR_0927",
         "question_text": "When a fire occurs inside a long tunnel, you should stop the engine and:",
-        "correct_answer": "(3) All persons evacuate, leave windows half open, leave the keys in the vehicle, and do not lock the doors.",
+        "correct_answer": "All persons evacuate, leave windows half open, leave the keys in the vehicle, and do not lock the doors.",
         "trap_explanation": "In tunnel fire: turn off engine, LEAVE KEYS IN CAR, LEAVE DOORS UNLOCKED, and evacuate towards pedestrian exits."
       },
       {
         "question_id": "CAR_0692",
-        "question_text": "When driving on a flooded road and you sense 'aquaplaning' (tires losing traction and floating on water), what should you do?",
-        "correct_answer": "(2) Hold the steering wheel firmly, maintain a straight line, and slowly release the accelerator — do not brake suddenly.",
+        "question_text": "When driving on a flooded road and you sense 'aquaplaning', what should you do?",
+        "correct_answer": "Hold the steering wheel firmly, maintain a straight line, and slowly release the accelerator — do not brake suddenly.",
         "trap_explanation": "During hydroplaning: hold steering wheel straight, release gas pedal smoothly, NEVER SLAM ON BRAKES!"
       },
       {
         "question_id": "CAR_0203",
         "question_text": "Which of the following statements about long-distance driving on the freeway is incorrect?",
-        "correct_answer": "(2) If feeling mentally fatigued, temporarily stop the vehicle in a pullout area for a short rest before continuing.",
+        "correct_answer": "If feeling mentally fatigued, temporarily stop the vehicle in a pullout area for a short rest before continuing.",
         "trap_explanation": "When fatigued on freeway, you cannot pull into emergency roadside bays to rest; enter an official Service Area."
       }
     ],
@@ -379,7 +379,7 @@
     "id": "rule_railway_crossings",
     "title": "🚆 Railway Level Crossings: Stop Distances, Fines & SOS Protocol",
     "category": "Railway Safety & Emergency Procedures",
-    "summary": "• Unattended Railway Crossing (No gates or warning bells):\n  - Driver must come to a COMPLETE STOP between 3 and 6 METERS before the nearest rail, look both ways, and listen before crossing.\n• Approach Speed Limit: Maximum 15 km/h upon seeing railway crossing advance warning.\n• Severe Sanctions under Article 54:\n  - Overtaking, U-turns, reversing, stopping, or forcing passage when gates are lowering or bells ringing carries FINE OF NT$15,000 TO NT$90,000 + 1-YEAR DRIVER LICENSE SUSPENSION + Mandatory safety course.\n  - Causing accident on railway tracks: PERMANENT LICENSE REVOCATION (Lifetime retest ban).\n• 3-Step SOS Emergency Protocol (Car stalled on tracks):\n  1. Press (按): The red emergency SOS button on the railway crossing post.\n  2. Push (推): Attempt to push the vehicle clear of the tracks.\n  3. Evacuate (跑): If train approaches or car cannot move, immediately run sideways away from tracks.\n  - Taiwan Railways 24/7 Toll-Free Emergency Hotline: 1933.",
+    "summary": "• Unattended Railway Crossing:\n  - Driver must come to a COMPLETE STOP between 3 and 6 METERS before the nearest rail, look both ways, and listen before crossing.\n• Approach Speed Limit: Maximum 15 km/h upon seeing railway crossing advance warning.\n• Severe Sanctions under Article 54:\n  - Overtaking, U-turns, reversing, stopping, or forcing passage when gates are lowering or bells ringing carries FINE OF NT$15,000 TO NT$90,000 + 1-YEAR DRIVER LICENSE SUSPENSION + Mandatory safety course.\n  - Causing accident on railway tracks: PERMANENT LICENSE REVOCATION.\n• 3-Step SOS Emergency Protocol:\n  1. Press: The red emergency SOS button on the railway crossing post.\n  2. Push: Attempt to push the vehicle clear of the tracks.\n  3. Evacuate: If train approaches or car cannot move, immediately run sideways away from tracks.\n  - Taiwan Railways 24/7 Toll-Free Emergency Hotline: 1933.",
     "key_numbers": [
       "3 to 6 meters: Mandatory stopping buffer before nearest rail at unattended crossings",
       "15 km/h or below: Maximum approach speed near railway crossings",
@@ -404,7 +404,7 @@
       {
         "violation": "Causing railway crash due to crossing infraction",
         "amount": "Maximum fine + Criminal",
-        "points_or_penalty": "PERMANENT LICENSE REVOCATION (Lifetime ban)",
+        "points_or_penalty": "PERMANENT LICENSE REVOCATION",
         "why": "Extreme endangerment or loss of life involving mass passenger train."
       }
     ],
@@ -412,31 +412,31 @@
       {
         "question_id": "CAR_0166",
         "question_text": "At an unattended railway level crossing with no barrier, warning bell, or flashing signal, the driver must stop how many meters before the tracks, look and listen in both directions, and confirm no train is coming before crossing?",
-        "correct_answer": "(2) 3–6 meters before.",
+        "correct_answer": "3–6 meters before.",
         "trap_explanation": "Stop buffer before nearest rail at unattended crossing is 3 TO 6 METERS."
       },
       {
         "question_id": "CAR_0148",
         "question_text": "Which of the following behaviors at a railway level crossing may be punished with a fine of not less than NT$15,000 and not more than NT$90,000?",
-        "correct_answer": "(3) Overtaking, making a U-turn, reversing, or making a temporary stop on the level crossing.",
+        "correct_answer": "Overtaking, making a U-turn, reversing, or making a temporary stop on the level crossing.",
         "trap_explanation": "Illegal maneuvers on railway crossing carry fine of NT$15,000 to NT$90,000."
       },
       {
         "question_id": "CAR_0149",
         "question_text": "Regarding penalties for violations at a railway level crossing, which of the following statements is correct?",
-        "correct_answer": "(3) Overtaking, making a U-turn, reversing, making a temporary stop, or parking at a railway level crossing, due to the serious risk of collision with a train, is subject to a fine of NT$15,000 to NT$90,000 and suspension of the driver's license for one year.",
+        "correct_answer": "Overtaking, making a U-turn, reversing, making a temporary stop, or parking at a railway level crossing, due to the serious risk of collision with a train, is subject to a fine of NT$15,000 to NT$90,000 and suspension of the driver's license for one year.",
         "trap_explanation": "Crossing infractions result in driver license suspension for 1 YEAR."
       },
       {
         "question_id": "CAR_0146",
         "question_text": "When a vehicle breaks down or encounters an obstacle at a railway level crossing, an emergency response should be carried out immediately. The correct order is:",
-        "correct_answer": "(1) Press the \"Level Crossing Emergency Button\" → \"Push the broken-down vehicle off the crossing\" → \"When a train approaches, personnel quickly run away from the crossing.\"",
+        "correct_answer": "Press the \"Level Crossing Emergency Button\" → \"Push the broken-down vehicle off the crossing\" → \"When a train approaches, personnel quickly run away from the crossing.\"",
         "trap_explanation": "The exact SOS order is: 1. Press Button -> 2. Push Car -> 3. Evacuate."
       },
       {
         "question_id": "CAR_0165",
         "question_text": "When a vehicle stops on a railway level crossing and cannot move, what is the most important life-saving action the driver should take?",
-        "correct_answer": "(2) Press the \"Emergency Button\" as soon as possible, or call the toll-free emergency number \"1933\" to notify the relevant authorities.",
+        "correct_answer": "Press the \"Emergency Button\" as soon as possible, or call the toll-free emergency number \"1933\" to notify the relevant authorities.",
         "trap_explanation": "Taiwan Railway emergency hotline is 1933."
       }
     ],
@@ -473,7 +473,7 @@
     "id": "rule_alcohol_dui",
     "title": "🍷 Alcohol BAC Limits, DUI Escalations, Passenger Liability & Door Safety",
     "category": "Alcohol Laws, Passenger Safety & Door Protocols",
-    "summary": "• Legal Alcohol Limits & Progressive Sanctions:\n  - Administrative Limit (≥0.15 mg/L breath / 0.03% blood): Car fine NT$30,000–$120,000 (Moto NT$15k–$90k) + 1 to 2-year license suspension + On-the-spot vehicle impoundment + 2-year plate suspension.\n  - Criminal Threshold (≥0.25 mg/L breath / 0.05% blood): Public Endangerment crime subject to criminal trial and up to 3 years imprisonment.\n  - 10-Year Repeat DUI Offense (2nd time): Maximum fine (NT$120,000 car / NT$90,000 moto) + 3-year License Revocation + Public disclosure of name and photo on government portal. (3rd offense adds NT$90,000 increment).\n  - Sobriety Breathalyzer Refusal: NT$180,000 flat fine + MANDATORY IMMEDIATE LICENSE REVOCATION (3-year retest ban) + Vehicle impoundment.\n  - DUI / Unlicensed Driving Causing Injury or Death: Criminal sentence and legal penalties increased by up to ONE-HALF (+1/2 or 1.5x).\n  - Adult Passenger Co-Liability: Passengers aged 18 to 70 riding with drunk driver (BAC ≥0.25) are fined NT$6,000 to NT$15,000.\n  - Commercial Bus Driver DUI: License revoked and BANNED FROM RETESTING FOR 4 YEARS.\n  - Alcohol Ignition Interlock: Mandatory 1-year installation upon license restoration (car will not start unless breath tests 0.00).\n• Two-Stage Door Opening Protocol:\n  - 1. Check rearview mirror and shoulder check -> 2. Crack door open ~15 cm to confirm clearance -> 3. Open fully and exit.",
+    "summary": "• Legal Alcohol Limits & Progressive Sanctions:\n  - Administrative Limit (≥0.15 mg/L breath / 0.03% blood): Car fine NT$30,000–$120,000 (Moto NT$15k–$90k) + 1 to 2-year license suspension + On-the-spot vehicle impoundment + 2-year plate suspension.\n  - Criminal Threshold (≥0.25 mg/L breath / 0.05% blood): Public Endangerment crime subject to criminal trial and up to 3 years imprisonment.\n  - 10-Year Repeat DUI Offense: Maximum fine (NT$120,000 car / NT$90,000 moto) + 3-year License Revocation + Public disclosure of name and photo on government portal. (3rd offense adds NT$90,000 increment).\n  - Sobriety Breathalyzer Refusal: NT$180,000 flat fine + MANDATORY IMMEDIATE LICENSE REVOCATION (3-year retest ban) + Vehicle impoundment.\n  - DUI / Unlicensed Driving Causing Injury or Death: Criminal sentence and legal penalties increased by up to ONE-HALF (+1/2 or 1.5x).\n  - Adult Passenger Co-Liability: Passengers aged 18 to 70 riding with drunk driver (BAC ≥0.25) are fined NT$6,000 to NT$15,000.\n  - Commercial Bus Driver DUI: License revoked and BANNED FROM RETESTING FOR 4 YEARS.\n  - Alcohol Ignition Interlock: Mandatory 1-year installation upon license restoration (car will not start unless breath tests 0.00).\n• Two-Stage Door Opening Protocol:\n  - 1. Check rearview mirror and shoulder check -> 2. Crack door open ~15 cm to confirm clearance -> 3. Open fully and exit.",
     "key_numbers": [
       "0.15 mg/L (0.03% blood): Administrative DUI threshold (fines + suspension)",
       "0.25 mg/L (0.05% blood): Criminal threshold (criminal trial + prison sentence)",
@@ -486,10 +486,10 @@
     ],
     "fines_table": [
       {
-        "violation": "Driving car with alcohol BAC ≥ 0.15 mg/L (1st offense)",
+        "violation": "Driving car with alcohol BAC ≥ 0.15 mg/L",
         "amount": "NT$30,000 – 120,000",
         "points_or_penalty": "1–2 year license suspension + Vehicle impounded + 2yr plate suspension",
-        "why": "DUI fine cannot be substituted by license suspension (both are mandatory)."
+        "why": "DUI fine cannot be substituted by license suspension."
       },
       {
         "violation": "Driving with alcohol BAC ≥ 0.25 mg/L",
@@ -526,31 +526,31 @@
       {
         "question_id": "CAR_0090",
         "question_text": "A motor vehicle driver who drives a commercial bus under the influence of alcohol shall have their driver's license revoked, and:",
-        "correct_answer": "(3) May not reapply for 4 years.",
+        "correct_answer": "May not reapply for 4 years.",
         "trap_explanation": "Commercial bus driver convicted of DUI loses license and is banned from re-testing for 4 YEARS."
       },
       {
         "question_id": "CAR_0082",
         "question_text": "If a drunk driver whose alcohol concentration exceeds the standard has their vehicle impounded on the spot, can the fine be substituted with a license suspension?",
-        "correct_answer": "(2) No.",
-        "trap_explanation": "DUI fine CANNOT be replaced with license suspension (both fine and suspension are strictly mandatory)."
+        "correct_answer": "No.",
+        "trap_explanation": "DUI fine CANNOT be replaced with license suspension."
       },
       {
         "question_id": "CAR_0026",
         "question_text": "Regarding the joint punishment imposed on 'passengers in the same vehicle' when a motor vehicle driver's breathalyzer reading exceeds the legal limit, in which of the following situations is punishment 'exempted'?",
-        "correct_answer": "(2) The passenger is under 18 years of age or is 70 years of age or older.",
+        "correct_answer": "The passenger is under 18 years of age or is 70 years of age or older.",
         "trap_explanation": "Passengers aged under 18 or over 70 are EXEMPT from the passenger DUI fine."
       },
       {
         "question_id": "CAR_0084",
         "question_text": "Driving after drinking produces a 'tunnel vision effect' for the driver, as if driving in a tunnel with light ahead but darkness all around. Therefore, drunk driving causes:",
-        "correct_answer": "(3) A narrower field of vision.",
+        "correct_answer": "A narrower field of vision.",
         "trap_explanation": "Alcohol causes 'tunnel vision', resulting in a NARROWER visual field."
       },
       {
         "question_id": "CAR_0154",
         "question_text": "Regarding \"Compulsory Automobile Liability Insurance\": if a driver causes an accident while driving under the influence of alcohol, and the insurance company has paid compensation to the victim, how does the law handle the situation?",
-        "correct_answer": "(2) The insurance company may exercise its right of subrogation to recover the paid compensation from the drunk driver.",
+        "correct_answer": "The insurance company may exercise its right of subrogation to recover the paid compensation from the drunk driver.",
         "trap_explanation": "Compulsory insurance pays the innocent victim and then exercises SUBROGATION to recover 100% from drunk driver."
       }
     ],
@@ -616,13 +616,13 @@
     "id": "rule_right_of_way",
     "title": "🛑 Right-of-Way, Intersections, Roundabouts & Mountain Roads",
     "category": "Traffic Hierarchy & Maneuvering Rules",
-    "summary": "• Traffic Control Hierarchy: 1. Traffic Police Hand Gestures > 2. Traffic Lights > 3. Static Signs > 4. Road Markings.\n• Intersection Priority Rules:\n  - Straight > Turning: Straight-moving vehicle has absolute priority over turning vehicle.\n  - Opposite Turning into Same Single Lane: Left-turning vehicle has priority over right-turning vehicle (right-turning yields to left-turning).\n  - Opposite Turning into Multi-lane Road: Left-turn enters inner lane; Right-turn enters outer lane.\n  - Equal Uncontrolled Intersection: Left-side vehicle yields to vehicle coming from the RIGHT.\n  - Roundabouts: Vehicles entering roundabout must yield to vehicles already CIRCULATING INSIDE. On multi-lane roundabouts, outer lane yields to inner lane.\n• Mountain Slopes & Narrow Roads:\n  - Steep slope: DOWNHILL vehicle yields to UPHILL vehicle.\n  - Mountain road with cliff: Vehicle on MOUNTAIN WALL side must yield to vehicle on CLIFF EDGE side (to prevent catastrophic fall hazards).\n• Engine Braking: When descending, use the SAME low gear used uphill (e.g. 2nd gear uphill ➜ 2nd gear downhill). NEVER coast in neutral (N) or turn off engine.",
+    "summary": "• Traffic Control Hierarchy: 1. Traffic Police Hand Gestures > 2. Traffic Lights > 3. Static Signs > 4. Road Markings.\n• Intersection Priority Rules:\n  - Straight > Turning: Straight-moving vehicle has absolute priority over turning vehicle.\n  - Opposite Turning into Same Single Lane: Left-turning vehicle has priority over right-turning vehicle (right-turning yields to left-turning).\n  - Opposite Turning into Multi-lane Road: Left-turn enters inner lane; Right-turn enters outer lane.\n  - Equal Uncontrolled Intersection: Left-side vehicle yields to vehicle coming from the RIGHT.\n  - Roundabouts: Vehicles entering roundabout must yield to vehicles already CIRCULATING INSIDE. On multi-lane roundabouts, outer lane yields to inner lane.\n• Mountain Slopes & Narrow Roads:\n  - Steep slope: DOWNHILL vehicle yields to UPHILL vehicle.\n  - Mountain road with cliff: Vehicle on MOUNTAIN WALL side must yield to vehicle on CLIFF EDGE side.\n• Engine Braking: When descending, use the SAME low gear used uphill (e.g. 2nd gear uphill ➜ 2nd gear downhill). NEVER coast in neutral or turn off engine.",
     "key_numbers": [
       "Police Gestures > Traffic Lights > Static Signs > General Rules",
       "Straight-ahead traffic has priority over turning traffic",
       "Left-turning traffic goes before right-turning traffic into single lane",
       "Yield to vehicle on your RIGHT at equal uncontrolled intersections",
-      "Yield to vehicles INSIDE the roundabout (outer yields to inner)",
+      "Yield to vehicles INSIDE the roundabout",
       "Downhill yields to Uphill on narrow slopes",
       "Mountain wall side yields to Cliff edge side on mountain roads"
     ],
@@ -644,37 +644,37 @@
       {
         "question_id": "CAR_0091",
         "question_text": "When driving uphill in second gear, what gear should be used going downhill?",
-        "correct_answer": "(3) Second gear.",
+        "correct_answer": "Second gear.",
         "trap_explanation": "When descending a steep slope, use the SAME low gear used when going uphill (e.g. 2nd gear)."
       },
       {
         "question_id": "CAR_0241",
         "question_text": "When a vehicle reaches an uphill and downhill slope of approximately equal gradient, if 2nd gear is used going uphill, which gear should be selected going downhill to achieve fuel efficiency, safety, and time savings?",
-        "correct_answer": "(3) Drive in 2nd or 1st gear.",
+        "correct_answer": "Drive in 2nd or 1st gear.",
         "trap_explanation": "To save fuel and brake safely downhill, select 2nd or 1st gear for engine braking; never coast in neutral."
       },
       {
         "question_id": "CAR_0459",
         "question_text": "When approaching an unmarked intersection without a division between major and minor roads, if a car driver intends to turn left while an oncoming vehicle is simultaneously turning right into the same lane, which of the following statements is correct?",
-        "correct_answer": "(3) The right- turning vehicle should yield to the left-turning vehicle.",
+        "correct_answer": "The right- turning vehicle should yield to the left-turning vehicle.",
         "trap_explanation": "When opposite vehicles turn into the same single lane, right-turning vehicle YIELDS to left-turning vehicle."
       },
       {
         "question_id": "CAR_0484",
         "question_text": "Two vehicles arrive simultaneously at an uncontrolled intersection from different directions, with the same number of lanes in their respective directions of travel. Regarding right of way, which of the following is correct?",
-        "correct_answer": "(2) Both vehicles are going straight; the left-side vehicle must yield to the right-side vehicle.",
+        "correct_answer": "Both vehicles are going straight; the left-side vehicle must yield to the right-side vehicle.",
         "trap_explanation": "At uncontrolled intersection between straight cars, left-side car yields to right-side car."
       },
       {
         "question_id": "CAR_0770",
         "question_text": "When two cars meet on a narrow mountain road, which of the following rules regarding right of way is correct?",
-        "correct_answer": "(1) Vehicles close to the mountain wall should yield to vehicles on the outer edge of the road.",
+        "correct_answer": "Vehicles close to the mountain wall should yield to vehicles on the outer edge of the road.",
         "trap_explanation": "On mountain roads, vehicle on mountain wall side must yield to vehicle on cliff edge side."
       },
       {
         "question_id": "CAR_0797",
         "question_text": "When meeting another vehicle on a steep narrow slope:",
-        "correct_answer": "(1) The downhill vehicle should yield to the uphill vehicle.",
+        "correct_answer": "The downhill vehicle should yield to the uphill vehicle.",
         "trap_explanation": "On narrow slopes, downhill vehicle yields to uphill vehicle."
       }
     ],
@@ -726,7 +726,7 @@
     "id": "rule_pedestrians_children",
     "title": "🚶 Pedestrian Protection, Crosswalk Rules & Child Restraints",
     "category": "Vulnerable Road User Safety",
-    "summary": "• Pedestrian Crosswalk Yielding Rules:\n  - When approaching a crosswalk, driver must stop and maintain at least 3 METERS (or 3–4 zebra stripes) clearance from pedestrians.\n  - Non-injury penalty: Fine of NT$1,200 to NT$6,000 + 3 demerit points + 3 hours mandatory safety training.\n  - Causing minor injury: Fine of NT$18,000 to NT$36,000 + 6 months to 1 year driver license suspension.\n  - Causing serious injury or death: Fine of NT$18,000 to NT$36,000 + 1 to 2 years license suspension / Revocation + Criminal liability increased by 50% (+1/2).\n  - Visually Impaired Persons (White cane / Guide dog): Enhanced fine of NT$2,400 to NT$7,200.\n• Child Safety Seats & Seating Rules:\n  - Children <2 years old: Rear-facing child safety seat in the REAR SEAT.\n  - Children 2 to 4 years old (<18 kg): Child safety seat in the REAR SEAT.\n  - Children <12 years old: Strictly prohibited from sitting in front passenger seat.\n  - Leaving child <6 years old unattended in car: NT$3,000 flat fine + 4 hours mandatory road safety course.\n• Child Rear Door Safety Lock: When engaged, rear doors can ONLY be opened from the OUTSIDE.",
+    "summary": "• Pedestrian Crosswalk Yielding Rules:\n  - When approaching a crosswalk, driver must stop and maintain at least 3 METERS (or 3–4 zebra stripes) clearance from pedestrians.\n  - Non-injury penalty: Fine of NT$1,200 to NT$6,000 + 3 demerit points + 3 hours mandatory safety training.\n  - Causing minor injury: Fine of NT$18,000 to NT$36,000 + 6 months to 1 year driver license suspension.\n  - Causing serious injury or death: Fine of NT$18,000 to NT$36,000 + 1 to 2 years license suspension / Revocation + Criminal liability increased by 50% (+1/2).\n  - Visually Impaired Persons: Enhanced fine of NT$2,400 to NT$7,200.\n• Child Safety Seats & Seating Rules:\n  - Children <2 years old: Rear-facing child safety seat in the REAR SEAT.\n  - Children 2 to 4 years old (<18 kg): Child safety seat in the REAR SEAT.\n  - Children <12 years old: Strictly prohibited from sitting in front passenger seat.\n  - Leaving child <6 years old unattended in car: NT$3,000 flat fine + 4 hours mandatory road safety course.\n• Child Rear Door Safety Lock: When engaged, rear doors can ONLY be opened from the OUTSIDE.",
     "key_numbers": [
       "3 meters (3–4 zebra stripes): Mandatory stopping buffer before pedestrians",
       "NT$1,200 – 6,000: Fine for not yielding to pedestrians (+ 3 points + 3h course)",
@@ -739,7 +739,7 @@
     ],
     "fines_table": [
       {
-        "violation": "Failure to yield to pedestrian on crosswalk (no injury)",
+        "violation": "Failure to yield to pedestrian on crosswalk",
         "amount": "NT$1,200 – 6,000",
         "points_or_penalty": "3 demerit points + 3 hours safety course",
         "why": "National priority policy protecting vulnerable road users in designated zones."
@@ -773,31 +773,31 @@
       {
         "question_id": "CAR_0087",
         "question_text": "A motor vehicle driver who leaves a child under 6 years old or a child requiring special care unattended inside a vehicle shall be subject to:",
-        "correct_answer": "(2) A fine and 4 hours of mandatory road safety course.",
+        "correct_answer": "A fine and 4 hours of mandatory road safety course.",
         "trap_explanation": "Leaving a child <6 years alone in a car carries fine PLUS 4 HOURS of safety course."
       },
       {
         "question_id": "CAR_0464",
         "question_text": "A motor vehicle driver who approaches a pedestrian crossing or an intersection otherwise legally open to pedestrians and fails to stop and yield to pedestrians, thereby causing an accident resulting in injury, shall be fined NT$18,000–36,000, and their driver's license shall be:",
-        "correct_answer": "(3) Suspended for 1 to 2 years.",
+        "correct_answer": "Suspended for 1 to 2 years.",
         "trap_explanation": "Striking pedestrian causing injury suspends license for 6 months to 1 year (and up to 2 years for severe injury in CAR_0569)."
       },
       {
         "question_id": "CAR_1089",
         "question_text": "While driving a passenger car approaching an intersection, the traffic signal turns red, and pedestrians are crossing on the zebra crossing ahead. Which of the following statements about the stopping position is most correct?",
-        "correct_answer": "(2) The front edge of the vehicle should stop at least 3 meters before the zebra crossing, approximately the width of one lane or more than four zebra stripes away.",
-        "trap_explanation": "Stopping buffer before crosswalk is at least 3 METERS (more than 4 zebra stripes)."
+        "correct_answer": "The front edge of the vehicle should stop at least 3 meters before the zebra crossing, approximately the width of one lane or more than four zebra stripes away.",
+        "trap_explanation": "Stopping buffer before crosswalk is at least 3 METERS."
       },
       {
         "question_id": "CAR_1062",
         "question_text": "The child safety lock on the rear door prevents children from accidentally opening the door. When the child safety lock is in the locked position:",
-        "correct_answer": "(2) The rear door can only be opened from outside.",
+        "correct_answer": "The rear door can only be opened from outside.",
         "trap_explanation": "With child safety lock enabled, rear door can only be opened from the OUTSIDE."
       },
       {
         "question_id": "CAR_0935",
         "question_text": "Children riding in a small passenger vehicle should sit in:",
-        "correct_answer": "(2) The rear seat.",
+        "correct_answer": "The rear seat.",
         "trap_explanation": "Children in small passenger cars must sit in the REAR SEAT."
       }
     ],
@@ -833,7 +833,7 @@
     "id": "rule_mechanics_gauges",
     "title": "🔧 Vehicle Mechanics, Dashboard Warning Gauges & Diagnostics",
     "category": "Vehicle Mechanics & Maintenance",
-    "summary": "• Tire Tread Groove Depth: Minimum 1.6 mm for passenger cars (0.8 mm for motorcycles), verified via Tread Wear Indicators (TWI). Under 1.6mm prohibits freeway access and causes hydroplaning in wet weather.\n• Dashboard Warning Lights:\n  - Red Engine Oil Can: Low engine oil pressure / lubrication failure. Pull over IMMEDIATELY to a safe spot, turn off engine, and check dipstick. Never continue driving!\n  - Red Battery Light: Alternator / charging circuit failure (vehicle running on battery reserve only).\n• Brake Diagnostics:\n  - Spongy / Soft Brake Pedal: Air bubbles trapped in hydraulic brake fluid lines (requires bleeding).\n  - Pedal drops ~1 inch upon starting engine: COMPLETELY NORMAL operation of vacuum brake booster.\n• Exhaust Smoke Color Diagnostics:\n  - Bluish-White Smoke: Engine burning motor oil (worn piston rings or valve seals).\n  - Thick White Vapor Smoke: Coolant leaking into combustion chambers (blown head gasket).\n  - Dense Black Smoke: Excessively rich air-fuel mixture / incomplete combustion.\n  - Water dripping from tailpipe on cold start: NORMAL condensation phenomenon.\n• Towing: Tow rope length 3 to 5 meters with yellow warning flag in center. For automatic front-wheel-drive (FWD) cars, lift front drive wheels to avoid transmission damage.",
+    "summary": "• Tire Tread Groove Depth: Minimum 1.6 mm for passenger cars (0.8 mm for motorcycles), verified via Tread Wear Indicators. Under 1.6mm prohibits freeway access and causes hydroplaning in wet weather.\n• Dashboard Warning Lights:\n  - Red Engine Oil Can: Low engine oil pressure / lubrication failure. Pull over IMMEDIATELY to a safe spot, turn off engine, and check dipstick. Never continue driving!\n  - Red Battery Light: Alternator / charging circuit failure.\n• Brake Diagnostics:\n  - Spongy / Soft Brake Pedal: Air bubbles trapped in hydraulic brake fluid lines.\n  - Pedal drops ~1 inch upon starting engine: COMPLETELY NORMAL operation of vacuum brake booster.\n• Exhaust Smoke Color Diagnostics:\n  - Bluish-White Smoke: Engine burning motor oil.\n  - Thick White Vapor Smoke: Coolant leaking into combustion chambers.\n  - Dense Black Smoke: Excessively rich air-fuel mixture / incomplete combustion.\n  - Water dripping from tailpipe on cold start: NORMAL condensation phenomenon.\n• Towing: Tow rope length 3 to 5 meters with yellow warning flag in center. For automatic front-wheel-drive cars, lift front drive wheels to avoid transmission damage.",
     "key_numbers": [
       "1.6 mm: Minimum tire tread depth for cars (0.8 mm for motorcycles)",
       "1 inch: Normal brake pedal drop upon starting engine with vacuum booster",
@@ -853,31 +853,31 @@
       {
         "question_id": "CAR_0182",
         "question_text": "If the 'Low Engine Oil Pressure' warning light suddenly illuminates on the dashboard while driving, how should the driver respond?",
-        "correct_answer": "(2) The driver should safely pull over to the side of the road and turn off the engine as soon as possible, check the oil level and contact a repair service, and should not continue driving.",
-        "trap_explanation": "When the red oil can warning light turns on, pull over immediately and stop engine (not a simple maintenance reminder)."
+        "correct_answer": "The driver should safely pull over to the side of the road and turn off the engine as soon as possible, check the oil level and contact a repair service, and should not continue driving.",
+        "trap_explanation": "When the red oil can warning light turns on, pull over immediately and stop engine."
       },
       {
         "question_id": "CAR_0204",
         "question_text": "When the engine exhaust appears as 'bluish-white smoke', what engine problem does this usually indicate?",
-        "correct_answer": "(2) Burning engine oil.",
+        "correct_answer": "Burning engine oil.",
         "trap_explanation": "Bluish-white exhaust smoke indicates the engine is burning motor oil."
       },
       {
         "question_id": "CAR_1084",
         "question_text": "If you hold the brake pedal down firmly and start the engine, and the pedal drops about one inch, this indicates:",
-        "correct_answer": "(1) Normal operation.",
+        "correct_answer": "Normal operation.",
         "trap_explanation": "Brake pedal dropping ~1 inch upon engine ignition is COMPLETELY NORMAL booster operation."
       },
       {
         "question_id": "CAR_1083",
         "question_text": "If the brake pedal feels soft when pressed, the likely cause is:",
-        "correct_answer": "(3) Air in the brake fluid lines.",
+        "correct_answer": "Air in the brake fluid lines.",
         "trap_explanation": "A spongy brake pedal is caused by air trapped in hydraulic brake lines."
       },
       {
         "question_id": "CAR_1077",
         "question_text": "If the center tread of a tire is more heavily worn, the cause is:",
-        "correct_answer": "(1) Tire overinflation.",
+        "correct_answer": "Tire overinflation.",
         "trap_explanation": "Center tread wear is caused by tire OVERINFLATION."
       }
     ],
@@ -920,11 +920,11 @@
     "id": "rule_licenses_insurance",
     "title": "📋 Licenses, Examinations, Demerits & Compulsory Auto Insurance",
     "category": "Licensing & Insurance",
-    "summary": "• Compulsory Automobile Liability Insurance (CALI):\n  - Death / Permanent Disability Coverage: NT$2,000,000 per person.\n  - Medical Expense Coverage: NT$200,000 per person.\n  - Exclusion: Does NOT cover property damage or vehicle repairs.\n  - Right of Subrogation: If at-fault driver was intoxicated, insurer pays victim then recovers 100% from drunk driver.\n• Professional Licenses & Reviews:\n  - Professional drivers <60 years: Periodic review once every 3 years. (Up to 6-month grace period upon return from travel/illness).\n  - Professional drivers aged 65 to 68: Annual physical and dynamic vision exam.\n  - Maximum professional driver age: 70 years (68–70 requires annual physical + cognitive exam).\n• Senior Drivers (75+ years): License renewal every 3 years subject to physical and cognitive/dementia tests.\n• Learner's Permit: Minimum 3 months practice for regular small car and 6 months for professional small car.\n• Exam Passing Scores: Written Theory Exam = 85 points; Road Driving Test = 70 points.\n• Hit-and-Run Penalties:\n  - Property damage only: NT$1,000–$3,000 fine + 1 to 3 months license suspension.\n  - With injury or fatality: PERMANENT LICENSE REVOCATION (Lifetime retest ban).",
+    "summary": "• Compulsory Automobile Liability Insurance:\n  - Death / Permanent Disability Coverage: NT$2,000,000 per person.\n  - Medical Expense Coverage: NT$200,000 per person.\n  - Exclusion: Does NOT cover property damage or vehicle repairs.\n  - Right of Subrogation: If at-fault driver was intoxicated, insurer pays victim then recovers 100% from drunk driver.\n• Professional Licenses & Reviews:\n  - Professional drivers <60 years: Periodic review once every 3 years. (Up to 6-month grace period upon return from travel/illness).\n  - Professional drivers aged 65 to 68: Annual physical and dynamic vision exam.\n  - Maximum professional driver age: 70 years (68–70 requires annual physical + cognitive exam).\n• Senior Drivers (75+ years): License renewal every 3 years subject to physical and cognitive/dementia tests.\n• Learner's Permit: Minimum 3 months practice for regular small car and 6 months for professional small car.\n• Exam Passing Scores: Written Theory Exam = 85 points; Road Driving Test = 70 points.\n• Hit-and-Run Penalties:\n  - Property damage only: NT$1,000–$3,000 fine + 1 to 3 months license suspension.\n  - With injury or fatality: PERMANENT LICENSE REVOCATION.",
     "key_numbers": [
       "NT$2,000,000: Maximum death/disability coverage under Compulsory Insurance",
       "NT$200,000: Maximum medical expense coverage under Compulsory Insurance",
-      "85 points: Passing score for written theoretical exam (car and motorcycle)",
+      "85 points: Passing score for written theoretical exam",
       "70 points: Passing score for road practical driving test",
       "75+ years old: Renewal every 3 years with cognitive test",
       "Every 3 years: Review interval for professional drivers <60 years old",
@@ -940,7 +940,7 @@
       {
         "violation": "Hit-and-run in accident involving injuries or fatality",
         "amount": "Criminal Prosecution",
-        "points_or_penalty": "PERMANENT LICENSE REVOCATION (Lifetime ban)",
+        "points_or_penalty": "PERMANENT LICENSE REVOCATION",
         "why": "Felony crime of abandoning injured victims in helpless state."
       },
       {
@@ -959,32 +959,32 @@
     "tricky_bookmarks": [
       {
         "question_id": "CAR_0175",
-        "question_text": "Starting from June 30, 2023 (Republic of China Year 112), a person who newly obtains a heavy truck driver's license is permitted to drive which of the following vehicles?",
-        "correct_answer": "(1) Small vehicles.",
+        "question_text": "Starting from June 30, 2023, a person who newly obtains a heavy truck driver's license is permitted to drive which of the following vehicles?",
+        "correct_answer": "Small vehicles.",
         "trap_explanation": "Heavy truck license entitles holder to drive small passenger and cargo vehicles."
       },
       {
         "question_id": "CAR_0220",
         "question_text": "For a driver under 60 years of age holding a professional driver's license, the license shall be reviewed starting from the date of issuance:",
-        "correct_answer": "(2) Once every 3 years.",
+        "correct_answer": "Once every 3 years.",
         "trap_explanation": "Professional drivers under 60 years old must review license every 3 YEARS."
       },
       {
         "question_id": "CAR_0240",
         "question_text": "A motor vehicle driver holds a small vehicle driver's license but drives an articulated truck, large bus, or large truck. What is the penalty?",
-        "correct_answer": "(3) Both the vehicle owner and the driver shall each be fined between NT$40,000 and NT$80,000, and one traffic violation record shall be added to the vehicle.",
+        "correct_answer": "Both the vehicle owner and the driver shall each be fined between NT$40,000 and NT$80,000, and one traffic violation record shall be added to the vehicle.",
         "trap_explanation": "Driving heavy truck with small car license fines BOTH owner and driver NT$40,000–80,000."
       },
       {
         "question_id": "CAR_0266",
         "question_text": "What is the passing score for the road test portion of the driver's license examination?",
-        "correct_answer": "(2) 70 points.",
+        "correct_answer": "70 points.",
         "trap_explanation": "Road practical driving test passing score is 70 POINTS (theory exam is 85 points in CAR_0298)."
       },
       {
         "question_id": "CAR_0336",
         "question_text": "If someone cheats by having another person take the driving test on their behalf, the penalty for the applicant is:",
-        "correct_answer": "(1) Cancellation of testing qualification, revocation of any existing driver's license, and a 5- year ban on retaking the test from the date of discovery.",
+        "correct_answer": "Cancellation of testing qualification, revocation of any existing driver's license, and a 5- year ban on retaking the test from the date of discovery.",
         "trap_explanation": "Cheating or using a test imposter carries a 5-YEAR BAN from taking the exam."
       }
     ],
@@ -1026,7 +1026,7 @@
     "id": "rule_signs_markings",
     "title": "🛑 Distinctive Road Lines, Widths, Shield Shapes & Route Signs",
     "category": "Road Markings, Signs & Visual Navigation",
-    "summary": "• Taiwan Highway Route Shields & Hierarchy:\n  - 🌸 Plum Blossom (Flor de Ciruelo): National Freeway (Freeway No. 1, 3, 5).\n  - 🔴 Red Shield: Provincial Expressway (Provincial Route 61, 64, 66, 74, 88).\n  - 🔵 Blue Shield: Standard Provincial Highway (Provincial Route 1, 9).\n  - ⬜ White Rectangle / Square: County / City Highway (County Route 106, 114).\n• Line Widths & Pavement Markings:\n  - 10 cm solid white line: Fast/slow lane dividing line.\n  - 15 cm solid white line: Roadway outer edge line.\n  - 20–30 cm solid white line: Stop line before crosswalk / intersection.\n  - Double solid yellow line: No crossing, overtaking, or U-turns 24/7.\n  - Solid red curb line: No stopping or parking 24/7.\n  - Solid yellow curb line: Temporary stops (<3 min) permitted; no parking from 7:00 AM to 8:00 PM.\n• Median Island Signs: 'Keep Right' installed at approach end; 'Keep Left' installed at departure end.",
+    "summary": "• Taiwan Highway Route Shields & Hierarchy:\n  - 🌸 Plum Blossom: National Freeway (Freeway No. 1, 3, 5).\n  - 🔴 Red Shield: Provincial Expressway (Provincial Route 61, 64, 66, 74, 88).\n  - 🔵 Blue Shield: Standard Provincial Highway (Provincial Route 1, 9).\n  - ⬜ White Rectangle / Square: County / City Highway (County Route 106, 114).\n• Line Widths & Pavement Markings:\n  - 10 cm solid white line: Fast/slow lane dividing line.\n  - 15 cm solid white line: Roadway outer edge line.\n  - 20–30 cm solid white line: Stop line before crosswalk / intersection.\n  - Double solid yellow line: No crossing, overtaking, or U-turns 24/7.\n  - Solid red curb line: No stopping or parking 24/7.\n  - Solid yellow curb line: Temporary stops (<3 min) permitted; no parking from 7:00 AM to 8:00 PM.\n• Median Island Signs: 'Keep Right' installed at approach end; 'Keep Left' installed at departure end.",
     "key_numbers": [
       "10 cm white line: Fast / slow lane dividing line",
       "15 cm white line: Outer roadway edge line",
@@ -1052,25 +1052,25 @@
       {
         "question_id": "CAR_0128",
         "question_text": "What is the white solid line between the outermost road edge line and the lane line?",
-        "correct_answer": "(1) Fast/slow lane dividing line.",
-        "trap_explanation": "The 10 cm solid white line is the fast/slow lane dividing line (the 15 cm line is the outer edge)."
+        "correct_answer": "Fast/slow lane dividing line.",
+        "trap_explanation": "The 10 cm solid white line is the fast/slow lane dividing line."
       },
       {
         "question_id": "CAR_0111",
         "question_text": "What does this road sign indicate?",
-        "correct_answer": "(1) Provincial highway route number.",
+        "correct_answer": "Provincial highway route number.",
         "trap_explanation": "The blue shield route sign denotes a standard Provincial Highway."
       },
       {
         "question_id": "CAR_0133",
         "question_text": "What does this road sign indicate?",
-        "correct_answer": "(2) Provincial highway route number sign (expressway).",
+        "correct_answer": "Provincial highway route number sign.",
         "trap_explanation": "The red shield route sign denotes a Provincial Expressway."
       },
       {
         "question_id": "CAR_0184",
         "question_text": "Figure 1 Figure 2 Figure 3 Which of the following statements is correct?",
-        "correct_answer": "(1) All of the signs above are stop-and-check signs.",
+        "correct_answer": "All of the signs above are stop-and-check signs.",
         "trap_explanation": "Checkpoint signs (Customs, Toll, Inspection) require coming to a complete stop before proceeding."
       }
     ],

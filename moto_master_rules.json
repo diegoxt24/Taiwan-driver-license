@@ -3,7 +3,7 @@
     "id": "rule_fines_matrix_moto",
     "title": "💰 Master Motorcycle Fines & Demerit Points Matrix",
     "category": "Fines, Demerits & Penalties",
-    "summary": "Taiwan traffic penalties for motorcycles follow a calibrated tier system: Minor equipment violations (helmet, cell phone) carry flat spot fines; turning, lane-discipline, and red-light infractions combine monetary fines with mandatory demerit points (3 points); dangerous maneuvers (extreme speeding ≥40 km/h, tailgating) mandate 6-month vehicle plate suspensions and safety training.",
+    "summary": "Taiwan traffic penalties for motorcycles follow a calibrated tier system: Minor equipment violations (helmet, cell phone) carry flat spot fines; turning, lane-discipline, and red-light infractions combine monetary fines with mandatory demerit points; dangerous maneuvers (extreme speeding ≥40 km/h, tailgating) mandate 6-month vehicle plate suspensions and safety training.",
     "key_numbers": [
       "Helmet Fine: NT$500",
       "Handheld Mobile Phone Fine: NT$1,000",
@@ -30,7 +30,7 @@
         "violation": "Overweight / oversized cargo loading",
         "amount": "NT$300–$600 fine",
         "points_or_penalty": "Direct citation",
-        "why": "Exceeding 80kg (heavy) or 50kg (light)"
+        "why": "Exceeding 80kg or 50kg"
       },
       {
         "violation": "Running a red light",
@@ -61,19 +61,19 @@
       {
         "question_id": "MOTO_0486",
         "question_text": "If a motorcycle driver runs a red light and is caught on the spot, the penalties are:",
-        "correct_answer": "(3) a fine of NTD 1,800 to 5,400 and 3 demerit points",
+        "correct_answer": "a fine of NTD 1,800 to 5,400 and 3 demerit points",
         "trap_explanation": "Red light running incurs BOTH a monetary fine (NT$1,800–5,400) AND exactly 3 demerit points."
       },
       {
         "question_id": "MOTO_0017",
         "question_text": "If a motorcycle carries passengers or cargo in violation of regulations, what amount of fine will be imposed?",
-        "correct_answer": "(1) A fine of NT $300 to NT $600",
+        "correct_answer": "A fine of NT $300 to NT $600",
         "trap_explanation": "Cargo dimension/weight violations carry the base tier fine of NT$300 to NT$600."
       },
       {
         "question_id": "MOTO_0588",
         "question_text": "When a motor vehicle driver fails to yield to oncoming straight-through traffic when turning left at an intersection, what penalty applies?",
-        "correct_answer": "(2) A fine of NT$600–1,800.",
+        "correct_answer": "A fine of NT$600–1,800.",
         "trap_explanation": "Turning violations without yielding to straight-through traffic carry a NT$600–$1,800 fine."
       }
     ],
@@ -138,19 +138,19 @@
       {
         "question_id": "MOTO_0084",
         "question_text": "If the blood alcohol concentration exceeds the legal limit and the driver continues to drive, resulting in a serious traffic accident, what must happen?",
-        "correct_answer": "(1) The driver's license shall be revoked, and the driver shall be permanently barred from retaking the test.",
-        "trap_explanation": "DUI resulting in serious injury or death triggers mandatory PERMANENT license revocation (lifetime ban)."
+        "correct_answer": "The driver's license shall be revoked, and the driver shall be permanently barred from retaking the test.",
+        "trap_explanation": "DUI resulting in serious injury or death triggers mandatory PERMANENT license revocation."
       },
       {
         "question_id": "MOTO_0088",
         "question_text": "If the motorcycle owner knowingly allows a driver to drive under the influence of alcohol, what is the penalty for the owner?",
-        "correct_answer": "(3) The vehicle's license plate shall be suspended for two years, and the owner is fined the same amount as the driver.",
+        "correct_answer": "The vehicle's license plate shall be suspended for two years, and the owner is fined the same amount as the driver.",
         "trap_explanation": "The vehicle owner faces the SAME fine as the drunk rider PLUS 2-year vehicle plate suspension."
       },
       {
         "question_id": "MOTO_0146",
         "question_text": "If a person drives a motor vehicle with a breath alcohol concentration of 0.15 mg/L or above, what is the minimum fine for motorcycles?",
-        "correct_answer": "(2) NT$15,000",
+        "correct_answer": "NT$15,000",
         "trap_explanation": "The base fine range for motorcycles is NT$15,000 to NT$90,000 (cars are NT$30,000 to NT$120,000)."
       }
     ],
@@ -175,13 +175,13 @@
       "Light Moto Cargo Weight: Max 50 kg",
       "Cargo Height Limit: Shoulder Level",
       "Cargo Width Limit: Handlebar Width",
-      "Cargo Rear Overhang: Max 0.5 m (50 cm)",
+      "Cargo Rear Overhang: Max 0.5 m",
       "Small Light Curb Weight: Max 70 kg",
       "Max Overall Height: Max 2.5 m"
     ],
     "fines_table": [
       {
-        "violation": "Carrying cargo exceeding weight limit (80kg/50kg)",
+        "violation": "Carrying cargo exceeding weight limit",
         "amount": "NT$300–$600 fine",
         "points_or_penalty": "Direct citation",
         "why": "Article 31 violation"
@@ -199,7 +199,7 @@
         "why": "Small light class is strictly solo-rider"
       },
       {
-        "violation": "Passenger side-saddle (not straddling facing forward)",
+        "violation": "Passenger side-saddle",
         "amount": "NT$300–$600 fine",
         "points_or_penalty": "Direct citation",
         "why": "Passenger must face forward and straddle seat"
@@ -209,19 +209,19 @@
       {
         "question_id": "MOTO_0003",
         "question_text": "For heavy motorcycles, the weight of items carried must not exceed:",
-        "correct_answer": "(2) 80 kg",
+        "correct_answer": "80 kg",
         "trap_explanation": "Heavy motorcycles = 80 kg; Light motorcycles = 50 kg. Do not mix them up!"
       },
       {
         "question_id": "MOTO_0159",
-        "question_text": "The curb weight (including battery) of small and light motorcycles should be:",
-        "correct_answer": "(2) 70 kg or less",
+        "question_text": "The curb weight of small and light motorcycles should be:",
+        "correct_answer": "70 kg or less",
         "trap_explanation": "Small light motorcycles have a strict 70 kg statutory curb weight limit."
       },
       {
         "question_id": "MOTO_0166",
         "question_text": "The maximum overall height of a motorcycle shall not exceed:",
-        "correct_answer": "(1) 2.5 meters",
+        "correct_answer": "2.5 meters",
         "trap_explanation": "Total height from ground to highest point must not exceed 2.5 meters."
       }
     ],
@@ -272,19 +272,19 @@
       {
         "question_id": "MOTO_0194",
         "question_text": "It is recommended to use tires that are no more than:",
-        "correct_answer": "(2) 6 years",
+        "correct_answer": "6 years",
         "trap_explanation": "Official safety regulation recommends replacing tires older than 6 years."
       },
       {
         "question_id": "MOTO_0147",
         "question_text": "When inspecting the brakes of a motorcycle, how much free play should there be when lightly pulling the brake lever?",
-        "correct_answer": "(2) There should be 1 to 2 cm of free play",
+        "correct_answer": "There should be 1 to 2 cm of free play",
         "trap_explanation": "Brake lever free play must be 1 to 2 cm. Too tight locks wheels; too loose causes brake failure."
       },
       {
         "question_id": "MOTO_0357",
         "question_text": "When a vehicle is directly cited for speeding on general roads, what conditions must be met to issue consecutive citations?",
-        "correct_answer": "(3) Violation times are at least 6 minutes apart or the vehicle has passed more than one intersection",
+        "correct_answer": "Violation times are at least 6 minutes apart or the vehicle has passed more than one intersection",
         "trap_explanation": "Consecutive speeding citations on general roads require ≥ 6 minutes apart OR passing ≥ 1 intersection."
       }
     ],
@@ -301,7 +301,7 @@
     "id": "rule_intersections_right_of_way_moto",
     "title": "🛑 Right-of-Way Hierarchy, 2-Stage Hook Turns & Overtaking",
     "category": "Traffic Hierarchy & Intersection Rules",
-    "summary": "Intersection right-of-way follows a strict 3-step hierarchy: 1. Branch roads yield to Main roads; 2. Left-turning vehicles yield to straight-going traffic; 3. At equal intersections, the left-side vehicle yields to the right-side vehicle. Two-stage left turns (Hook Turn 兩段式左轉) are mandatory when inner lanes prohibit motorcycles or have ≥3 fast lanes.",
+    "summary": "Intersection right-of-way follows a strict 3-step hierarchy: 1. Branch roads yield to Main roads; 2. Left-turning vehicles yield to straight-going traffic; 3. At equal intersections, the left-side vehicle yields to the right-side vehicle. Two-stage left turns are mandatory when inner lanes prohibit motorcycles or have ≥3 fast lanes.",
     "key_numbers": [
       "Turn Signal Advance Notice: ≥ 30 meters",
       "Two-Stage Turn Threshold: ≥ 3 Fast Lanes",
@@ -331,19 +331,19 @@
       {
         "question_id": "MOTO_0879",
         "question_text": "As a motorcyclist, when you make a left turn at an intersection and a vehicle from the opposite direction turns right into the same lane, who has the right of way?",
-        "correct_answer": "(2) Left-turning vehicles",
+        "correct_answer": "Left-turning vehicles",
         "trap_explanation": "Under Taiwan amended rules, when both are turning into the same single lane, left-turning vehicle already negotiating turn goes before right-turning vehicle."
       },
       {
         "question_id": "MOTO_0921",
         "question_text": "Driving through an uncontrolled intersection with cars passing, which vehicle yields?",
-        "correct_answer": "(2) The left-side vehicle should yield to the right-side vehicle, so the red car should yield to your vehicle",
+        "correct_answer": "The left-side vehicle should yield to the right-side vehicle, so the red car should yield to your vehicle",
         "trap_explanation": "At equal unsignalized intersections, left-side vehicle must yield to the right-side vehicle."
       },
       {
         "question_id": "MOTO_0661",
         "question_text": "When two vehicles meet on a steep and narrow slope, you should:",
-        "correct_answer": "(1) Downhill vehicle yields to uphill vehicle",
+        "correct_answer": "Downhill vehicle yields to uphill vehicle",
         "trap_explanation": "On slopes, downhill vehicle has gravity advantage and must yield to uphill vehicle."
       }
     ],
@@ -394,19 +394,19 @@
       {
         "question_id": "MOTO_0335",
         "question_text": "In cases of direct citation for illegal parking where the driver or vehicle owner is not present, how many hours must pass before consecutive citations can be issued?",
-        "correct_answer": "(1) 2 hours",
+        "correct_answer": "2 hours",
         "trap_explanation": "Consecutive illegal parking citations are issued every 2 HOURS if vehicle remains."
       },
       {
         "question_id": "MOTO_0275",
         "question_text": "Temporary parking regulations state that:",
-        "correct_answer": "(1) parking shall not exceed 3 minutes and the vehicle must be kept ready to move immediately",
-        "trap_explanation": "Temporary stopping (臨時停車) is defined as ≤ 3 minutes with vehicle ready to move."
+        "correct_answer": "parking shall not exceed 3 minutes and the vehicle must be kept ready to move immediately",
+        "trap_explanation": "Temporary stopping is defined as ≤ 3 minutes with vehicle ready to move."
       },
       {
         "question_id": "MOTO_0653",
         "question_text": "For a yellow 'No Parking' line, the prohibited parking time period is:",
-        "correct_answer": "(1) From 7:00 a.m. to 8:00 p.m. daily",
+        "correct_answer": "From 7:00 a.m. to 8:00 p.m. daily",
         "trap_explanation": "Yellow curbs prohibit parking between 7:00 AM and 8:00 PM daily."
       }
     ],
@@ -446,20 +446,20 @@
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0405",
-        "question_text": "What does this sign indicate (car falling into water)?",
-        "correct_answer": "(2) Wharf, embankment",
-        "trap_explanation": "Symbol of vehicle tumbling off edge into water represents Wharf / Embankment (碼頭堤岸)."
+        "question_text": "What does this sign indicate?",
+        "correct_answer": "Wharf, embankment",
+        "trap_explanation": "Symbol of vehicle tumbling off edge into water represents Wharf / Embankment."
       },
       {
         "question_id": "MOTO_0423",
         "question_text": "What does this triangular red border sign with black exclamation mark indicate?",
-        "correct_answer": "(3) Vehicle breakdown sign",
-        "trap_explanation": "Warning triangle symbol represents official Vehicle Breakdown Sign (車輛故障標誌)."
+        "correct_answer": "Vehicle breakdown sign",
+        "trap_explanation": "Warning triangle symbol represents official Vehicle Breakdown Sign."
       },
       {
         "question_id": "MOTO_0769",
-        "question_text": "Regarding directional separation line (double yellow lines), which statement is incorrect?",
-        "correct_answer": "(3) If the opposing lane is clear with no oncoming vehicles, you may temporarily cross the double solid yellow line to drive",
+        "question_text": "Regarding directional separation line, which statement is incorrect?",
+        "correct_answer": "If the opposing lane is clear with no oncoming vehicles, you may temporarily cross the double solid yellow line to drive",
         "trap_explanation": "Crossing double solid yellow lines is NEVER permitted regardless of oncoming traffic."
       }
     ],
@@ -502,20 +502,20 @@
       {
         "question_id": "MOTO_0228",
         "question_text": "Regarding regulations on modifying motorcycle exhaust pipes, which statement is correct?",
-        "correct_answer": "(3) The number and position of exhaust pipes must not be changed, and the muffler or catalytic converter must not be removed",
+        "correct_answer": "The number and position of exhaust pipes must not be changed, and the muffler or catalytic converter must not be removed",
         "trap_explanation": "Exhaust pipes cannot be altered in count/position, and mufflers cannot be removed."
       },
       {
         "question_id": "MOTO_0359",
         "question_text": "When refueling a motorcycle, one should:",
-        "correct_answer": "(2) turn off the engine and strictly prohibit the use of mobile phones",
+        "correct_answer": "turn off the engine and strictly prohibit the use of mobile phones",
         "trap_explanation": "Engine must be turned off and mobile phone use is strictly prohibited at gas stations."
       },
       {
         "question_id": "MOTO_0163",
         "question_text": "When a motorcycle is registered as temporarily out of service, what is the maximum allowed period?",
-        "correct_answer": "(1) 1 year",
-        "trap_explanation": "Temporary out-of-service status (停駛) cannot exceed 1 year."
+        "correct_answer": "1 year",
+        "trap_explanation": "Temporary out-of-service status cannot exceed 1 year."
       }
     ],
     "related_questions": [
@@ -566,19 +566,19 @@
       {
         "question_id": "MOTO_0039",
         "question_text": "Which is the correct position for external chest compressions in CPR?",
-        "correct_answer": "(3) the lower half of the sternum in the center of the chest between the nipples",
+        "correct_answer": "the lower half of the sternum in the center of the chest between the nipples",
         "trap_explanation": "Chest compressions are performed on the lower half of the sternum in the center of the chest."
       },
       {
         "question_id": "MOTO_0044",
         "question_text": "When performing the Heimlich maneuver, where should the hands be clenched into a fist and placed?",
-        "correct_answer": "(3) slightly above the navel and well below the xiphoid process",
+        "correct_answer": "slightly above the navel and well below the xiphoid process",
         "trap_explanation": "Heimlich fist placement is slightly above the navel and well below the xiphoid process."
       },
       {
         "question_id": "MOTO_0019",
         "question_text": "When a victim is in shock during a traffic accident, their facial color appears:",
-        "correct_answer": "(1) pale",
+        "correct_answer": "pale",
         "trap_explanation": "Trauma shock produces a pale face and cold extremities due to peripheral vasoconstriction."
       }
     ],
@@ -602,7 +602,7 @@
     "id": "rule_licensing_insurance_admin_moto",
     "title": "📋 Licensing Categories, Reapplication Bans, Compulsory Insurance & Admin Laws",
     "category": "Licensing Laws & Vehicle Administration",
-    "summary": "Motorcycle licensing requires candidates to be at least 18 years old and meet visual acuity standards. Failing the exam requires a 7-day waiting period; cheating results in an immediate 5-year ban. Compulsory Automobile Liability Insurance (強制險) must have at least 30 days remaining validity for title transfer or vehicle inspection.",
+    "summary": "Motorcycle licensing requires candidates to be at least 18 years old and meet visual acuity standards. Failing the exam requires a 7-day waiting period; cheating results in an immediate 5-year ban. Compulsory Automobile Liability Insurance must have at least 30 days remaining validity for title transfer or vehicle inspection.",
     "key_numbers": [
       "Minimum Age for Moto License: 18 Years Old",
       "Test Retake Waiting Period: 7 Days",
@@ -634,19 +634,19 @@
       {
         "question_id": "MOTO_0262",
         "question_text": "When a driver uses a forged, altered, or fraudulently obtained driving license to drive, the penalty shall be:",
-        "correct_answer": "(3) a fine and license confiscation",
+        "correct_answer": "a fine and license confiscation",
         "trap_explanation": "Fraudulent credentials are CONFISCATED on the spot and subject to criminal forgery referral."
       },
       {
         "question_id": "MOTO_0324",
         "question_text": "When applying for motorcycle title transfer or inspection, the compulsory insurance certificate must be valid for at least:",
-        "correct_answer": "(2) 30 days",
+        "correct_answer": "30 days",
         "trap_explanation": "Compulsory insurance must have at least 30 days remaining validity."
       },
       {
         "question_id": "MOTO_0350",
         "question_text": "Reports of traffic violations made after how many days from the date of violation will not be processed?",
-        "correct_answer": "(1) 7 days",
+        "correct_answer": "7 days",
         "trap_explanation": "Citizen traffic reports must be submitted within 7 days of the incident date."
       }
     ],

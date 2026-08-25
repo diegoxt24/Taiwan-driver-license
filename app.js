@@ -3686,7 +3686,7 @@ function switchTab(tab) {
   const restartBtn = document.getElementById('restartModeBtn');
 
   if (tab === 'mode0') {
-    const modLabel = (currentModule === 'car') ? 'Car License (汽車)' : 'Motorcycle License (機車)';
+    const modLabel = (currentModule === 'car') ? 'Car License' : 'Motorcycle License';
     modeTitle.innerHTML = `🧠 Mode 0: Master Rule Grouping (${modLabel})`;
     modeDesc.textContent = 'High-level synthesis: Consolidates 3,000+ questions into 9 core Master Rule Cards for 5x faster learning.';
     if (restartBtn) {
@@ -3771,7 +3771,7 @@ function switchTab(tab) {
     }
     questionCard.classList.remove('hidden');
   } else if (tab === 'cheatsheet') {
-    const modLabel = (currentModule === 'car') ? 'Car License (汽車)' : 'Motorcycle License (機車)';
+    const modLabel = (currentModule === 'car') ? 'Car License' : 'Motorcycle License';
     modeTitle.innerHTML = `📋 ${modLabel} Cram Sheet & Key Facts`;
     modeDesc.textContent = 'Quick reference guide covering numbers, cargo, speeds, BAC limits, fines, and CPR.';
     if (restartBtn) restartBtn.classList.add('hidden');

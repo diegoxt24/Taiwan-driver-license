@@ -4,51 +4,51 @@
     "items": [
       {
         "label": "Heavy Motorcycle Cargo Weight Limit",
-        "value": "Max 80 kg (重型機車載物重量不超過80公斤)"
+        "value": "Max 80 kg"
       },
       {
         "label": "Light Motorcycle Cargo Weight Limit",
-        "value": "Max 50 kg (輕型機車載物重量不超過50公斤)"
+        "value": "Max 50 kg"
       },
       {
         "label": "Cargo Height Limit",
-        "value": "Must NOT exceed rider's shoulders (裝載高度不超過駕駛人肩部)"
+        "value": "Must NOT exceed rider's shoulders"
       },
       {
         "label": "Cargo Width Limit",
-        "value": "Must NOT extend beyond handlebars (裝載寬度不超過把手外緣)"
+        "value": "Must NOT extend beyond handlebars"
       },
       {
         "label": "Cargo Rear Extension Limit",
-        "value": "Max 0.5 meters (50 cm) beyond rear axle/seat (伸出車尾不超過半公尺)"
+        "value": "Max 0.5 meters beyond rear axle/seat"
       },
       {
         "label": "Small Light Motorcycle Curb Weight",
-        "value": "Max 70 kg including battery (含電池車重70公斤以下)"
+        "value": "Max 70 kg including battery"
       },
       {
         "label": "Motorcycle Maximum Overall Height",
-        "value": "Max 2.5 meters from ground (總高度不超過2.5公尺)"
+        "value": "Max 2.5 meters from ground (2.5)"
       },
       {
         "label": "Tire Age Recommended Service Life",
-        "value": "Max 6 years from manufacturing date (使用年限不超過6年)"
+        "value": "Max 6 years from manufacturing date"
       },
       {
         "label": "Tire Tread Depth Inspection Standard",
-        "value": "Minimum 0.8 mm (胎紋深度不得磨損低於0.8公釐)"
+        "value": "Minimum 0.8 mm (0.8)"
       },
       {
         "label": "Brake Lever Free Play",
-        "value": "1 to 2 cm of free travel (煞車拉桿自由行程 1 ~ 2 公分)"
+        "value": "1 to 2 cm of free travel"
       },
       {
         "label": "Battery Terminal Maintenance",
-        "value": "Apply Vaseline (petroleum jelly) to prevent corrosion (塗抹凡士林防腐蝕)"
+        "value": "Apply Vaseline to prevent corrosion"
       },
       {
         "label": "Exhaust Smoke Color Diagnostics",
-        "value": "Black smoke = Incomplete combustion (Rich fuel mixture / air filter clogged)"
+        "value": "Black smoke = Incomplete combustion"
       }
     ]
   },
@@ -57,35 +57,35 @@
     "items": [
       {
         "label": "Unmarked Roads (No lane lines/centerline)",
-        "value": "Max 40 km/h (未劃設車道線或行車分向線之道路)"
+        "value": "Max 40 km/h"
       },
       {
         "label": "Single-Lane / General Roads (with markings)",
-        "value": "Max 50 km/h unless posted otherwise (一般市區/郊區道路)"
+        "value": "Max 50 km/h unless posted otherwise"
       },
       {
         "label": "Railway Level Crossings Speed Limit",
-        "value": "Reduce speed below 15 km/h (通過鐵路平交道降至15公里以下)"
+        "value": "Reduce speed below 15 km/h"
       },
       {
         "label": "Advance Turn Signal / Hand Signal Timing",
-        "value": "Activate at least 30 meters before turning (轉彎前30公尺顯示方向燈)"
+        "value": "Activate at least 30 meters before turning"
       },
       {
         "label": "Lateral Distance When Passing/Overtaking",
-        "value": "Maintain at least 0.5 meters side clearance (相互間隔不得少於半公尺)"
+        "value": "Maintain at least 0.5 meters side clearance"
       },
       {
         "label": "Mirror Check Scan Cycle",
-        "value": "Check mirrors every 5 seconds; do not stare > 2 seconds (每5秒看一次後照鏡)"
+        "value": "Check mirrors every 5 seconds; do not stare > 2 seconds"
       },
       {
         "label": "Consecutive Speeding Citation Criteria",
-        "value": "At least 6 minutes apart OR passed more than 1 intersection (間隔6分鐘或經過1個路口)"
+        "value": "At least 6 minutes apart OR passed more than 1 intersection"
       },
       {
         "label": "Speed Camera Warning Sign Distance",
-        "value": "General roads: 100–300m in advance; Highways: 300–1,000m (告示牌距離)"
+        "value": "General roads: 100–300m in advance; Highways: 300–1,000m"
       }
     ]
   },
@@ -94,39 +94,39 @@
     "items": [
       {
         "label": "Helmet Not Worn / Not Fastened",
-        "value": "NT$500 fine (未戴安全帽或未扣緊帽帶 處500元)"
+        "value": "NT$500 fine"
       },
       {
         "label": "Using Handheld Phone While Riding",
-        "value": "NT$1,000 flat fine (行駛中使用手持式行動電話 處1,000元)"
+        "value": "NT$1,000 flat fine ( 1,000)"
       },
       {
         "label": "Overloading Cargo / Violating Dimensions",
-        "value": "NT$300 to NT$600 fine (機車載物超重或超寬超高 處300~600元)"
+        "value": "NT$300 to NT$600 fine"
       },
       {
         "label": "Occupying Oncoming Lane to Turn Left",
-        "value": "NT$600 to NT$1,800 fine (佔用來車道搶先左轉 處600~1,800元)"
+        "value": "NT$600 to NT$1,800 fine ( 600~1,800)"
       },
       {
         "label": "Failure to Yield to Pedestrians on Crosswalk",
-        "value": "NT$1,200 to NT$6,000 fine + 3 demerit points (不禮讓行人)"
+        "value": "NT$1,200 to NT$6,000 fine + 3 demerit points"
       },
       {
         "label": "Running a Red Light (Caught on the spot)",
-        "value": "NT$1,800 to NT$5,400 fine + 3 demerit points (闖紅燈記3點)"
+        "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"
       },
       {
         "label": "Unlicensed Riding (No valid license)",
-        "value": "NT$6,000 to NT$24,000 fine + vehicle impounded on spot (無照駕駛)"
+        "value": "NT$6,000 to NT$24,000 fine + vehicle impounded on spot"
       },
       {
         "label": "Driving Car/Heavy Moto with Light License",
-        "value": "NT$6,000 to NT$12,000 fine + prohibited on spot (越級駕駛)"
+        "value": "NT$6,000 to NT$12,000 fine + prohibited on spot"
       },
       {
         "label": "Car/Truck License Holder Riding Heavy Moto",
-        "value": "NT$1,800 to NT$3,600 fine + prohibited on spot (持汽車駕照騎重機)"
+        "value": "NT$1,800 to NT$3,600 fine + prohibited on spot"
       },
       {
         "label": "Aggressive Driving / Dangerous Tailgating",
@@ -138,11 +138,11 @@
       },
       {
         "label": "Evading Highway Toll Resulting in Injury",
-        "value": "NT$3,000 to NT$6,000 fine + 6-month license suspension (逃費致死傷)"
+        "value": "NT$3,000 to NT$6,000 fine + 6-month license suspension"
       },
       {
         "label": "License Plate Obscured, Dirty, or Rotating Frame",
-        "value": "NT$2,400 to NT$4,800 fine + plate confiscated/suspended (號牌不依規定懸掛)"
+        "value": "NT$2,400 to NT$4,800 fine + plate confiscated/suspended"
       }
     ]
   },
@@ -167,7 +167,7 @@
       },
       {
         "label": "DUI Passenger Liability (Aged 18+)",
-        "value": "NT$6,000 to NT$15,000 fine for passengers in the same vehicle (同車乘客連坐罰)"
+        "value": "NT$6,000 to NT$15,000 fine for passengers in the same vehicle"
       },
       {
         "label": "Owner Allowing Drunk Driver to Operate",
@@ -175,7 +175,7 @@
       },
       {
         "label": "DUI Crash Causing Serious Injury or Death",
-        "value": "Permanent driver license revocation (lifetime ban from retaking) + vehicle confiscated"
+        "value": "Permanent driver license revocation + vehicle confiscated"
       },
       {
         "label": "Ignition Interlock Device Requirement",
@@ -188,11 +188,11 @@
     "items": [
       {
         "label": "Lending Driver's License to Another Person",
-        "value": "3-month driver's license suspension (吊扣駕照 3 個月)"
+        "value": "3-month driver's license suspension"
       },
       {
         "label": "Lending Vehicle to Unlicensed Driver",
-        "value": "3-month driver's license suspension for vehicle owner (吊扣駕照 3 個月)"
+        "value": "3-month driver's license suspension for vehicle owner"
       },
       {
         "label": "Forged, Altered, or Counterfeit License",
@@ -200,11 +200,11 @@
       },
       {
         "label": "Cheating / Registering Dishonestly on Exam",
-        "value": "5-year ban from retaking driver's license test (5年內不得考領)"
+        "value": "5-year ban from retaking driver's license test"
       },
       {
         "label": "Failed Motorcycle Road/Written Test",
-        "value": "Must wait at least 7 days before retaking test (重考間隔 7 天)"
+        "value": "Must wait at least 7 days before retaking test"
       },
       {
         "label": "Hit-and-Run without Injury (Property only)",
@@ -220,7 +220,7 @@
       },
       {
         "label": "Disqualified Physical Fitness / Medical Changes",
-        "value": "Must voluntarily return driver's license to Motor Vehicle Office (繳回駕照)"
+        "value": "Must voluntarily return driver's license to Motor Vehicle Office"
       }
     ]
   },
@@ -229,7 +229,7 @@
     "items": [
       {
         "label": "Solid Red Line Curb (Red curb marking)",
-        "value": "Temporary stopping and parking PROHIBITED 24 hours a day (全天24小時禁止臨時停車)"
+        "value": "Temporary stopping and parking PROHIBITED 24 hours a day"
       },
       {
         "label": "Solid Yellow Line Curb (Yellow curb marking)",
@@ -237,23 +237,23 @@
       },
       {
         "label": "Yellow Diagonal Cross Grid Lines",
-        "value": "Prohibits all temporary stopping inside intersection/gate area (禁止臨時停車網狀線)"
+        "value": "Prohibits all temporary stopping inside intersection/gate area"
       },
       {
         "label": "Distance from Fire Hydrants / Fire Station Exits",
-        "value": "No parking or stopping within 5 meters (消防栓/消防隊出入口 5公尺內)"
+        "value": "No parking or stopping within 5 meters"
       },
       {
         "label": "Distance from Intersections & Bus Stops",
-        "value": "No stopping or parking within 10 meters (交岔路口/公車站牌 10公尺內)"
+        "value": "No stopping or parking within 10 meters"
       },
       {
         "label": "Distance from Railway Level Crossings",
-        "value": "No stopping or parking within 10 meters (鐵路平交道 10公尺內)"
+        "value": "No stopping or parking within 10 meters"
       },
       {
         "label": "Direct Citation Consecutive Parking Interval",
-        "value": "Citations may be issued every 2 hours if vehicle remains unmoved (連續舉發每2小時)"
+        "value": "Citations may be issued every 2 hours if vehicle remains unmoved"
       }
     ]
   },
@@ -266,39 +266,39 @@
       },
       {
         "label": "Chest Compression Depth (Adult)",
-        "value": "At least 5 cm, not exceeding 6 cm (胸部按壓深度 5 ~ 6 公分)"
+        "value": "At least 5 cm, not exceeding 6 cm"
       },
       {
         "label": "Chest Compression Rate",
-        "value": "100 to 120 compressions per minute (按壓頻率每分鐘 100 ~ 120 次)"
+        "value": "100 to 120 compressions per minute"
       },
       {
         "label": "Breathing Assessment Window",
-        "value": "Minimum 5 seconds, Maximum 10 seconds (評估呼吸 5 ~ 10 秒)"
+        "value": "Minimum 5 seconds, Maximum 10 seconds"
       },
       {
         "label": "Emergency CPR Sequence (Call-Call-C-A-B-D)",
-        "value": "1. Call patient → 2. Call 119/AED → 3. Compressions (C) → 4. Airway (A) → 5. Breathing (B) → 6. Defibrillation (D)"
+        "value": "1. Call patient → 2. Call 119/AED → 3. Compressions → 4. Airway → 5. Breathing → 6. Defibrillation"
       },
       {
         "label": "Compression Hand Position",
-        "value": "Lower half of sternum / center of chest between nipples (兩乳頭連線中央胸骨下半段)"
+        "value": "Lower half of sternum / center of chest between nipples"
       },
       {
         "label": "Heimlich Maneuver Hand Placement",
-        "value": "Slightly above the navel, well below xiphoid process (肚臍上方、劍突下方)"
+        "value": "Slightly above the navel, well below xiphoid process"
       },
       {
         "label": "Trauma Victim in Shock Symptoms",
-        "value": "Pale, cool, clammy skin with rapid weak pulse (休克面色蒼白、四肢冰冷)"
+        "value": "Pale, cool, clammy skin with rapid weak pulse"
       },
       {
         "label": "Bright Red Blood Spurting Continuously",
-        "value": "Arterial bleeding (動脈出血) → Requires direct pressure / tourniquet immediately"
+        "value": "Arterial bleeding → Requires direct pressure / tourniquet immediately"
       },
       {
         "label": "Unconscious Victim with Normal Breathing",
-        "value": "Place in Recovery Position (Lateral Recumbent) to keep airway clear (復甦姿勢/側臥)"
+        "value": "Place in Recovery Position to keep airway clear"
       }
     ]
   },
@@ -306,15 +306,15 @@
     "category": "🛑 Visual Signs, Markings & Right-of-Way Rules",
     "items": [
       {
-        "label": "White Diamond Road Marking (菱形標線)",
-        "value": "Pedestrian crosswalk ahead; slow down and prepare to yield (前方有行人穿越道)"
+        "label": "White Diamond Road Marking",
+        "value": "Pedestrian crosswalk ahead; slow down and prepare to yield"
       },
       {
-        "label": "Double Solid Yellow Line (雙黃實線)",
+        "label": "Double Solid Yellow Line",
         "value": "Directional separation line; strictly prohibits crossing, overtaking, or U-turns"
       },
       {
-        "label": "Two-Stage Left Turn (Hook Turn 兩段式左轉)",
+        "label": "Two-Stage Left Turn (Hook Turn )",
         "value": "Mandatory when: 1. Inner lane marked No-Moto, or 2. Hook turn sign posted, or 3. ≥3 fast lanes"
       },
       {
@@ -323,7 +323,7 @@
       },
       {
         "label": "Uncontrolled Intersection Priority",
-        "value": "1. Branch yields to Main (支道讓幹道) → 2. Left-turn yields to Straight (轉彎讓直行) → 3. Left vehicle yields to Right vehicle (左方車讓右方車)"
+        "value": "1. Branch yields to Main → 2. Left-turn yields to Straight → 3. Left vehicle yields to Right vehicle"
       },
       {
         "label": "Roundabout (Traffic Circle) Priority",
@@ -340,23 +340,23 @@
     "items": [
       {
         "label": "Compulsory Insurance Certificate Validity",
-        "value": "Must have at least 30 days remaining validity for title transfer/inspection (強制險效期30日以上)"
+        "value": "Must have at least 30 days remaining validity for title transfer/inspection"
       },
       {
         "label": "Motorcycle Over 5 Years Old Ownership Transfer",
-        "value": "Mandatory temporary inspection before ownership transfer (出廠5年以上過戶需臨檢)"
+        "value": "Mandatory temporary inspection before ownership transfer"
       },
       {
         "label": "Motorcycle Temporarily Out of Service Max Period",
-        "value": "Maximum allowed suspension period is 1 year (停駛登記最長以1年為限)"
+        "value": "Maximum allowed suspension period is 1 year"
       },
       {
         "label": "Public Traffic Violation Reporting Time Limit",
-        "value": "Must be reported within 7 days of the violation date (民眾檢舉於違規日起7日內)"
+        "value": "Must be reported within 7 days of the violation date"
       },
       {
         "label": "Motorcycle Stolen Fuel Fee Cutoff",
-        "value": "Charged up to one day before the police theft report date (計徵至失竊前一日)"
+        "value": "Charged up to one day before the police theft report date"
       },
       {
         "label": "Exhaust Pipe Modification Standard",
