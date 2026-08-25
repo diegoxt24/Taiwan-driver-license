@@ -1,456 +1,366 @@
 [
   {
-    "category": "🏍️ 1. Motorcycle Classifications, Dimensions & Technical Specs",
+    "category": "📏 Numbers, Dimensions, Weights & Equipment Limits",
     "items": [
       {
-        "label": "Small Light Electric Motorcycle (小型輕型機車)",
-        "value": "Curb weight < 70 kg (incl. battery); Power < 1.34 HP (1 kW); Max speed ≤ 45 km/h; Tire diameter 300–420 mm; 0 passengers allowed (single-rider only)"
+        "label": "Heavy Motorcycle Cargo Weight Limit",
+        "value": "Max 80 kg (重型機車載物重量不超過80公斤)"
       },
       {
-        "label": "Regular Light Motorcycle (普通輕型機車 / Green Plate)",
-        "value": "Displacement ≤ 50 cc or electric motor > 1.34 HP & ≤ 5 HP; Cargo weight limit: 50 kg; Max 1 passenger (fixed rear seat)"
+        "label": "Light Motorcycle Cargo Weight Limit",
+        "value": "Max 50 kg (輕型機車載物重量不超過50公斤)"
       },
       {
-        "label": "Regular Heavy Motorcycle (普通重型機車 / White Plate)",
-        "value": "Displacement 50 cc–249 cc or electric motor > 5 HP & ≤ 40 HP; Cargo weight limit: 80 kg; Max 1 passenger (fixed rear seat)"
+        "label": "Cargo Height Limit",
+        "value": "Must NOT exceed rider's shoulders (裝載高度不超過駕駛人肩部)"
       },
       {
-        "label": "Large Heavy Motorcycle (Yellow Plate 250–549 cc / Red Plate 550 cc+)",
-        "value": "Follows small passenger car rules; Yellow = Expressways only; Red = Expressways & designated freeways; Driver min age 20 yrs + 1 yr heavy license"
+        "label": "Cargo Width Limit",
+        "value": "Must NOT extend beyond handlebars (裝載寬度不超過把手外緣)"
       },
       {
-        "label": "Maximum Cargo Loading Height",
-        "value": "Must not exceed the rider's shoulder height"
+        "label": "Cargo Rear Extension Limit",
+        "value": "Max 0.5 meters (50 cm) beyond rear axle/seat (伸出車尾不超過半公尺)"
       },
       {
-        "label": "Maximum Cargo Loading Width",
-        "value": "Must not exceed 10 cm beyond outer edge of handlebars on each side (total width ≤ handlebars + 20 cm)"
+        "label": "Small Light Motorcycle Curb Weight",
+        "value": "Max 70 kg including battery (含電池車重70公斤以下)"
       },
       {
-        "label": "Maximum Cargo Length (Rear Overhang)",
-        "value": "Must not extend more than 0.5 meters (50 cm) beyond the rear wheel axle"
+        "label": "Motorcycle Maximum Overall Height",
+        "value": "Max 2.5 meters from ground (總高度不超過2.5公尺)"
       },
       {
-        "label": "Maximum Cargo Length (Forward Overhang)",
-        "value": "Must not extend forward beyond the rear of the seat"
+        "label": "Tire Age Recommended Service Life",
+        "value": "Max 6 years from manufacturing date (使用年限不超過6年)"
       },
       {
-        "label": "Maximum Overall Vehicle Height",
-        "value": "Overall motorcycle height must not exceed 2.0 meters"
-      },
-      {
-        "label": "Pillion Passenger Seating Rule",
-        "value": "Must sit astride facing forward on fixed rear seat; Sitting sideways (側坐) is strictly prohibited"
-      },
-      {
-        "label": "Carrying Cargo While Carrying a Passenger",
-        "value": "Prohibited to carry additional cargo when carrying a passenger (small personal hand-carried items exempt)"
-      },
-      {
-        "label": "Carrying Children on Front Footrest",
-        "value": "Strictly prohibited to carry children, babies, or pets on the front floorboard/footrest"
-      },
-      {
-        "label": "Turn Signal Light Color Standard",
-        "value": "Turn signal indicator lights must be ORANGE (not red or yellow)"
-      },
-      {
-        "label": "Headlight Standard",
-        "value": "Must include both High Beam (遠光燈) and Low Beam (近光燈)"
-      }
-    ]
-  },
-  {
-    "category": "🔧 2. Mechanical Maintenance, Tires, Battery & Inspection Rules",
-    "items": [
-      {
-        "label": "Normal Exhaust Smoke Color",
-        "value": "Colorless / transparent (indicates proper gasoline combustion)"
-      },
-      {
-        "label": "Black Exhaust Smoke Cause",
-        "value": "Incomplete gasoline combustion (overly rich fuel-air mixture, clogged air filter, or faulty carburetor/injector)"
-      },
-      {
-        "label": "Bluish-White Exhaust Smoke Cause",
-        "value": "Burning engine oil inside combustion chamber (worn piston rings or leaking valve stem seals)"
-      },
-      {
-        "label": "White Steam in Cold Weather",
-        "value": "Normal condensation of water vapor in cold exhaust system; dissipates quickly"
-      },
-      {
-        "label": "Primary Greenhouse Gas in Motorcycle Emissions",
-        "value": "Carbon dioxide (CO₂)"
-      },
-      {
-        "label": "Battery Terminal Maintenance",
-        "value": "Apply grease / Vaseline to battery terminals to prevent corrosion and oxidation"
-      },
-      {
-        "label": "Battery Fluid Replenishment",
-        "value": "Replenish only with Distilled Water (never tap water, mineral water, or acid)"
-      },
-      {
-        "label": "Air Filter Purpose",
-        "value": "Filters sand, dust, and abrasives from intake air to prevent cylinder wall and piston scoring"
+        "label": "Tire Tread Depth Inspection Standard",
+        "value": "Minimum 0.8 mm (胎紋深度不得磨損低於0.8公釐)"
       },
       {
         "label": "Brake Lever Free Play",
-        "value": "1 to 2 cm (10–20 mm) of lever travel before braking engagement begins"
+        "value": "1 to 2 cm of free travel (煞車拉桿自由行程 1 ~ 2 公分)"
       },
       {
-        "label": "Spark Plug Gap",
-        "value": "0.6 to 0.7 mm"
+        "label": "Battery Terminal Maintenance",
+        "value": "Apply Vaseline (petroleum jelly) to prevent corrosion (塗抹凡士林防腐蝕)"
       },
       {
-        "label": "Minimum Tire Tread Depth",
-        "value": "0.8 mm (must replace immediately when tread reaches wear indicator bump on tire shoulder)"
-      },
-      {
-        "label": "Maximum Recommended Tire Age",
-        "value": "No more than 6 years from manufacture date"
-      },
-      {
-        "label": "Tire Date Code Decoding (e.g. MMD1213)",
-        "value": "1213 = 12th week of the year 2013 (first 2 digits = week, last 2 digits = year)"
-      },
-      {
-        "label": "Tire Specification Code (e.g. 3.50-10-8PR)",
-        "value": "3.50 = 3.5 inch tire width; 10 = 10 inch rim diameter; 8PR = 8 Ply Rating structural carcass strength"
-      },
-      {
-        "label": "Under-Inflated Tire Symptoms",
-        "value": "Wear on both outer shoulder edges + increased fuel consumption + heavy sluggish steering"
-      },
-      {
-        "label": "Over-Inflated Tire Symptoms",
-        "value": "Wear along center rib + reduced road grip + harsh bumpy ride damaging shock absorbers"
-      },
-      {
-        "label": "Tire Pressure Measurement Condition",
-        "value": "Always measure tire pressure when tires are COLD before riding"
-      },
-      {
-        "label": "Transfer of Ownership Inspection",
-        "value": "Mandatory temporary inspection if motorcycle is > 5 years old from manufacture date"
-      },
-      {
-        "label": "Temporary Out-of-Service (報停) Max Period",
-        "value": "Up to 1 year maximum"
-      },
-      {
-        "label": "Severe Accident Repair Inspection",
-        "value": "Requires Temporary Inspection (臨時檢驗) after repair before returning to road use"
-      },
-      {
-        "label": "Long-Term Parked Motorcycle Maintenance",
-        "value": "Start engine and idle for 3–5 minutes at least once every week"
+        "label": "Exhaust Smoke Color Diagnostics",
+        "value": "Black smoke = Incomplete combustion (Rich fuel mixture / air filter clogged)"
       }
     ]
   },
   {
-    "category": "🚑 3. Emergency First Aid, CPR Sequence & Bleeding Protocols",
+    "category": "⚡ Speed Limits, Following Distances & Sign Timing",
     "items": [
       {
-        "label": "CPR Life-Support Protocol Sequence",
-        "value": "Call 119 → Call for AED → C (Compressions) → A (Airway) → B (Breathing) → D (Defibrillation with AED)"
+        "label": "Unmarked Roads (No lane lines/centerline)",
+        "value": "Max 40 km/h (未劃設車道線或行車分向線之道路)"
       },
       {
-        "label": "Chest Compression Rate",
-        "value": "100 to 120 compressions per minute (approx. 100/min)"
+        "label": "Single-Lane / General Roads (with markings)",
+        "value": "Max 50 km/h unless posted otherwise (一般市區/郊區道路)"
       },
       {
-        "label": "Chest Compression Depth (Adult)",
-        "value": "5 to 6 cm at center of sternum between nipples"
+        "label": "Railway Level Crossings Speed Limit",
+        "value": "Reduce speed below 15 km/h (通過鐵路平交道降至15公里以下)"
       },
       {
-        "label": "Compression to Ventilation Ratio",
-        "value": "30 compressions to 2 rescue breaths (30:2) for adult CPR"
+        "label": "Advance Turn Signal / Hand Signal Timing",
+        "value": "Activate at least 30 meters before turning (轉彎前30公尺顯示方向燈)"
       },
       {
-        "label": "Maximum Allowable CPR Interruption",
-        "value": "Must not exceed 10 seconds (for pulse checks, breaths, or AED pads)"
+        "label": "Lateral Distance When Passing/Overtaking",
+        "value": "Maintain at least 0.5 meters side clearance (相互間隔不得少於半公尺)"
       },
       {
-        "label": "CPR Re-Evaluation Frequency",
-        "value": "Check pulse and breathing effectiveness every 2 minutes (approx. 5 cycles of 30:2)"
+        "label": "Mirror Check Scan Cycle",
+        "value": "Check mirrors every 5 seconds; do not stare > 2 seconds (每5秒看一次後照鏡)"
       },
       {
-        "label": "Airway & Breathing Check Duration",
-        "value": "Check breathing and airway for no more than 10 seconds"
+        "label": "Consecutive Speeding Citation Criteria",
+        "value": "At least 6 minutes apart OR passed more than 1 intersection (間隔6分鐘或經過1個路口)"
       },
       {
-        "label": "Cardiac Arrest Brain Damage Window",
-        "value": "CPR must begin within 4 to 6 minutes to prevent irreversible hypoxic brain damage"
-      },
-      {
-        "label": "Unconscious Victim with Normal Breathing",
-        "value": "Place in Recovery Position (side-lying) to keep airway clear and allow fluid drainage"
-      },
-      {
-        "label": "Suspected Cervical / Spine Trauma Airway",
-        "value": "Use Jaw-Thrust Maneuver without tilting the head or extending the neck"
-      },
-      {
-        "label": "Choking / Heimlich Maneuver Hand Position",
-        "value": "Place clenched fist midway between navel and lower sternum (xiphoid process), thrust upward & inward"
-      },
-      {
-        "label": "Arterial Bleeding Characteristics",
-        "value": "Bright red oxygenated blood spurting pulsatile under high pressure → Immediate direct pressure / tourniquet"
-      },
-      {
-        "label": "Venous Bleeding Characteristics",
-        "value": "Dark red blood flowing steadily in continuous stream → Direct pressure with sterile dressing"
-      },
-      {
-        "label": "Capillary Bleeding Characteristics",
-        "value": "Slow reddish oozing from surface abrasions → Clean with normal saline and apply sterile dressing"
-      },
-      {
-        "label": "Tourniquet Protocol",
-        "value": "Record exact time applied; briefly loosen every 15 to 20 minutes to prevent limb tissue necrosis"
-      },
-      {
-        "label": "Severe Burn Management (5 Steps)",
-        "value": "Rinse (cool running water 15–30 min), Remove loose clothing (never tear stuck cloth), Soak, Cover, Send to hospital"
-      },
-      {
-        "label": "Compound Fracture with Bleeding",
-        "value": "Stop the bleeding first; never attempt to push protruding bone fragments back into the flesh"
-      },
-      {
-        "label": "Chemical Skin Exposure Treatment",
-        "value": "Immediately rinse affected area with copious amounts of running clean water (do not neutralize with chemicals)"
+        "label": "Speed Camera Warning Sign Distance",
+        "value": "General roads: 100–300m in advance; Highways: 300–1,000m (告示牌距離)"
       }
     ]
   },
   {
-    "category": "🍷 4. Alcohol Limits, DUI Penalties & License Sanctions",
+    "category": "💰 Fines, Penalties & Demerit Points Matrix",
     "items": [
       {
-        "label": "Administrative Fine BAC Threshold",
-        "value": "0.15 mg/L breath alcohol (or 0.03% blood alcohol)"
+        "label": "Helmet Not Worn / Not Fastened",
+        "value": "NT$500 fine (未戴安全帽或未扣緊帽帶 處500元)"
       },
       {
-        "label": "Criminal Public Endangerment BAC Threshold",
-        "value": "0.25 mg/L breath alcohol (or 0.05% blood alcohol) → up to 3 yrs imprisonment + fine up to NT$300,000"
+        "label": "Using Handheld Phone While Riding",
+        "value": "NT$1,000 flat fine (行駛中使用手持式行動電話 處1,000元)"
       },
       {
-        "label": "1st Motorcycle DUI Offense",
-        "value": "NT$15,000 to NT$90,000 fine + 1 to 2-year license suspension + motorcycle impounded on the spot"
+        "label": "Overloading Cargo / Violating Dimensions",
+        "value": "NT$300 to NT$600 fine (機車載物超重或超寬超高 處300~600元)"
       },
       {
-        "label": "2nd Motorcycle DUI within 10 Years",
-        "value": "NT$90,000 flat fine + 3-year license revocation + motorcycle impounded + public disclosure of name and photo"
-      },
-      {
-        "label": "3rd+ Motorcycle DUI within 10 Years",
-        "value": "Previous fine + NT$90,000 additional per offense + license revocation + vehicle impounded"
-      },
-      {
-        "label": "Refusal of Breathalyzer Test (1st Offense)",
-        "value": "NT$180,000 flat fine + immediate license revocation (3-year reapplication ban) + vehicle impounded + lecture"
-      },
-      {
-        "label": "Refusal of Breathalyzer Test (2nd Offense in 10 Yrs)",
-        "value": "NT$360,000 flat fine (+ NT$180,000 for each subsequent refusal) + 5-year reapplication ban"
-      },
-      {
-        "label": "DUI Causing Serious Injury or Death",
-        "value": "Permanent driver license revocation (lifetime ban from retaking test) + vehicle confiscated"
-      },
-      {
-        "label": "DUI or Unlicensed Riding Causing Injury/Death",
-        "value": "Criminal penalties legally increased by up to ONE-HALF (+1/2 or 1.5x sentence)"
-      },
-      {
-        "label": "Accumulating 12 Demerit Points within 1 Year",
-        "value": "Driver's license suspended for 2 months"
-      },
-      {
-        "label": "Lending Driver's License to Others",
-        "value": "3-month driver's license suspension for both lender and unauthorized rider"
-      },
-      {
-        "label": "Damaged / Unidentifiable Driver's License",
-        "value": "Apply for a replacement license (do not need to retake driving test)"
-      }
-    ]
-  },
-  {
-    "category": "💰 5. Complete Traffic Fines & Demerit Points Matrix",
-    "items": [
-      {
-        "label": "Helmet Not Worn / Unfastened Chin Strap",
-        "value": "NT$500 flat fine"
-      },
-      {
-        "label": "Operating Handheld Mobile Phone While Riding",
-        "value": "NT$1,000 flat fine"
-      },
-      {
-        "label": "Running Red Light (Traffic Signal)",
-        "value": "NT$1,800 to NT$5,400 fine + 3 demerit points"
-      },
-      {
-        "label": "Crossing Stop Line on Red (Front Wheel Over Line)",
-        "value": "NT$900 to NT$1,800 fine + 1 demerit point"
-      },
-      {
-        "label": "Failure to Make Two-Stage Left Turn (Hook-Turn)",
-        "value": "NT$600 to NT$1,200 fine + 1 demerit point"
-      },
-      {
-        "label": "Riding in Designated 'No Motorcycles' (禁行機車) Lane",
-        "value": "NT$600 to NT$1,800 fine + 1 demerit point"
+        "label": "Occupying Oncoming Lane to Turn Left",
+        "value": "NT$600 to NT$1,800 fine (佔用來車道搶先左轉 處600~1,800元)"
       },
       {
         "label": "Failure to Yield to Pedestrians on Crosswalk",
-        "value": "NT$1,200 to NT$6,000 fine + 3 demerit points + road safety lecture"
+        "value": "NT$1,200 to NT$6,000 fine + 3 demerit points (不禮讓行人)"
       },
       {
-        "label": "Failure to Yield to Emergency Vehicles (Ambulance/Fire)",
-        "value": "NT$6,000 to NT$90,000 fine + DRIVER LICENSE REVOCATION"
+        "label": "Running a Red Light (Caught on the spot)",
+        "value": "NT$1,800 to NT$5,400 fine + 3 demerit points (闖紅燈記3點)"
       },
       {
-        "label": "Unlicensed Motorcycle Riding",
-        "value": "NT$6,000 to NT$24,000 fine + prohibited from riding + vehicle impounded"
+        "label": "Unlicensed Riding (No valid license)",
+        "value": "NT$6,000 to NT$24,000 fine + vehicle impounded on spot (無照駕駛)"
       },
       {
-        "label": "Speeding ≤ 40 km/h Over Limit",
-        "value": "NT$1,200 to NT$2,400 fine + 1 demerit point"
+        "label": "Driving Car/Heavy Moto with Light License",
+        "value": "NT$6,000 to NT$12,000 fine + prohibited on spot (越級駕駛)"
       },
       {
-        "label": "Excessive Speeding (≥ 40 km/h Over Limit - Dangerous Driving)",
-        "value": "NT$6,000 to NT$36,000 fine + 6 months license plate suspension + 3 demerit points + lecture"
+        "label": "Car/Truck License Holder Riding Heavy Moto",
+        "value": "NT$1,800 to NT$3,600 fine + prohibited on spot (持汽車駕照騎重機)"
       },
       {
-        "label": "Turning or Changing Lanes Without Turn Signal",
-        "value": "NT$1,200 to NT$3,600 fine + 1 demerit point"
+        "label": "Aggressive Driving / Dangerous Tailgating",
+        "value": "NT$6,000 to NT$36,000 fine + 6-month plate suspension + safety training"
       },
       {
-        "label": "Opening Car Door Dangerously / Unsafe Dooring",
-        "value": "NT$2,400 to NT$4,800 fine"
+        "label": "Railway Level Crossing Violations",
+        "value": "NT$15,000 to NT$90,000 fine + 3 demerit points (if accident: license REVOKED for life)"
       },
       {
-        "label": "Hit and Run in Property-Damage-Only Accident",
-        "value": "NT$1,000 to NT$3,000 fine + 1 to 3 months driver license suspension"
+        "label": "Evading Highway Toll Resulting in Injury",
+        "value": "NT$3,000 to NT$6,000 fine + 6-month license suspension (逃費致死傷)"
       },
       {
-        "label": "Hit and Run Causing Injury or Death",
-        "value": "Driver license revoked + 1 to 7 years imprisonment (Criminal Code Art. 185-4)"
-      },
-      {
-        "label": "Failing to Move Vehicle in Minor Non-Injury Accident",
-        "value": "NT$600 to NT$1,800 fine (if vehicle is operable and obstructs traffic)"
+        "label": "License Plate Obscured, Dirty, or Rotating Frame",
+        "value": "NT$2,400 to NT$4,800 fine + plate confiscated/suspended (號牌不依規定懸掛)"
       }
     ]
   },
   {
-    "category": "🛑 6. Right-of-Way, Intersections & Speed Limits",
+    "category": "🍷 Alcohol BAC Limits, DUI Penalties & Legal Escalations",
     "items": [
       {
-        "label": "Speed Limit - Alleys & Roads Without Center Lines",
-        "value": "30 km/h"
+        "label": "Administrative Fine Threshold",
+        "value": "Breath BAC ≥ 0.15 mg/L (or Blood ≥ 0.03%) → NT$15,000–$90,000 + 1–2 yr license suspension"
       },
       {
-        "label": "Speed Limit - Roads With Center Lines but No Speed Signs",
-        "value": "50 km/h"
+        "label": "Criminal Prosecution Threshold",
+        "value": "Breath BAC ≥ 0.25 mg/L (or Blood ≥ 0.05%) → Criminal Code 185-3 prosecution + prison"
       },
       {
-        "label": "Speed Limit - Slow Lanes & Designated Curved / Mountain Sections",
-        "value": "40 km/h"
+        "label": "Repeat DUI Offense (within 10 years)",
+        "value": "2nd time: NT$90,000 + previous fine; 3rd time: previous + NT$90,000 + vehicle impounded"
       },
       {
-        "label": "Speed vs. Braking Distance Physics",
-        "value": "Braking distance ∝ Speed² (Doubling speed from 30 to 60 km/h quadruples braking distance 4x)"
+        "label": "DUI Breathalyzer Refusal",
+        "value": "Instant NT$180,000 fine + driver license REVOKED + vehicle impounded + safety training"
       },
       {
-        "label": "Speed vs. Fatality Risk (OECD Research)",
-        "value": "Increasing impact speed from 30 km/h to 50 km/h increases motorcycle fatality rate sharply from 10% to ~80%"
+        "label": "DUI Passenger Liability (Aged 18+)",
+        "value": "NT$6,000 to NT$15,000 fine for passengers in the same vehicle (同車乘客連坐罰)"
       },
       {
-        "label": "Turn Signal Advance Distance",
-        "value": "Must activate turn signal at least 30 meters before turning or changing lanes"
+        "label": "Owner Allowing Drunk Driver to Operate",
+        "value": "Same monetary fine as driver + vehicle license plate suspended for 2 years"
       },
       {
-        "label": "Intersection Right-of-Way #1 (Straight vs Turning)",
-        "value": "Straight-going vehicle has absolute right-of-way over turning vehicle"
+        "label": "DUI Crash Causing Serious Injury or Death",
+        "value": "Permanent driver license revocation (lifetime ban from retaking) + vehicle confiscated"
       },
       {
-        "label": "Intersection Right-of-Way #2 (Left vs Right Turn)",
-        "value": "Left-turning vehicle must yield to oncoming Right-turning vehicle at same intersection"
-      },
-      {
-        "label": "Intersection Right-of-Way #3 (Uncontrolled / Equal Intersections)",
-        "value": "Vehicle on LEFT must yield to vehicle approaching from the RIGHT"
-      },
-      {
-        "label": "Intersection Right-of-Way #4 (Main vs Branch Road)",
-        "value": "Branch road (fewer lanes / stop/yield sign) must yield to Main road (more lanes / through road)"
-      },
-      {
-        "label": "Roundabout Right-of-Way",
-        "value": "Entering vehicles must yield to vehicles already circulating inside the roundabout"
-      },
-      {
-        "label": "Two-Stage Left Turn (Hook-Turn / 兩段式左轉)",
-        "value": "Mandatory when hook-turn sign posted OR road has 3+ fast lanes OR inner lane marked 'No Motorcycles'"
-      },
-      {
-        "label": "U-Turns Prohibited Sections",
-        "value": "Prohibited on double solid yellow lines, single solid yellow line, on bridges, in tunnels, underpasses, roundabouts, or where left turns prohibited"
-      },
-      {
-        "label": "Riding Downhill Mountain Road",
-        "value": "Strictly prohibited to turn off engine or coast in neutral (must use lower gear for engine braking)"
+        "label": "Ignition Interlock Device Requirement",
+        "value": "Required for 1 year after DUI license reinstatement; driving unequipped = NT$60,000–120,000"
       }
     ]
   },
   {
-    "category": "🎬 7. Hazard Perception, Road Markings & Defensive Riding",
+    "category": "📋 License Actions, Suspensions, Revocations & Reapplication Bans",
     "items": [
       {
-        "label": "Double Solid Yellow Lines",
-        "value": "Divides opposing traffic lanes; strictly prohibited to cross, overtake, or make U-turns"
+        "label": "Lending Driver's License to Another Person",
+        "value": "3-month driver's license suspension (吊扣駕照 3 個月)"
       },
       {
-        "label": "Single Solid White Line",
-        "value": "Roadway edge line (outer side is shoulder) or lane boundary prohibiting lane changes"
+        "label": "Lending Vehicle to Unlicensed Driver",
+        "value": "3-month driver's license suspension for vehicle owner (吊扣駕照 3 個月)"
       },
       {
-        "label": "Double Solid White Lines",
-        "value": "Prohibits changing lanes between lanes traveling in the same direction"
+        "label": "Forged, Altered, or Counterfeit License",
+        "value": "NT$6,000–$24,000 fine + physical license CONFISCATED immediately"
       },
       {
-        "label": "Yellow Diagonal Striped Area",
-        "value": "Painted obstacle zone / safety island; strictly prohibited to ride into or park on"
+        "label": "Cheating / Registering Dishonestly on Exam",
+        "value": "5-year ban from retaking driver's license test (5年內不得考領)"
       },
       {
-        "label": "Passing Stopped Public Bus",
-        "value": "Slow down, leave wide lateral buffer, anticipate hidden pedestrians stepping out from front of bus"
+        "label": "Failed Motorcycle Road/Written Test",
+        "value": "Must wait at least 7 days before retaking test (重考間隔 7 天)"
       },
       {
-        "label": "Wet Asphalt & Road Markings (Manholes / Paint)",
-        "value": "Friction coefficient drops sharply when wet; avoid hard braking or severe lean angles on paint and metal covers"
+        "label": "Hit-and-Run without Injury (Property only)",
+        "value": "NT$1,000–$3,000 fine + driver's license suspended for 1 to 3 months"
       },
       {
-        "label": "Large Vehicle Turning (Inner Wheel Off-Tracking)",
-        "value": "Rear wheels cut significantly inside front wheels; stay completely clear of turning large trucks/buses"
+        "label": "Hit-and-Run with Injury to Others",
+        "value": "Driver's license REVOKED + banned from reapplying for 1 to 3 years"
       },
       {
-        "label": "Parked Car Door Opening (Dooring Hazard)",
-        "value": "Maintain at least 0.5 to 1.0 meter safety buffer from parked cars along roadside"
+        "label": "Hit-and-Run with Serious Injury or Death",
+        "value": "Driver's license REVOKED + PERMANENT lifetime ban from retaking test"
       },
       {
-        "label": "Motorcycle Braking Technique (Normal Stop)",
-        "value": "Apply front brake (~70% force) and rear brake (~30% force) simultaneously in a straight line"
+        "label": "Disqualified Physical Fitness / Medical Changes",
+        "value": "Must voluntarily return driver's license to Motor Vehicle Office (繳回駕照)"
+      }
+    ]
+  },
+  {
+    "category": "🅿️ Stopping, Parking Prohibitions & Distance Clearances",
+    "items": [
+      {
+        "label": "Solid Red Line Curb (Red curb marking)",
+        "value": "Temporary stopping and parking PROHIBITED 24 hours a day (全天24小時禁止臨時停車)"
       },
       {
-        "label": "Riding in Heavy Rain / Dense Fog",
-        "value": "Turn on low-beam headlights, reduce speed by 20–30%, and increase following distance to double normal"
+        "label": "Solid Yellow Line Curb (Yellow curb marking)",
+        "value": "No parking 7:00 AM to 8:00 PM daily; brief stop ≤ 3 min allowed with driver ready"
+      },
+      {
+        "label": "Yellow Diagonal Cross Grid Lines",
+        "value": "Prohibits all temporary stopping inside intersection/gate area (禁止臨時停車網狀線)"
+      },
+      {
+        "label": "Distance from Fire Hydrants / Fire Station Exits",
+        "value": "No parking or stopping within 5 meters (消防栓/消防隊出入口 5公尺內)"
+      },
+      {
+        "label": "Distance from Intersections & Bus Stops",
+        "value": "No stopping or parking within 10 meters (交岔路口/公車站牌 10公尺內)"
+      },
+      {
+        "label": "Distance from Railway Level Crossings",
+        "value": "No stopping or parking within 10 meters (鐵路平交道 10公尺內)"
+      },
+      {
+        "label": "Direct Citation Consecutive Parking Interval",
+        "value": "Citations may be issued every 2 hours if vehicle remains unmoved (連續舉發每2小時)"
+      }
+    ]
+  },
+  {
+    "category": "🩺 Emergency Trauma First Aid & CPR Protocol",
+    "items": [
+      {
+        "label": "CPR Compressions-to-Breaths Ratio",
+        "value": "30 compressions to 2 rescue breaths (30:2) for all solo adult rescues"
+      },
+      {
+        "label": "Chest Compression Depth (Adult)",
+        "value": "At least 5 cm, not exceeding 6 cm (胸部按壓深度 5 ~ 6 公分)"
+      },
+      {
+        "label": "Chest Compression Rate",
+        "value": "100 to 120 compressions per minute (按壓頻率每分鐘 100 ~ 120 次)"
+      },
+      {
+        "label": "Breathing Assessment Window",
+        "value": "Minimum 5 seconds, Maximum 10 seconds (評估呼吸 5 ~ 10 秒)"
+      },
+      {
+        "label": "Emergency CPR Sequence (Call-Call-C-A-B-D)",
+        "value": "1. Call patient → 2. Call 119/AED → 3. Compressions (C) → 4. Airway (A) → 5. Breathing (B) → 6. Defibrillation (D)"
+      },
+      {
+        "label": "Compression Hand Position",
+        "value": "Lower half of sternum / center of chest between nipples (兩乳頭連線中央胸骨下半段)"
+      },
+      {
+        "label": "Heimlich Maneuver Hand Placement",
+        "value": "Slightly above the navel, well below xiphoid process (肚臍上方、劍突下方)"
+      },
+      {
+        "label": "Trauma Victim in Shock Symptoms",
+        "value": "Pale, cool, clammy skin with rapid weak pulse (休克面色蒼白、四肢冰冷)"
+      },
+      {
+        "label": "Bright Red Blood Spurting Continuously",
+        "value": "Arterial bleeding (動脈出血) → Requires direct pressure / tourniquet immediately"
+      },
+      {
+        "label": "Unconscious Victim with Normal Breathing",
+        "value": "Place in Recovery Position (Lateral Recumbent) to keep airway clear (復甦姿勢/側臥)"
+      }
+    ]
+  },
+  {
+    "category": "🛑 Visual Signs, Markings & Right-of-Way Rules",
+    "items": [
+      {
+        "label": "White Diamond Road Marking (菱形標線)",
+        "value": "Pedestrian crosswalk ahead; slow down and prepare to yield (前方有行人穿越道)"
+      },
+      {
+        "label": "Double Solid Yellow Line (雙黃實線)",
+        "value": "Directional separation line; strictly prohibits crossing, overtaking, or U-turns"
+      },
+      {
+        "label": "Two-Stage Left Turn (Hook Turn 兩段式左轉)",
+        "value": "Mandatory when: 1. Inner lane marked No-Moto, or 2. Hook turn sign posted, or 3. ≥3 fast lanes"
+      },
+      {
+        "label": "Entering Multi-Lane Road Left Turn",
+        "value": "Must enter innermost lane after crossing; do not cut abruptly across lanes"
+      },
+      {
+        "label": "Uncontrolled Intersection Priority",
+        "value": "1. Branch yields to Main (支道讓幹道) → 2. Left-turn yields to Straight (轉彎讓直行) → 3. Left vehicle yields to Right vehicle (左方車讓右方車)"
+      },
+      {
+        "label": "Roundabout (Traffic Circle) Priority",
+        "value": "Vehicles outside the circle MUST yield to vehicles already inside the circle"
+      },
+      {
+        "label": "Steep Slope Meeting Rule",
+        "value": "Downhill vehicle yields to uphill vehicle; unless downhill is already midway through"
+      }
+    ]
+  },
+  {
+    "category": "📋 Vehicle Administration, Insurance & Inspections",
+    "items": [
+      {
+        "label": "Compulsory Insurance Certificate Validity",
+        "value": "Must have at least 30 days remaining validity for title transfer/inspection (強制險效期30日以上)"
+      },
+      {
+        "label": "Motorcycle Over 5 Years Old Ownership Transfer",
+        "value": "Mandatory temporary inspection before ownership transfer (出廠5年以上過戶需臨檢)"
+      },
+      {
+        "label": "Motorcycle Temporarily Out of Service Max Period",
+        "value": "Maximum allowed suspension period is 1 year (停駛登記最長以1年為限)"
+      },
+      {
+        "label": "Public Traffic Violation Reporting Time Limit",
+        "value": "Must be reported within 7 days of the violation date (民眾檢舉於違規日起7日內)"
+      },
+      {
+        "label": "Motorcycle Stolen Fuel Fee Cutoff",
+        "value": "Charged up to one day before the police theft report date (計徵至失竊前一日)"
+      },
+      {
+        "label": "Exhaust Pipe Modification Standard",
+        "value": "Must NOT alter number/position; catalytic converter and muffler MUST NOT be removed"
       }
     ]
   }
