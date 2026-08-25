@@ -3,100 +3,76 @@
     "id": "rule_fines_matrix_moto",
     "title": "💰 Master Motorcycle Fines & Demerit Points Matrix",
     "category": "Fines, Demerits & Penalties",
-    "summary": "• Equipment & Minor Infractions (NT$300–$1,000):\n  - Helmet unfastened / not worn: NT$500 fine on spot.\n  - Handheld mobile phone use while riding: NT$1,000 flat fine.\n  - Cargo overloading / dimension violations (exceeding shoulder height or handlebar width): NT$300 to NT$600.\n• Turns, Lanes & Pedestrian Priority (NT$600–$6,000):\n  - Occupying oncoming lane to turn left before intersection center: NT$600 to NT$1,800.\n  - Failure to yield to pedestrians on crosswalk: NT$1,200 to NT$6,000 + 3 demerit points.\n  - Running a red light (caught on spot): NT$1,800 to NT$5,400 + 3 demerit points.\n• High-Risk Violations & Demerit Accumulations:\n  - Speeding > 40 km/h over limit: NT$6,000 to NT$36,000 + 6-month vehicle plate suspension.\n  - Dangerous tailgating / aggressive driving: NT$6,000 to NT$36,000 + safety training.\n  - Railway crossing violations: NT$15,000 to NT$90,000 + 3 demerit points (accident = license revoked for life).",
+    "summary": "Taiwan traffic penalties for motorcycles follow a calibrated tier system: Minor equipment violations (helmet, cell phone) carry flat spot fines; turning, lane-discipline, and red-light infractions combine monetary fines with mandatory demerit points (3 points); dangerous maneuvers (extreme speeding ≥40 km/h, tailgating) mandate 6-month vehicle plate suspensions and safety training.",
     "key_numbers": [
-      {
-        "label": "Helmet Fine",
-        "value": "NT$500",
-        "context": "Unworn or chin strap not securely fastened"
-      },
-      {
-        "label": "Handheld Mobile Phone Fine",
-        "value": "NT$1,000",
-        "context": "Operating handheld device while in motion"
-      },
-      {
-        "label": "Cargo Overload Fine",
-        "value": "NT$300–$600",
-        "context": "Exceeding weight (80kg/50kg) or dimensions"
-      },
-      {
-        "label": "Left Turn Lane Violation",
-        "value": "NT$600–$1,800",
-        "context": "Cutting into oncoming lane before center point"
-      },
-      {
-        "label": "Running Red Light Fine",
-        "value": "NT$1,800–$5,400",
-        "context": "Incurring 3 mandatory demerit points on spot"
-      },
-      {
-        "label": "Pedestrian Crosswalk Non-Yield",
-        "value": "NT$1,200–$6,000",
-        "context": "Failure to yield when pedestrian is crossing"
-      },
-      {
-        "label": "Excessive Speeding (≥40 km/h over)",
-        "value": "NT$6,000–$36,000",
-        "context": "Fine + 6-month vehicle plate suspension"
-      }
+      "Helmet Fine: NT$500",
+      "Handheld Mobile Phone Fine: NT$1,000",
+      "Cargo Overload Fine: NT$300–$600",
+      "Left Turn Lane Violation: NT$600–$1,800",
+      "Running Red Light Fine: NT$1,800–$5,400",
+      "Pedestrian Crosswalk Non-Yield: NT$1,200–$6,000",
+      "Excessive Speeding (≥40 km/h over): NT$6,000–$36,000"
     ],
     "fines_table": [
       {
         "violation": "Riding without fastened helmet",
-        "points_or_penalty": "NT$500 fine",
-        "context": "Mandatory for rider and rear passenger"
+        "amount": "NT$500 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Mandatory for rider and rear passenger"
       },
       {
         "violation": "Operating handheld mobile phone while riding",
-        "points_or_penalty": "NT$1,000 fine",
-        "context": "Includes texting, dialing, or viewing media"
+        "amount": "NT$1,000 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Includes texting, dialing, or viewing media"
       },
       {
         "violation": "Overweight / oversized cargo loading",
-        "points_or_penalty": "NT$300–$600 fine",
-        "context": "Exceeding 80kg (heavy) or 50kg (light)"
+        "amount": "NT$300–$600 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Exceeding 80kg (heavy) or 50kg (light)"
       },
       {
         "violation": "Running a red light",
+        "amount": "NT$1,800–$5,400 + 3 demerits",
         "points_or_penalty": "NT$1,800–$5,400 + 3 demerits",
-        "context": "Crossing stop line during red phase"
+        "why": "Crossing stop line during red phase"
       },
       {
         "violation": "Failing to yield to pedestrian on crosswalk",
+        "amount": "NT$1,200–$6,000 + 3 demerits",
         "points_or_penalty": "NT$1,200–$6,000 + 3 demerits",
-        "context": "Must maintain at least 3-meter buffer"
+        "why": "Must maintain at least 3-meter buffer"
       },
       {
         "violation": "Reckless tailgating / lane weaving",
+        "amount": "NT$6,000–$36,000 + 6-mo plate suspension",
         "points_or_penalty": "NT$6,000–$36,000 + 6-mo plate suspension",
-        "context": "Aggressive driving under Article 43"
+        "why": "Aggressive driving under Article 43"
       },
       {
         "violation": "Disobeying railway crossing alarm/guard",
+        "amount": "NT$15,000–$90,000 + 3 demerits",
         "points_or_penalty": "NT$15,000–$90,000 + 3 demerits",
-        "context": "Lifetime ban if accident ensues"
+        "why": "Lifetime ban if accident ensues"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0486",
-        "question_num": 486,
-        "prompt": "If a motorcycle driver runs a red light and is caught on the spot, the penalties are:",
+        "question_text": "If a motorcycle driver runs a red light and is caught on the spot, the penalties are:",
         "correct_answer": "(3) a fine of NTD 1,800 to 5,400 and 3 demerit points",
         "trap_explanation": "Red light running incurs BOTH a monetary fine (NT$1,800–5,400) AND exactly 3 demerit points."
       },
       {
         "question_id": "MOTO_0017",
-        "question_num": 17,
-        "prompt": "If a motorcycle carries passengers or cargo in violation of regulations, what amount of fine will be imposed?",
+        "question_text": "If a motorcycle carries passengers or cargo in violation of regulations, what amount of fine will be imposed?",
         "correct_answer": "(1) A fine of NT $300 to NT $600",
         "trap_explanation": "Cargo dimension/weight violations carry the base tier fine of NT$300 to NT$600."
       },
       {
         "question_id": "MOTO_0588",
-        "question_num": 588,
-        "prompt": "When a motor vehicle driver fails to yield to oncoming straight-through traffic when turning left at an intersection, what penalty applies?",
+        "question_text": "When a motor vehicle driver fails to yield to oncoming straight-through traffic when turning left at an intersection, what penalty applies?",
         "correct_answer": "(2) A fine of NT$600–1,800.",
         "trap_explanation": "Turning violations without yielding to straight-through traffic carry a NT$600–$1,800 fine."
       }
@@ -117,85 +93,63 @@
     "id": "rule_dui_alcohol_moto",
     "title": "🍷 Alcohol BAC Limits, DUI Escalations, Impoundment & Interlocks",
     "category": "Alcohol Laws & Criminal Penalties",
-    "summary": "• Statutory Thresholds:\n  - Administrative Fine Threshold: Breath alcohol ≥ 0.15 mg/L (or blood alcohol ≥ 0.03%). Fine of NT$15,000–$90,000 for motorcycles + driver license suspension for 1–2 years.\n  - Criminal Prosecution Threshold: Breath alcohol ≥ 0.25 mg/L (or blood alcohol ≥ 0.05%) under Public Safety Offenses (Criminal Code 185-3).\n• Multi-Tier Escalations & Zero-Tolerance Enforcement:\n  - Repeat Offense (within 10 years): 2nd offense = previous fine + NT$90,000 + vehicle plate suspension for 2 years; 3rd offense = previous fine + NT$90,000 + vehicle confiscated.\n  - Breathalyzer Refusal: Instant NT$180,000 fine + driver license revocation + vehicle impoundment + mandatory road safety course.\n  - Adult Passengers (Aged 18+): Fined NT$6,000 to NT$15,000 for knowingly riding with a drunk driver.\n  - Vehicle Owner Liability: Same monetary fine as the driver + license plates suspended for 2 years.\n  - Ignition Interlock Device: Mandatory for 1 year upon license reapplication; riding an unequipped vehicle incurs a fine of NT$60,000–$120,000.",
+    "summary": "Taiwan enforces strict zero-tolerance for DUI with two distinct legal gates: Administrative penalties start at Breath BAC 0.15 mg/L (fines up to NT$90,000 + 1–2 yr license suspension), while Criminal prosecution begins at Breath BAC 0.25 mg/L. Refusal triggers an automatic NT$180,000 fine and instant license revocation. Adult passengers and vehicle owners face direct co-liability.",
     "key_numbers": [
-      {
-        "label": "Administrative BAC Threshold",
-        "value": "0.15 mg/L (0.03%)",
-        "context": "NT$15,000–$90,000 fine + 1–2 yr license suspension"
-      },
-      {
-        "label": "Criminal Prosecution Threshold",
-        "value": "0.25 mg/L (0.05%)",
-        "context": "Criminal Code 185-3 prosecution + prison"
-      },
-      {
-        "label": "DUI Refusal Fine",
-        "value": "NT$180,000",
-        "context": "Immediate revocation + vehicle impounded"
-      },
-      {
-        "label": "Passenger Liability Fine",
-        "value": "NT$6,000–$15,000",
-        "context": "Applies to passengers aged 18 and older"
-      },
-      {
-        "label": "Owner Plate Suspension",
-        "value": "2 Years",
-        "context": "If owner knowingly allows drunk riding"
-      },
-      {
-        "label": "Ignition Interlock Duration",
-        "value": "1 Year",
-        "context": "Mandatory installation after license restoration"
-      }
+      "Administrative BAC Threshold: 0.15 mg/L (0.03%)",
+      "Criminal Prosecution Threshold: 0.25 mg/L (0.05%)",
+      "DUI Refusal Fine: NT$180,000",
+      "Passenger Liability Fine: NT$6,000–$15,000",
+      "Owner Plate Suspension: 2 Years",
+      "Ignition Interlock Duration: 1 Year"
     ],
     "fines_table": [
       {
         "violation": "1st Motorcycle DUI (0.15–0.24 mg/L)",
+        "amount": "NT$15,000–$90,000 + 1–2 yr suspension",
         "points_or_penalty": "NT$15,000–$90,000 + 1–2 yr suspension",
-        "context": "Vehicle impounded on the spot"
+        "why": "Vehicle impounded on the spot"
       },
       {
         "violation": "2nd DUI within 10 years",
+        "amount": "Max fine + NT$90,000 + 2-yr plate suspension",
         "points_or_penalty": "Max fine + NT$90,000 + 2-yr plate suspension",
-        "context": "Driver license revoked for 3 years"
+        "why": "Driver license revoked for 3 years"
       },
       {
         "violation": "Refusal to take breathalyzer test",
-        "points_or_penalty": "NT$180,000 + license REVOKED + impound",
-        "context": "Mandatory safety training attendance"
+        "amount": "NT$180,000 + license REVOKED + impound",
+        "points_or_penalty": "Direct citation",
+        "why": "Mandatory safety training attendance"
       },
       {
         "violation": "Passenger aged 18+ in DUI vehicle",
-        "points_or_penalty": "NT$6,000–$15,000 fine",
-        "context": "Except elderly over 70 or mentally incapacitated"
+        "amount": "NT$6,000–$15,000 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Except elderly over 70 or mentally incapacitated"
       },
       {
         "violation": "Driving without required ignition interlock",
-        "points_or_penalty": "NT$60,000–$120,000 fine + impound",
-        "context": "Vehicle towed away on the spot"
+        "amount": "NT$60,000–$120,000 fine + impound",
+        "points_or_penalty": "Direct citation",
+        "why": "Vehicle towed away on the spot"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0084",
-        "question_num": 84,
-        "prompt": "If the blood alcohol concentration exceeds the legal limit and the driver continues to drive, resulting in a serious traffic accident, what must happen?",
+        "question_text": "If the blood alcohol concentration exceeds the legal limit and the driver continues to drive, resulting in a serious traffic accident, what must happen?",
         "correct_answer": "(1) The driver's license shall be revoked, and the driver shall be permanently barred from retaking the test.",
         "trap_explanation": "DUI resulting in serious injury or death triggers mandatory PERMANENT license revocation (lifetime ban)."
       },
       {
         "question_id": "MOTO_0088",
-        "question_num": 88,
-        "prompt": "If the motorcycle owner knowingly allows a driver to drive under the influence of alcohol, what is the penalty for the owner?",
+        "question_text": "If the motorcycle owner knowingly allows a driver to drive under the influence of alcohol, what is the penalty for the owner?",
         "correct_answer": "(3) The vehicle's license plate shall be suspended for two years, and the owner is fined the same amount as the driver.",
         "trap_explanation": "The vehicle owner faces the SAME fine as the drunk rider PLUS 2-year vehicle plate suspension."
       },
       {
         "question_id": "MOTO_0146",
-        "question_num": 146,
-        "prompt": "If a person drives a motor vehicle with a breath alcohol concentration of 0.15 mg/L or above, what is the minimum fine for motorcycles?",
+        "question_text": "If a person drives a motor vehicle with a breath alcohol concentration of 0.15 mg/L or above, what is the minimum fine for motorcycles?",
         "correct_answer": "(2) NT$15,000",
         "trap_explanation": "The base fine range for motorcycles is NT$15,000 to NT$90,000 (cars are NT$30,000 to NT$120,000)."
       }
@@ -215,85 +169,58 @@
     "id": "rule_cargo_passengers_moto",
     "title": "📦 Motorcycle Dimensions, Cargo Limits & Passenger Seating",
     "category": "Vehicle Hierarchy & Cargo Rules",
-    "summary": "• Cargo Weight Limitations:\n  - Heavy Motorcycles (Standard & Large): Cargo must not exceed 80 kg.\n  - Light Motorcycles: Cargo must not exceed 50 kg.\n• Physical Cargo Dimensions:\n  - Height: Must NOT exceed the driver's shoulders.\n  - Width: Must NOT extend beyond the outer edges of the handlebars.\n  - Length/Rear Extension: Must NOT extend more than 0.5 meters (50 cm) beyond the rear axle/seat.\n  - Front Extension: Must NOT extend beyond the front axle/front wheel.\n• Passenger Regulations:\n  - Heavy motorcycle: May carry 1 passenger on the designated rear seat; passengers must sit facing forward straddling the seat.\n  - Small light motorcycle: Must NOT carry any passengers.\n  - Sidecars: Cargo weight must not exceed 150 kg.\n• Small & Light Motorcycle Curb Weight:\n  - Small light motorcycles (including battery) must not exceed 70 kg curb weight.\n  - Maximum overall height of any motorcycle from the ground must not exceed 2.5 meters.",
+    "summary": "Motorcycle cargo and passenger limits are strictly bounded by physical vehicle geometry and weight class: Heavy motorcycles are capped at 80 kg of cargo, while light motorcycles are capped at 50 kg. Cargo must never exceed shoulder height or handlebar width, nor extend >0.5m behind the rear axle. Small light motorcycles cannot carry passengers.",
     "key_numbers": [
-      {
-        "label": "Heavy Moto Cargo Weight",
-        "value": "Max 80 kg",
-        "context": "Standard heavy & large heavy motorcycles"
-      },
-      {
-        "label": "Light Moto Cargo Weight",
-        "value": "Max 50 kg",
-        "context": "Light motorcycle class"
-      },
-      {
-        "label": "Cargo Height Limit",
-        "value": "Shoulder Level",
-        "context": "Must not exceed driver's shoulders"
-      },
-      {
-        "label": "Cargo Width Limit",
-        "value": "Handlebar Width",
-        "context": "Must not extend beyond handlebar ends"
-      },
-      {
-        "label": "Cargo Rear Overhang",
-        "value": "Max 0.5 m (50 cm)",
-        "context": "Measured from rear axle / seat end"
-      },
-      {
-        "label": "Small Light Curb Weight",
-        "value": "Max 70 kg",
-        "context": "Including battery weight"
-      },
-      {
-        "label": "Max Overall Height",
-        "value": "Max 2.5 m",
-        "context": "Measured from ground to highest point"
-      }
+      "Heavy Moto Cargo Weight: Max 80 kg",
+      "Light Moto Cargo Weight: Max 50 kg",
+      "Cargo Height Limit: Shoulder Level",
+      "Cargo Width Limit: Handlebar Width",
+      "Cargo Rear Overhang: Max 0.5 m (50 cm)",
+      "Small Light Curb Weight: Max 70 kg",
+      "Max Overall Height: Max 2.5 m"
     ],
     "fines_table": [
       {
         "violation": "Carrying cargo exceeding weight limit (80kg/50kg)",
-        "points_or_penalty": "NT$300–$600 fine",
-        "context": "Article 31 violation"
+        "amount": "NT$300–$600 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Article 31 violation"
       },
       {
         "violation": "Cargo extending beyond handlebars or shoulders",
-        "points_or_penalty": "NT$300–$600 fine",
-        "context": "Creates severe side-swipe hazard"
+        "amount": "NT$300–$600 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Creates severe side-swipe hazard"
       },
       {
         "violation": "Small light motorcycle carrying a passenger",
-        "points_or_penalty": "NT$300–$600 fine",
-        "context": "Small light class is strictly solo-rider"
+        "amount": "NT$300–$600 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Small light class is strictly solo-rider"
       },
       {
         "violation": "Passenger side-saddle (not straddling facing forward)",
-        "points_or_penalty": "NT$300–$600 fine",
-        "context": "Passenger must face forward and straddle seat"
+        "amount": "NT$300–$600 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Passenger must face forward and straddle seat"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0003",
-        "question_num": 3,
-        "prompt": "For heavy motorcycles, the weight of items carried must not exceed:",
+        "question_text": "For heavy motorcycles, the weight of items carried must not exceed:",
         "correct_answer": "(2) 80 kg",
         "trap_explanation": "Heavy motorcycles = 80 kg; Light motorcycles = 50 kg. Do not mix them up!"
       },
       {
         "question_id": "MOTO_0159",
-        "question_num": 159,
-        "prompt": "The curb weight (including battery) of small and light motorcycles should be:",
+        "question_text": "The curb weight (including battery) of small and light motorcycles should be:",
         "correct_answer": "(2) 70 kg or less",
         "trap_explanation": "Small light motorcycles have a strict 70 kg statutory curb weight limit."
       },
       {
         "question_id": "MOTO_0166",
-        "question_num": 166,
-        "prompt": "The maximum overall height of a motorcycle shall not exceed:",
+        "question_text": "The maximum overall height of a motorcycle shall not exceed:",
         "correct_answer": "(1) 2.5 meters",
         "trap_explanation": "Total height from ground to highest point must not exceed 2.5 meters."
       }
@@ -311,80 +238,52 @@
     "id": "rule_speeds_distances_moto",
     "title": "⚡ Speeds, Following Distances, Tire Maintenance & Mountain Riding",
     "category": "Speed Limits & Safe Handling",
-    "summary": "• Roadway Speed Limits:\n  - Unmarked roads (no centerline or lane dividing lines): Maximum 40 km/h.\n  - Marked single-lane or multi-lane general roads: Maximum 50 km/h (unless posted otherwise).\n  - Railway level crossings, school zones, and construction zones: Maximum 15 km/h.\n• Following Distance & Reaction Time:\n  - Maintain a minimum 2-second following buffer in dry conditions (3–4 seconds in wet/foggy weather).\n  - Lateral clearance when overtaking/passing: At least 0.5 meters side buffer.\n• Tire Safety & Braking Control:\n  - Tire Age Standard: Recommended max service life is 6 years from manufacturing date.\n  - Tire Tread Depth: Must not be worn below 0.8 mm (check tread wear indicator bar TWI).\n  - Brake Lever Free Play: Must have 1 to 2 cm of free travel before engaging.\n  - Mountain Riding: Right hand modulates throttle smoothly; lean with the bike; downhill requires engine braking (low gear) rather than continuous brake drag to prevent brake fade.",
+    "summary": "Motorcycle speed limits default to 40 km/h on unmarked roads, 50 km/h on marked general roads, and 15 km/h across railway crossings. Safety standards mandate tire replacement after 6 years of age and minimum 0.8 mm tread depth. Proper brake lever free play (1–2 cm) and engine braking on mountain descents are required to prevent brake fade.",
     "key_numbers": [
-      {
-        "label": "Unmarked Road Speed Limit",
-        "value": "40 km/h",
-        "context": "Roads without centerline or lane lines"
-      },
-      {
-        "label": "General Marked Road Speed",
-        "value": "50 km/h",
-        "context": "Urban and suburban roads unless posted"
-      },
-      {
-        "label": "Railway Crossing Speed",
-        "value": "15 km/h",
-        "context": "Mandatory deceleration limit"
-      },
-      {
-        "label": "Overtaking Lateral Distance",
-        "value": "≥ 0.5 meters",
-        "context": "Side-to-side passing buffer"
-      },
-      {
-        "label": "Tire Age Recommended Limit",
-        "value": "6 Years",
-        "context": "From date of manufacture"
-      },
-      {
-        "label": "Minimum Tread Depth",
-        "value": "0.8 mm",
-        "context": "Mandatory inspection standard"
-      },
-      {
-        "label": "Brake Lever Free Play",
-        "value": "1 to 2 cm",
-        "context": "Proper lever travel before braking"
-      }
+      "Unmarked Road Speed Limit: 40 km/h",
+      "General Marked Road Speed: 50 km/h",
+      "Railway Crossing Speed: 15 km/h",
+      "Overtaking Lateral Distance: ≥ 0.5 meters",
+      "Tire Age Recommended Limit: 6 Years",
+      "Minimum Tread Depth: 0.8 mm",
+      "Brake Lever Free Play: 1 to 2 cm"
     ],
     "fines_table": [
       {
         "violation": "Exceeding speed limit by < 20 km/h",
+        "amount": "NT$1,200–$2,400 fine + 1 demerit",
         "points_or_penalty": "NT$1,200–$2,400 fine + 1 demerit",
-        "context": "Standard speeding citation"
+        "why": "Standard speeding citation"
       },
       {
         "violation": "Excessive speeding (40–60 km/h over limit)",
+        "amount": "NT$6,000–$36,000 + 6-mo plate suspension",
         "points_or_penalty": "NT$6,000–$36,000 + 6-mo plate suspension",
-        "context": "Classified as dangerous driving"
+        "why": "Classified as dangerous driving"
       },
       {
         "violation": "Tread depth worn below 0.8 mm on inspection",
+        "amount": "Statutory fine",
         "points_or_penalty": "Mandatory re-inspection within 1 month",
-        "context": "Plate suspended if not corrected"
+        "why": "Plate suspended if not corrected"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0194",
-        "question_num": 194,
-        "prompt": "It is recommended to use tires that are no more than:",
+        "question_text": "It is recommended to use tires that are no more than:",
         "correct_answer": "(2) 6 years",
         "trap_explanation": "Official safety regulation recommends replacing tires older than 6 years."
       },
       {
         "question_id": "MOTO_0147",
-        "question_num": 147,
-        "prompt": "When inspecting the brakes of a motorcycle, how much free play should there be when lightly pulling the brake lever?",
+        "question_text": "When inspecting the brakes of a motorcycle, how much free play should there be when lightly pulling the brake lever?",
         "correct_answer": "(2) There should be 1 to 2 cm of free play",
         "trap_explanation": "Brake lever free play must be 1 to 2 cm. Too tight locks wheels; too loose causes brake failure."
       },
       {
         "question_id": "MOTO_0357",
-        "question_num": 357,
-        "prompt": "When a vehicle is directly cited for speeding on general roads, what conditions must be met to issue consecutive citations?",
+        "question_text": "When a vehicle is directly cited for speeding on general roads, what conditions must be met to issue consecutive citations?",
         "correct_answer": "(3) Violation times are at least 6 minutes apart or the vehicle has passed more than one intersection",
         "trap_explanation": "Consecutive speeding citations on general roads require ≥ 6 minutes apart OR passing ≥ 1 intersection."
       }
@@ -402,60 +301,48 @@
     "id": "rule_intersections_right_of_way_moto",
     "title": "🛑 Right-of-Way Hierarchy, 2-Stage Hook Turns & Overtaking",
     "category": "Traffic Hierarchy & Intersection Rules",
-    "summary": "• Uncontrolled Intersection Priority Hierarchy:\n  1. Priority Hierarchy by Road Type: Branch roads MUST yield to Main roads (支道讓幹道).\n  2. Priority by Vehicle Movement: Left-turning vehicles MUST yield to straight-going vehicles (轉彎車讓直行車).\n  3. Same Road Width / Movement: Vehicle approaching from the LEFT yields to vehicle from the RIGHT (左方車讓右方車).\n• Two-Stage Left Turn (Hook Turn 兩段式左轉):\n  - Mandatory when: (1) Innermost lane is marked with 'No Motorcycles' (禁行機車), (2) Two-stage left turn regulatory sign is posted, or (3) Driving on a road with 3 or more fast lanes.\n  - Hook Turn Procedure: Ride straight on the green light into the designated waiting box on the far right, turn 90° to face the cross-street, and proceed when the cross-street signal turns green.\n• Roundabout & Grade Separation:\n  - Vehicles outside a roundabout MUST yield to vehicles already circling inside the roundabout.\n  - Steep slope passing: Downhill vehicle yields to uphill vehicle; if downhill is already midway, uphill yields.",
+    "summary": "Intersection right-of-way follows a strict 3-step hierarchy: 1. Branch roads yield to Main roads; 2. Left-turning vehicles yield to straight-going traffic; 3. At equal intersections, the left-side vehicle yields to the right-side vehicle. Two-stage left turns (Hook Turn 兩段式左轉) are mandatory when inner lanes prohibit motorcycles or have ≥3 fast lanes.",
     "key_numbers": [
-      {
-        "label": "Turn Signal Advance Notice",
-        "value": "≥ 30 meters",
-        "context": "Signal before initiating turn/lane change"
-      },
-      {
-        "label": "Two-Stage Turn Threshold",
-        "value": "≥ 3 Fast Lanes",
-        "context": "Mandatory hook turn if inner lane has No-Moto sign"
-      },
-      {
-        "label": "Pedestrian Buffer Clearance",
-        "value": "≥ 3 meters",
-        "context": "Stop ~4 zebra stripes away from pedestrians"
-      }
+      "Turn Signal Advance Notice: ≥ 30 meters",
+      "Two-Stage Turn Threshold: ≥ 3 Fast Lanes",
+      "Pedestrian Buffer Clearance: ≥ 3 meters"
     ],
     "fines_table": [
       {
         "violation": "Failing to make mandatory two-stage left turn",
+        "amount": "NT$600–$1,800 fine + 1 demerit",
         "points_or_penalty": "NT$600–$1,800 fine + 1 demerit",
-        "context": "Direct left turn from outer lane is illegal"
+        "why": "Direct left turn from outer lane is illegal"
       },
       {
         "violation": "Riding in innermost lane marked 'No Motorcycles'",
+        "amount": "NT$600–$1,800 fine + 1 demerit",
         "points_or_penalty": "NT$600–$1,800 fine + 1 demerit",
-        "context": "Article 45 violation"
+        "why": "Article 45 violation"
       },
       {
         "violation": "Failing to yield to vehicle inside roundabout",
-        "points_or_penalty": "NT$600–$1,800 fine",
-        "context": "Outside vehicles must yield"
+        "amount": "NT$600–$1,800 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Outside vehicles must yield"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0879",
-        "question_num": 879,
-        "prompt": "As a motorcyclist, when you make a left turn at an intersection and a vehicle from the opposite direction turns right into the same lane, who has the right of way?",
+        "question_text": "As a motorcyclist, when you make a left turn at an intersection and a vehicle from the opposite direction turns right into the same lane, who has the right of way?",
         "correct_answer": "(2) Left-turning vehicles",
         "trap_explanation": "Under Taiwan amended rules, when both are turning into the same single lane, left-turning vehicle already negotiating turn goes before right-turning vehicle."
       },
       {
         "question_id": "MOTO_0921",
-        "question_num": 921,
-        "prompt": "Driving through an uncontrolled intersection with cars passing, which vehicle yields?",
+        "question_text": "Driving through an uncontrolled intersection with cars passing, which vehicle yields?",
         "correct_answer": "(2) The left-side vehicle should yield to the right-side vehicle, so the red car should yield to your vehicle",
         "trap_explanation": "At equal unsignalized intersections, left-side vehicle must yield to the right-side vehicle."
       },
       {
         "question_id": "MOTO_0661",
-        "question_num": 661,
-        "prompt": "When two vehicles meet on a steep and narrow slope, you should:",
+        "question_text": "When two vehicles meet on a steep and narrow slope, you should:",
         "correct_answer": "(1) Downhill vehicle yields to uphill vehicle",
         "trap_explanation": "On slopes, downhill vehicle has gravity advantage and must yield to uphill vehicle."
       }
@@ -474,75 +361,51 @@
     "id": "rule_parking_curbs_moto",
     "title": "🅿️ Parking Rules, Curb Colors & Distance Clearances",
     "category": "Parking & Stopping Laws",
-    "summary": "• Curb Markings & Meaning:\n  - Solid Red Curb Line: Both temporary stopping and parking are strictly PROHIBITED 24 hours a day.\n  - Solid Yellow Curb Line: Parking PROHIBITED from 7:00 AM to 8:00 PM daily. Temporary stopping (≤ 3 minutes, driver in seat, engine ready) is permitted.\n  - Yellow Grid Lines (Diagonal Mesh): Strictly prohibited from stopping inside intersection or gate area.\n• Distance Clearances from Critical Infrastructure:\n  - Fire Hydrants & Fire Station Exits: No stopping or parking within 5 METERS.\n  - Intersections, Bus Stops & Railway Crossings: No stopping or parking within 10 METERS.\n  - Direct Citation for Illegal Parking: Consecutive citations may be issued every 2 hours if vehicle remains unmoved.",
+    "summary": "Curb markings establish strict stopping zones: Solid Red curbs prohibit all stopping 24/7; Solid Yellow curbs prohibit parking from 7:00 AM to 8:00 PM (allowing brief stops ≤ 3 min with driver in seat). Mandatory clearance zones require 5 meters from fire hydrants/stations and 10 meters from intersections, bus stops, and railway crossings.",
     "key_numbers": [
-      {
-        "label": "Fire Hydrant Clearance",
-        "value": "5 Meters",
-        "context": "No stopping or parking within 5m"
-      },
-      {
-        "label": "Intersection Clearance",
-        "value": "10 Meters",
-        "context": "No stopping or parking within 10m"
-      },
-      {
-        "label": "Bus Stop Clearance",
-        "value": "10 Meters",
-        "context": "No stopping or parking within 10m"
-      },
-      {
-        "label": "Railway Crossing Clearance",
-        "value": "10 Meters",
-        "context": "No stopping or parking within 10m"
-      },
-      {
-        "label": "Yellow Line Restricted Hours",
-        "value": "7:00 AM – 8:00 PM",
-        "context": "No parking during these hours daily"
-      },
-      {
-        "label": "Consecutive Parking Citation",
-        "value": "Every 2 Hours",
-        "context": "If driver is absent and vehicle unmoved"
-      }
+      "Fire Hydrant Clearance: 5 Meters",
+      "Intersection Clearance: 10 Meters",
+      "Bus Stop Clearance: 10 Meters",
+      "Railway Crossing Clearance: 10 Meters",
+      "Yellow Line Restricted Hours: 7:00 AM – 8:00 PM",
+      "Consecutive Parking Citation: Every 2 Hours"
     ],
     "fines_table": [
       {
         "violation": "Parking on a red curb line",
-        "points_or_penalty": "NT$600–$1,200 fine + towing",
-        "context": "Prohibited 24/7"
+        "amount": "NT$600–$1,200 fine + towing",
+        "points_or_penalty": "Direct citation",
+        "why": "Prohibited 24/7"
       },
       {
         "violation": "Parking within 10m of a bus stop or intersection",
-        "points_or_penalty": "NT$600–$1,200 fine",
-        "context": "Obstructs passenger boarding and visibility"
+        "amount": "NT$600–$1,200 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Obstructs passenger boarding and visibility"
       },
       {
         "violation": "Parking within 5m of a fire hydrant",
-        "points_or_penalty": "NT$600–$1,200 fine",
-        "context": "Severe fire emergency hazard"
+        "amount": "NT$600–$1,200 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Severe fire emergency hazard"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0335",
-        "question_num": 335,
-        "prompt": "In cases of direct citation for illegal parking where the driver or vehicle owner is not present, how many hours must pass before consecutive citations can be issued?",
+        "question_text": "In cases of direct citation for illegal parking where the driver or vehicle owner is not present, how many hours must pass before consecutive citations can be issued?",
         "correct_answer": "(1) 2 hours",
         "trap_explanation": "Consecutive illegal parking citations are issued every 2 HOURS if vehicle remains."
       },
       {
         "question_id": "MOTO_0275",
-        "question_num": 275,
-        "prompt": "Temporary parking regulations state that:",
+        "question_text": "Temporary parking regulations state that:",
         "correct_answer": "(1) parking shall not exceed 3 minutes and the vehicle must be kept ready to move immediately",
         "trap_explanation": "Temporary stopping (臨時停車) is defined as ≤ 3 minutes with vehicle ready to move."
       },
       {
         "question_id": "MOTO_0653",
-        "question_num": 653,
-        "prompt": "For a yellow 'No Parking' line, the prohibited parking time period is:",
+        "question_text": "For a yellow 'No Parking' line, the prohibited parking time period is:",
         "correct_answer": "(1) From 7:00 a.m. to 8:00 p.m. daily",
         "trap_explanation": "Yellow curbs prohibit parking between 7:00 AM and 8:00 PM daily."
       }
@@ -560,55 +423,42 @@
     "id": "rule_signs_markings_signals_moto",
     "title": "🛑 Visual Signs, Road Markings & Signal Compliance",
     "category": "Road Signs, Markings & Visual Navigation",
-    "summary": "• Distinctive Road Markings:\n  - White Diamond Marking (菱形標線): Painted on road surface ~30m before pedestrian crosswalks to alert riders to slow down.\n  - Double Solid Yellow Line (雙黃實線): Directional dividing line; strictly prohibits crossing, overtaking, or U-turns.\n  - Yellow Grid Lines: Keep intersection clear; temporary stopping is prohibited.\n  - White Solid Road Edge Line: Width is 15 cm; separates roadway from road shoulder.\n• Critical Prohibitory & Regulatory Signs:\n  - Red Circle with Truck + Trailer: No large trucks or articulated vehicles allowed.\n  - Red Circle with Motorcycle Silhouette: Motorcycles prohibited from entering.\n  - Blue Circle with White Motorcycle: Motorcycle designated lane.\n  - Red Inverted Triangle / Octagon: Yield (讓) / Stop (停) before entering intersection.",
+    "summary": "Visual pavement markings provide critical advance warning: White Diamond markings painted on the road alert riders to pedestrian crosswalks 30 meters ahead. Double Solid Yellow lines strictly prohibit crossing or overtaking. Yellow grid boxes require keeping intersections clear, and 15 cm solid white lines demarcate the road shoulder.",
     "key_numbers": [
-      {
-        "label": "Road Edge Line Width",
-        "value": "15 cm",
-        "context": "Solid white line demarcating shoulder"
-      },
-      {
-        "label": "Lane Line Width",
-        "value": "10 cm",
-        "context": "Dashed white line dividing lanes"
-      },
-      {
-        "label": "Zebra Stripe Width Buffer",
-        "value": "3 meters",
-        "context": "~4 stripes stop buffer before pedestrians"
-      }
+      "Road Edge Line Width: 15 cm",
+      "Lane Line Width: 10 cm",
+      "Zebra Stripe Width Buffer: 3 meters"
     ],
     "fines_table": [
       {
         "violation": "Crossing double solid yellow line",
+        "amount": "NT$600–$1,800 fine + 1 demerit",
         "points_or_penalty": "NT$600–$1,800 fine + 1 demerit",
-        "context": "Crossing centerline into oncoming traffic"
+        "why": "Crossing centerline into oncoming traffic"
       },
       {
         "violation": "Stopping inside yellow grid marked box",
-        "points_or_penalty": "NT$600–$1,200 fine",
-        "context": "Blocking intersection flow"
+        "amount": "NT$600–$1,200 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Blocking intersection flow"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0405",
-        "question_num": 405,
-        "prompt": "What does this sign indicate (car falling into water)?",
+        "question_text": "What does this sign indicate (car falling into water)?",
         "correct_answer": "(2) Wharf, embankment",
         "trap_explanation": "Symbol of vehicle tumbling off edge into water represents Wharf / Embankment (碼頭堤岸)."
       },
       {
         "question_id": "MOTO_0423",
-        "question_num": 423,
-        "prompt": "What does this triangular red border sign with black exclamation mark indicate?",
+        "question_text": "What does this triangular red border sign with black exclamation mark indicate?",
         "correct_answer": "(3) Vehicle breakdown sign",
         "trap_explanation": "Warning triangle symbol represents official Vehicle Breakdown Sign (車輛故障標誌)."
       },
       {
         "question_id": "MOTO_0769",
-        "question_num": 769,
-        "prompt": "Regarding directional separation line (double yellow lines), which statement is incorrect?",
+        "question_text": "Regarding directional separation line (double yellow lines), which statement is incorrect?",
         "correct_answer": "(3) If the opposing lane is clear with no oncoming vehicles, you may temporarily cross the double solid yellow line to drive",
         "trap_explanation": "Crossing double solid yellow lines is NEVER permitted regardless of oncoming traffic."
       }
@@ -628,55 +478,42 @@
     "id": "rule_helmets_exhaust_equipment_moto",
     "title": "🪖 Helmets, Exhaust Systems, Equipment & Inspections",
     "category": "Motorcycle Equipment & Vehicle Inspections",
-    "summary": "• Helmet Safety Standards:\n  - Must be an officially approved safety helmet (CNS certified).\n  - Chin strap MUST be securely fastened (jaw buckle tightened); wearing a helmet unfastened incurs a NT$500 fine.\n• Exhaust & Noise Regulations:\n  - Number and position of exhaust pipes MUST NOT be altered.\n  - Mufflers and catalytic converters MUST NOT be removed or modified.\n  - Refueling Safety: Rider must turn off the engine and strictly refrain from using mobile phones.\n• Periodic & Temporary Inspections:\n  - Motorcycles over 5 years old: Mandatory temporary inspection before transferring vehicle ownership.\n  - Vehicle suspension (out of service): Maximum allowed period is 1 year.\n  - Stolen Motorcycle: Fuel usage fee is charged up to ONE DAY BEFORE the theft report date.",
+    "summary": "Motorcycle equipment standards require CNS-approved safety helmets with chin straps firmly buckled at all times. Exhaust systems cannot be altered in count, position, or have mufflers/catalytic converters removed. Motorcycles over 5 years old require mandatory temporary inspection prior to title transfer.",
     "key_numbers": [
-      {
-        "label": "Ownership Transfer Inspection Age",
-        "value": "> 5 Years",
-        "context": "Must pass inspection before title transfer"
-      },
-      {
-        "label": "Max Suspension Period",
-        "value": "1 Year",
-        "context": "Maximum temporary out-of-service status"
-      },
-      {
-        "label": "Stolen Fuel Fee Cutoff",
-        "value": "1 Day Before Theft",
-        "context": "Exempt from date of police theft filing"
-      }
+      "Ownership Transfer Inspection Age: > 5 Years",
+      "Max Suspension Period: 1 Year",
+      "Stolen Fuel Fee Cutoff: 1 Day Before Theft"
     ],
     "fines_table": [
       {
         "violation": "Helmet not worn or chin strap unfastened",
-        "points_or_penalty": "NT$500 fine",
-        "context": "Applies on all roads including expressways"
+        "amount": "NT$500 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "Applies on all roads including expressways"
       },
       {
         "violation": "Modified exhaust pipe / removed muffler",
-        "points_or_penalty": "NT$900–$1,800 fine + inspection order",
-        "context": "Noise pollution under Article 43"
+        "amount": "NT$900–$1,800 fine + inspection order",
+        "points_or_penalty": "Direct citation",
+        "why": "Noise pollution under Article 43"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0228",
-        "question_num": 228,
-        "prompt": "Regarding regulations on modifying motorcycle exhaust pipes, which statement is correct?",
+        "question_text": "Regarding regulations on modifying motorcycle exhaust pipes, which statement is correct?",
         "correct_answer": "(3) The number and position of exhaust pipes must not be changed, and the muffler or catalytic converter must not be removed",
         "trap_explanation": "Exhaust pipes cannot be altered in count/position, and mufflers cannot be removed."
       },
       {
         "question_id": "MOTO_0359",
-        "question_num": 359,
-        "prompt": "When refueling a motorcycle, one should:",
+        "question_text": "When refueling a motorcycle, one should:",
         "correct_answer": "(2) turn off the engine and strictly prohibit the use of mobile phones",
         "trap_explanation": "Engine must be turned off and mobile phone use is strictly prohibited at gas stations."
       },
       {
         "question_id": "MOTO_0163",
-        "question_num": 163,
-        "prompt": "When a motorcycle is registered as temporarily out of service, what is the maximum allowed period?",
+        "question_text": "When a motorcycle is registered as temporarily out of service, what is the maximum allowed period?",
         "correct_answer": "(1) 1 year",
         "trap_explanation": "Temporary out-of-service status (停駛) cannot exceed 1 year."
       }
@@ -698,65 +535,49 @@
     "id": "rule_cpr_accidents_first_aid_moto",
     "title": "🩺 Emergency Trauma First Aid, CPR Protocol & Accident Scenes",
     "category": "Trauma Life Support & First Aid",
-    "summary": "• Emergency CPR Procedure (Call → Call → C → A → B → D):\n  - 1. Call patient (check consciousness) → 2. Call 119 & request AED → 3. Compressions (C) → 4. Airway (A) → 5. Breathing (B) → 6. Defibrillation (D).\n• CPR Compressions Standards (Adult):\n  - Ratio: 30 chest compressions to 2 rescue breaths (30:2).\n  - Rate: 100 to 120 compressions per minute.\n  - Depth: At least 5 cm, not exceeding 6 cm.\n  - Breathing assessment: Check for normal breathing for at least 5 seconds, max 10 seconds.\n• Trauma Triage Protocols:\n  - Unconscious victim with normal breathing: Place in Recovery Position (lateral recumbent) to keep airway open.\n  - Fracture with unconsciousness: Treat unconsciousness / airway FIRST, splint fractures SECOND ('Life over Limb').\n  - Choking / Foreign Body Airway Obstruction: Perform Heimlich maneuver (abdominal thrusts) between navel and xiphoid process.\n  - Shock: Face appears pale with cool clammy skin; keep victim warm with a blanket.\n  - Bleeding: Arterial bleeding spurts bright red blood continuously; apply direct pressure.",
+    "summary": "Accident trauma response follows the life-over-limb protocol (Call → Call 119/AED → Compressions → Airway → Breathing → Defibrillation). Adult CPR requires 30:2 ratio at 100–120 compressions/min (depth 5–6 cm). Unconscious victims with normal breathing must be placed in the Recovery Position, while choking requires Heimlich thrusts above the navel.",
     "key_numbers": [
-      {
-        "label": "CPR Compression Depth",
-        "value": "5 to 6 cm",
-        "context": "Adult cardiac arrest"
-      },
-      {
-        "label": "CPR Compression Rate",
-        "value": "100–120 / min",
-        "context": "Consistent rhythm"
-      },
-      {
-        "label": "CPR Compressions-to-Breaths",
-        "value": "30 : 2",
-        "context": "Standard solo rescuer cycle"
-      },
-      {
-        "label": "Breathing Check Duration",
-        "value": "5 to 10 Seconds",
-        "context": "Do not exceed 10 seconds"
-      }
+      "CPR Compression Depth: 5 to 6 cm",
+      "CPR Compression Rate: 100–120 / min",
+      "CPR Compressions-to-Breaths: 30 : 2",
+      "Breathing Check Duration: 5 to 10 Seconds"
     ],
     "fines_table": [
       {
         "violation": "Hit-and-run without injuries",
+        "amount": "NT$1,000–$3,000 + 1–3 mo suspension",
         "points_or_penalty": "NT$1,000–$3,000 + 1–3 mo suspension",
-        "context": "Property damage only"
+        "why": "Property damage only"
       },
       {
         "violation": "Hit-and-run with injuries",
+        "amount": "Statutory fine",
         "points_or_penalty": "License REVOKED + 1–3 yr ban",
-        "context": "Criminal charges apply"
+        "why": "Criminal charges apply"
       },
       {
         "violation": "Hit-and-run causing death",
+        "amount": "Statutory fine",
         "points_or_penalty": "License REVOKED + PERMANENT ban",
-        "context": "Lifetime prohibition from retaking test"
+        "why": "Lifetime prohibition from retaking test"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0039",
-        "question_num": 39,
-        "prompt": "Which is the correct position for external chest compressions in CPR?",
+        "question_text": "Which is the correct position for external chest compressions in CPR?",
         "correct_answer": "(3) the lower half of the sternum in the center of the chest between the nipples",
         "trap_explanation": "Chest compressions are performed on the lower half of the sternum in the center of the chest."
       },
       {
         "question_id": "MOTO_0044",
-        "question_num": 44,
-        "prompt": "When performing the Heimlich maneuver, where should the hands be clenched into a fist and placed?",
+        "question_text": "When performing the Heimlich maneuver, where should the hands be clenched into a fist and placed?",
         "correct_answer": "(3) slightly above the navel and well below the xiphoid process",
         "trap_explanation": "Heimlich fist placement is slightly above the navel and well below the xiphoid process."
       },
       {
         "question_id": "MOTO_0019",
-        "question_num": 19,
-        "prompt": "When a victim is in shock during a traffic accident, their facial color appears:",
+        "question_text": "When a victim is in shock during a traffic accident, their facial color appears:",
         "correct_answer": "(1) pale",
         "trap_explanation": "Trauma shock produces a pale face and cold extremities due to peripheral vasoconstriction."
       }
@@ -781,70 +602,50 @@
     "id": "rule_licensing_insurance_admin_moto",
     "title": "📋 Licensing Categories, Reapplication Bans, Compulsory Insurance & Admin Laws",
     "category": "Licensing Laws & Vehicle Administration",
-    "summary": "• Driver Licensing Qualifications:\n  - Minimum Age: 18 years old for Light Motorcycle and Standard Heavy Motorcycle; 20 years old for Large Heavy Motorcycle (plus holding standard heavy license for 1 year).\n  - Vision Standards: Corrected vision in each eye ≥ 0.6, both eyes together ≥ 0.8; field of vision in both eyes ≥ 150 degrees.\n• Retake Waiting Periods & Statutory Bans:\n  - Failed written or road test: Must wait at least 7 DAYS before retaking.\n  - Cheating on test / Dishonest registration: License canceled + 5-YEAR BAN on retaking test.\n  - Lending driver's license to another person: 3-MONTH driver license suspension.\n• Compulsory Automobile Liability Insurance (強制險):\n  - Certificate Validity: Must have at least 30 DAYS of remaining validity when transferring ownership or applying for inspection.\n  - Benefit Items: Covers medical payments, disability, and death benefits (injuries to body/life); does NOT cover vehicle property damage.",
+    "summary": "Motorcycle licensing requires candidates to be at least 18 years old and meet visual acuity standards. Failing the exam requires a 7-day waiting period; cheating results in an immediate 5-year ban. Compulsory Automobile Liability Insurance (強制險) must have at least 30 days remaining validity for title transfer or vehicle inspection.",
     "key_numbers": [
-      {
-        "label": "Minimum Age for Moto License",
-        "value": "18 Years Old",
-        "context": "Light & standard heavy motorcycle"
-      },
-      {
-        "label": "Test Retake Waiting Period",
-        "value": "7 Days",
-        "context": "After failing written or road test"
-      },
-      {
-        "label": "Exam Cheating Reapplication Ban",
-        "value": "5 Years",
-        "context": "Banned from taking any driver exam"
-      },
-      {
-        "label": "Compulsory Insurance Remaining Term",
-        "value": "≥ 30 Days",
-        "context": "Required for title transfer & inspection"
-      },
-      {
-        "label": "Public Violation Report Timeframe",
-        "value": "7 Days",
-        "context": "Must report within 7 days of occurrence"
-      }
+      "Minimum Age for Moto License: 18 Years Old",
+      "Test Retake Waiting Period: 7 Days",
+      "Exam Cheating Reapplication Ban: 5 Years",
+      "Compulsory Insurance Remaining Term: ≥ 30 Days",
+      "Public Violation Report Timeframe: 7 Days"
     ],
     "fines_table": [
       {
         "violation": "Lending driver's license to others",
+        "amount": "Statutory fine",
         "points_or_penalty": "3-month license suspension",
-        "context": "Both lender and borrower cited"
+        "why": "Both lender and borrower cited"
       },
       {
         "violation": "Uninsured motorcycle operating on road",
-        "points_or_penalty": "NT$1,500–$3,000 fine",
-        "context": "NT$3,000–$15,000 if accident occurs"
+        "amount": "NT$1,500–$3,000 fine",
+        "points_or_penalty": "Direct citation",
+        "why": "NT$3,000–$15,000 if accident occurs"
       },
       {
         "violation": "Failure to pay Compulsory Insurance fine",
+        "amount": "Statutory fine",
         "points_or_penalty": "Compulsory enforcement by law",
-        "context": "Referred to Administrative Enforcement"
+        "why": "Referred to Administrative Enforcement"
       }
     ],
     "tricky_bookmarks": [
       {
         "question_id": "MOTO_0262",
-        "question_num": 262,
-        "prompt": "When a driver uses a forged, altered, or fraudulently obtained driving license to drive, the penalty shall be:",
+        "question_text": "When a driver uses a forged, altered, or fraudulently obtained driving license to drive, the penalty shall be:",
         "correct_answer": "(3) a fine and license confiscation",
         "trap_explanation": "Fraudulent credentials are CONFISCATED on the spot and subject to criminal forgery referral."
       },
       {
         "question_id": "MOTO_0324",
-        "question_num": 324,
-        "prompt": "When applying for motorcycle title transfer or inspection, the compulsory insurance certificate must be valid for at least:",
+        "question_text": "When applying for motorcycle title transfer or inspection, the compulsory insurance certificate must be valid for at least:",
         "correct_answer": "(2) 30 days",
         "trap_explanation": "Compulsory insurance must have at least 30 days remaining validity."
       },
       {
         "question_id": "MOTO_0350",
-        "question_num": 350,
-        "prompt": "Reports of traffic violations made after how many days from the date of violation will not be processed?",
+        "question_text": "Reports of traffic violations made after how many days from the date of violation will not be processed?",
         "correct_answer": "(1) 7 days",
         "trap_explanation": "Citizen traffic reports must be submitted within 7 days of the incident date."
       }

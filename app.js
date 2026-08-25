@@ -4409,18 +4409,29 @@ function renderMasterRules() {
     `;
 
     // 2. Summary
-    const summaryHTML = `
-      <div class="master-summary">${rule.summary || ''}</div>
-    `;
+    const summaryHTML = rule.summary ? `
+      <div class="master-summary" style="line-height:1.6; font-size:0.92rem; color:var(--text-main); background:rgba(15,23,42,0.6); padding:1rem; border-radius:8px; border-left:4px solid var(--accent-indigo); margin-bottom:1rem;">
+        <strong style="color:#818cf8; display:block; margin-bottom:0.3rem;">🧠 Core Regulatory Principle:</strong>
+        ${rule.summary}
+      </div>
+    ` : '';
 
     // 3. Key Numbers / Formulas Pills
     let pillsHTML = '';
     if (rule.key_numbers && rule.key_numbers.length > 0) {
-      const pills = rule.key_numbers.map(numStr => `<span class="master-pill">⚡ ${numStr}</span>`).join('');
+      const pills = rule.key_numbers.map(num => {
+        let text = '';
+        if (typeof num === 'string') {
+          text = num;
+        } else if (num && typeof num === 'object') {
+          text = num.label ? `<strong>${num.label}:</strong> ${num.value}` : (num.value || JSON.stringify(num));
+        }
+        return `<span class="master-pill">⚡ ${text}</span>`;
+      }).join('');
       pillsHTML = `
-        <div>
+        <div style="margin-bottom:1rem;">
           <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--accent-indigo); margin-bottom:0.4rem;">🔑 Key Metrics, Distances & Numbers</div>
-          <div class="master-pills-container">${pills}</div>
+          <div class="master-pills-container" style="display:flex; flex-wrap:wrap; gap:0.4rem;">${pills}</div>
         </div>
       `;
     }
@@ -4428,17 +4439,23 @@ function renderMasterRules() {
     // 4. Fines & Penalties Table
     let finesHTML = '';
     if (rule.fines_table && rule.fines_table.length > 0) {
-      const rows = rule.fines_table.map(f => `
-        <tr>
-          <td style="font-weight:700;">${f.violation}</td>
-          <td style="color:#f59e0b; font-weight:800; white-space:nowrap;">${f.amount}</td>
-          <td style="color:#ef4444; font-weight:700;">${f.points_or_penalty}</td>
-          <td style="color:var(--text-muted); font-size:0.78rem;">${f.why}</td>
-        </tr>
-      `).join('');
+      const rows = rule.fines_table.map(f => {
+        const violation = f.violation || f.rule || 'Traffic Violation';
+        const amount = f.amount || (f.points_or_penalty && f.points_or_penalty.includes('NT$') ? f.points_or_penalty : 'Statutory fine');
+        const penalty = f.points_or_penalty || f.penalty || 'Direct citation';
+        const why = f.why || f.context || f.legal_rationale || 'Prescribed by Road Traffic Safety Rules';
+        return `
+          <tr>
+            <td style="font-weight:700;">${violation}</td>
+            <td style="color:#f59e0b; font-weight:800; white-space:nowrap;">${amount}</td>
+            <td style="color:#ef4444; font-weight:700;">${penalty}</td>
+            <td style="color:var(--text-muted); font-size:0.78rem;">${why}</td>
+          </tr>
+        `;
+      }).join('');
 
       finesHTML = `
-        <div>
+        <div style="margin-bottom:1rem;">
           <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--accent-indigo); margin-bottom:0.4rem;">⚖️ Fine Amounts & Legal Penalties Matrix</div>
           <div class="master-fines-table-wrapper">
             <table class="master-fines-table">
@@ -4460,20 +4477,26 @@ function renderMasterRules() {
     // 5. Tricky Bookmarks Callouts
     let trapsHTML = '';
     if (rule.tricky_bookmarks && rule.tricky_bookmarks.length > 0) {
-      const trapCards = rule.tricky_bookmarks.map(tb => `
-        <div class="master-trap-card">
-          <div class="master-trap-header">
-            <span>⚠️ TRAP ALERT</span>
-            <span class="cheat-badge" style="background:rgba(245,158,11,0.2); color:#fbbf24;">[${tb.question_id}]</span>
+      const trapCards = rule.tricky_bookmarks.map(tb => {
+        const qid = tb.question_id || '';
+        const qtext = tb.question_text || tb.prompt || tb.question || '';
+        const qans = tb.correct_answer || tb.answer || '';
+        const qexp = tb.trap_explanation || tb.explanation || tb.why_it_tricks || '';
+        return `
+          <div class="master-trap-card">
+            <div class="master-trap-header">
+              <span>⚠️ EXAM TRAP RADAR</span>
+              <span class="cheat-badge" style="background:rgba(245,158,11,0.2); color:#fbbf24;">[${qid}]</span>
+            </div>
+            <div class="master-trap-q">${qtext}</div>
+            <div class="master-trap-ans">✅ Correct Answer: ${qans}</div>
+            <div class="master-trap-exp">💡 Why students fail this: ${qexp}</div>
           </div>
-          <div class="master-trap-q">${tb.question_text}</div>
-          <div class="master-trap-ans">✅ Correct Answer: ${tb.correct_answer}</div>
-          <div class="master-trap-exp">💡 Why it tricks students: ${tb.trap_explanation}</div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
 
       trapsHTML = `
-        <div>
+        <div style="margin-bottom:1rem;">
           <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:#f59e0b; margin-bottom:0.4rem;">🎯 Bookmarked Questions & Tricky Traps Explored</div>
           <div class="master-traps-container">${trapCards}</div>
         </div>
