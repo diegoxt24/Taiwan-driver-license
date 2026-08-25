@@ -42,10 +42,11 @@ def merge_cloud_and_local_state(remote_data, local_data):
                     l_studied = l_prof[mod].get('studiedQuestions', []) if isinstance(l_prof[mod].get('studiedQuestions'), list) else []
                     l_prof[mod]['studiedQuestions'] = list(dict.fromkeys(l_studied + r_studied))
 
-                    # 2. Non-destructive Set-Union for Failed Questions
-                    r_failed = r_mod.get('failedQuestions', []) if isinstance(r_mod.get('failedQuestions'), list) else []
-                    l_failed = l_prof[mod].get('failedQuestions', []) if isinstance(l_prof[mod].get('failedQuestions'), list) else []
-                    l_prof[mod]['failedQuestions'] = list(dict.fromkeys(l_failed + r_failed))
+                    # 2. Failed Questions: If remote is newer, adopt remote failed list so clears/resets propagate
+                    if remote_is_newer:
+                        l_prof[mod]['failedQuestions'] = list(r_mod.get('failedQuestions', [])) if isinstance(r_mod.get('failedQuestions'), list) else []
+                    else:
+                        l_prof[mod]['failedQuestions'] = list(l_prof[mod].get('failedQuestions', [])) if isinstance(l_prof[mod].get('failedQuestions'), list) else []
 
                     # 3. Non-destructive Set-Union for Bookmarks
                     r_book = r_mod.get('bookmarks', []) if isinstance(r_mod.get('bookmarks'), list) else []

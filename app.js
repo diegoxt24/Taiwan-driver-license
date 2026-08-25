@@ -2747,10 +2747,13 @@ function mergeCloudAndLocalState(remoteData, localData) {
           const lBookmarks = Array.isArray(lProf[mod].bookmarks) ? lProf[mod].bookmarks : [];
           lProf[mod].bookmarks = Array.from(new Set([...lBookmarks, ...rBookmarks]));
 
-          // 3. Failed Questions: Union merge across all devices so missed questions are always unified
-          const rFailed = Array.isArray(rMod.failedQuestions) ? rMod.failedQuestions : [];
-          const lFailed = Array.isArray(lProf[mod].failedQuestions) ? lProf[mod].failedQuestions : [];
-          lProf[mod].failedQuestions = Array.from(new Set([...lFailed, ...rFailed]));
+          // 3. Failed Questions: If remote state is newer, adopt remote's failed list so clears/resets synchronize accurately
+          if (remoteIsNewer) {
+            lProf[mod].failedQuestions = Array.isArray(rMod.failedQuestions) ? [...rMod.failedQuestions] : [];
+          } else {
+            const lFailed = Array.isArray(lProf[mod].failedQuestions) ? lProf[mod].failedQuestions : [];
+            lProf[mod].failedQuestions = lFailed;
+          }
 
           // 4. Exam History Union (keyed by ISO date)
           const rExams = Array.isArray(rMod.examHistory) ? rMod.examHistory : [];
