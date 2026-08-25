@@ -2690,15 +2690,22 @@ function renderCurrentQuestion() {
 
   // Sign Image & Video Link Rendering
   const imgUrl = q.sign_image || q.image;
-  if (imgUrl || q.sign_svg || q.video_link) {
+  const hasVideo = Boolean(q.video_link || q.video);
+  if (imgUrl || q.sign_svg || hasVideo) {
     let mediaHTML = '';
     if (imgUrl) {
       mediaHTML += `<div style="text-align:center; padding:0.5rem;"><img src="${imgUrl}" style="max-height:140px; max-width:100%; border-radius:8px; border:1px solid var(--border-color); background:#fff; padding:6px; box-shadow:0 4px 12px rgba(0,0,0,0.25);" alt="Official Sign Image" /></div>`;
     } else if (q.sign_svg) {
       mediaHTML += q.sign_svg;
     }
-    if (q.video_link) {
-      mediaHTML += `<div style="text-align:center; margin-top:0.5rem;"><a href="${q.video_link}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-flex; align-items:center; gap:0.4rem; padding:0.4rem 0.8rem; font-size:0.82rem; text-decoration:none; border-radius:6px; background:#ef4444; color:#fff;">🎬 Watch Official THB Hazard Video #${q.video_number || ''}</a></div>`;
+    if (hasVideo) {
+      const vLink = q.video_link || 'https://reurl.cc/M4zqRm';
+      const vNum = q.video_number || q.video || '';
+      mediaHTML += `<div style="text-align:center; margin:0.75rem 0 0.5rem 0;">
+        <a href="${vLink}" target="_blank" rel="noopener" class="btn-primary" style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.6rem 1.2rem; font-size:0.92rem; font-weight:700; text-decoration:none; border-radius:8px; background:linear-gradient(135deg, #ef4444, #dc2626); color:#fff; box-shadow:0 4px 14px rgba(239,68,68,0.35); transition:all 0.2s ease;">
+          <span>🎬</span> Watch Official THB Hazard Video #${vNum} ↗
+        </a>
+      </div>`;
     }
     signSvgDiv.innerHTML = mediaHTML;
     signBox.classList.remove('hidden');
