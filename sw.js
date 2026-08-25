@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v17-failed-mode-union-sync';
+const CACHE_NAME = 'tw-driving-prep-v19-reset-failed-fix';
 const ASSETS = [
   './',
   './index.html',
