@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v19-reset-failed-fix';
+const CACHE_NAME = 'tw-driving-prep-v20-johana-sync-fix';
 const ASSETS = [
   './',
   './index.html',
