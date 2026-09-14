@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tw-driving-prep-v20-johana-sync-fix';
+const CACHE_NAME = 'tw-driving-prep-v21-juan-requena-sync';
 const ASSETS = [
   './',
   './index.html',

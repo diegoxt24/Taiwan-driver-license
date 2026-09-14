@@ -1218,6 +1218,7 @@ body.light-theme .mobile-bottom-nav {
           <option value="diego">👤 Diego</option>
           <option value="johana">👩 Johana</option>
           <option value="alejandro">👨 Alejandro</option>
+          <option value="juan">👨‍💼 Juan Requena</option>
         </select>
 
         <button id="filterToggleBtn" class="icon-btn" title="Toggle Filters & Readiness">
@@ -1477,6 +1478,18 @@ body.light-theme .mobile-bottom-nav {
             </div>
           </div>
           <span style="font-weight: 800; font-size: 0.85rem; background: rgba(16, 185, 129, 0.25); color: #34d399; padding: 0.35rem 0.75rem; border-radius: 6px;">Start 👉</span>
+        </div>
+
+        <!-- Juan Requena Card -->
+        <div class="profile-select-card" data-profile="juan" style="background: rgba(30, 41, 59, 0.85); border: 2px solid rgba(56, 189, 248, 0.5); border-radius: 12px; padding: 1rem 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: all 0.2s ease;">
+          <div style="display: flex; align-items: center; gap: 0.9rem; text-align: left;">
+            <div style="font-size: 2rem; background: rgba(56, 189, 248, 0.2); width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">👨‍💼</div>
+            <div>
+              <div style="font-weight: 800; font-size: 1.05rem; color: #fff;">Juan Requena (Study Mode)</div>
+              <div style="font-size: 0.8rem; color: #38bdf8; font-weight: 600;" id="pickerStatsJuan">0 Studied • 0 Bookmarks</div>
+            </div>
+          </div>
+          <span style="font-weight: 800; font-size: 0.85rem; background: rgba(56, 189, 248, 0.25); color: #38bdf8; padding: 0.35rem 0.75rem; border-radius: 6px;">Start 👉</span>
         </div>
       </div>
     </div>
@@ -5442,6 +5455,37 @@ let userState = {
       }
     }
   },
+  "juan": {
+    "name": "Juan Requena (Study Profile)",
+    "motorcycle": {
+      "bookmarks": [],
+      "failedQuestions": [],
+      "studiedQuestions": [],
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
+    },
+    "car": {
+      "bookmarks": [],
+      "failedQuestions": [],
+      "studiedQuestions": [],
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
+    }
+  },
   "last_updated": 1788105201058
 };
 
@@ -5655,7 +5699,7 @@ function mergeCloudAndLocalState(remoteData, localData) {
   if (!remoteData || typeof remoteData !== 'object') return localData;
   if (!localData || typeof localData !== 'object') localData = {};
 
-  const profiles = ['diego', 'johana', 'alejandro'];
+  const profiles = Array.from(new Set(['diego', 'johana', 'alejandro', 'juan', ...Object.keys(remoteData || {}), ...Object.keys(localData || {})])).filter(p => p !== 'last_updated' && p !== 'data');
   const modules = ['motorcycle', 'car'];
   const tabKeys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed'];
 
@@ -5778,7 +5822,7 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       if (getRes.ok) {
         const raw = await getRes.json();
         if (raw) {
-          if (raw.diego || raw.johana || raw.alejandro) {
+          if (raw.diego || raw.johana || raw.alejandro || raw.juan) {
             cloudData = raw;
           } else if (raw.data) {
             try {
@@ -5795,7 +5839,7 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       const localHasNewerChanges = lTime > rTime;
 
       // Merge Cloud state with Local state
-      if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
+      if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro || cloudData.juan)) {
         userState = mergeCloudAndLocalState(cloudData, userState);
         localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
       }
@@ -5867,7 +5911,7 @@ function showProfilePickerModal() {
   const pickerModal = document.getElementById('profilePickerModal');
   if (!pickerModal) return;
 
-  ['diego', 'johana', 'alejandro'].forEach(prof => {
+  ['diego', 'johana', 'alejandro', 'juan'].forEach(prof => {
     const statsEl = document.getElementById(`pickerStats${prof.charAt(0).toUpperCase() + prof.slice(1)}`);
     if (statsEl && userState[prof]) {
       const carStudied = (userState[prof].car && userState[prof].car.studiedQuestions) ? userState[prof].car.studiedQuestions.length : 0;
@@ -5890,7 +5934,7 @@ function loadProfileFromStorage() {
   if (savedState) {
     try {
       const parsed = JSON.parse(savedState);
-      if (parsed.diego || parsed.johana || parsed.alejandro) {
+      if (parsed.diego || parsed.johana || parsed.alejandro || parsed.juan) {
         userState = mergeCloudAndLocalState(parsed, userState);
       }
     } catch (e) {}
@@ -6054,7 +6098,7 @@ function updateModalSummary() {
     statsEl.innerHTML = `
       <div>🏍️ <strong>Motorcycle:</strong> ${motoStudied} studied • ${motoFailed} failed • ${motoBook} stars</div>
       <div>🚗 <strong>Car:</strong> ${carStudied} studied • ${carFailed} failed • ${carBook} stars</div>
-      <div style="margin-top:0.25rem; font-size:0.75rem; color:#10b981; font-weight:700;">✓ Total Diego Studied: ${motoStudied + carStudied} questions</div>
+      <div style="margin-top:0.25rem; font-size:0.75rem; color:#10b981; font-weight:700;">✓ Total ${activeProfile.charAt(0).toUpperCase() + activeProfile.slice(1)} Studied: ${motoStudied + carStudied} questions</div>
     `;
   }
   if (rawJsonArea) {
@@ -6178,7 +6222,7 @@ async function copyBackupToClipboard() {
 }
 
 function applyRestoredData(importedData) {
-  if (importedData && (importedData.diego || importedData.johana || importedData.alejandro)) {
+  if (importedData && (importedData.diego || importedData.johana || importedData.alejandro || importedData.juan)) {
     userState = mergeCloudAndLocalState(importedData, userState);
     saveStateToStorage();
     updateFilteredQuestions();

@@ -7,7 +7,7 @@ def merge_cloud_and_local_state(remote_data, local_data):
     if not local_data or not isinstance(local_data, dict):
         local_data = {}
 
-    profiles = ['diego', 'johana', 'alejandro']
+    profiles = ['diego', 'johana', 'alejandro', 'juan']
     modules = ['motorcycle', 'car']
     tab_keys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed']
 
@@ -179,6 +179,58 @@ class TestSyncEngineCRDT(unittest.TestCase):
         res3 = merge_cloud_and_local_state(corrupted_remote, json.loads(json.dumps(local)))
         self.assertEqual(res3['diego']['car']['studiedQuestions'], ['CAR_0001'])
         self.assertEqual(res3['diego']['car']['bookmarks'], ['CAR_0046'])
+
+    def test_juan_requena_crdt_sync(self):
+        remote = {
+            'diego': {'car': {'studiedQuestions': ['CAR_0001', 'CAR_0002'], 'bookmarks': []}},
+            'juan': {
+                'name': 'Juan Requena (Study Profile)',
+                'motorcycle': {
+                    'studiedQuestions': ['MOTO_0010', 'MOTO_0020'],
+                    'bookmarks': ['MOTO_0010'],
+                    'lastIndices': {'sheppard1': 20, 'mode0': 5}
+                },
+                'car': {
+                    'studiedQuestions': ['CAR_0100'],
+                    'bookmarks': [],
+                    'lastIndices': {'interactive': 100}
+                }
+            },
+            'last_updated': 2000
+        }
+        local = {
+            'diego': {'car': {'studiedQuestions': ['CAR_0001', 'CAR_0003'], 'bookmarks': []}},
+            'juan': {
+                'name': 'Juan Requena (Study Profile)',
+                'motorcycle': {
+                    'studiedQuestions': ['MOTO_0020', 'MOTO_0030'],
+                    'bookmarks': ['MOTO_0030'],
+                    'lastIndices': {'sheppard1': 30, 'mode0': 2}
+                },
+                'car': {
+                    'studiedQuestions': ['CAR_0101'],
+                    'bookmarks': ['CAR_0101'],
+                    'lastIndices': {'interactive': 50}
+                }
+            },
+            'last_updated': 3000
+        }
+
+        merged = merge_cloud_and_local_state(remote, local)
+
+        # Verify Diego isolation & union
+        self.assertEqual(sorted(merged['diego']['car']['studiedQuestions']), ['CAR_0001', 'CAR_0002', 'CAR_0003'])
+
+        # Verify Juan motorcycle non-destructive union & furthest index
+        self.assertEqual(sorted(merged['juan']['motorcycle']['studiedQuestions']), ['MOTO_0010', 'MOTO_0020', 'MOTO_0030'])
+        self.assertEqual(sorted(merged['juan']['motorcycle']['bookmarks']), ['MOTO_0010', 'MOTO_0030'])
+        self.assertEqual(merged['juan']['motorcycle']['lastIndices']['sheppard1'], 30)
+        self.assertEqual(merged['juan']['motorcycle']['lastIndices']['mode0'], 2)
+
+        # Verify Juan car non-destructive union & furthest index
+        self.assertEqual(sorted(merged['juan']['car']['studiedQuestions']), ['CAR_0100', 'CAR_0101'])
+        self.assertEqual(merged['juan']['car']['bookmarks'], ['CAR_0101'])
+        self.assertEqual(merged['juan']['car']['lastIndices']['interactive'], 50)
 
 if __name__ == '__main__':
     unittest.main()

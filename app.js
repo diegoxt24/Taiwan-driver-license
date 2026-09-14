@@ -3844,6 +3844,37 @@ let userState = {
       }
     }
   },
+  "juan": {
+    "name": "Juan Requena (Study Profile)",
+    "motorcycle": {
+      "bookmarks": [],
+      "failedQuestions": [],
+      "studiedQuestions": [],
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
+    },
+    "car": {
+      "bookmarks": [],
+      "failedQuestions": [],
+      "studiedQuestions": [],
+      "examHistory": [],
+      "lastIndices": {
+        "sheppard1": 0,
+        "sheppard2": 0,
+        "interactive": 0,
+        "mode0": 0,
+        "bookmarks": 0,
+        "failed": 0
+      }
+    }
+  },
   "last_updated": 1788105201058
 };
 
@@ -4042,7 +4073,7 @@ function mergeCloudAndLocalState(remoteData, localData) {
   if (!remoteData || typeof remoteData !== 'object') return localData;
   if (!localData || typeof localData !== 'object') localData = {};
 
-  const profiles = ['diego', 'johana', 'alejandro'];
+  const profiles = Array.from(new Set(['diego', 'johana', 'alejandro', 'juan', ...Object.keys(remoteData || {}), ...Object.keys(localData || {})])).filter(p => p !== 'last_updated' && p !== 'data');
   const modules = ['motorcycle', 'car'];
   const tabKeys = ['sheppard1', 'sheppard2', 'interactive', 'mode0', 'bookmarks', 'failed'];
 
@@ -4165,7 +4196,7 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       if (getRes.ok) {
         const raw = await getRes.json();
         if (raw) {
-          if (raw.diego || raw.johana || raw.alejandro) {
+          if (raw.diego || raw.johana || raw.alejandro || raw.juan) {
             cloudData = raw;
           } else if (raw.data) {
             try {
@@ -4182,7 +4213,7 @@ async function syncWithCloud(forcePush = false, showFeedback = false) {
       const localHasNewerChanges = lTime > rTime;
 
       // Merge Cloud state with Local state
-      if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro)) {
+      if (cloudData && (cloudData.diego || cloudData.johana || cloudData.alejandro || cloudData.juan)) {
         userState = mergeCloudAndLocalState(cloudData, userState);
         localStorage.setItem('tw_driver_prep_state_v2', JSON.stringify(userState));
       }
@@ -4254,7 +4285,7 @@ function showProfilePickerModal() {
   const pickerModal = document.getElementById('profilePickerModal');
   if (!pickerModal) return;
 
-  ['diego', 'johana', 'alejandro'].forEach(prof => {
+  ['diego', 'johana', 'alejandro', 'juan'].forEach(prof => {
     const statsEl = document.getElementById(`pickerStats${prof.charAt(0).toUpperCase() + prof.slice(1)}`);
     if (statsEl && userState[prof]) {
       const carStudied = (userState[prof].car && userState[prof].car.studiedQuestions) ? userState[prof].car.studiedQuestions.length : 0;
@@ -4277,7 +4308,7 @@ function loadProfileFromStorage() {
   if (savedState) {
     try {
       const parsed = JSON.parse(savedState);
-      if (parsed.diego || parsed.johana || parsed.alejandro) {
+      if (parsed.diego || parsed.johana || parsed.alejandro || parsed.juan) {
         userState = mergeCloudAndLocalState(parsed, userState);
       }
     } catch (e) {}
@@ -4441,7 +4472,7 @@ function updateModalSummary() {
     statsEl.innerHTML = `
       <div>🏍️ <strong>Motorcycle:</strong> ${motoStudied} studied • ${motoFailed} failed • ${motoBook} stars</div>
       <div>🚗 <strong>Car:</strong> ${carStudied} studied • ${carFailed} failed • ${carBook} stars</div>
-      <div style="margin-top:0.25rem; font-size:0.75rem; color:#10b981; font-weight:700;">✓ Total Diego Studied: ${motoStudied + carStudied} questions</div>
+      <div style="margin-top:0.25rem; font-size:0.75rem; color:#10b981; font-weight:700;">✓ Total ${activeProfile.charAt(0).toUpperCase() + activeProfile.slice(1)} Studied: ${motoStudied + carStudied} questions</div>
     `;
   }
   if (rawJsonArea) {
@@ -4565,7 +4596,7 @@ async function copyBackupToClipboard() {
 }
 
 function applyRestoredData(importedData) {
-  if (importedData && (importedData.diego || importedData.johana || importedData.alejandro)) {
+  if (importedData && (importedData.diego || importedData.johana || importedData.alejandro || importedData.juan)) {
     userState = mergeCloudAndLocalState(importedData, userState);
     saveStateToStorage();
     updateFilteredQuestions();

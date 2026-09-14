@@ -1,0 +1,104 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "user_sync_state": {
+      ".read": true,
+      ".write": true,
+      ".validate": "newData.hasChildren(['last_updated'])",
+      "last_updated": {
+        ".validate": "newData.isNumber() && newData.val() >= 1700000000000 && newData.val() <= (now + 3600000)"
+      },
+      "$user": {
+        ".validate": "($user === 'diego' || $user === 'johana' || $user === 'alejandro' || $user === 'juan' || $user === 'juan_requena') && newData.hasChildren(['name', 'motorcycle', 'car'])",
+        "name": {
+          ".validate": "newData.isString() && newData.val().length <= 100"
+        },
+        "motorcycle": {
+          ".validate": "newData.hasChildren(['lastIndices'])",
+          "bookmarks": {
+            "$item": {
+              ".validate": "newData.isString() && newData.val().length <= 50"
+            }
+          },
+          "failedQuestions": {
+            "$item": {
+              ".validate": "newData.isString() && newData.val().length <= 50"
+            }
+          },
+          "studiedQuestions": {
+            "$item": {
+              ".validate": "(newData.isString() && newData.val().length <= 50) || newData.isNumber()"
+            }
+          },
+          "lastIndices": {
+            "sheppard1": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "sheppard2": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "interactive": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "mode0": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "bookmarks": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "failed": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "$otherIndex": { ".validate": false }
+          },
+          "examHistory": {
+            "$exam": {
+              ".validate": "newData.hasChildren(['date'])",
+              "date": { ".validate": "newData.isString()" },
+              "$otherExamField": {
+                ".validate": "newData.isNumber() || newData.isBoolean() || (newData.isString() && newData.val().length <= 100)"
+              }
+            }
+          },
+          "$otherModuleField": {
+            ".validate": false
+          }
+        },
+        "car": {
+          ".validate": "newData.hasChildren(['lastIndices'])",
+          "bookmarks": {
+            "$item": {
+              ".validate": "newData.isString() && newData.val().length <= 50"
+            }
+          },
+          "failedQuestions": {
+            "$item": {
+              ".validate": "newData.isString() && newData.val().length <= 50"
+            }
+          },
+          "studiedQuestions": {
+            "$item": {
+              ".validate": "(newData.isString() && newData.val().length <= 50) || newData.isNumber()"
+            }
+          },
+          "lastIndices": {
+            "sheppard1": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "sheppard2": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "interactive": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "mode0": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "bookmarks": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "failed": { ".validate": "newData.isNumber() && newData.val() >= 0" },
+            "$otherIndex": { ".validate": false }
+          },
+          "examHistory": {
+            "$exam": {
+              ".validate": "newData.hasChildren(['date'])",
+              "date": { ".validate": "newData.isString()" },
+              "$otherExamField": {
+                ".validate": "newData.isNumber() || newData.isBoolean() || (newData.isString() && newData.val().length <= 100)"
+              }
+            }
+          },
+          "$otherModuleField": {
+            ".validate": false
+          }
+        },
+        "$otherUserField": {
+          ".validate": false
+        }
+      }
+    },
+    "$otherRoot": {
+      ".validate": false
+    }
+  }
+}

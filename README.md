@@ -79,7 +79,7 @@ Extracted directly from official Taiwan Highway Bureau (THB / 交通部公路局
 | :--- | :--- | :---: |
 | 🚗 **Automobile (汽車)** | Official 2026 Car Question Bank (Regulations, Signs & Hazard Perception) | **1,090 Questions** |
 | 🏍️ **Motorcycle (機車)** | Official 2026 Motorcycle Question Bank (Regulations, Signs & Hazard Perception) | **932 Questions** |
-| 👥 **User Profiles** | Multi-profile tracking for **Diego**, **Johana**, and **Alejandro** | **Independent Progress** |
+| 👥 **User Profiles** | Multi-profile tracking for **Diego**, **Johana**, **Alejandro**, and **Juan Requena** | **Independent Progress** |
 
 ---
 

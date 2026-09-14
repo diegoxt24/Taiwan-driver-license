@@ -40,7 +40,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                         current_state = {}
 
                 # Deep union merge for all users and modules
-                for prof in ['diego', 'johana', 'alejandro']:
+                for prof in ['diego', 'johana', 'alejandro', 'juan']:
                     if prof in new_state:
                         if prof not in current_state:
                             current_state[prof] = new_state[prof]
@@ -56,6 +56,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                                             n_list = new_state[prof][mod].get(key, [])
                                             merged = list(set(c_list + n_list))
                                             current_state[prof][mod][key] = merged
+                                        # Merge examHistory by date
+                                        c_exams = current_state[prof][mod].get('examHistory', [])
+                                        n_exams = new_state[prof][mod].get('examHistory', [])
+                                        exam_map = {ex['date']: ex for ex in (c_exams + n_exams) if isinstance(ex, dict) and 'date' in ex}
+                                        current_state[prof][mod]['examHistory'] = list(exam_map.values())
                                         # Keep latest lastIndices
                                         if 'lastIndices' in new_state[prof][mod]:
                                             current_state[prof][mod]['lastIndices'] = new_state[prof][mod]['lastIndices']
